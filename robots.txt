@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /?s=*
+Disallow: /?type=*
+Disallow: /discountcode.html
+Disallow: /404.html
+Disallow: /fatburn
+Disallow: /2016/09/12/fatburn
+Disallow: /holland-barrett
+Disallow: /2016/09/12/holland-barrett
+Disallow: /uk-gift-ideas
+Disallow: /2016/09/12/uk-gift-ideas
+Disallow: /lookfantastic-products
+Disallow: /2016/09/12/lookfantastic-products
+Disallow: /york-tourist-guide
+Disallow: /whittard
+Disallow: /2016/09/12/whittard
+Disallow: /york-best-restaurants
+
+
+Sitemap: http://www.yuxi.uk/sitemap.xml
