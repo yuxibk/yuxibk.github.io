@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-01T10:42:57.000Z</updated>
+  <updated>2016-11-01T12:00:12.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -20,11 +20,12 @@
     <link href="http://www.yuxiuk.com/configure-a-proxy-server-in-5-minutes/"/>
     <id>http://www.yuxiuk.com/configure-a-proxy-server-in-5-minutes/</id>
     <published>2016-10-31T09:51:12.000Z</published>
-    <updated>2016-11-01T10:42:57.000Z</updated>
+    <updated>2016-11-01T12:00:12.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/proxy-server.jpg" alt=""></p>
-<p>我想代理服务器的作用大家都懂，我就不多说了，这里给大家介绍一下如何快速的配置一个代理服务器。当然前期是你需要有一个VPS。</p>
-<h2 id="申请一个VPS服务器"><a href="#申请一个VPS服务器" class="headerlink" title="申请一个VPS服务器"></a>申请一个VPS服务器</h2><p>个人强烈推荐<a href="http://bit.ly/2d1U9rx" rel="external nofollow" target="_blank">Vultr</a>家的VPS,　最便宜的才需要 $5一个月。而且点我的链接注册还能送$20，相当免费使用4个月。</p>
+<p>我想代理服务器的作用大家都懂，我就不多说了，这里给大家介绍一下如何快速的配置一个代理服务器。当然前期是你需要有一个国外的VPS。</p>
+<h2 id="申请一个国外VPS服务器"><a href="#申请一个国外VPS服务器" class="headerlink" title="申请一个国外VPS服务器"></a>申请一个国外VPS服务器</h2><p>关于好用的VPS，羽西专门写过一篇文章，大家可以看看：<a href="/vps/">推荐几个好用的国外VPS</a></p>
+<p>个人强烈推荐<a href="http://bit.ly/2d1U9rx" rel="external nofollow" target="_blank">Vultr</a>家的VPS,　最便宜的才需要 $5一个月。而且点我的链接注册还能送$20，相当免费使用4个月。</p>
 <h2 id="安装代理服务器软件"><a href="#安装代理服务器软件" class="headerlink" title="安装代理服务器软件"></a>安装代理服务器软件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">apt install python-gevent python</div><div class="line">apt-get install python-pip</div><div class="line">pip install shadowsocks</div></pre></td></tr></table></figure>
 <p>编辑配置文件:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nano /root/proxy/config.json</div></pre></td></tr></table></figure>
@@ -41,8 +42,8 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/images/technology/proxy-server.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;我想代理服务器的作用大家都懂，我就不多说了，这里给大家介绍一下如何快速的配置一个代理服务器。当然前期是你需要有一个VPS。&lt;/p&gt;
-&lt;h2 id=&quot;申
+&lt;p&gt;我想代理服务器的作用大家都懂，我就不多说了，这里给大家介绍一下如何快速的配置一个代理服务器。当然前期是你需要有一个国外的VPS。&lt;/p&gt;
+&lt;h2 id
     
     </summary>
     
