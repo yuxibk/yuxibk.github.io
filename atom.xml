@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-01T23:23:50.000Z</updated>
+  <updated>2016-11-03T22:47:14.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好用的国内/国外VPN推荐</title>
+    <link href="http://www.yuxiuk.com/vpn/"/>
+    <id>http://www.yuxiuk.com/vpn/</id>
+    <published>2016-11-03T06:40:12.000Z</published>
+    <updated>2016-11-03T22:47:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/vpn.png" alt=""><br>首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？？？放假回国后却发现在国外天天都要用的Google, Facebook等网站却无法访问了。这个时候你就需要VPN了。当然，如果你喜欢折腾，也可以配置一个代理服务器。羽西专门写了篇文章：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a>。下面羽西就给大家推荐一些好用的VPN。有的VPN是针对国内的，可以让你在国内网站下载资源或播放视频，有的VPN则是针对国外的，可以让你在国内访问国外的gmail, facebook等。还有一点就是，有的小伙伴可能已经发现有些免费的VPN，但羽西在这里并不推荐使用免费的VPN。所谓天下没有免费的午餐，在提供免费服务的同时，这些公司可定要通过某种方式来盈利，比如插入广告，捆绑安装软件，甚至售卖用户信息等。下面羽西给大家推荐几家好用的VPN服务商：</p>
+<p>HideMyAss - 从国外访问国内资源的首选<br><img src="/images/technology/hide-my-ass.png" alt=""><br>这家英国的老牌VPN服务商的名字还是很奇葩的，充分体现出了英式幽默，翻译成中文就是，藏起我的PP。但他家的服务还是很不错的，他家的服务器和IP在同行业里面应该是最多的，在国内的IP地址就有几百个，因此如果想要在国外看国内的视频，或者下载其他资源，这家VPN可以说是首选。另外他家还承诺30天无条件退款，因此可以测试后再决定是否用他家的服务。至于价格，他家算是中等价位，7.99美金/月，如果一下购买一年有优惠，相当4.99美金/月。支持Paypal，信用卡，支票等多种付款方式。<br><a href="https://www.hidemyass.com/vpn/r23217/" rel="external nofollow" target="_blank">HideMyAss官网</a></p>
+<p>PureVPN<br><img src="/images/technology/purevpn.png" alt=""><br>PureVPN是一家香港的VPN服务商，可以说是HideMyAss的有力竞争者，在全球也有几百台服务器和几千个IP。在国内的各大城市也拥有众多IP。他家的速度很给力，在国外看优酷视频非常流畅。不过也跟你所在的位置相关，因此还需要测试一下才行。10美金/月，如果买两年的话，2.5美金/月。他家只有7天的退款保证。支持众多付款方式，包括Paypal，<strong>支付宝</strong>，信用卡等。<br><a href="https://billing.purevpn.com/aff.php?aff=26817" rel="external nofollow" target="_blank">PureVPN官网</a></p>
+<p>ExpressVPN<br><img src="/images/technology/express-vpn.jpg" alt=""></p>
+<p>前面给大家介绍的两家VPN商家的强项都是从国外访问国内资源。如果想从国内访问国外的网站，比如facebook，youtube等，这里给大家强烈推荐这家非常专业的ExpressVPN。他家的口碑相当好，在安全性，速度，和稳定性的表现都相当好。价格也属于中档，一个月12.95美金，一下付清一年的话平均下来每个月8.32美金。支持30天无条件退款。</p>
+<p><a href="https://www.expressvpn.com/" rel="external nofollow" target="_blank">Express VPN官网链接</a></p>
+<p>GreenVPN<br><img src="/images/technology/green-vpn.jpg" alt=""></p>
+<p>在给大家推荐一款好用的VPN服务商-GreenVPN。它可是在国外看优酷视频，CCTV5等的很给力选择。他家在全球都有VPN服务器。他家的价格也很有竞争力。一个月18元人民币，包年的话平均下来一个月13元人民币。支持支付宝付款。</p>
+<p><a href="http://gjsq.me/22715582" rel="external nofollow" target="_blank">GreenVPN官网链接</a></p>
+<p>给大家总结一下，如果想从国外访问国内的资源，首选是HideMyAss；如果从国内访问国外网站，首选是ExpressVPN。如果想找一个相对便宜又比较可靠的，则可以选择GreenVPN。当然，我这里好用的VPN在你哪里就未必好用，最好的方法还是自己试试。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/vpn.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
+    
+  </entry>
   
   <entry>
     <title>英国最受欢迎的Pizza外卖 - Domino Pizza</title>
@@ -790,6 +822,69 @@
   </entry>
   
   <entry>
+    <title>英国纯天然减肥产品介绍</title>
+    <link href="http://www.yuxiuk.com/fatburn/"/>
+    <id>http://www.yuxiuk.com/fatburn/</id>
+    <published>2016-09-12T05:40:12.000Z</published>
+    <updated>2016-10-06T08:43:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先，先来介绍一下英国的减肥药吧，英国的减肥药和国内的不太一样，因为大部分都不是药，不含有药物成分，含有的话，是需要医生开处方才可以获得，主要是提供给真正患有肥胖症的人士。我们在商店里看到的减肥产品，其实都是辅助产品，全天然不含有药性。国外人相信健康减肥，要搭配合理的饮食及锻炼，再加上减肥产品，就可以起到更快捷的效果。</p>
+<p><strong><span style="font-size: 18px">1. <a href="http://tidd.ly/a154a4e1" rel="external nofollow" target="_blank">Metaburn</a></span></strong></p>
+<p>知道这款减肥药的妹纸们越来越多啦！Metaburn最先在<a href="http://tidd.ly/c3055888" rel="external nofollow" target="_blank">Vitamin Planet</a>网站上横空出世，这是个全英国最大的保健品在线品牌之一，网站内的商品都满足严格的英国制药标准，有时候英国的医生也会开一些这上面的药品帮助病人辅助治疗。Metaburn作为该网站最火的减肥产品之一也必须严格遵照英国GMP生产，作为对其的一种认可，Harrods百货也开架售卖这款产品啦，但是售价较昂贵，Vitamin Planet因为是网店销售，成本降低所以售价也低了很多。这款产品秉承高质量，高科技含量和先进研发成果的理念，它是一款能够超级燃烧脂肪的组合产品，成分百分之百organic，集合了覆盆子酮精华，绿咖啡精华，绿茶精华，同时添加了CLA、络氨酸、左旋色氨酸、维生素等有助于人体平衡膳食、睡眠、细胞代谢的天然元素，而这些元素与精华相结合则使得减肥效果被放大好几倍。</p>
+<p><img src="/images/shopping/fatburn/metaburn-banner1.jpg"></p>
+<p>&nbsp;</p>
+<p>搜了搜关于这个产品的评论，几乎都是五星好评，有的人效果特别明显，产品说吃一个月见效，但有人称吃了三周就有效果了。英国购物网站的评论大部分都是顾客自发评价的，所以数量不会很多，但很真实。经过身边朋友的亲身体验，吃一颗后就感觉肚子在燃烧的感觉，难道这就是Fat在burning吗！请坚持服用一个月！</p>
+<p><span style="line-height: 1.5">需要提醒的是，</span>英国的减肥药算在保健品类别，所以他是绝对安全的，也意味着他不可能像国内某些产品一样我们大鱼大肉熬夜吃夜宵身体还会瘦….咳，那个，如果你们真的追求这种效果，这款产品真的不适合你们。</p>
+<p>最后，想要买的猛戳这里吧，直达链接：<a href="http://tidd.ly/a154a4e1" rel="external nofollow" target="_blank">http://www.vitaminplanet.co.uk/metaburn.aspx</a></p>
+<p><strong><span style="font-size: 18px">2. <a href="http://tidd.ly/4dc8a71a" rel="external nofollow" target="_blank">Bootea不用节食的减肥茶</a></span></strong></p>
+<p><img class="alignnone" src="/images/shopping/fatburn/bootea.png" style="width:400px;"></p>
+<p>Bootea是一家英国公司生产的100%天然保健品，他们不推荐“节食”减肥，因此健康的饮食本身就是一种生活方式，不伤身体又有效。这款产品在Facebook和instagram上已经火的一塌糊涂！百度上也有一大堆人询问代购！这是一个帮助人体优化排毒减肥的茶饮，同时能够控制食欲，有淡淡的薄荷味道。而不是通过腹泻减肥。用过的小伙伴都说效果非常好哦~一般正常饮用14天能瘦5—10斤。</p>
+<p><a href="http://tidd.ly/4dc8a71a" rel="external nofollow" target="_blank">直达链接</a></p>
+<p>附Bootea使用方法：</p>
+<p>将茶包放入茶杯，冲热水浸泡3分钟后饮用。</p>
+<p>Bootea daytime 白天茶包：每天起床以后冲泡饮用。只要是白天，随便什么时候喝，随便泡多少杯，就当正常的茶一样饮用。</p>
+<p>Bootea bedtime 夜晚茶包：使用茶包开始第一天喝夜晚茶包 （starting day 1）此后每隔一天喝一次</p>
+<p>夜晚茶包会帮助各位美丽的亲加速胃肠蠕动，排除宿便，一般一周你就可以看到变小的小肚子了。</p>
+<p>大家不用担心喝了这个以后会失眠，相反这里不含咖啡因，因为花草茶有凝神静气的效果，会让你的睡眠质量变高呢。</p>
+<p>daytime是白天的茶包 有14个小金字塔一样的小包</p>
+<p>bedtime是夜晚的茶包 有7个小包</p>
+<p><span style="font-size: 18px"><strong>3. <a href="http://tidd.ly/25758b3a" rel="external nofollow" target="_blank">Holland &amp; Barrett巴西莓</a></strong></span></p>
+<p><img class="alignnone" src="/images/shopping/fatburn/acai2.png" style="width:400px;"></p>
+<p>巴西莓是HB中最畅销的减肥保健品之一。有瘦身排毒的效果。这个来自南美洲亚马逊雨林的紫色小莓果营养价值非常高，富含包括花青素，棕榈酸，膳食纤维以及一大堆姐也看不懂的营养元素，巴西莓是当地人饮食的重要组成部分，在巴西的阿玛斯镇，这种小果子更是被视为“镇宝”级的食物，这里的人从小喝巴西莓果汁长大，这个镇上看不到一个胖人。这个出产巴西莓的小镇更是名模盛产地，世界超模丹妮尔、桑德拉，世界小姐玛利亚·胡利娅都是从小就喝巴西莓，身材从未变过。</p>
+<p><a href="http://tidd.ly/25758b3a" rel="external nofollow" target="_blank">直达链接</a></p>
+<p><strong><span style="font-size: 18px">4. <a href="http://tidd.ly/f28a9bbc" rel="external nofollow" target="_blank">Rasberry Keytone </a></span></strong></p>
+<p><img class="alignnone" src="/images/shopping/fatburn/rasberrykeystone.png" style="width:400px;"></p>
+<p>树莓酮是日本人从树莓（一种蔷薇科植物的小果实）里发现的，具有很好的分解转化脂肪的功能，被称为是“天然脂肪转化因子”。它比起节食和瘦身能更快速得燃烧脂肪。中文名叫覆盆子酮精华，覆盆子就是我们平时所说的树莓。产品成分只有覆盆子酮，是从树莓中提取，没有任何防腐剂和化学添加剂，所以它是纯天然的减肥产品。研究表明吃大约450kg的树莓和吃200mg覆盆子酮减的重量是一样多的。可想而知覆盆子酮减肥是很厉害的，所以它也成为了当下最热的减肥产品~~它通过调节体内的荷尔蒙分泌，就算不节食，每天也可以减0.5kg到1kg的体重。同时它还有助于缓解高血脂疾病，例如糖尿病和心脏病，增强身体免疫力。客户的评价都表示这款产品成功帮助他们减了不少重并且没有其他副作用，这款强身健体的天然减肥产品简直就是吃货和胖子们的福音啊！</p>
+<p><a href="http://tidd.ly/f28a9bbc" rel="external nofollow" target="_blank">直达链接</a></p>
+<p><span style="font-size: 18px">5. <a href="http://tidd.ly/c6ebbd4b" rel="external nofollow" target="_blank">Madal Bal Natural Tree Syru / 天然枫糖浆</a></span></p>
+<p><img class="alignnone" src="/images/shopping/fatburn/madalbal.jpeg" style="width:400px;"></p>
+<p>这一大瓶就是柠檬枫糖浆，柠檬枫糖浆排毒断食疗法在明星中很流行，Beyoncé、贝嫂、名模坎贝尔据说都靠它活！Super Junior里的强仁也在twitter上推荐过，说喝完了之后皮肤都变好了，这款糖浆说自己在排毒的同时减肥减去的都不是水分，而是老化的细胞和身体里滞留已久的毒素。</p>
+<p><a href="http://tidd.ly/c6ebbd4b" rel="external nofollow" target="_blank">直达链接</a></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 18px"><strong>6. <a href="http://tidd.ly/45a092ec" rel="external nofollow" target="_blank">NIP+FAB</a> 名人最爱用的纤体精华</strong></span></p>
+<p><img class="alignnone" src="/images/shopping/fatburn/nipfab.jpg" alt="" width="600" height="429"></p>
+<p>羡慕明星的好身材么？接下来咱们要说的这个产品据说就是很多明星的最爱！用这个纤体精华的明星有：詹妮弗安妮斯顿，朱莉娅罗伯茨，名媛Olivia Palermo，歌手Kimberley Walsh等等。这是凯特王妃青睐迅速火起来的牌子。它家<a href="http://tidd.ly/6102ba68" rel="external nofollow" target="_blank">Bust Fix丰胸神器</a>Daily Mail都报导过，一个月从32C增到32D的神物啊。没添加物绝对放心使用。众多外国人推荐的。经常看国外杂志的朋友应该蛮眼熟的。它能让你胸部变大而且紧致胸部周遭的肉，让你胸部集中。不会外扩！还有可以抚平脖子部位的纹路哦，在英国一上货，就疯抢到断货！！</p>
+<p>NIP+FAB不止丰胸膏出名，还有一款瘦肚子的<a href="http://tidd.ly/52a36ca5" rel="external nofollow" target="_blank">tummy fix</a>帮助分解肚子周围的顽固脂肪，紧致那些松垮垮的赘肉。紧实腰部让你不再需要穿宽松的衣服遮掩！保湿嫩滑肌肤！</p>
+<p><a href="http://tidd.ly/3e4d7f6b" rel="external nofollow" target="_blank">UPPER ARM FIX</a> 这款是瘦手臂滴 ，英国一直抢到缺货，可见人气和效果并存。从去年开始这个产品风靡了大不列颠！</p>
+<p>最后，再次提醒：英国的减肥产品都是辅助产品，大家还是要管住自己的嘴，还有搭配锻炼，才可以看到效果！Metaburn网站上有锻炼和饮食搭配建议，大家可以根据他们的建议来服用。你只需要控制你每日的热量摄入和运动起来，搭配Metaburn这样的好产品，你绝对会变瘦！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      英国纯天然减肥产品介绍
+    
+    </summary>
+    
+      <category term="购物" scheme="http://www.yuxiuk.com/categories/%E8%B4%AD%E7%89%A9/"/>
+    
+    
+      <category term="购物" scheme="http://www.yuxiuk.com/tags/%E8%B4%AD%E7%89%A9/"/>
+    
+      <category term="减肥" scheme="http://www.yuxiuk.com/tags/%E5%87%8F%E8%82%A5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>回国礼物必不可少的Holland and Barrett荷柏瑞产品介绍</title>
     <link href="http://www.yuxiuk.com/holland-barrett/"/>
     <id>http://www.yuxiuk.com/holland-barrett/</id>
@@ -1024,149 +1119,6 @@
       <category term="保健品" scheme="http://www.yuxiuk.com/tags/%E4%BF%9D%E5%81%A5%E5%93%81/"/>
     
       <category term="荷百瑞" scheme="http://www.yuxiuk.com/tags/%E8%8D%B7%E7%99%BE%E7%91%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>史上最全英国伴手礼攻略</title>
-    <link href="http://www.yuxiuk.com/uk-gift-ideas/"/>
-    <id>http://www.yuxiuk.com/uk-gift-ideas/</id>
-    <published>2016-09-12T05:40:12.000Z</published>
-    <updated>2016-10-06T08:45:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><span style="font-weight: 400;">小伙伴们不论是来旅游，还是留学，或者工作，每次回国的时候总免不了要带些礼物给家人朋友。可是怎样才能选择具有英国特色的 回国礼物 呢？下面小编给大家总结一下 回国礼物，欢迎留言补充！点击文中的品牌名称就可以直接访问它的官网。</span></p>
-<p><img class="aligncenter" src="/images/shopping/gift/ukgift-1.jpg" alt="英国最适合回国送人的礼物" width="460" height="276"></p>
-<p></p><h2>1. 回国礼物 - 保健品系列</h2><p></p>
-<p></p><h3>1.1 荷柏瑞保健品</h3><br>说到英国的保健品，首先要说的肯定是<a href="http://tidd.ly/db5a0d8b" rel="external nofollow" target="_blank">Holland &amp; Barrett</a>家的保健品。<span style="font-weight: 400;">Holland &amp; Barrett，国内也叫<a href="http://tidd.ly/db5a0d8b" rel="external nofollow" target="_blank">荷百瑞</a>，<a href="http://tidd.ly/db5a0d8b" rel="external nofollow" target="_blank">荷柏瑞</a>，简称HB, 是英国很出名的保健品品牌，专业经销各种维生素、矿物质、植物精华，原味果仁，以及其他保健营养食品，精油，减肥食品等。所有产品都通过英国食品部门的近乎苛刻的严格品质检定，是非常有保证的专业保健食品店。很多人喜欢从这里带葡萄籽、鱼肝油、蜂胶、大蒜素、钙片、维生素、胶原蛋白等。给女朋友可以送月见草，对生理调节好；给妈妈可以送大豆异黄酮。如果长辈爱喝酒，可以买些保护肝脏的保健品。另外，他们家经常有Penny Sale，买一件第二件只要1P，几乎相当于买一送一。<p></p>
-<p><img class="aligncenter" src="/images/shopping/gift/hb.jpg" alt="Holland &amp; Barrett" width="870" height="412"></p>
-<p></p><h3>1.2 Vitabiotics保健品</h3><br>英国<a href="http://tidd.ly/a9bb5266" rel="external nofollow" target="_blank">Vitabiotics</a>公司虽然知名度比不上Holland &amp; Barrett，不过也是一个家喻户晓、广受好评的保健品牌。拥有二十多个品牌系列，上百种营养保健产品，覆盖从婴幼儿、儿童、青少年、成年到老年所有年龄段的男性和女性，以及特定人群，如孕产妇、心脏肠胃视力等需要特别关注的人群。 2013年英国Vitabiotics 公司凭借其在维生素营养保健品创新方面的成就，成为英国史上第一家获得英国女王奖的营养保健品公司。尤其是<a href="http://tidd.ly/bea0a308" rel="external nofollow" target="_blank">Vitabiotics家的补钙系列</a>和<a href="http://tidd.ly/7ceabf85" rel="external nofollow" target="_blank">孕期营养品系列</a>深受欢迎。<p></p>
-<p></p><h2>2. 回国礼物 - 食品系列</h2><p></p>
-<p></p><h3>2.1 巧克力</h3><br><img class="aligncenter" src="/images/shopping/gift/chocolate.jpg" alt="巧克力" width="593" height="340"><p></p>
-<p>回国送礼，巧克力，可以说是首选之一，是送父母长辈朋友“最保守”的礼物，怎样送，送给谁都不会出错。也许我们对于吉百利、德芙这样的牌子再熟悉不过了，但是英国也有很多自己的名牌巧克力，比如：专供女王殿下的Charbonnel et Walker【<a href="http://tidd.ly/f6b0e910" rel="external nofollow" target="_blank">购买链接</a>】。</p>
-<p></p><h3>2.2 英国茶</h3><br><img class="aligncenter" src="/images/shopping/gift/afternoon-tea.jpg" alt="英式下午茶" width="600" height="380"><p></p>
-<p><span style="font-weight: 400;">英国号称是欧洲大陆人均茶消耗量第一的国家。英式下午茶可以说是英式文化的一部分。在英国人的眼里喝茶成了一件很有品位的事情。在英国的商店里，会销售各种各样的茶，不同的包装，不同的名称，让人眼花缭乱。英国的茶经过调味之后，味道变得很独特。同时茶还很轻，包装也精美，不失为送礼的好选择。好的品牌有：</span></p>
-<p><span style="font-weight: 400;">Twinings川宁【<a href="http://tidd.ly/5f0fcd21" rel="external nofollow" target="_blank">官网链接</a>】，Twinings是由英国人托马斯·川宁(Thomas Twining)在1706年创立的品牌，自诞生以来，川宁茶引领着饮茶文化的新潮流。在全世界爱好茶文化的人眼中，川宁茶就是饮茶的代表。现今，川宁茶已风靡全世界100多个国家。川宁茶不仅有传统的红茶和绿茶系列，更有果茶、花茶和冰茶等系列特别适合年轻一代的口味。</span></p>
-<p><span style="font-weight: 400;">Whittard of Chealsea【<a href="http://tidd.ly/102ed868" rel="external nofollow" target="_blank">官网链接</a>】，创立于1886年的Whittard of Chelsea可以说是英国的百年老牌茶叶公司，包装比较精致，非常适合送礼。 它们家除了茶叶多以外，巧克力粉、果茶粉以及茶具也都是特色。他家还有一个专门的礼品包页面，提供各种打包好的礼品，实惠又大气，超级适合买来送人。【<a href="http://tidd.ly/d8633765" rel="external nofollow" target="_blank">礼品包直达链接</a>】</span></p>
-<p><span style="font-weight: 400;">超市中常见的平民红茶品牌有PG Tips【<a href="http://tidd.ly/944baa80" rel="external nofollow" target="_blank">购买链接</a>】，Tetley【<a href="http://tidd.ly/69551ba5" rel="external nofollow" target="_blank">购买链接</a>】和Yorkshire Tea【<a href="http://tidd.ly/d608db8f" rel="external nofollow" target="_blank">购买链接</a>】，一盒里面有很多包红茶，即便宜又能喝很久。想再高档一点，那就去与皇室颇有渊源，深得女王喜爱的百年老店Fortnum and Mason【<a href="http://tidd.ly/6db46ddf" rel="external nofollow" target="_blank">官网链接</a>】逛逛吧！</span></p>
-<p></p><h3>2.3 奶粉</h3><br><img class="aligncenter" src="/images/shopping/gift/formula.png" alt="英国奶粉" style="width:400px"><p></p>
-<p>英国的婴幼儿配方奶粉品牌包括爱他美、牛栏、惠氏、喜宝，以及高端的来自新西兰的Nanny care羊奶粉。英国奶粉价格便宜而且安全可靠，这么多年来从未出现过任何质量问题，非常受国内年轻父母们的欢迎。</p>
-<p></p><h3>2.4 苏格兰威士忌</h3><br><img class="aligncenter" src="/images/shopping/gift/whisky.jpg" alt="苏格兰威士忌" width="660" height="330"><p></p>
-<p>苏格兰威士忌（Scotch Whisky，或直接简称Scotch），是一种只在苏格兰地区生产制造的威士忌。威士忌在古老的苏格兰语（盖尔语）中意为生命之水。作为送人的礼物，独特又大气。著名的品牌有很多，比如：Dalmore（大摩），Macallan（麦卡伦），Glenmorangie（格兰杰），Chivas（芝华士），Glenlivet（格兰威特），Ballantine（百龄坛），Johnnie walker（黑牌），Royal Salute（皇家礼炮）。</p>
-<p></p><h3>2.5 英国小食品</h3><br>还有很多不错的英国小食品非常适合作为礼物送人，下面列举几个，以后想起了再补充：<p></p>
-<p><img class="aligncenter" src="/images/shopping/gift/shortbread.jpg" alt="苏格兰黄油酥饼" width="580" height="326"></p>
-<p><span style="font-weight: 400;"><strong>Scottish Shortbread苏格兰黄油酥饼</strong>：</span>如果要说最能代表苏格兰的食物，那就是黄油酥饼啦！咳咳，知道，那个暗黑料理Haggies，名声也很大，似乎也能代表苏格兰。黄油酥饼最早出现在12世纪的苏格兰，据说是因为制作面包剩下的面团不舍得丢掉，人们在上面撒上糖和香料，烤成一个硬硬的面包饼，方便携带。后来为了增加口感就加入了黄油，于是黄油酥饼的配方就有啦。酥饼的形状多种多样，手指的、圆饼的、长条形、方块的，再加上原味、水果夹心、巧克力陷等不同口味，让人做选择时还得费一番神！苏格兰黄油酥饼的最著名品牌就要属Walkers了！这里是Walkers的网购链接【<a href="http://tidd.ly/7184c337" rel="external nofollow" target="_blank">Walkers苏格兰黄油酥饼链接</a>】</p>
-<p><img class="aligncenter" src="/images/shopping/gift/cereals.jpg" alt="Cereals早餐麦片" width="640" height="360"></p>
-<p><strong>Cereals早餐麦片</strong>：英国卖的Cereals，基本都是直接倒出来，泡在牛奶里，即可食用。把Cereals做早餐真是很方便，营养均衡，很便宜，在英国是相当常见的家庭早饭了。因为国内人们健康意识的增加和生活节奏的加快，牛奶麦片也成为了人们早餐的一个不错选择。同时用麦片煮粥味道也很独特喔，尤其非常适合家中老人。因此回国买些麦片送人也是不错的选择。【<a href="http://tidd.ly/22674bdc" rel="external nofollow" target="_blank">Cereals购买链接</a>】</p>
-<p></p><h2>3. 回国礼物 - 护肤化妆品</h2><p></p>
-<p></p><h3>3.1 Bodyshop美体小铺</h3><br><img class="aligncenter" src="/images/shopping/gift/bodyshop.jpg" alt="" style="width:200px"><p></p>
-<p><span style="font-weight: 400;">英国最有名的品牌之一就是<a href="http://click.linksynergy.com/fs-bin/click?id=QbW9ZdBwq4M&amp;subid=&amp;offerid=259342.1&amp;type=10&amp;tmpid=10277&amp;RD_PARM1=http%253A%252F%252Fwww.thebodyshop.co.uk%252F" rel="external nofollow" target="_blank">The body shop</a>了吧，中文叫美体小铺。虽然它并没有在中国大陆开设分部，但由于The body shop价格非常亲民，很受国内欢迎，非常奇怪的是，淘宝好多价格比英国卖的还便宜，咳咳，这个原因大家都懂的！还是找个靠谱的代购吧。热门产品包括：牛奶蜂蜜燕麦三合一面膜, 接骨木花眼膏, 生姜去屑洗发露等。</span></p>
-<p></p><h3>3.2 Boots</h3><br><img class="aligncenter" src="/images/shopping/gift/no.7.jpg" alt="Boots No. 7" width="400" height="273"><p></p>
-<p><a href="http://tidd.ly/b24de927" rel="external nofollow" target="_blank">Boots（博姿）</a>是英国最大的连锁药妆店，但Boots不只是经营药妆，产品范围涵盖了日常洗漱护理用品，医药，各专柜品牌护肤彩妆品，美容保健仪器类，母婴类，配眼镜，洗照片，以及Boots旗下一些列的护肤彩妆用品。Boots首席明星品牌No7是英国最受欢迎及最畅销护肤及化妆品品牌，历史悠久，获奖无数，被近半英国女性认定为化妆及护肤至爱。已故皇室成员黛安娜王妃、足球明星贝克汉姆、知名歌手凯莉米洛、影视红星芮妮齐薇格等人，皆是该品牌的拥护者。No 7系列产品轻巧易携，效果明显，作为伴手礼最为合适了。【<a href="http://tidd.ly/9e1e54ac" rel="external nofollow" target="_blank">Boots No. 7产品链接</a>】</p>
-<p></p><h3>3.3 Lush露诗</h3><br><img class="aligncenter" src="/images/shopping/gift/lush.jpg" alt="Lush露诗" style="width:200px"><p></p>
-<p>露诗 (LUSH) 是来自英国的美妆品牌。露诗 (LUSH) 的品牌定位是走“天然特色”美妆，在露诗 (LUSH) 店里你可以按照自己的喜好，现场切割各种类别的护肤保养品，称重计价，就如同买甜点一样有趣过瘾。他家最出名的就要数小红帽和伯爵夫人洗头皂了。</p>
-<p></p><h3>3.4 Neal’s Yard Remedies (NYR)</h3><br><img class="aligncenter" src="/images/shopping/gift/nyr.jpg" alt="Neal's Yard Remedies" width="853" height="314"><p></p>
-<p><a href="http://tidd.ly/f2e6b502" rel="external nofollow" target="_blank">Neal’s Yard Remedies (NYR)</a>是英国比较有名的一个护肤品牌，由Romy Fraser在1981创立，由最初的伦敦街道小店发展成为37家连锁店，130个特许专柜的英国一流健康美容公司，秉承其一贯的高尚品质，为当今世界崇尚自然的人们带大自然最珍贵的礼物。NYR家是做精油护肤的，使用的原材料都是各种精油原产品提炼的，他们的店里有一块牌子，说的是“他们的每一个店员都是精油护理专业，有任何疑问和需求都可以在他们那里得到答案”。</p>
-<p></p><h3>3.5 Crabtree and Evelyn</h3><br><img class="aligncenter" src="/images/shopping/gift/crabtree-evelyn.jpg" alt="Crabtree and Evelyn" width="600" height="238"><p></p>
-<p><a href="http://tidd.ly/f5fa11db" rel="external nofollow" target="_blank">Crabtree and Evelyn</a>【<a href="http://tidd.ly/f5fa11db" rel="external nofollow" target="_blank">购买链接</a>】有一个很文艺的中文名，叫瑰柏翠。他们家的护手霜也是带回国作伴手礼的最佳选择之一，也是女孩子们都喜欢买的产品，买护手霜礼盒最划算，因为一盒中有很多支不同味道的，各种花香果香就不用说啦，还有喷泉系列，园丁系列。可以单独送给国内的闺蜜。护肤品买礼盒装，之后散开送人，绝对是最划算的送礼方式。</p>
-<p></p><h3>3.6 Steamcream蒸汽乳膏</h3><br><img class="aligncenter" src="/images/shopping/gift/steamcream.jpg" alt="Steamcream蒸汽乳膏" width="600" height="228"><p></p>
-<p><span style="font-weight: 400;">它出自纯手工制造、运用非常天然的材料和特殊的蒸汽制作过程，使得它的性质非常柔和，能够适合所有人、所有肌肤（包括敏感肌）以及全身上下都可以涂抹的产品，能够起到滋润皮肤、补给和保持水分的作用。【<a href="http://tidd.ly/afc3fdd1" rel="external nofollow" target="_blank">购买链接</a>】</span></p>
-<p></p><h3>3.7 Base Formula芳程式</h3><br><img class="aligncenter" src="/images/shopping/gift/baseformula.gif" alt="Base Formula芳程式" width="301" height="74"><p></p>
-<p>1996年创立的芳程式Base Formula ，是英国芳疗用品著名品牌。向全球的专业芳疗师提供顶级的精油以及芳疗用品。与此同时芳程式承诺所有用品都有可靠来源，公平贸易的原材料以及环保的包装。所有用品由英国制造、没有动物测试、不含苯甲酸酯类和人造成分、适合素食主义、符合伦理道德的原料和生产以及可循环利用的包装材料。</p>
-<p></p><h3>3.8 常用美妆网站</h3><br>如果想买更多的美妆产品，推荐一下几个网站：<p></p>
-<p><a href="http://tidd.ly/736e048e" rel="external nofollow" target="_blank">lookfantastic.com</a>: 小编总结了一下他家的热卖产品，【<a href="http://www.yingtaodaren.com/lookfantastic-%E7%9A%84%E5%BF%85%E8%B4%A5%E5%A5%BD%E8%B4%A7/" target="_blank" rel="external">文章链接</a>】</p>
-<p><a href="http://tidd.ly/dcd89314" rel="external nofollow" target="_blank">Beauty Expert</a>: BE的热卖产品在这里：【<a href="http://www.yingtaodaren.com/beauty-expert%E7%83%AD%E5%8D%96%E7%BE%8E%E5%A6%86%E4%BA%A7%E5%93%81%E6%8E%A8%E8%8D%90/" target="_blank" rel="external">文章链接</a>】</p>
-<p><a href="http://tidd.ly/3be85586" rel="external nofollow" target="_blank">HQ Hair</a>: HQ的热卖产品在这里：【<a href="http://www.yingtaodaren.com/hq-hair-top-products/" target="_blank" rel="external">文章链接</a>】</p>
-<p>&nbsp;</p>
-<p></p><h2>4. 回国礼物 - 服装品牌推荐</h2><p></p>
-<p></p><h3>4.1 英伦高街品牌推荐</h3><br><img class="aligncenter" src="/images/shopping/gift/high-street.jpg" alt="英伦高街品牌" style="width:400px"><p></p>
-<p>高街品牌的最大特征之一便是“快速消费”理念：服装款式更新速度快、款式多样，价格较低。从设计到上市的周期很短。正是由于有了“高街时尚”，新设计的服饰一经模特儿展示，人们便能很快从商店买到最流行时尚的翻版。下面给大家推荐几个高街品牌：</p>
-<p>Topshop是一个快速时尚品牌，属于英国最大的服装零售商Arcadia集团，在英国可以说是遍地都是，几乎每个大中小城市都有。【<a href="http://t.cn/R4C7YTW" target="_blank" rel="external nofollow">官网链接</a>】</p>
-<p><a href="http://tidd.ly/639765b5" target="_blank" rel="external nofollow">Topman</a>是被称为商业奇迹的Topshop的姐妹品牌。只是Topshop主打女装。Topman为15~25岁的年轻时尚男士提供时尚男装。【<a href="http://tidd.ly/639765b5" target="_blank" rel="external nofollow">官网链接</a>】</p>
-<p>Miss Selfridge和Topshop同属于Arcadia旗下。也有人说她是Topshop的副牌。Miss Selfridge和Topshop同属于Arcadia旗下。也有人说她是Topshop的副牌。【<a href="http://tidd.ly/6ac1cc82" target="_blank" rel="external nofollow">官网链接</a>】</p>
-<p>River Island是仅次于Topshop的服装零售商，同时也是英国年轻人超爱的服装品牌。他家的设计风格大胆狂野，比Topshop更加年轻、休闲和前卫。</p>
-<p>Dorothy Perkins同样属于Arcadia集团，她可以说是英国的Mango, Zara。一直走的是名媛淑女风格，不过价位相当低。【<a href="http://tidd.ly/68f13ccc" target="_blank" rel="external nofollow">官网链接</a>】</p>
-<p>Jack Wills: <span style="font-weight: 400;">英国本土品牌，他们家最经典的就是粉色蓝色条纹了吧。我不是他们家的粉，但也挺喜欢他们家的店面的，装修风格很不错，很英伦。他们家有一堆的粉丝拥护，服装风格是University Outfitters，走的学生服的路线，抓住了英国学生以及拥有学生心态的成年人的心。</span> 【<a href="http://tidd.ly/67471b76" rel="external nofollow" target="_blank">官网链接</a>】</p>
-<p><span style="font-weight: 400;">4.4 Reiss</span></p>
-<p><span style="font-weight: 400;">Reiss于1971年在伦敦开设第一家门店，刚开始是销售男装的，之后才进军女装市场。该品牌在美国和HK也都有门店，风格偏向于年轻化但又不失知性，据说是凯特王妃的最爱之一哦。</span>【<a href="http://bit.ly/29B3Hcv" rel="external nofollow" target="_blank">REISS官网链接</a>】</p>
-<p><span style="font-weight: 400;">4.5 L.K. Bennett</span></p>
-<p><span style="font-weight: 400;">1990年由设计师Linda K. Bennett在伦敦创立，风格和Karin millen比较相似，主打中高端女装系列，也是以高端品质的office lady dress为主线，外加一些风格别致的小礼服。</span></p>
-</span>]]></content>
-    
-    <summary type="html">
-    
-      史上最全英国伴手礼攻略
-    
-    </summary>
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/categories/%E8%B4%AD%E7%89%A9/"/>
-    
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/tags/%E8%B4%AD%E7%89%A9/"/>
-    
-      <category term="礼物" scheme="http://www.yuxiuk.com/tags/%E7%A4%BC%E7%89%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英国纯天然减肥产品介绍</title>
-    <link href="http://www.yuxiuk.com/fatburn/"/>
-    <id>http://www.yuxiuk.com/fatburn/</id>
-    <published>2016-09-12T05:40:12.000Z</published>
-    <updated>2016-10-06T08:43:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先，先来介绍一下英国的减肥药吧，英国的减肥药和国内的不太一样，因为大部分都不是药，不含有药物成分，含有的话，是需要医生开处方才可以获得，主要是提供给真正患有肥胖症的人士。我们在商店里看到的减肥产品，其实都是辅助产品，全天然不含有药性。国外人相信健康减肥，要搭配合理的饮食及锻炼，再加上减肥产品，就可以起到更快捷的效果。</p>
-<p><strong><span style="font-size: 18px">1. <a href="http://tidd.ly/a154a4e1" rel="external nofollow" target="_blank">Metaburn</a></span></strong></p>
-<p>知道这款减肥药的妹纸们越来越多啦！Metaburn最先在<a href="http://tidd.ly/c3055888" rel="external nofollow" target="_blank">Vitamin Planet</a>网站上横空出世，这是个全英国最大的保健品在线品牌之一，网站内的商品都满足严格的英国制药标准，有时候英国的医生也会开一些这上面的药品帮助病人辅助治疗。Metaburn作为该网站最火的减肥产品之一也必须严格遵照英国GMP生产，作为对其的一种认可，Harrods百货也开架售卖这款产品啦，但是售价较昂贵，Vitamin Planet因为是网店销售，成本降低所以售价也低了很多。这款产品秉承高质量，高科技含量和先进研发成果的理念，它是一款能够超级燃烧脂肪的组合产品，成分百分之百organic，集合了覆盆子酮精华，绿咖啡精华，绿茶精华，同时添加了CLA、络氨酸、左旋色氨酸、维生素等有助于人体平衡膳食、睡眠、细胞代谢的天然元素，而这些元素与精华相结合则使得减肥效果被放大好几倍。</p>
-<p><img src="/images/shopping/fatburn/metaburn-banner1.jpg"></p>
-<p>&nbsp;</p>
-<p>搜了搜关于这个产品的评论，几乎都是五星好评，有的人效果特别明显，产品说吃一个月见效，但有人称吃了三周就有效果了。英国购物网站的评论大部分都是顾客自发评价的，所以数量不会很多，但很真实。经过身边朋友的亲身体验，吃一颗后就感觉肚子在燃烧的感觉，难道这就是Fat在burning吗！请坚持服用一个月！</p>
-<p><span style="line-height: 1.5">需要提醒的是，</span>英国的减肥药算在保健品类别，所以他是绝对安全的，也意味着他不可能像国内某些产品一样我们大鱼大肉熬夜吃夜宵身体还会瘦….咳，那个，如果你们真的追求这种效果，这款产品真的不适合你们。</p>
-<p>最后，想要买的猛戳这里吧，直达链接：<a href="http://tidd.ly/a154a4e1" rel="external nofollow" target="_blank">http://www.vitaminplanet.co.uk/metaburn.aspx</a></p>
-<p><strong><span style="font-size: 18px">2. <a href="http://tidd.ly/4dc8a71a" rel="external nofollow" target="_blank">Bootea不用节食的减肥茶</a></span></strong></p>
-<p><img class="alignnone" src="/images/shopping/fatburn/bootea.png" style="width:400px;"></p>
-<p>Bootea是一家英国公司生产的100%天然保健品，他们不推荐“节食”减肥，因此健康的饮食本身就是一种生活方式，不伤身体又有效。这款产品在Facebook和instagram上已经火的一塌糊涂！百度上也有一大堆人询问代购！这是一个帮助人体优化排毒减肥的茶饮，同时能够控制食欲，有淡淡的薄荷味道。而不是通过腹泻减肥。用过的小伙伴都说效果非常好哦~一般正常饮用14天能瘦5—10斤。</p>
-<p><a href="http://tidd.ly/4dc8a71a" rel="external nofollow" target="_blank">直达链接</a></p>
-<p>附Bootea使用方法：</p>
-<p>将茶包放入茶杯，冲热水浸泡3分钟后饮用。</p>
-<p>Bootea daytime 白天茶包：每天起床以后冲泡饮用。只要是白天，随便什么时候喝，随便泡多少杯，就当正常的茶一样饮用。</p>
-<p>Bootea bedtime 夜晚茶包：使用茶包开始第一天喝夜晚茶包 （starting day 1）此后每隔一天喝一次</p>
-<p>夜晚茶包会帮助各位美丽的亲加速胃肠蠕动，排除宿便，一般一周你就可以看到变小的小肚子了。</p>
-<p>大家不用担心喝了这个以后会失眠，相反这里不含咖啡因，因为花草茶有凝神静气的效果，会让你的睡眠质量变高呢。</p>
-<p>daytime是白天的茶包 有14个小金字塔一样的小包</p>
-<p>bedtime是夜晚的茶包 有7个小包</p>
-<p><span style="font-size: 18px"><strong>3. <a href="http://tidd.ly/25758b3a" rel="external nofollow" target="_blank">Holland &amp; Barrett巴西莓</a></strong></span></p>
-<p><img class="alignnone" src="/images/shopping/fatburn/acai2.png" style="width:400px;"></p>
-<p>巴西莓是HB中最畅销的减肥保健品之一。有瘦身排毒的效果。这个来自南美洲亚马逊雨林的紫色小莓果营养价值非常高，富含包括花青素，棕榈酸，膳食纤维以及一大堆姐也看不懂的营养元素，巴西莓是当地人饮食的重要组成部分，在巴西的阿玛斯镇，这种小果子更是被视为“镇宝”级的食物，这里的人从小喝巴西莓果汁长大，这个镇上看不到一个胖人。这个出产巴西莓的小镇更是名模盛产地，世界超模丹妮尔、桑德拉，世界小姐玛利亚·胡利娅都是从小就喝巴西莓，身材从未变过。</p>
-<p><a href="http://tidd.ly/25758b3a" rel="external nofollow" target="_blank">直达链接</a></p>
-<p><strong><span style="font-size: 18px">4. <a href="http://tidd.ly/f28a9bbc" rel="external nofollow" target="_blank">Rasberry Keytone </a></span></strong></p>
-<p><img class="alignnone" src="/images/shopping/fatburn/rasberrykeystone.png" style="width:400px;"></p>
-<p>树莓酮是日本人从树莓（一种蔷薇科植物的小果实）里发现的，具有很好的分解转化脂肪的功能，被称为是“天然脂肪转化因子”。它比起节食和瘦身能更快速得燃烧脂肪。中文名叫覆盆子酮精华，覆盆子就是我们平时所说的树莓。产品成分只有覆盆子酮，是从树莓中提取，没有任何防腐剂和化学添加剂，所以它是纯天然的减肥产品。研究表明吃大约450kg的树莓和吃200mg覆盆子酮减的重量是一样多的。可想而知覆盆子酮减肥是很厉害的，所以它也成为了当下最热的减肥产品~~它通过调节体内的荷尔蒙分泌，就算不节食，每天也可以减0.5kg到1kg的体重。同时它还有助于缓解高血脂疾病，例如糖尿病和心脏病，增强身体免疫力。客户的评价都表示这款产品成功帮助他们减了不少重并且没有其他副作用，这款强身健体的天然减肥产品简直就是吃货和胖子们的福音啊！</p>
-<p><a href="http://tidd.ly/f28a9bbc" rel="external nofollow" target="_blank">直达链接</a></p>
-<p><span style="font-size: 18px">5. <a href="http://tidd.ly/c6ebbd4b" rel="external nofollow" target="_blank">Madal Bal Natural Tree Syru / 天然枫糖浆</a></span></p>
-<p><img class="alignnone" src="/images/shopping/fatburn/madalbal.jpeg" style="width:400px;"></p>
-<p>这一大瓶就是柠檬枫糖浆，柠檬枫糖浆排毒断食疗法在明星中很流行，Beyoncé、贝嫂、名模坎贝尔据说都靠它活！Super Junior里的强仁也在twitter上推荐过，说喝完了之后皮肤都变好了，这款糖浆说自己在排毒的同时减肥减去的都不是水分，而是老化的细胞和身体里滞留已久的毒素。</p>
-<p><a href="http://tidd.ly/c6ebbd4b" rel="external nofollow" target="_blank">直达链接</a></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>6. <a href="http://tidd.ly/45a092ec" rel="external nofollow" target="_blank">NIP+FAB</a> 名人最爱用的纤体精华</strong></span></p>
-<p><img class="alignnone" src="/images/shopping/fatburn/nipfab.jpg" alt="" width="600" height="429"></p>
-<p>羡慕明星的好身材么？接下来咱们要说的这个产品据说就是很多明星的最爱！用这个纤体精华的明星有：詹妮弗安妮斯顿，朱莉娅罗伯茨，名媛Olivia Palermo，歌手Kimberley Walsh等等。这是凯特王妃青睐迅速火起来的牌子。它家<a href="http://tidd.ly/6102ba68" rel="external nofollow" target="_blank">Bust Fix丰胸神器</a>Daily Mail都报导过，一个月从32C增到32D的神物啊。没添加物绝对放心使用。众多外国人推荐的。经常看国外杂志的朋友应该蛮眼熟的。它能让你胸部变大而且紧致胸部周遭的肉，让你胸部集中。不会外扩！还有可以抚平脖子部位的纹路哦，在英国一上货，就疯抢到断货！！</p>
-<p>NIP+FAB不止丰胸膏出名，还有一款瘦肚子的<a href="http://tidd.ly/52a36ca5" rel="external nofollow" target="_blank">tummy fix</a>帮助分解肚子周围的顽固脂肪，紧致那些松垮垮的赘肉。紧实腰部让你不再需要穿宽松的衣服遮掩！保湿嫩滑肌肤！</p>
-<p><a href="http://tidd.ly/3e4d7f6b" rel="external nofollow" target="_blank">UPPER ARM FIX</a> 这款是瘦手臂滴 ，英国一直抢到缺货，可见人气和效果并存。从去年开始这个产品风靡了大不列颠！</p>
-<p>最后，再次提醒：英国的减肥产品都是辅助产品，大家还是要管住自己的嘴，还有搭配锻炼，才可以看到效果！Metaburn网站上有锻炼和饮食搭配建议，大家可以根据他们的建议来服用。你只需要控制你每日的热量摄入和运动起来，搭配Metaburn这样的好产品，你绝对会变瘦！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      英国纯天然减肥产品介绍
-    
-    </summary>
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/categories/%E8%B4%AD%E7%89%A9/"/>
-    
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/tags/%E8%B4%AD%E7%89%A9/"/>
-    
-      <category term="减肥" scheme="http://www.yuxiuk.com/tags/%E5%87%8F%E8%82%A5/"/>
     
   </entry>
   
