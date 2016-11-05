@@ -38,7 +38,8 @@
                       t = item.title;
                     }
                     // return searchItem('file', item.title, null, t.slice(0, 150), CONFIG.ROOT_URL + item.path);
-                    return searchItem('file', item.title, null, t, CONFIG.ROOT_URL + item.path);
+                    // return searchItem('file', item.title, null, t, CONFIG.ROOT_URL + item.path);
+                    return searchItem('file', item.title, null, t, item.permalink);
                 });
                 break;
             case 'CATEGORIES':
@@ -205,14 +206,8 @@
     }
 
     function gotoLink ($item) {
-        var url = $item.attr('data-url');
-        if( url == null || url == undefined || url == 'undefined') {
-          url = $item.attr('permalink');
-        }
-       
         if ($item && $item.length) {
-            // location.href = $item.attr('data-url');
-            location.href = url;
+            location.href = $item.attr('data-url');
         }
     }
 
