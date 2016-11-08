@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-04T16:40:41.000Z</updated>
+  <updated>2016-11-08T11:08:26.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何使用RSS订阅微信公共号</title>
+    <link href="http://www.yuxiuk.com/wechat-public-account-rss-feed/"/>
+    <id>http://www.yuxiuk.com/wechat-public-account-rss-feed/</id>
+    <published>2016-11-03T06:40:12.000Z</published>
+    <updated>2016-11-08T11:08:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信现在很多小伙伴和羽西一样都成了微信控，每天都要刷无数次朋友圈，还有阅读微信公共号文章。但是微信公共平台的阅读体验真的是不敢恭维。比如：正在读公共号文章时，有朋友发信息过来，这时候只能退出才能查看朋友的信息。再回来时整个阅读进度全丢了，让人抓狂啊啊啊。。。还有阅读栏的红点真心是让强迫症患者难受死了。。。还有是那种长文章，在手机上读的话远远不如在电脑上读的痛快。下面羽西给大家介绍一个在PC上通过RSS订阅的方式查看公共号的方法。</p>
+<h2 id="选择一个好用的阅读器"><a href="#选择一个好用的阅读器" class="headerlink" title="选择一个好用的阅读器"></a>选择一个好用的阅读器</h2><p>这个就不多说了，推荐使用 feedly： <a href="http://feedly.com/" rel="external nofollow" target="_blank">http://feedly.com/</a></p>
+<h2 id="注册一个微信RSS生成器的账号"><a href="#注册一个微信RSS生成器的账号" class="headerlink" title="注册一个微信RSS生成器的账号"></a>注册一个微信RSS生成器的账号</h2><p>这里推荐使用微广场：<a href="http://www.iwgc.cn/" rel="external nofollow" target="_blank">http://www.iwgc.cn/</a></p>
+<p>最近微广场开始根据不同会员收费了，具体费用如下：</p>
+<p>注册会员：可以免费订阅10个内容源<br>VIP1：可以订阅20个内容源 3元/月 30元/年<br>VIP2：可以订阅30个内容源 5元/月 50元/年<br>VIP3：可以订阅无限内容源 10元/月 100元/年</p>
+<h2 id="搜索订阅微信公共号"><a href="#搜索订阅微信公共号" class="headerlink" title="搜索订阅微信公共号"></a>搜索订阅微信公共号</h2><p>接下来就可以搜索你感兴趣的微信号了：<br><img src="/images/technology/wgc-search.jpg" alt=""></p>
+<p>如果没有找到，可以提交微信号，微广场会对提交的微信号处理并索引。但只限于VIP用户才能提交。</p>
+<p>搜索到后单击“订阅”就可以了。<br><img src="/images/technology/wgc-subscribe.jpg" alt=""></p>
+<p>在上图中可以看到RSS地址了，有了这个地址，就可以添加到任何RSS阅读器了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;相信现在很多小伙伴和羽西一样都成了微信控，每天都要刷无数次朋友圈，还有阅读微信公共号文章。但是微信公共平台的阅读体验真的是不敢恭维。比如：正在读公共号文章时，有朋友发信息过来，这时候只能退出才能查看朋友的信息。再回来时整个阅读进度全丢了，让人抓狂啊啊啊。。。还有阅读栏的红点
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="微信公共号" scheme="http://www.yuxiuk.com/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E5%85%B1%E5%8F%B7/"/>
+    
+      <category term="rss" scheme="http://www.yuxiuk.com/tags/rss/"/>
+    
+  </entry>
   
   <entry>
     <title>好用的国内/国外VPN推荐</title>
@@ -822,6 +855,108 @@
   </entry>
   
   <entry>
+    <title>英国新生指南</title>
+    <link href="http://www.yuxiuk.com/uk-study-guide/"/>
+    <id>http://www.yuxiuk.com/uk-study-guide/</id>
+    <published>2016-09-12T05:40:12.000Z</published>
+    <updated>2016-10-06T08:46:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><span style="font-weight: 400;">每年金秋时节，很多学子即将踏上英国这片古老的土地开始留学生活，作为在英国留学，生活十几年的羽西，这里给大家介绍分享一下留学英国需要的基本信息，算是一个 英国留学新生指南 吧。Welcome to the UK！</span></p>
+<p><img class="aligncenter" src="/images/study/studyuk.jpg" alt="英国留学攻略" width="400" height="320"></p>
+<p></p><h2>英国留学新生指南 之行前准备篇</h2><p></p>
+<p></p><h3> 行前清单（我这份比较精简，因为大多数东西都可以在英国买到）</h3><br>在你出发到英国展开新生活之前，请你务必确认已带齐所有必需品。这些东西将使你初到异国的头几天顺顺利利。因此，再次检查看你是否已经有条理地准备好以下列出的东西了。<p></p>
+<p><img class="aligncenter" src="/images/study/checklist.jpg" alt="英国留学新生指南" width="400" height="278"></p>
+<p><span style="font-weight: 400;">首先是重要的文件，包括：</span></p>
+<p><ul><br>     <li><span style="font-weight: 400;">护照</span></li><br>     <li><span style="font-weight: 400;">护照照片若干，来英国后会办理各种证件，以后去欧洲国家玩办理鉴证，都需要照片。</span></li><br>     <li><span style="font-weight: 400;">学生签证</span></li><br>     <li><span style="font-weight: 400;">体检证明</span></li><br>     <li><span style="font-weight: 400;">大学录取确认书</span></li><br>     <li><span style="font-weight: 400;">大学（住所）联系方式</span></li><br>     <li><span style="font-weight: 400;">如果获得奖学金的话，奖学金的Offer letter</span></li><br>     <li><span style="font-weight: 400;">专业课及语言考试成绩单</span></li><br>     <li><span style="font-weight: 400;">机票和行程单</span></li><br>     <li><span style="font-weight: 400;">机场到学校的行程：谁会在你抵达时迎接你？让大学提前知道你什么要抵达英国，这样他们就可以提早准备。记下相关工作人员的电话（例如国际办公室的某人），以备你在需要帮助的时候可以获得帮助。是否会有大学的人在机场接机？还是你需要自己想办法到达住所或学校？</span></li><br></ul><br>各种生活用品：</p>
+<p><ul><br>     <li>笔记本电脑。另外带个USB闪存</li><br>     <li>电源转换插头，英国电源是三相插头。还需要插线板。如果忘记带了，在英国亚马逊也可以买到：【<a href="http://amzn.to/28TDqCj" rel="external nofollow" target="_blank">中转英转换插头页面</a>】【<a href="http://amzn.to/28WEtFd" rel="external nofollow" target="_blank">插线板购买链接</a>】</li><br>     <li>外放收音机，无聊的时候开着，免得屋子里太静，呵呵</li><br>     <li>如果你不喜欢用手机闹钟的话，带个小闹钟，免得上课时迟到</li><br>     <li>筷子和你觉得有用的餐具，比如微波炉饭盒，如果行李箱有地方可以带个电饭锅，像羽西这样的吃货，把电磁炉，鸳鸯火锅，豆浆机神马的都陆续带到英国了。。。一般同学行李箱估计不会有太多地方，这样可以到英国后在万能的Amazon上买，这里给出链接：【<a href="http://amzn.to/28U6euB" rel="external nofollow" target="_blank">电饭煲购买链接</a>】【<a href="http://amzn.to/28V8DFE" rel="external nofollow" target="_blank">火锅电磁炉购买链接</a>】</li><br>     <li>特殊的调味料，自己平时做菜的时候会用到。还有一些干货，比如木耳，香菇，红枣之类的，英国这边中国超市也能买到，但质量不好保证，不如国内选择多。</li><br>     <li>书包，以及常用文具。选择书包的时候，推荐<a href="http://tidd.ly/6f068178" rel="external nofollow" target="_blank">Mybag</a>这个网站，这里是双肩包的购买页面：【<a href="http://tidd.ly/ad44984a" rel="external nofollow" target="_blank">Mybag双肩包购买页面</a>】，支持支付宝付款喔！DUANG! DUANG! DUANG! 如果英国这边的住宿已经确定了，可以直接寄到英国这边，省了占行李箱的地方。</li><br>     <li>枕套，枕巾，床单，被套都<strong><strong>不用带</strong></strong>，可以到英国后在Argos买，为了方便学生，很多大学报道的地方直接可以买到。</li><br>     <li>毛巾，拖鞋，针线盒，梳子，指甲刀等，其实这些英国也能买到，不过就是小贵。</li><br>     <li>常用药类，例如，感冒药，消炎药，祛火药，眼药水等等。这些最好都带上，英国这边有些药是需要医生开证明才能买的。</li><br>     <li>衣服，在后面会详细介绍</li><br></ul></p>
+<p></p><h3>解决住宿问题</h3><br><img class="aligncenter" src="/images/study/accommodation.jpg" alt="英国留学新生攻略" width="600" height="371"><p></p>
+<p>在抵达英国之前，一定要把住的地方落实了。一般有几种选择：学校宿舍，校外租房/和他人合租，或者临时住朋友／同学家，最后是临时住在酒店或者B&amp;B，到了再说。</p>
+<p></p><h4>学校宿舍</h4><br>几乎所有留学生学校都会在大学的宿舍楼里为他们预留住处。大学宿舍是什么样的？宿舍楼由单人间构成。也有些情况，分成一个个公寓，共享厨房和其他社交空间，通常一个公寓住4-10人。你可以向学校提出，你对于理想合住室友类型的偏好，学校会尽量满足你的要求。在你接受了学校的offer之后，他们就会发给你所有关于住所选择的信息。通常在学校网站上会有图片及虚拟游览的指南，这样你在家便可以浏览。不同的楼幢根据软件设施（比如：饮食安排）和硬件设施的不同价格会差别很大。考虑你的租金及生活成本的预算，然后通过网上申请选择你倾向的住所。<p></p>
+<p><img class="aligncenter" src="/images/study/uni-accommodation.jpg" alt="英国新生攻略" width="495" height="275"></p>
+<p>宿舍会配有一张桌子，椅子，床，抽屉衣柜若干。你还需要另外买一些东西，比如：台灯，收纳储物箱，被套枕套等。大多数学校会有校内的安保，宿舍楼则有人员值班。有时，这些人员是2、3年级的学生，他们已经经受过训练，以应对任何突发状况。如果你确实不喜欢你的住宿安排，你可以申请调换。</p>
+<p></p><h4>校外租房</h4><br>在第一年之后，很多人会选择在校外寻找住所。一般会选择和别人合住一个公寓或者一个大房子。寻找的主要途径有租房网站和当地报纸。这里给大家推荐一些租房网站：<p></p>
+<p></p><h4>Easyroommate</h4><br><img class="aligncenter" src="/images/study/easyroommate.png" alt="英国新生攻略" width="510" height="121"><p></p>
+<p><strong>EasyRoommate是羽西首推的学生租房网站</strong>！他家的服务范围覆盖全世界27个国家和地区，网站首页的搜索栏十分简洁易懂，输入一系列信息例如：姓名、年龄、性别、房租上下限等一些简单问题后，点击搜索就可以找到符合你条件的住处。如果你对新的城市还不是很熟悉的话，还可以根据地图来寻找你想要的住处。对于自己心水的广告，租客们可以即时发送邮件询问。EasyRoommate 的服务全部都是免费的，有很多英国本地的房东会在这家网站上刊登租房广告。</p>
+<p>【<a href="http://bit.ly/28Vm7AL" rel="external nofollow" target="_blank">Easyroommate官网链接</a>】</p>
+<p></p><h4>Spare Room</h4><br><img class="aligncenter" src="/images/study/spareroom.jpg" alt="英国租房网站" width="400" height="387"><br>Spare Room是学生找住所最常上的网站之一。可以根据你个人的需要挑选住宿，包括地点、周围交通、价格范围、室友类型等。<p></p>
+<p>【<a href="http://www.spareroom.co.uk/" rel="external nofollow" target="_blank">Spare Room官网链接</a>】</p>
+<p></p><h4>Gumtree</h4><br><img class="aligncenter" src="/images/study/gumtree.jpg" alt="英国新生指南" width="400" height="243"><p></p>
+<p>Gumtree 是英国最大的分类信息网站，创建于2000年4月，提供内容包括：租房、找工作、汽车买卖、交朋友等，同时覆盖了其他多个国家如波兰、美国、澳大利亚等。打个比喻，那简直就是咱们国内58同城的英国版。但是由于Gumtree只是房屋中介或者房东贴小广告的地方，所以可能会碰到坏人，大家在上面找房子时一定要擦亮了眼睛，没有交钥匙的话，一定不要提前交钱！看房时也建议大家不要独自前往。</p>
+<p>【<a href="https://www.gumtree.com/" rel="external nofollow" target="_blank">Gumtree官网链接</a>】</p>
+<p>如果选择校外居住，你必须考虑以下因素：</p>
+<p><ul><br>     <li>预算 – 你是否能负担起每月的租金和费用？</li><br>     <li>如何抵达学校 – 公共交通方便吗？或者可以步行或骑车学校吗？</li><br>     <li>选择住址 – 地点离商店近吗？离朋友近吗？离你需要常去的地方近吗？</li><br>     <li>安全指数 – 这附近安全吗。可以在这个网站检查一下房子周围的安全行： <a href="https://www.police.uk/" rel="external nofollow" target="_blank">https://www.police.uk/</a></li><br></ul><br>在英国租房的流程一般是：通过中介/房主查找房子 =〉 预约看房 =〉签署协议（须提供两个信誉度担保人，导师即可） =〉 预交半年房租。整个过程建议预留出一周左右的时间。</p>
+<p>提示：被褥可以自带，或者在抵达学校后到Argos购买。Argos还有一个好处就是可以先在网上预留，然后在去取。国内被套的尺寸在英国可以用。</p>
+<p></p><h4>临时在酒店住</h4><br>如果是laste minute拿到的OFFER或者临时改变了主意来不及订学校宿舍了，亦或家人同行，需要订临时酒店的话，推荐在<a href="http://tidd.ly/e973535a" rel="external nofollow" target="_blank">Booking.com</a>上预订酒店。他家支持中文喔。Booking.com【缤客】全球酒店预订网站。支持全球200多个国家80万多家酒店在线预订，无手续费。还有24小时中文客服。<p></p>
+<p>【<a href="http://tidd.ly/e973535a" rel="external nofollow" target="_blank">Booking.com网站链接</a>】</p>
+<p><span style="font-weight: 400;">一旦住宿地点落实了，建议大家<span style="color: #99cc00;"><strong>免费预订Vodafone公司的手机卡</strong></span>，他家应该是英国信号最好的手机网了。这样一到英国就有手机卡可以用了。而且英国人选手机号很随意，这些免费的手机卡可能就绑定了非常好的号！带／寄回国家人来英国也可以用！</span></p>
+<p><a href="http://tidd.ly/3314e847" rel="external nofollow" target="_blank"><img class="alignleft" src="/images/study/order-vodafone-sim2.jpg" alt="预订Vodafone电话卡" width="238" height="45"></a></p>
+<p></p><h3>气候与着装</h3><br><img class="aligncenter" src="/images/study/uk-weather.jpg" alt="英国留学指南" width="400" height="255"><p></p>
+<p>英国的纬度位置偏高，大约位于北纬 50°～60°之间，甚至高于中国的黑龙江省。高纬度导致夏季昼长夜短，7月份早上4点多天就蒙蒙亮了，晚上 10 点多才慢慢变黑。12 月的时候，下午 4 点多天就已经开始黑了。由于夏季白昼时间很长，所以英国实行夏令时制，从每年的 3 月最后一个星期天至 10 月最后一个星期天人们要把时钟向前拨快一个小时。也就是说在夏季，英国虽然是在零时区，但是却使用东一区的时间，这样跟在东八区的中国相差 7 个小时，在冬天没有夏令时的时候，英国比中国慢 8 个小时。英国属于温带海洋性气候，终年气候都比较温和。夏季平均气温为 20°左右，天气变化无常，时而晴天时而小雨，所以需要随时备上一把雨伞，可以防水的外套。学生日常一般穿牛仔裤，T 恤衫。冬天气温平均零上 2°至 3°左右，基本上一件羊毛衫和一个秋裤就可以过冬了。冬天偶尔会下雪，但是留不住雪，很快就会化掉。大部分树都会掉光叶子，但是草地依然碧绿。房间里有暖气，一般自己可以控制房间暖气的温度。大学宿舍暖气很足，一般冬天都要开窗。学院的住房一般会提供棉被，如果自己想买新被子，可以去 Argos，建议买 7.5 tog or lower (tog 是棉被的保暖度)。另外一副薄手套是必要的，因为冬天骑自行车会冻手(自行车是学生的基本交通工具)。除了羊毛衫，薄毛裤，牛仔裤，内衣，T恤衫等等日常的衣服外，男生要准备一套黑色西服，黑皮鞋，因为一些正式场合会用得上。正式场合的女生衣服就没有硬性规定，自己觉得高雅漂亮就好。如果行李箱有地方的话就<span style="line-height: 1.5;">带把雨伞，超市也有卖雨伞的，3/4镑一把，质量很差。质量好的要八九镑。</span></p>
+<p></p><h2>在路上</h2><p></p>
+<p></p><h3>入境篇</h3><br>随身携带的材料：护照、学校的offer（最好是原件）、卫生防疫证明、入境登记卡（Immigration card飞机上机组人员会分发，下了飞机后在移民局的排队通道旁边也能找到）<p></p>
+<p><img class="aligncenter" src="/images/study/landingcard.jpg" alt="英国新生指南" width="400" height="601"></p>
+<p></p><h3>移民官问询</h3><br><img class="aligncenter" src="/images/study/uk-border.jpg" alt="英国留学攻略" width="400" height="250"><p></p>
+<p>UK Border共两个出口，中国籍公民请走非英国和欧盟国家公民使用的出口。移民局的人会问你一些简单的问题，比如来英国干什么，在什么学校学习什么课程，课程几年之类的。第一次入境的人，可能会被要求前往机场内的Health Control拍摄胸透，还有可能要求提供基本信息，包括在英国的住址。最终，当移民局的工作人员在护照上盖章后，你就可以入境了。</p>
+<p></p><h3>取行李</h3><br><img class="aligncenter" src="/images/study/luggage.jpg" alt="英国新生指南" width="540" height="360"><p></p>
+<p>跟着指示牌，前往标有你航班号的自动行李机。建议在行李上用中英文标明姓名、地址等个人信息，做一个特殊的标记，以防别人拿错。注意：在国内托运行李时，会领到一个条形码的贴纸，贴在你护照或者机票后面。这是你的行李托运号码，要好好保存，当你在自动行李机前没有找到行李时，立即和机场管理人员联系，提供你的行李托运号码，幵留下联系方式。有时，转机的行李来不及在中转站转到下一趟飞机上，会在接下来一趟飞机上送过来。机场会免费给你送到住处。</p>
+<p></p><h3>出关</h3><br><img class="aligncenter" src="/images/study/customs.jpg" alt="英国留学新生指南" width="500" height="281"><p></p>
+<p>取完行李就可以出关了。过海关时，机场人员会抽查乘客的行李。若你被邀请到一边检查行李，无须慌张。当询问你是否携带了要申报的东西，如实回答即可。提示：不要从国内带肉，奶制品，香烟只能带一条喔。</p>
+<p></p><h3>出机场</h3><br><img class="aligncenter" src="/images/study/airport-transport.jpg" alt="英国留学新生指南" width="400" height="199"><p></p>
+<p>建议身上带些零钱，如果没有可以去机场小店里买瓶水找开。以备打电话和接机的人取得联系，若无人接机，建议提前研究好路线，把你要去的地方的地址记录下来便于询问。一般经过长途的旅途和时差的缘故，此时你可能会很困倦，但要留意你的随身行李，特别是手提电脑和重要文件。下车前要确定你所有的东西都在，以免落在车上。</p>
+<p></p><h3>英国主要机场介绍</h3><p></p>
+<p></p><h4>伦敦希思罗机场(London Heathrow International Airport)</h4><br><img class="aligncenter" src="/images/study/heathrow-airport.jpg" alt="英国新生手册" width="640" height="360"><p></p>
+<p>伦敦希思罗国际机场由英国机场管理公司（BAA）负责营运，是英国最重要的机场，也是全英国乃至全世界最繁忙的机场之一。希思罗国际机场现为全球90家航空公司所用，可飞抵全球170多个机场。希思罗机场目前有5个航站楼，中国学生选择较多的航空公司里，中国东方航空、中国南方航空、荷兰皇家航空、法国航空在4号航站楼；中国国际航空、香港国泰航空、阿联酋航空以及维珍大西洋航空在3号航站楼。另外，2013年9月英国航空新增的成都—伦敦的航班使用的是3号航站楼。<span style="font-weight: 400;">从希思罗机场乘坐地铁可以很容易的抵达伦敦各个地方，因为伦敦地铁站专门有希思罗国际机场这一站，所以只要到机场地下一层，就可以很方便的到达伦敦各个区域。从航站楼或客运总站，可乘坐公交车到达 500 多个当地和国内终点站。巴士与地铁相比价格偏高。但乘巴士可一路浏览窗外的景色。</span><span style="font-weight: 400;">由于希思罗机场是英国航空公司所有从中国到英国航班的必经机场，所以英国航空公司特别在这里设立华人接待部，可以为12 岁以下的儿童提供免费的翻译服务。另外，如果旅客的英语不是很流利，在入关时，也可以进行必要的翻译。</span></p>
+<p></p><h4>曼彻斯特机场(Manchester Airport)</h4><br><img class="aligncenter" src="/images/study/manchester-airport.jpg" alt="英国留学新生指南" width="615" height="410"><br>曼彻斯特机场目前拥有两条跑道、3 个航站楼。第一航站和第二航站多为其他国家的航空公司所用，航班也多是飞往英国以外其他国家和地区的航班。第三航站是英航专用航站，所以如果您是在曼彻斯特搭乘英航航班飞往世界各地，那么应该选则第三航站了。即使您住在曼彻斯特市中心，到达机场也很方便，因为曼彻斯特火车站通往机场的火车提供24小时的服务。曼彻斯特机场既整洁又漂亮，各个航站和航班分的十分清楚，也很容易识别。<p></p>
+<p></p><h2>到达后需要做的事</h2><p></p>
+<p></p><h3>留学生网上报道</h3><br>关于留学生网上报道，请访问网址 ：<a href="http://srs.moe.edu.cn/" rel="external nofollow" target="_blank">http://srs.moe.edu.cn/</a><p></p>
+<p></p><h3>医疗注册</h3><br><img class="aligncenter" src="/images/study/nhs.jpg" alt="英国留学新生指南" width="400" height="240"><p></p>
+<p><span style="font-weight: 400;">到达之后一件重要的事就是要进行NHS注册。</span><span style="font-weight: 400;">很多大学的校园中心都设有Medical Centre，是校内学生日常寻医问药的去处，这里有全科医生和经验丰富的护士。看病前需要预约。病人接受治疗后，凭处方在当地药店购买药品。如果全科医生无法处理病情，病人会被转到医院里的专科医生处。</span><span style="font-weight: 400;">所谓免费是指看病和处方免费，但按处方买药还要自己付钱。但是如果你住院，就全部免费了。</span><span style="font-weight: 400;">看牙齿和眼睛往往不是免费的。你可以到国家健康中心注册牙医，最好是选择加入国家健康中心的医生，这样花费要比个人掏腰包便宜多了。 要了解NHS的服务及其他信息，请访问：</span><span style="font-weight: 400;"><a href="http://www.nhsdirect.nhs.uk/" rel="external nofollow" target="_blank">http://www.nhsdirect.nhs.uk/</a>  </span><span style="font-weight: 400;">建议出国前检查一下牙齿和眼睛。</span></p>
+<p></p><h3>银行开户</h3><br><img class="aligncenter" src="/images/study/bank.jpg" alt="英国新生指南-银行开户" width="460" height="276"><p></p>
+<p><span style="font-weight: 400;">来到英国生活和学习没有一个英国银行帐户和银行卡是非常不方便的。因此到英国后，要尽快去银行开户。英国的金融业非常发达，服务也很完善，在学习期间你会享受到一些目前在国内还没有的银行服务。国际学生（尤其是初到英国的留学生）一般选择四大银行开户： HSBC, Barclays, Lloyds TSB 及 NatWest。现在各银行对国际学生开银行帐户比较严格, 一般来说, 开帐户必须准备以下几个文件:</span></p>
+<p><ul><br>     <li><span style="font-weight: 400;">护照(Passport)</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">入学通知书(Offer Letter)</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">地址证明(Approve of Address): 关于这一点非常麻烦, 英国人比较较真, 一般地说, </span><span style="font-weight: 400;">他们要看你的水电费帐单或者住家电话的帐单,  BANK STATEMENT, 或者租房的合约。对刚来的学生肯定没有这些东西，如果你已经决定好开哪家银行，那么来英之前跟大学、学院或者学校打好招呼，让她帮你把银行信开好，银行信上面的信息一定要正确无误，国内地址要跟 passport 上一样，否则用的时候有可能出问题。如果遇到问题，可以咨询大学的International Office。</span></li><br></ul><br><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">开完帐户后一般需要一周才能收到支票和银行卡，但是大家刚来的时候都带了一笔现金， 不必等到收到东西才可以存钱。开完帐户后， 问下银行你的 SORT CODE 和 ACCOUNT　NUMBER，钱就可以直接存进去。英国银行的政策经常改变，因此以下信息仅供参考，确切信息请到各银行网站或分行查询。</span></p>
+<p><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">英国银行推荐：HSBC, Barclays, Lloyds TSB，Halifax/Bank of Scotland是经营业务广泛的大型银行，是多数中国人的选择。各银行对学生提供的服务有所不同，为了吸引学生，还会在开户时赠送不同的礼物。你应该多进行比较，选择合适的银行。几大银行网址 </span></p>
+<p><span style="font-weight: 400;">HSBC： </span><a href="http://www.hsbc.co.uk" rel="external nofollow" target="_blank"><strong>http://www.hsbc.co.uk</strong></a></p>
+<p><span style="font-weight: 400;">Barclays： </span><a href="http://www.barclays.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.barclays.co.uk</span></a></p>
+<p><span style="font-weight: 400;">Lloyds TSB： </span><a href="http://www.lloydstsb.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.lloydstsb.co.uk</span></a></p>
+<p><span style="font-weight: 400;">Halifax / Bank of Scotland: <a href="http://www.halifax.co.uk" rel="external nofollow" target="_blank">http://www.halifax.co.uk</a></span></p>
+<p><span style="font-weight: 400;">NatWest： </span><a href="http://www.natwest.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.natwest.co.uk</span></a></p>
+<p><span style="font-weight: 400;">Abbey National：</span><a href="http://www.abbeynational.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.abbeynational.co.uk</span></a></p>
+<p><span style="font-weight: 400;">ALLIANCE LEICESTER：</span><a href="http://www.alliance-leicester.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.alliance-leicester.co.uk</span></a><span style="font-weight: 400;"><br></span></p>
+<p><span style="font-weight: 400;">Royal Bank of Scotland：</span><a href="http://www.royalbankscot.co.uk/" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.royalbankscot.co.uk/</span></a><span style="font-weight: 400;"></span></p>
+<p></p>
+<p><span style="font-weight: 400;">下面列出一些与银行打交道的常用语，你一定会发现它们非常有用。 </span></p>
+<p><span style="font-weight: 400;">Cash Card（现金卡）：可以从银行或ATM机提取现金。 </span></p>
+<p><span style="font-weight: 400;">Cheque Guarantee Card（支票保证卡）：支票保证卡上注明了担保的金额，也就是每次可开支票的最高限额。 </span></p>
+<p><span style="font-weight: 400;">Debit Card（借记卡）：使用此卡可以直接在商店里消费，费用会通过银行的结算系统，直接从你的账户上扣除。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">注：实际上以上三卡通常会合幵成一卡，包含了上述功能，使用起来十分方便。</span></p>
+<p><span style="font-weight: 400;">Credit Card（信用卡）：如你的信誉较好，经申请并通过审核后，银行可能会提供信用卡。信用卡允许你先花后付，你会定期收到上一个月的账单，要求你安排付款事宜。 </span></p>
+<p><span style="font-weight: 400;">Current Account（现金账户）：用于存(Deposit)、取(Withdraw)日常开支，通常利息较低或没有利息。 </span></p>
+<p><span style="font-weight: 400;">Saving Account（存款账户）：有利息，通常不能用于支付支票，有时支取需要提前通知。 </span></p>
+<p><span style="font-weight: 400;">Overdraft（透支）：透支是不允许的，如你确实需要透支，建议你提前与银行协商，有的银行会同意学生在一定金额和时间内无偿透支，但通常你需要为透支的金额支付利息。为避克这种情况出现，建议你经常查看现金账户中的余额(Balance)，提前将预期的花费从存款账户转入现金账户。</span><span style="font-weight: 400;"><br></span></p>
+<p></p><h3>警察局注册</h3><br><span style="font-weight: 400;"><br><img class="aligncenter" src="/images/study/reg.jpg" alt="英国新生指南" width="574" height="320"></span><span style="font-weight: 400;">所有在英国停留超过六个月的非欧盟人，都要在抵英后七日内向英国警方登记。 如果学生需要自己办理，住在伦敦的，可前往外籍人士登记处登记（Aliens Registration Office, 10 Lambs’ Conduit Street, London; 周一至周五，上午9：30 －下午4：40；电话： 020 72301208）。如在其他地区居住，则可向附近警察局查询有关登记事宜。登记时须带同护照，护照照片两张及34磅注册费。如果之后您地址有所变动，在七日内向新住址附近的警察局报告。</span><p></p>
+<p></p><h3>办理手机卡/签手机合同</h3><br><img class="aligncenter" src="/images/study/phones.jpg" alt="英国新生指南 - 手机合同" width="600" height="245"><p></p>
+<p><span style="font-weight: 400;">英国主要有以下几家移动电话网Vodafone, O2,EE和 3，信号的口碑普遍好的是Vodafone和O2。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">手提电话大致有两种收费方式：</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">1. 月费方式 (Monthly Payment)，即每月交纳一定费用，电话公司则提供一定量的免费通话时间，超出部分按通话量计费。选择这种方案，电话公司会送你一个新手机，但最新最好的手机一般你还需要付一点钱。月费方案的最大限制是你必须与电话公司签至少一年合同，中途退出仍需交纳全年费用。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2. 即付即打方式 (Pay As You Go) 你不用交纳任何费用，向电话公司买个手机卡之后就可以使用。在打电话之前，你必须先向你的电话账号内存钱，可以通过购买电话公司的电话卡(Voucher)或通过现金卡转账。这种服务没有时间限制。</span></p>
+<p><span style="font-weight: 400;">如果选择Pay As You Go的方式，可以免费订最多两个Vodafone公司的手机卡，应该是英国信号最好的手机网了。</span></p>
+<p><a href="http://tidd.ly/3314e847" rel="external nofollow" target="_blank"><img class="aligncenter" src="/images/study/order-vodafone-sim2.jpg" alt="英国新生指南 - 预定Vodafon对话卡" width="238" height="45"></a></p>
+<p><span style="font-weight: 400;">如果大家打算签手机合同，给大家推荐两个网站：</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><a href="http://bit.ly/28ZvPVj" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.e2save.com/</span></a><span style="font-weight: 400;"><br></span><a href="https://bit.ly/28ZvVfW" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.carphonewarehouse.com/</span></a></p>
+<p></p><h2>安全信息</h2><br><img class="aligncenter" src="/images/study/uk-safety.jpg" alt="英国留学新生手册 - 安全须知" width="468" height="312"><p></p>
+<p><span style="font-weight: 400;">在英国留学期间，同学们是否考虑过自身的生活安全呢？和其他欧洲国家相比，英国是很安全的。生活便利，居民热情友好。但是这幵不排除在一些特定区域有偶发事件。许多前往英国留学的同学，基本上都是第一次离开父母，离开祖国。这时留学生活安全就显得有必要了。下面总结了一些安全常识方面的知识。</span></p>
+<p><ul><br>     <li><span style="font-weight: 400;">穿越马路时，要特别小心，因为英国的机动车都是靠左行驶的。要切记，穿越主要路口，需留意地面上“注意左边”和“注意右边”的提示。有些主要路口有人行横道挃示灯控制按钮，过马路时按此装置可出现提示，示意过往车辆停车等候。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">不要携带大量现金，最大限度地利用银行卡、支票等支付工具。应随身带有小额现金，遇抢劫、勒索，即把金钱交出，勿做抵抗，以免被加害。</span></li><br>     <li><span style="font-weight: 400;">自动提款机分室外与室内两种。但并不表示在室内提款较在室外安全。应幸免在夜间提款，若发觉有异，切勿进入。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">将你的护照、银行卡和支票号码扫描备份，以便在遗失后可以及时、准确地挂失、报案。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">如果晚上你不得不单独出行，尽量避克无人的街道。避克与酗酒的人发生争执。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">将你的行踪告诉房东、朋友或亲戚。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">保管好自己的私人物品，如遇盗抢，应及时报警，幵可寻求学校国际办公室的帮助。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">曾有学生遇到蛮横房东，无理克扣押金，故提醒租房时注意看清合同内容。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">抵达后即与家人联系，以免亲人担心。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">交友要慎重，要有自我保护意识。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">参加大型露天演出、游行等活动时，最好能成群结伴，以减低被下手的机会。公共场合行李包不要离身。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">随身携带紧急电话号码。证件则要放在内口袋等较不易引人注重的地方。现金最好分开放。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">夜间行走时，走路时要走在人行道中间，朝与汽车相反方向走。若有人驾车搭讪，可朝与其驾车相反方向迅速离开。有同伴同行为最佳，走行人多及照明充足的街道，幸免走阴暗的巷道。提防生疏人问路，并与他们保持距离。遇生疏人搭讪，可不加理会，伪装听不懂当地语，从容走开，但以不惹恼对方为原则。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">单独在家时，不要随便开门。若为生疏人或自称修理电话等，即便有约在先，都应要求来者提出识别证(ID)，确认无误后方可开门；勿因来者为女性而减少戒心，英国这边有些女人很强悍的。。。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">遇可疑人物、车子或情况，应通知警方，切勿好奇介进；</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">外出、夜间就寝前，应检视煤气，电源开关，所有门窗是否上锁。</span></li><br></ul><br>&nbsp;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;每年金秋时节，很多学子即将踏上英国这片古老的土地开始留学生活，作为在英国留学，生活十几年的羽西，这里给大家介绍分享一下留学英国需要的基本信息，算是一个 英国留学新生指南 吧。Welcome to the UK！
+    
+    </summary>
+    
+      <category term="留学" scheme="http://www.yuxiuk.com/categories/%E7%95%99%E5%AD%A6/"/>
+    
+    
+      <category term="新生" scheme="http://www.yuxiuk.com/tags/%E6%96%B0%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>英国纯天然减肥产品介绍</title>
     <link href="http://www.yuxiuk.com/fatburn/"/>
     <id>http://www.yuxiuk.com/fatburn/</id>
@@ -1119,238 +1254,6 @@
       <category term="保健品" scheme="http://www.yuxiuk.com/tags/%E4%BF%9D%E5%81%A5%E5%93%81/"/>
     
       <category term="荷百瑞" scheme="http://www.yuxiuk.com/tags/%E8%8D%B7%E7%99%BE%E7%91%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英国新生指南</title>
-    <link href="http://www.yuxiuk.com/uk-study-guide/"/>
-    <id>http://www.yuxiuk.com/uk-study-guide/</id>
-    <published>2016-09-12T05:40:12.000Z</published>
-    <updated>2016-10-06T08:46:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><span style="font-weight: 400;">每年金秋时节，很多学子即将踏上英国这片古老的土地开始留学生活，作为在英国留学，生活十几年的羽西，这里给大家介绍分享一下留学英国需要的基本信息，算是一个 英国留学新生指南 吧。Welcome to the UK！</span></p>
-<p><img class="aligncenter" src="/images/study/studyuk.jpg" alt="英国留学攻略" width="400" height="320"></p>
-<p></p><h2>英国留学新生指南 之行前准备篇</h2><p></p>
-<p></p><h3> 行前清单（我这份比较精简，因为大多数东西都可以在英国买到）</h3><br>在你出发到英国展开新生活之前，请你务必确认已带齐所有必需品。这些东西将使你初到异国的头几天顺顺利利。因此，再次检查看你是否已经有条理地准备好以下列出的东西了。<p></p>
-<p><img class="aligncenter" src="/images/study/checklist.jpg" alt="英国留学新生指南" width="400" height="278"></p>
-<p><span style="font-weight: 400;">首先是重要的文件，包括：</span></p>
-<p><ul><br>     <li><span style="font-weight: 400;">护照</span></li><br>     <li><span style="font-weight: 400;">护照照片若干，来英国后会办理各种证件，以后去欧洲国家玩办理鉴证，都需要照片。</span></li><br>     <li><span style="font-weight: 400;">学生签证</span></li><br>     <li><span style="font-weight: 400;">体检证明</span></li><br>     <li><span style="font-weight: 400;">大学录取确认书</span></li><br>     <li><span style="font-weight: 400;">大学（住所）联系方式</span></li><br>     <li><span style="font-weight: 400;">如果获得奖学金的话，奖学金的Offer letter</span></li><br>     <li><span style="font-weight: 400;">专业课及语言考试成绩单</span></li><br>     <li><span style="font-weight: 400;">机票和行程单</span></li><br>     <li><span style="font-weight: 400;">机场到学校的行程：谁会在你抵达时迎接你？让大学提前知道你什么要抵达英国，这样他们就可以提早准备。记下相关工作人员的电话（例如国际办公室的某人），以备你在需要帮助的时候可以获得帮助。是否会有大学的人在机场接机？还是你需要自己想办法到达住所或学校？</span></li><br></ul><br>各种生活用品：</p>
-<p><ul><br>     <li>笔记本电脑。另外带个USB闪存</li><br>     <li>电源转换插头，英国电源是三相插头。还需要插线板。如果忘记带了，在英国亚马逊也可以买到：【<a href="http://amzn.to/28TDqCj" rel="external nofollow" target="_blank">中转英转换插头页面</a>】【<a href="http://amzn.to/28WEtFd" rel="external nofollow" target="_blank">插线板购买链接</a>】</li><br>     <li>外放收音机，无聊的时候开着，免得屋子里太静，呵呵</li><br>     <li>如果你不喜欢用手机闹钟的话，带个小闹钟，免得上课时迟到</li><br>     <li>筷子和你觉得有用的餐具，比如微波炉饭盒，如果行李箱有地方可以带个电饭锅，像羽西这样的吃货，把电磁炉，鸳鸯火锅，豆浆机神马的都陆续带到英国了。。。一般同学行李箱估计不会有太多地方，这样可以到英国后在万能的Amazon上买，这里给出链接：【<a href="http://amzn.to/28U6euB" rel="external nofollow" target="_blank">电饭煲购买链接</a>】【<a href="http://amzn.to/28V8DFE" rel="external nofollow" target="_blank">火锅电磁炉购买链接</a>】</li><br>     <li>特殊的调味料，自己平时做菜的时候会用到。还有一些干货，比如木耳，香菇，红枣之类的，英国这边中国超市也能买到，但质量不好保证，不如国内选择多。</li><br>     <li>书包，以及常用文具。选择书包的时候，推荐<a href="http://tidd.ly/6f068178" rel="external nofollow" target="_blank">Mybag</a>这个网站，这里是双肩包的购买页面：【<a href="http://tidd.ly/ad44984a" rel="external nofollow" target="_blank">Mybag双肩包购买页面</a>】，支持支付宝付款喔！DUANG! DUANG! DUANG! 如果英国这边的住宿已经确定了，可以直接寄到英国这边，省了占行李箱的地方。</li><br>     <li>枕套，枕巾，床单，被套都<strong><strong>不用带</strong></strong>，可以到英国后在Argos买，为了方便学生，很多大学报道的地方直接可以买到。</li><br>     <li>毛巾，拖鞋，针线盒，梳子，指甲刀等，其实这些英国也能买到，不过就是小贵。</li><br>     <li>常用药类，例如，感冒药，消炎药，祛火药，眼药水等等。这些最好都带上，英国这边有些药是需要医生开证明才能买的。</li><br>     <li>衣服，在后面会详细介绍</li><br></ul></p>
-<p></p><h3>解决住宿问题</h3><br><img class="aligncenter" src="/images/study/accommodation.jpg" alt="英国留学新生攻略" width="600" height="371"><p></p>
-<p>在抵达英国之前，一定要把住的地方落实了。一般有几种选择：学校宿舍，校外租房/和他人合租，或者临时住朋友／同学家，最后是临时住在酒店或者B&amp;B，到了再说。</p>
-<p></p><h4>学校宿舍</h4><br>几乎所有留学生学校都会在大学的宿舍楼里为他们预留住处。大学宿舍是什么样的？宿舍楼由单人间构成。也有些情况，分成一个个公寓，共享厨房和其他社交空间，通常一个公寓住4-10人。你可以向学校提出，你对于理想合住室友类型的偏好，学校会尽量满足你的要求。在你接受了学校的offer之后，他们就会发给你所有关于住所选择的信息。通常在学校网站上会有图片及虚拟游览的指南，这样你在家便可以浏览。不同的楼幢根据软件设施（比如：饮食安排）和硬件设施的不同价格会差别很大。考虑你的租金及生活成本的预算，然后通过网上申请选择你倾向的住所。<p></p>
-<p><img class="aligncenter" src="/images/study/uni-accommodation.jpg" alt="英国新生攻略" width="495" height="275"></p>
-<p>宿舍会配有一张桌子，椅子，床，抽屉衣柜若干。你还需要另外买一些东西，比如：台灯，收纳储物箱，被套枕套等。大多数学校会有校内的安保，宿舍楼则有人员值班。有时，这些人员是2、3年级的学生，他们已经经受过训练，以应对任何突发状况。如果你确实不喜欢你的住宿安排，你可以申请调换。</p>
-<p></p><h4>校外租房</h4><br>在第一年之后，很多人会选择在校外寻找住所。一般会选择和别人合住一个公寓或者一个大房子。寻找的主要途径有租房网站和当地报纸。这里给大家推荐一些租房网站：<p></p>
-<p></p><h4>Easyroommate</h4><br><img class="aligncenter" src="/images/study/easyroommate.png" alt="英国新生攻略" width="510" height="121"><p></p>
-<p><strong>EasyRoommate是羽西首推的学生租房网站</strong>！他家的服务范围覆盖全世界27个国家和地区，网站首页的搜索栏十分简洁易懂，输入一系列信息例如：姓名、年龄、性别、房租上下限等一些简单问题后，点击搜索就可以找到符合你条件的住处。如果你对新的城市还不是很熟悉的话，还可以根据地图来寻找你想要的住处。对于自己心水的广告，租客们可以即时发送邮件询问。EasyRoommate 的服务全部都是免费的，有很多英国本地的房东会在这家网站上刊登租房广告。</p>
-<p>【<a href="http://bit.ly/28Vm7AL" rel="external nofollow" target="_blank">Easyroommate官网链接</a>】</p>
-<p></p><h4>Spare Room</h4><br><img class="aligncenter" src="/images/study/spareroom.jpg" alt="英国租房网站" width="400" height="387"><br>Spare Room是学生找住所最常上的网站之一。可以根据你个人的需要挑选住宿，包括地点、周围交通、价格范围、室友类型等。<p></p>
-<p>【<a href="http://www.spareroom.co.uk/" rel="external nofollow" target="_blank">Spare Room官网链接</a>】</p>
-<p></p><h4>Gumtree</h4><br><img class="aligncenter" src="/images/study/gumtree.jpg" alt="英国新生指南" width="400" height="243"><p></p>
-<p>Gumtree 是英国最大的分类信息网站，创建于2000年4月，提供内容包括：租房、找工作、汽车买卖、交朋友等，同时覆盖了其他多个国家如波兰、美国、澳大利亚等。打个比喻，那简直就是咱们国内58同城的英国版。但是由于Gumtree只是房屋中介或者房东贴小广告的地方，所以可能会碰到坏人，大家在上面找房子时一定要擦亮了眼睛，没有交钥匙的话，一定不要提前交钱！看房时也建议大家不要独自前往。</p>
-<p>【<a href="https://www.gumtree.com/" rel="external nofollow" target="_blank">Gumtree官网链接</a>】</p>
-<p>如果选择校外居住，你必须考虑以下因素：</p>
-<p><ul><br>     <li>预算 – 你是否能负担起每月的租金和费用？</li><br>     <li>如何抵达学校 – 公共交通方便吗？或者可以步行或骑车学校吗？</li><br>     <li>选择住址 – 地点离商店近吗？离朋友近吗？离你需要常去的地方近吗？</li><br>     <li>安全指数 – 这附近安全吗。可以在这个网站检查一下房子周围的安全行： <a href="https://www.police.uk/" rel="external nofollow" target="_blank">https://www.police.uk/</a></li><br></ul><br>在英国租房的流程一般是：通过中介/房主查找房子 =〉 预约看房 =〉签署协议（须提供两个信誉度担保人，导师即可） =〉 预交半年房租。整个过程建议预留出一周左右的时间。</p>
-<p>提示：被褥可以自带，或者在抵达学校后到Argos购买。Argos还有一个好处就是可以先在网上预留，然后在去取。国内被套的尺寸在英国可以用。</p>
-<p></p><h4>临时在酒店住</h4><br>如果是laste minute拿到的OFFER或者临时改变了主意来不及订学校宿舍了，亦或家人同行，需要订临时酒店的话，推荐在<a href="http://tidd.ly/e973535a" rel="external nofollow" target="_blank">Booking.com</a>上预订酒店。他家支持中文喔。Booking.com【缤客】全球酒店预订网站。支持全球200多个国家80万多家酒店在线预订，无手续费。还有24小时中文客服。<p></p>
-<p>【<a href="http://tidd.ly/e973535a" rel="external nofollow" target="_blank">Booking.com网站链接</a>】</p>
-<p><span style="font-weight: 400;">一旦住宿地点落实了，建议大家<span style="color: #99cc00;"><strong>免费预订Vodafone公司的手机卡</strong></span>，他家应该是英国信号最好的手机网了。这样一到英国就有手机卡可以用了。而且英国人选手机号很随意，这些免费的手机卡可能就绑定了非常好的号！带／寄回国家人来英国也可以用！</span></p>
-<p><a href="http://tidd.ly/3314e847" rel="external nofollow" target="_blank"><img class="alignleft" src="/images/study/order-vodafone-sim2.jpg" alt="预订Vodafone电话卡" width="238" height="45"></a></p>
-<p></p><h3>气候与着装</h3><br><img class="aligncenter" src="/images/study/uk-weather.jpg" alt="英国留学指南" width="400" height="255"><p></p>
-<p>英国的纬度位置偏高，大约位于北纬 50°～60°之间，甚至高于中国的黑龙江省。高纬度导致夏季昼长夜短，7月份早上4点多天就蒙蒙亮了，晚上 10 点多才慢慢变黑。12 月的时候，下午 4 点多天就已经开始黑了。由于夏季白昼时间很长，所以英国实行夏令时制，从每年的 3 月最后一个星期天至 10 月最后一个星期天人们要把时钟向前拨快一个小时。也就是说在夏季，英国虽然是在零时区，但是却使用东一区的时间，这样跟在东八区的中国相差 7 个小时，在冬天没有夏令时的时候，英国比中国慢 8 个小时。英国属于温带海洋性气候，终年气候都比较温和。夏季平均气温为 20°左右，天气变化无常，时而晴天时而小雨，所以需要随时备上一把雨伞，可以防水的外套。学生日常一般穿牛仔裤，T 恤衫。冬天气温平均零上 2°至 3°左右，基本上一件羊毛衫和一个秋裤就可以过冬了。冬天偶尔会下雪，但是留不住雪，很快就会化掉。大部分树都会掉光叶子，但是草地依然碧绿。房间里有暖气，一般自己可以控制房间暖气的温度。大学宿舍暖气很足，一般冬天都要开窗。学院的住房一般会提供棉被，如果自己想买新被子，可以去 Argos，建议买 7.5 tog or lower (tog 是棉被的保暖度)。另外一副薄手套是必要的，因为冬天骑自行车会冻手(自行车是学生的基本交通工具)。除了羊毛衫，薄毛裤，牛仔裤，内衣，T恤衫等等日常的衣服外，男生要准备一套黑色西服，黑皮鞋，因为一些正式场合会用得上。正式场合的女生衣服就没有硬性规定，自己觉得高雅漂亮就好。如果行李箱有地方的话就<span style="line-height: 1.5;">带把雨伞，超市也有卖雨伞的，3/4镑一把，质量很差。质量好的要八九镑。</span></p>
-<p></p><h2>在路上</h2><p></p>
-<p></p><h3>入境篇</h3><br>随身携带的材料：护照、学校的offer（最好是原件）、卫生防疫证明、入境登记卡（Immigration card飞机上机组人员会分发，下了飞机后在移民局的排队通道旁边也能找到）<p></p>
-<p><img class="aligncenter" src="/images/study/landingcard.jpg" alt="英国新生指南" width="400" height="601"></p>
-<p></p><h3>移民官问询</h3><br><img class="aligncenter" src="/images/study/uk-border.jpg" alt="英国留学攻略" width="400" height="250"><p></p>
-<p>UK Border共两个出口，中国籍公民请走非英国和欧盟国家公民使用的出口。移民局的人会问你一些简单的问题，比如来英国干什么，在什么学校学习什么课程，课程几年之类的。第一次入境的人，可能会被要求前往机场内的Health Control拍摄胸透，还有可能要求提供基本信息，包括在英国的住址。最终，当移民局的工作人员在护照上盖章后，你就可以入境了。</p>
-<p></p><h3>取行李</h3><br><img class="aligncenter" src="/images/study/luggage.jpg" alt="英国新生指南" width="540" height="360"><p></p>
-<p>跟着指示牌，前往标有你航班号的自动行李机。建议在行李上用中英文标明姓名、地址等个人信息，做一个特殊的标记，以防别人拿错。注意：在国内托运行李时，会领到一个条形码的贴纸，贴在你护照或者机票后面。这是你的行李托运号码，要好好保存，当你在自动行李机前没有找到行李时，立即和机场管理人员联系，提供你的行李托运号码，幵留下联系方式。有时，转机的行李来不及在中转站转到下一趟飞机上，会在接下来一趟飞机上送过来。机场会免费给你送到住处。</p>
-<p></p><h3>出关</h3><br><img class="aligncenter" src="/images/study/customs.jpg" alt="英国留学新生指南" width="500" height="281"><p></p>
-<p>取完行李就可以出关了。过海关时，机场人员会抽查乘客的行李。若你被邀请到一边检查行李，无须慌张。当询问你是否携带了要申报的东西，如实回答即可。提示：不要从国内带肉，奶制品，香烟只能带一条喔。</p>
-<p></p><h3>出机场</h3><br><img class="aligncenter" src="/images/study/airport-transport.jpg" alt="英国留学新生指南" width="400" height="199"><p></p>
-<p>建议身上带些零钱，如果没有可以去机场小店里买瓶水找开。以备打电话和接机的人取得联系，若无人接机，建议提前研究好路线，把你要去的地方的地址记录下来便于询问。一般经过长途的旅途和时差的缘故，此时你可能会很困倦，但要留意你的随身行李，特别是手提电脑和重要文件。下车前要确定你所有的东西都在，以免落在车上。</p>
-<p></p><h3>英国主要机场介绍</h3><p></p>
-<p></p><h4>伦敦希思罗机场(London Heathrow International Airport)</h4><br><img class="aligncenter" src="/images/study/heathrow-airport.jpg" alt="英国新生手册" width="640" height="360"><p></p>
-<p>伦敦希思罗国际机场由英国机场管理公司（BAA）负责营运，是英国最重要的机场，也是全英国乃至全世界最繁忙的机场之一。希思罗国际机场现为全球90家航空公司所用，可飞抵全球170多个机场。希思罗机场目前有5个航站楼，中国学生选择较多的航空公司里，中国东方航空、中国南方航空、荷兰皇家航空、法国航空在4号航站楼；中国国际航空、香港国泰航空、阿联酋航空以及维珍大西洋航空在3号航站楼。另外，2013年9月英国航空新增的成都—伦敦的航班使用的是3号航站楼。<span style="font-weight: 400;">从希思罗机场乘坐地铁可以很容易的抵达伦敦各个地方，因为伦敦地铁站专门有希思罗国际机场这一站，所以只要到机场地下一层，就可以很方便的到达伦敦各个区域。从航站楼或客运总站，可乘坐公交车到达 500 多个当地和国内终点站。巴士与地铁相比价格偏高。但乘巴士可一路浏览窗外的景色。</span><span style="font-weight: 400;">由于希思罗机场是英国航空公司所有从中国到英国航班的必经机场，所以英国航空公司特别在这里设立华人接待部，可以为12 岁以下的儿童提供免费的翻译服务。另外，如果旅客的英语不是很流利，在入关时，也可以进行必要的翻译。</span></p>
-<p></p><h4>曼彻斯特机场(Manchester Airport)</h4><br><img class="aligncenter" src="/images/study/manchester-airport.jpg" alt="英国留学新生指南" width="615" height="410"><br>曼彻斯特机场目前拥有两条跑道、3 个航站楼。第一航站和第二航站多为其他国家的航空公司所用，航班也多是飞往英国以外其他国家和地区的航班。第三航站是英航专用航站，所以如果您是在曼彻斯特搭乘英航航班飞往世界各地，那么应该选则第三航站了。即使您住在曼彻斯特市中心，到达机场也很方便，因为曼彻斯特火车站通往机场的火车提供24小时的服务。曼彻斯特机场既整洁又漂亮，各个航站和航班分的十分清楚，也很容易识别。<p></p>
-<p></p><h2>到达后需要做的事</h2><p></p>
-<p></p><h3>留学生网上报道</h3><br>关于留学生网上报道，请访问网址 ：<a href="http://srs.moe.edu.cn/" rel="external nofollow" target="_blank">http://srs.moe.edu.cn/</a><p></p>
-<p></p><h3>医疗注册</h3><br><img class="aligncenter" src="/images/study/nhs.jpg" alt="英国留学新生指南" width="400" height="240"><p></p>
-<p><span style="font-weight: 400;">到达之后一件重要的事就是要进行NHS注册。</span><span style="font-weight: 400;">很多大学的校园中心都设有Medical Centre，是校内学生日常寻医问药的去处，这里有全科医生和经验丰富的护士。看病前需要预约。病人接受治疗后，凭处方在当地药店购买药品。如果全科医生无法处理病情，病人会被转到医院里的专科医生处。</span><span style="font-weight: 400;">所谓免费是指看病和处方免费，但按处方买药还要自己付钱。但是如果你住院，就全部免费了。</span><span style="font-weight: 400;">看牙齿和眼睛往往不是免费的。你可以到国家健康中心注册牙医，最好是选择加入国家健康中心的医生，这样花费要比个人掏腰包便宜多了。 要了解NHS的服务及其他信息，请访问：</span><span style="font-weight: 400;"><a href="http://www.nhsdirect.nhs.uk/" rel="external nofollow" target="_blank">http://www.nhsdirect.nhs.uk/</a>  </span><span style="font-weight: 400;">建议出国前检查一下牙齿和眼睛。</span></p>
-<p></p><h3>银行开户</h3><br><img class="aligncenter" src="/images/study/bank.jpg" alt="英国新生指南-银行开户" width="460" height="276"><p></p>
-<p><span style="font-weight: 400;">来到英国生活和学习没有一个英国银行帐户和银行卡是非常不方便的。因此到英国后，要尽快去银行开户。英国的金融业非常发达，服务也很完善，在学习期间你会享受到一些目前在国内还没有的银行服务。国际学生（尤其是初到英国的留学生）一般选择四大银行开户： HSBC, Barclays, Lloyds TSB 及 NatWest。现在各银行对国际学生开银行帐户比较严格, 一般来说, 开帐户必须准备以下几个文件:</span></p>
-<p><ul><br>     <li><span style="font-weight: 400;">护照(Passport)</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">入学通知书(Offer Letter)</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">地址证明(Approve of Address): 关于这一点非常麻烦, 英国人比较较真, 一般地说, </span><span style="font-weight: 400;">他们要看你的水电费帐单或者住家电话的帐单,  BANK STATEMENT, 或者租房的合约。对刚来的学生肯定没有这些东西，如果你已经决定好开哪家银行，那么来英之前跟大学、学院或者学校打好招呼，让她帮你把银行信开好，银行信上面的信息一定要正确无误，国内地址要跟 passport 上一样，否则用的时候有可能出问题。如果遇到问题，可以咨询大学的International Office。</span></li><br></ul><br><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">开完帐户后一般需要一周才能收到支票和银行卡，但是大家刚来的时候都带了一笔现金， 不必等到收到东西才可以存钱。开完帐户后， 问下银行你的 SORT CODE 和 ACCOUNT　NUMBER，钱就可以直接存进去。英国银行的政策经常改变，因此以下信息仅供参考，确切信息请到各银行网站或分行查询。</span></p>
-<p><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">英国银行推荐：HSBC, Barclays, Lloyds TSB，Halifax/Bank of Scotland是经营业务广泛的大型银行，是多数中国人的选择。各银行对学生提供的服务有所不同，为了吸引学生，还会在开户时赠送不同的礼物。你应该多进行比较，选择合适的银行。几大银行网址 </span></p>
-<p><span style="font-weight: 400;">HSBC： </span><a href="http://www.hsbc.co.uk" rel="external nofollow" target="_blank"><strong>http://www.hsbc.co.uk</strong></a></p>
-<p><span style="font-weight: 400;">Barclays： </span><a href="http://www.barclays.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.barclays.co.uk</span></a></p>
-<p><span style="font-weight: 400;">Lloyds TSB： </span><a href="http://www.lloydstsb.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.lloydstsb.co.uk</span></a></p>
-<p><span style="font-weight: 400;">Halifax / Bank of Scotland: <a href="http://www.halifax.co.uk" rel="external nofollow" target="_blank">http://www.halifax.co.uk</a></span></p>
-<p><span style="font-weight: 400;">NatWest： </span><a href="http://www.natwest.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.natwest.co.uk</span></a></p>
-<p><span style="font-weight: 400;">Abbey National：</span><a href="http://www.abbeynational.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.abbeynational.co.uk</span></a></p>
-<p><span style="font-weight: 400;">ALLIANCE LEICESTER：</span><a href="http://www.alliance-leicester.co.uk" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.alliance-leicester.co.uk</span></a><span style="font-weight: 400;"><br></span></p>
-<p><span style="font-weight: 400;">Royal Bank of Scotland：</span><a href="http://www.royalbankscot.co.uk/" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.royalbankscot.co.uk/</span></a><span style="font-weight: 400;"></span></p>
-<p></p>
-<p><span style="font-weight: 400;">下面列出一些与银行打交道的常用语，你一定会发现它们非常有用。 </span></p>
-<p><span style="font-weight: 400;">Cash Card（现金卡）：可以从银行或ATM机提取现金。 </span></p>
-<p><span style="font-weight: 400;">Cheque Guarantee Card（支票保证卡）：支票保证卡上注明了担保的金额，也就是每次可开支票的最高限额。 </span></p>
-<p><span style="font-weight: 400;">Debit Card（借记卡）：使用此卡可以直接在商店里消费，费用会通过银行的结算系统，直接从你的账户上扣除。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">注：实际上以上三卡通常会合幵成一卡，包含了上述功能，使用起来十分方便。</span></p>
-<p><span style="font-weight: 400;">Credit Card（信用卡）：如你的信誉较好，经申请并通过审核后，银行可能会提供信用卡。信用卡允许你先花后付，你会定期收到上一个月的账单，要求你安排付款事宜。 </span></p>
-<p><span style="font-weight: 400;">Current Account（现金账户）：用于存(Deposit)、取(Withdraw)日常开支，通常利息较低或没有利息。 </span></p>
-<p><span style="font-weight: 400;">Saving Account（存款账户）：有利息，通常不能用于支付支票，有时支取需要提前通知。 </span></p>
-<p><span style="font-weight: 400;">Overdraft（透支）：透支是不允许的，如你确实需要透支，建议你提前与银行协商，有的银行会同意学生在一定金额和时间内无偿透支，但通常你需要为透支的金额支付利息。为避克这种情况出现，建议你经常查看现金账户中的余额(Balance)，提前将预期的花费从存款账户转入现金账户。</span><span style="font-weight: 400;"><br></span></p>
-<p></p><h3>警察局注册</h3><br><span style="font-weight: 400;"><br><img class="aligncenter" src="/images/study/reg.jpg" alt="英国新生指南" width="574" height="320"></span><span style="font-weight: 400;">所有在英国停留超过六个月的非欧盟人，都要在抵英后七日内向英国警方登记。 如果学生需要自己办理，住在伦敦的，可前往外籍人士登记处登记（Aliens Registration Office, 10 Lambs’ Conduit Street, London; 周一至周五，上午9：30 －下午4：40；电话： 020 72301208）。如在其他地区居住，则可向附近警察局查询有关登记事宜。登记时须带同护照，护照照片两张及34磅注册费。如果之后您地址有所变动，在七日内向新住址附近的警察局报告。</span><p></p>
-<p></p><h3>办理手机卡/签手机合同</h3><br><img class="aligncenter" src="/images/study/phones.jpg" alt="英国新生指南 - 手机合同" width="600" height="245"><p></p>
-<p><span style="font-weight: 400;">英国主要有以下几家移动电话网Vodafone, O2,EE和 3，信号的口碑普遍好的是Vodafone和O2。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">手提电话大致有两种收费方式：</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">1. 月费方式 (Monthly Payment)，即每月交纳一定费用，电话公司则提供一定量的免费通话时间，超出部分按通话量计费。选择这种方案，电话公司会送你一个新手机，但最新最好的手机一般你还需要付一点钱。月费方案的最大限制是你必须与电话公司签至少一年合同，中途退出仍需交纳全年费用。</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">2. 即付即打方式 (Pay As You Go) 你不用交纳任何费用，向电话公司买个手机卡之后就可以使用。在打电话之前，你必须先向你的电话账号内存钱，可以通过购买电话公司的电话卡(Voucher)或通过现金卡转账。这种服务没有时间限制。</span></p>
-<p><span style="font-weight: 400;">如果选择Pay As You Go的方式，可以免费订最多两个Vodafone公司的手机卡，应该是英国信号最好的手机网了。</span></p>
-<p><a href="http://tidd.ly/3314e847" rel="external nofollow" target="_blank"><img class="aligncenter" src="/images/study/order-vodafone-sim2.jpg" alt="英国新生指南 - 预定Vodafon对话卡" width="238" height="45"></a></p>
-<p><span style="font-weight: 400;">如果大家打算签手机合同，给大家推荐两个网站：</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;"><br></span><a href="http://bit.ly/28ZvPVj" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.e2save.com/</span></a><span style="font-weight: 400;"><br></span><a href="https://bit.ly/28ZvVfW" rel="external nofollow" target="_blank"><span style="font-weight: 400;">http://www.carphonewarehouse.com/</span></a></p>
-<p></p><h2>安全信息</h2><br><img class="aligncenter" src="/images/study/uk-safety.jpg" alt="英国留学新生手册 - 安全须知" width="468" height="312"><p></p>
-<p><span style="font-weight: 400;">在英国留学期间，同学们是否考虑过自身的生活安全呢？和其他欧洲国家相比，英国是很安全的。生活便利，居民热情友好。但是这幵不排除在一些特定区域有偶发事件。许多前往英国留学的同学，基本上都是第一次离开父母，离开祖国。这时留学生活安全就显得有必要了。下面总结了一些安全常识方面的知识。</span></p>
-<p><ul><br>     <li><span style="font-weight: 400;">穿越马路时，要特别小心，因为英国的机动车都是靠左行驶的。要切记，穿越主要路口，需留意地面上“注意左边”和“注意右边”的提示。有些主要路口有人行横道挃示灯控制按钮，过马路时按此装置可出现提示，示意过往车辆停车等候。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">不要携带大量现金，最大限度地利用银行卡、支票等支付工具。应随身带有小额现金，遇抢劫、勒索，即把金钱交出，勿做抵抗，以免被加害。</span></li><br>     <li><span style="font-weight: 400;">自动提款机分室外与室内两种。但并不表示在室内提款较在室外安全。应幸免在夜间提款，若发觉有异，切勿进入。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">将你的护照、银行卡和支票号码扫描备份，以便在遗失后可以及时、准确地挂失、报案。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">如果晚上你不得不单独出行，尽量避克无人的街道。避克与酗酒的人发生争执。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">将你的行踪告诉房东、朋友或亲戚。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">保管好自己的私人物品，如遇盗抢，应及时报警，幵可寻求学校国际办公室的帮助。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">曾有学生遇到蛮横房东，无理克扣押金，故提醒租房时注意看清合同内容。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">抵达后即与家人联系，以免亲人担心。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">交友要慎重，要有自我保护意识。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">参加大型露天演出、游行等活动时，最好能成群结伴，以减低被下手的机会。公共场合行李包不要离身。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">随身携带紧急电话号码。证件则要放在内口袋等较不易引人注重的地方。现金最好分开放。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">夜间行走时，走路时要走在人行道中间，朝与汽车相反方向走。若有人驾车搭讪，可朝与其驾车相反方向迅速离开。有同伴同行为最佳，走行人多及照明充足的街道，幸免走阴暗的巷道。提防生疏人问路，并与他们保持距离。遇生疏人搭讪，可不加理会，伪装听不懂当地语，从容走开，但以不惹恼对方为原则。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">单独在家时，不要随便开门。若为生疏人或自称修理电话等，即便有约在先，都应要求来者提出识别证(ID)，确认无误后方可开门；勿因来者为女性而减少戒心，英国这边有些女人很强悍的。。。</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">遇可疑人物、车子或情况，应通知警方，切勿好奇介进；</span><span style="font-weight: 400;"><br></span></li><br>     <li><span style="font-weight: 400;">外出、夜间就寝前，应检视煤气，电源开关，所有门窗是否上锁。</span></li><br></ul><br>&nbsp;</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;每年金秋时节，很多学子即将踏上英国这片古老的土地开始留学生活，作为在英国留学，生活十几年的羽西，这里给大家介绍分享一下留学英国需要的基本信息，算是一个 英国留学新生指南 吧。Welcome to the UK！
-    
-    </summary>
-    
-      <category term="留学" scheme="http://www.yuxiuk.com/categories/%E7%95%99%E5%AD%A6/"/>
-    
-    
-      <category term="新生" scheme="http://www.yuxiuk.com/tags/%E6%96%B0%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lookfantastic明星产品推荐</title>
-    <link href="http://www.yuxiuk.com/lookfantastic-products/"/>
-    <id>http://www.yuxiuk.com/lookfantastic-products/</id>
-    <published>2016-09-12T05:40:12.000Z</published>
-    <updated>2016-10-06T08:44:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/shopping/lf/lookfantastic.jpg"></p>
-<p><span style="font-weight: 400"><a href="http://tidd.ly/41f8b3f4" rel="external nofollow" target="_blank">Lookfantastic</a>是一家英国伦敦的公司，他们在英国的伦敦，Sussex和Kent有15家美发沙龙，而且也有美发培训中心（主要培训NVQ1-3级的美发师），他们的美发沙龙在英国已经有30多年的历史，而他们的没法培训中心从1992年开始已经培训了2000多位美发师，在1997年的时候，他们上线了一个网站LookFantastic（<a href="http://tidd.ly/41f8b3f4" rel="external nofollow" target="_blank">www.lookfantastic.com</a>），该网站的产品主要针对的是美容护肤和护发产品，经过几年的发展，目前他们网站出售超过1万多种商品。他家经常全场8折＋满40镑全球免邮，7-14天到达国内，可支付宝，地址可写汉字！为了让大家更好的买到适合自己的护肤美妆产品，小编根据自己多年的烧钱烧出的经验+收集到的各种资料，在此为大家总结推荐20个Lookfantastic上必买的心水之物。</span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>1. KÉRASTASE Elixir Ultime（卡诗双重菁纯修护液金油）</strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/kerastase-elixirultime.png" alt="" style="width:300px"></p>
-<p>这个可是卡诗家当家明星产品之一，俗称卡诗金油，针对所有发质。看似呈透明无色的油状质地，实际涂抹上头发的效果却十分轻盈。接触头发的瞬间就“嗖”地被吸收，令得原本毛躁飞翘的头发全都乖乖听话，直发更垂顺，卷发更丰盈。每次用后都好像刚做完头发般的闪耀动人，再怎么吹拉染烫都不怕了。小编曾经因染发导致了头皮轻微的过敏，出现红肿和刺痛的现象。本着试试看的心态入手了一瓶卡诗的大蓝瓶舒缓系列的洗发水，用了大半瓶后过敏的现象好了很多，头发也比之前柔顺了许多，非常推荐经常染发烫发的人使用。</p>
-<p>直达链接：<a href="http://tidd.ly/ea8c7345" target="_blank" rel="external nofollow">http://www.lookfantastic.com/kerastase-elixir-ultime-125ml/10444789.html</a></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px"> 2.GROW GORGEOUS </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/growgorgeous-300x153.jpg" alt="" style="width:300px;"></p>
-<p><img class="alignnone" src="/images/shopping/lf/growgorgeous-2.png" alt="" style="width:300px"></p>
-<p><span style="font-weight: 400">如果说有一种产品可以彻底改变脱发，发量稀少，让你成功摆脱头顶地中海的尴尬，那么这款产品非GROW GORGEOUS的生发精华莫属。90%以上的买家使用后都有明显增发。每天20滴GROW GORGEOUS 生发精华，坚持4个月，就能长1万多根头发，听起来都能绕地球一周了有没有！滴在头皮上毫无油腻之感，并且生发精华的气味十分提神醒脑，在使用过程中可以明显感受到头发生长的感觉。 </span></p>
-<p>直达链接: <a href="http://tidd.ly/903ea94c" target="_blank" rel="external nofollow">http://www.lookfantastic.com/grow-gorgeous-hair-growth-serum-60ml/10985297.html</a></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">3.KORRES </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/korres-300x135.jpg" alt="" style="width:300px"></p>
-<p><span style="font-weight: 400">KORRES LIMITED EDITION是KORRES最受欢迎的沐浴系列，有椰子，薄荷，柠檬，玫瑰等不同种味道，不仅给你的皮肤带来最天然纯净的护理体验，同时清新香甜的气味也给你带来带来全身心的愉悦之感。沐浴露内含有丰富的维生素B2和维生素B5，让你的肌肤保持年轻光滑，充满活力。深层锁水及修复肌肤，调节细胞水分平衡。</span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/4b24a4c0" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/korres.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">4．Tangle Teezer </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/tangleteezer-300x170.jpg" alt="" style="width:300px"></p>
-<p><span style="font-weight: 400">凯特王妃最爱的梳子你还犹豫什么，梳子最厉害的就是通过独特的设计能够很轻松的将打结的头发理顺，并且在梳通的过程中能够最大程度的减少将头发拉断的概率最大程度减少头发被拉断的现象。各种各样颜色图案的梳子握在手里更是足够的美丽吸睛。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/89da4816" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/tangle-teezer.list</a> </span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>5. CAUDALIE BEAUTY ELIXIR爽肤水</strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/CaudalieBeautyElixir-300x300.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">欧缇丽Beauty Elixir葡萄籽爽肤水是其中之一的星级产品，因为一支有齐保湿纾缓、收敛毛孔、减轻敏感症状。对于有化妆习惯的人士，Beauty Elixir更有定妆作用。一般用法是摇匀后，在涂日霜前或任何时候喷于面部；专业化妆师就推介搽粉底后或补妆前均匀喷于面上作为定妆之效。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/caa273fe" target="_blank" rel="external nofollow">http://www.lookfantastic.com/caudalie-beauty-elixir-30ml/10349039.html</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>6．CAUDALIE GRAPE WATER水活性喷雾 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/CaudalieWater-300x300.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">欧缇丽葡萄水活性喷雾绝对是葡萄家的另一款大明星产品，天然有机葡萄水中含有的多糖和钾，能锁住水分。一经使用，面部湿润度立即增加127%。含有维生素C（1.5mg/L）。 肌肤变得更柔软，对外界侵害的反应更小。葡萄水可以减少61.5%的肌肤敏感。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/ab300ca7" target="_blank" rel="external nofollow">http://www.lookfantastic.com/caudalie-duo-grape-water-2-x-200ml/10971442.html</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>7. TANGLE ANGEL BRUSH天使梳 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/tangleangel-300x225.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">正如其名，天使梳绝对是梳子之中的小天使，Tangle Angel 防脱顺发梳 凯特王妃御用爱梳。抗菌添加剂嵌入在塑料材质中，轻易梳顺打结头发，不会扯掉或者扯断你的头发。即使在吹头、烫发的时候也能使用哦，天使翼造型更是一亮点，全球超火美发神器~ </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/551bf7c7" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/tangle-angel.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">8．JURLIQUE茱莉精纯茱莉玫瑰润肤液/玫瑰水 </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/jurlique-300x168.png" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">茱莉玫瑰润肤液/玫瑰水绝对是改善肌肤暗沉回复肌肤光彩的神器。不管是旅行、冷气房中，都能给予您保湿、清新、清爽的舒适感。它可以很好促进皮肤的滋润、清新、缓和、恢复活力的功效，鼓舞脸部、身体和心灵，具有舒缓发炎特性。 同时拥有极佳的保湿镇静肌肤、平衡PH值，能活化肌肤，由于高保湿度，故适用于常处于冷气房或经常旅行的人。适用轻微敏感、中干性肌肤、混合性肌肤、熟龄肌肤。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/5ea7f068" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/jurlique.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>9. AVÈNE CICALFATE CREAM雅漾活泉修复霜 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/avene-300x116.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">雅漾活泉修复霜绝对是皮肤干裂的克星！雅漾活泉水舒缓、减少刺激、抵抗自由基；硫酸锌、硫酸铜、氧化锌修护受刺激皮肤；硫糖铝有助于皮肤修复；用于受刺激干性皮肤(伤口、嘴唇裂隙)。每日使用1－2次，涂抹于清洁并干燥后的所需部位，坚持两个星期，肌肤质量就有明显改善。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/37476b43" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/avene.list</a> </span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">10. THIS WORKS睡眠喷雾 </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/thisworks-300x300.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">如果你是深夜党，受到失眠的困扰或者睡眠效果十分不理想，那么THIS WORKS SLEEP PLUS睡眠喷雾可以彻底的拯救你给你带来一觉到天亮的舒爽。This Works家的产品都非常天然温和，采取有机植物萃取配方，Vogue杂志也经常推荐他们的产品。他们有一系列的安眠产品，但是这款助眠枕头喷雾，受欢迎程度是最高的，能够帮我们舒缓压力型失眠，促进深层睡眠。这个产品的主要成份有法国熏衣草、香根草，以及洋柑橘精油，都是一些助睡眠，放松心情的好物。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/61da93d6" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/this-works.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>11. Glamglow清洁面膜 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/glamglow-300x174.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">小编亲身使用过该产品， 效果真的是惊人的好啊！这款面膜洗掉后可以看到粉刺黑头真的少了大部分，面部肤色有提亮，痘痘问题也有改善，清洁功能也很好，微微带着点去角质的效果。整个过程却温和不刺激，清洁的时候也比较方便，尤其适合油性肌肤和混合型肌肤。结合我后续几次使用来说，肌肤状况突然变差或者爆痘的时候（比如生理期）各种急救，单独抹在痘痘上也有不错的效果！ </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/f22011f7" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/glamglow.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">12．MOROCCANOIL护发神油 </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/moroccanoil-300x154.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">摩洛哥神油可谓是日常护发的神器了，小编曾经使用过一瓶，对其护发效果记忆有心，明显抚平毛躁，改变干枯分叉现象。使用起来非常方便，只要洗发及护发后，将神油滴于掌心，再按摩于抹干的湿头发上，接着可以吹发或平日的造型。同时它能帮助染发：于染发前先取约 5ml 的神油均匀涂抹全头发，然后再接续染发程序，这将有助头发更好吸收颜色，达到更佳的染发效果。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/90f8af36" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/moroccanoil.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>13. FOREO LUNA洗脸仪 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/FOREO-LUNA-MINI-300x300.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">FOREO LUNA洗脸仪可以说是改变护肤界的产品，洗脸仪分为中性敏感性肌肤洗脸仪，混合肌肤洗脸仪，极度敏感肌肤和男士洗脸仪四款。硅胶刷头可以一劳永逸不需要换刷头，这个是FOREO LUNA最方便之处。洁面仪的正反面有着不同的功效，清洁T区的的时候小编会用背面，脸部就用正面。硅胶刷头用在皮肤上非常温柔毫不刺激，这个刷子靠的是震动清洁皮肤，也没有任何的“打磨”感觉，超级敏感肌，薄皮们用Luna都很不错。同样，洗完脸的效果也是一样，非常干净白亮。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/569d8b7a" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/foreo/all-foreo.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>14. LA ROCHE-POSAY </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/larocheposaytoleriane-300x300.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">理肤泉特安系列里，这款安心霜是用在爽肤水之后和面霜之前的基底修复产品。不含防腐剂、PARABEN、香料、酒精、色素和羊毛脂，足够天然，给敏感肌肤带来最柔和的保护，霜涂在脸上后足够油润却不厚。坚持涂抹安心霜一个星期，面部红疹加干痒的症状有明显改善 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/daf914d0" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/la-roche-posay.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>15．ULTRASUN ULTRA防晒霜 </strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/ultrasun-300x127.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">ULTRASUN ULTRA是瑞士一家专业的防晒品牌，小编曾经在去土耳其旅游的时候用过，泡露天温泉都不影响效果。即使游泳冲凉还有毛巾擦拭过后都还能提供有效的保护，它家所有的产品都无香料，防水，无油，无乳化剂，最低限度防腐剂。 绝对是夏天防晒最健康的选择。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/1e897a54" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/ultrasun.list</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>16. EVELOM卸妆膏</strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/EVE-LOM-33-300x143.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">EVELOM卸妆膏可以说是世界上最好用的卸妆膏，卸妆膏可以帮你轻松卸掉任何彩妆，祛除角质并且疏通淋巴结，改善面部循环！使用起来的方法更是十分简单，小编给大家总结一下就是以下几个字：干手干脸–按摩–热敷–按摩–热敷–擦拭–根据个人需求选择是否需要二次清洁。轻松卸妆并去除毛孔里的污垢。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/37b65ff3" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/eve-lom.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">17. TRILOGY ORGANIC 有机野玫瑰果油</span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/trilogy.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">Trilogy 有机野玫瑰果油是营养和基本脂肪酸的宝库，用以维持皮肤的细胞再生和组织层修复。 </span></p>
-<p><span style="font-weight: 400">它的超细脂肪酸分子能够被快速吸收，让皮肤畅快地呼吸，帮助减少皮肤皱纹和细纹的痕迹和色素，恢复皮肤的水份平衡。Trilogy野玫瑰果油含有 80%必需脂肪酸，帮助修复和再造被损坏的皮肤组织。该油还含有强力的抗氧化物β胡萝卜素和番茄红素，从而保护皮肤免于自由基的毁坏。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/d616389b" target="_blank" rel="external nofollow">http://www.lookfantastic.com/trilogy-certified-organic-rosehip-oil-20ml/10557481.html</a></span></p>
-<p>&nbsp;</p>
-<p><span style="font-size: 18px"><strong>18. GOLD COLLAGEN胶原蛋白</strong></span></p>
-<p><img class="alignnone" src="/images/shopping/lf/goldcollagen.png" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">Gold Collagen每瓶含有优质胶原蛋白肽5000mg高纯度胶原蛋白肽， 1瓶抵2瓶哦，不含任何防腐剂、人工色素和激素，效果超级棒，补充体内流失的胶原蛋白，保持肌肤年轻，增加肌肤水分和弹性，预防和减少细纹。每天一瓶，持续4周效果就出来啦~ </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/1c6b2787" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/gold-collagen.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">19.Marvis牙膏 </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/marvis.jpg" alt="" style="width:300px;"></p>
-<p><span style="font-weight: 400">Marvis牙膏可以说是牙膏中的爱马仕了，众所周知牙膏盖的便利性和牙膏质量密切相关，Marvis牙膏使用的是最传统最原始的螺旋式开盖设计，牙膏出口比牙膏管本身细很多，这样牙膏的密封性就特别好，细菌不容易侵入牙膏中。经典的薄荷味，味道不冲十分温和，每次刷完牙之后唇齿间弥漫着淡雅的薄荷味，无疑是一种生活享受。并且该牙膏具有很强的美白功效。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/feb23abe" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/marvis.list</a></span></p>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px">20. ALPECIN洗发水 </span></strong></p>
-<p><img class="alignnone" src="/images/shopping/lf/alpecin.jpg" alt="" style="width:400px;"></p>
-<p><span style="font-weight: 400">ALPECIN洗发水是德国头发类最著名的DR.KURT WOLFF-FORSCHUNG研究所科研成果，适用油性头皮。给头皮喝咖啡，也是此款首次提出的理念，之后被各大品牌争先效仿。含Coffein效用成分的活性香波能促进维护头皮壁垒保护功能并稳固它；支持发根并强健头发；它能有目的地减少迅速补脂，使头发拥有蚕丝般的闪亮。健康头皮，健康头发。 </span></p>
-<p><span style="font-weight: 400">链接：<a href="http://tidd.ly/e0404648" target="_blank" rel="external nofollow">http://www.lookfantastic.com/brands/alpecin.list</a></span></p>
-]]></content>
-    
-    <summary type="html">
-    
-      Lookfantastic 的必败好货
-    
-    </summary>
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/categories/%E8%B4%AD%E7%89%A9/"/>
-    
-    
-      <category term="购物" scheme="http://www.yuxiuk.com/tags/%E8%B4%AD%E7%89%A9/"/>
-    
-      <category term="lookfantastic" scheme="http://www.yuxiuk.com/tags/lookfantastic/"/>
-    
-      <category term="化妆品" scheme="http://www.yuxiuk.com/tags/%E5%8C%96%E5%A6%86%E5%93%81/"/>
     
   </entry>
   
