@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-08T21:30:07.000Z</updated>
+  <updated>2016-11-09T20:53:18.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://www.yuxiuk.com/how-to-access-videos-in-china/"/>
     <id>http://www.yuxiuk.com/how-to-access-videos-in-china/</id>
     <published>2016-11-08T06:40:12.000Z</published>
-    <updated>2016-11-08T21:30:07.000Z</updated>
+    <updated>2016-11-09T20:53:18.000Z</updated>
     
     <content type="html"><![CDATA[<p>相信很多小伙伴在出国后都会遇到这样的问题：在访问优酷、土豆、爱奇艺、搜狐视频、新浪视频、乐视网、PPTV、PPS等视频时，会显示“抱歉，此视频只限于中国内地播放”。其实，追根到底，这是由于版权问题所致，只要位置也就是IP地址不在我大天朝，都会出现这个提示。但是众多小伙伴们对国内优质，免费视频资源的需求，不会因为这个限制而减少。下面羽西就给大家介绍一下几种解决方案，由易到难。咳咳，其实都不难，大家自己选择吧。。。</p>
 <p><img src="/images/technology/youku-oversea.jpg" alt=""></p>
-<h2 id="1-安装Unblock-Youku插件"><a href="#1-安装Unblock-Youku插件" class="headerlink" title="1. 安装Unblock Youku插件"></a>1. 安装Unblock Youku插件</h2><p><img src="/images/technology/unblock-youku.png" alt=""><br>这是一个国人开发的插件。它的名字有点误导，因为安装了这个插件后，不仅能’Unlobck’优酷，还能’Unlobck’国内所有的主流视频网站和音乐网站。羽西这里只给出Chrome插件的下载地址。如果小伙伴们还在用其他浏览器的话，强烈建议赶快换成Chrome吧。好用的不是一点半点。。。</p>
+<h2 id="1-安装Unblock-Youku插件"><a href="#1-安装Unblock-Youku插件" class="headerlink" title="1. 安装Unblock Youku插件"></a>1. 安装Unblock Youku插件</h2><p><img src="/images/technology/unblock-youku.png" alt=""><br>这是一个国人开发的插件。它的名字有点误导，因为安装了这个插件后，不仅能’Unblock’优酷，还能’Unblock’国内所有的主流视频网站和音乐网站。羽西这里只给出Chrome插件的下载地址。如果小伙伴们还在用其他浏览器的话，强烈建议赶快换成Chrome吧。好用的不是一点半点。。。</p>
 <p><a href="https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk" rel="external nofollow" target="_blank">Unblock Youku Chrome插件地址</a></p>
 <h2 id="2-使用VPN"><a href="#2-使用VPN" class="headerlink" title="2. 使用VPN"></a>2. 使用VPN</h2><p><img src="/images/technology/vpn.png" alt=""><br>VPN全称是Virtual Private Network，很多公司都提供这种服务。关于VPN的介绍，羽西专门写了一篇文章：<a href="/vpn/">好用的国内/国外VPN推荐</a></p>
 <h2 id="3-配置一个国内的代理服务器"><a href="#3-配置一个国内的代理服务器" class="headerlink" title="3. 配置一个国内的代理服务器"></a>3. 配置一个国内的代理服务器</h2><p><img src="/images/technology/proxy-server.jpg" alt=""><br>这个前提是要有一个国内的服务器，至于代理服务器的配置，羽西也专门介绍过：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a></p>
