@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-14T12:10:42.000Z</updated>
+  <updated>2016-11-14T21:20:36.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -20,18 +20,54 @@
     <link href="http://www.yuxiuk.com/gb-big5/"/>
     <id>http://www.yuxiuk.com/gb-big5/</id>
     <published>2016-11-14T06:40:12.000Z</published>
-    <updated>2016-11-14T12:10:42.000Z</updated>
+    <updated>2016-11-14T21:20:36.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/images/technology/gb-big5.jpg" alt=""></p>
-<div class="row"><br>  相信很多小伙伴和羽西一样，在搜集资料时经常需要在简体和繁体中文间转换，这里根据网上的资料写了这个程序，大家觉得需要就Mark吧。<br><br><br>  <div class="large-10 large-offset-1"><br>      <div class="row"><br>        <div class="medium-4 columns"><br>          <label>从:<br>            <select id="source_lang"><br>              <option value="zh_CN">简体中文</option><br>              <option value="zh_TW">繁体中文</option><br>            </select><br>          </label><br>        </div><br>        <div class="medium-4 columns"><br>          <label>转换到:<br>            <select id="tar_lang"><br>              <option value="zh_TW">繁体中文</option><br>              <option value="zh_CN">简体中文</option><br>            </select><br>          </label><br>        </div><br>        <div class="medium-4 columns"><br>          <button class="button" id="trans">转换</button><br>        </div><br>          <br>        </div><br>      请输入文本：<br>      <textarea id="content" style="width: 600px; height:200px;"></textarea><br><br>      <br><br>      转换结果：<br>      <textarea id="res_content" style="width: 600px; height:200px;"></textarea><br>  </div>
+    <content type="html"><![CDATA[<link rel="stylesheet" media="all" href="/css/foundation.min.css">
+<script src="/js/gb-big5.js"></script>
+<script src="/js/foundation.min.js"></script>
 
-<pre><code>&lt;div style=&quot;display:none;&quot;&gt;
-  源语言编码：
-  &lt;textarea id=&quot;source_encode&quot;&gt;&lt;/textarea&gt;
-  目标言编码：
-  &lt;textarea id=&quot;tar_encode&quot;&gt;&lt;/textarea&gt;
-&lt;/div&gt;
-</code></pre><p>  </p></div>  <p></p>
+<img src="/images/technology/gb-big5.jpg"><br>
+
+<div class="row">
+  相信很多小伙伴和羽西一样，在搜集资料时经常需要在简体和繁体中文间转换，这里根据网上的资料写了这个程序，大家觉得需要就Mark吧。<br><br>
+  <div class="large-10 large-offset-1">
+      <div class="row">
+        <div class="medium-4 columns">
+          <label>从:
+            <select id="source_lang">
+              <option value="zh_CN">简体中文</option>
+              <option value="zh_TW">繁体中文</option>
+            </select>
+          </label>
+        </div>
+        <div class="medium-4 columns">
+          <label>转换到:
+            <select id="tar_lang">
+              <option value="zh_TW">繁体中文</option>
+              <option value="zh_CN">简体中文</option>
+            </select>
+          </label>
+        </div>
+        <div class="medium-4 columns">
+          <button class="button" id="trans">转换</button>
+        </div>
+          
+        </div>
+	  请输入文本：
+      <textarea id="content" style="width: 600px; height:200px;"></textarea>
+	  
+      <br>
+      转换结果：
+      <textarea id="res_content" style="width: 600px; height:200px;"></textarea>
+  </div>
+      
+	  <div style="display:none;">
+        源语言编码：
+        <textarea id="source_encode"></textarea>
+        目标言编码：
+        <textarea id="tar_encode"></textarea>
+	  </div>
+  </div>  
 <script>
   Trans.init(); 
 </script> 
@@ -40,8 +76,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/technology/gb-big5.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;row&quot;&gt;&lt;br&gt;  相信很多小伙伴和羽西一样，在搜集资料时经常需要在简体和繁体中文间转换，这里根据网上的资料写了这个程序，大家觉得需要就Ma
+      &lt;link rel=&quot;stylesheet&quot; media=&quot;all&quot; href=&quot;/css/foundation.min.css&quot;&gt;
+&lt;script src=&quot;/js/gb-big5.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/foundation.min.js
     
     </summary>
     
