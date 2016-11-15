@@ -57,7 +57,7 @@
     <link href="http://www.yuxiuk.com/gb-big5/"/>
     <id>http://www.yuxiuk.com/gb-big5/</id>
     <published>2016-11-14T06:40:12.000Z</published>
-    <updated>2016-11-14T21:20:36.000Z</updated>
+    <updated>2016-11-15T11:41:42.000Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" media="all" href="/css/foundation.min.css">
 <script src="/js/gb-big5.js"></script>
@@ -72,16 +72,16 @@
         <div class="medium-4 columns">
           <label>从:
             <select id="source_lang">
-              <option value="zh_CN">简体中文</option>
               <option value="zh_TW">繁体中文</option>
+              <option value="zh_CN">简体中文</option>
             </select>
           </label>
         </div>
         <div class="medium-4 columns">
           <label>转换到:
             <select id="tar_lang">
-              <option value="zh_TW">繁体中文</option>
               <option value="zh_CN">简体中文</option>
+              <option value="zh_TW">繁体中文</option>
             </select>
           </label>
         </div>
