@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-14T23:45:21.000Z</updated>
+  <updated>2016-11-17T16:25:57.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,81 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二维码生成器</title>
+    <link href="http://www.yuxiuk.com/qrcode-generator/"/>
+    <id>http://www.yuxiuk.com/qrcode-generator/</id>
+    <published>2016-11-17T06:40:12.000Z</published>
+    <updated>2016-11-17T16:25:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" media="all" href="/css/foundation.min.css">
+<script type="text/javascript" src="/js/qrcode.min.js"></script>
+
+<img src="/images/technology/how-to-make-qrcode.jpg">
+
+<br>
+
+相信小伙伴们对QR码肯定不陌生，想想我们每天都在用的微信，每个人的ID就可以用QR码来显示，对方通过扫你的QR码就可以加你。关注微信公共号也可以通过扫他们的二维码来实现。QR码(Quick Response Code)全称为快速响应矩阵码，是二维条码的一种，于1994年由日本DENSO WAVE公司发明。这里面的快速反应是指发明者希望QR码可以让其内容快速被解码。QR码比较普通条码可以存储更多数据，也无需要像普通条码般在扫描时需要直线对准扫描仪。下面羽西根据网上搜到的资料写了这个页面，可以把你喜欢的网页粘贴到下面，下面的二维码会自动更新。然后用微信扫一扫试试你能看到什么？以后再想发网址给朋友就可以直接把QR码发送过去就可以了。觉得好玩就要Mark这个page喔。
+
+<br>
+
+<div class="row">
+  输入一个网址：<br>
+  <input type="text" id="text" value="http://www.yuxiuk.com" style="width: 600px; height: 30px;">
+  <br>
+  <div id="qrcode" style="width:150px; height:150px; margin-top:15px;"></div>
+</div> 
+
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+	width : 150,
+	height : 150
+});
+
+function makeCode () {		
+	var elText = document.getElementById("text");
+	
+	if (!elText.value) {
+		alert("Input a text");
+		elText.focus();
+		return;
+	}
+	
+	qrcode.makeCode(elText.value);
+}
+
+makeCode();
+
+$("#text").
+	on("blur", function () {
+		makeCode();
+	}).
+	on("keydown", function (e) {
+		if (e.keyCode == 13) {
+			makeCode();
+		}
+});
+</script>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; media=&quot;all&quot; href=&quot;/css/foundation.min.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/qrcode.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;img sr
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="二维码" scheme="http://www.yuxiuk.com/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/"/>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>如何在英国自制肉夹馍</title>
@@ -245,6 +320,38 @@
   </entry>
   
   <entry>
+    <title>好用的国内/国外VPN推荐</title>
+    <link href="http://www.yuxiuk.com/vpn/"/>
+    <id>http://www.yuxiuk.com/vpn/</id>
+    <published>2016-11-03T06:40:12.000Z</published>
+    <updated>2016-11-04T16:40:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/vpn.png" alt=""><br>首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？？？放假回国后却发现在国外天天都要用的Google, Facebook等网站却无法访问了。这个时候你就需要VPN了。当然，如果你喜欢折腾，也可以配置一个代理服务器。羽西专门写了篇文章：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a>。下面羽西就给大家推荐一些好用的VPN。有的VPN是针对国内的，可以让你在国内网站下载资源或播放视频，有的VPN则是针对国外的，可以让你在国内访问国外的gmail, facebook等。还有一点就是，有的小伙伴可能已经发现有些免费的VPN，但羽西在这里并不推荐使用免费的VPN。所谓天下没有免费的午餐，在提供免费服务的同时，这些公司可定要通过某种方式来盈利，比如插入广告，捆绑安装软件，甚至售卖用户信息等。下面羽西给大家推荐几家好用的VPN服务商：</p>
+<h3 id="HideMyAss-从国外访问国内资源的首选"><a href="#HideMyAss-从国外访问国内资源的首选" class="headerlink" title="HideMyAss - 从国外访问国内资源的首选"></a>HideMyAss - 从国外访问国内资源的首选</h3><p><img src="/images/technology/hide-my-ass.png" alt=""><br>这家英国的老牌VPN服务商的名字还是很奇葩的，充分体现出了英式幽默，翻译成中文就是，藏起我的P(菊)P(花)。但他家的服务还是很不错的，他家的服务器和IP在同行业里面应该是最多的，在国内的IP地址就有几百个，因此如果想要在国外看国内的视频，或者下载其他资源，这家VPN可以说是首选。另外他家还承诺30天无条件退款，因此可以测试后再决定是否用他家的服务。至于价格，他家算是中等价位，7.99美金/月，如果一下购买一年有优惠，相当4.99美金/月。支持Paypal，信用卡，支票等多种付款方式。<br><a href="https://www.hidemyass.com/vpn/r23217/" rel="external nofollow" target="_blank">HideMyAss官网</a></p>
+<h3 id="PureVPN"><a href="#PureVPN" class="headerlink" title="PureVPN"></a>PureVPN</h3><p><img src="/images/technology/purevpn.png" alt=""><br>PureVPN是一家香港的VPN服务商，可以说是HideMyAss的有力竞争者，在全球也有几百台服务器和几千个IP。在国内的各大城市也拥有众多IP。他家的速度很给力，在国外看优酷视频非常流畅。不过也跟你所在的位置相关，因此还需要测试一下才行。10美金/月，如果买两年的话，2.5美金/月。他家只有7天的退款保证。支持众多付款方式，包括Paypal，<strong>支付宝</strong>，信用卡等。<br><a href="https://billing.purevpn.com/aff.php?aff=26817" rel="external nofollow" target="_blank">PureVPN官网</a></p>
+<h3 id="ExpressVPN"><a href="#ExpressVPN" class="headerlink" title="ExpressVPN"></a>ExpressVPN</h3><p><img src="/images/technology/express-vpn.jpg" alt=""></p>
+<p>前面给大家介绍的两家VPN商家的强项都是从国外访问国内资源。如果想从国内访问国外的网站，比如facebook，youtube等，这里给大家强烈推荐这家非常专业的ExpressVPN。他家的口碑相当好，在安全性，速度，和稳定性的表现都相当好。价格也属于中档，一个月12.95美金，一下付清一年的话平均下来每个月8.32美金。支持30天无条件退款。</p>
+<p><a href="https://www.linkev.com/?a_aid=yuxi" rel="external nofollow" target="_blank">Express VPN官网链接</a></p>
+<h3 id="GreenVPN"><a href="#GreenVPN" class="headerlink" title="GreenVPN"></a>GreenVPN</h3><p><img src="/images/technology/green-vpn.jpg" alt=""></p>
+<p>在给大家推荐一款好用的VPN服务商-GreenVPN。它可是在国外看优酷视频，CCTV5等的很给力选择。他家在全球都有VPN服务器。他家的价格也很有竞争力。一个月18元人民币，包年的话平均下来一个月13元人民币。支持支付宝付款。</p>
+<p><a href="http://gjsq.me/22715582" rel="external nofollow" target="_blank">GreenVPN官网链接</a></p>
+<p>给大家总结一下，如果想从国外访问国内的资源，首选是HideMyAss；如果从国内访问国外网站，首选是ExpressVPN。如果想找一个相对便宜又比较可靠的，则可以选择GreenVPN。当然，我这里好用的VPN在你哪里就未必好用，最好的方法还是自己试试。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/vpn.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何使用RSS订阅微信公共号</title>
     <link href="http://www.yuxiuk.com/wechat-public-account-rss-feed/"/>
     <id>http://www.yuxiuk.com/wechat-public-account-rss-feed/</id>
@@ -276,38 +383,6 @@
       <category term="微信公共号" scheme="http://www.yuxiuk.com/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E5%85%B1%E5%8F%B7/"/>
     
       <category term="rss" scheme="http://www.yuxiuk.com/tags/rss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好用的国内/国外VPN推荐</title>
-    <link href="http://www.yuxiuk.com/vpn/"/>
-    <id>http://www.yuxiuk.com/vpn/</id>
-    <published>2016-11-03T06:40:12.000Z</published>
-    <updated>2016-11-04T16:40:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/vpn.png" alt=""><br>首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？？？放假回国后却发现在国外天天都要用的Google, Facebook等网站却无法访问了。这个时候你就需要VPN了。当然，如果你喜欢折腾，也可以配置一个代理服务器。羽西专门写了篇文章：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a>。下面羽西就给大家推荐一些好用的VPN。有的VPN是针对国内的，可以让你在国内网站下载资源或播放视频，有的VPN则是针对国外的，可以让你在国内访问国外的gmail, facebook等。还有一点就是，有的小伙伴可能已经发现有些免费的VPN，但羽西在这里并不推荐使用免费的VPN。所谓天下没有免费的午餐，在提供免费服务的同时，这些公司可定要通过某种方式来盈利，比如插入广告，捆绑安装软件，甚至售卖用户信息等。下面羽西给大家推荐几家好用的VPN服务商：</p>
-<h3 id="HideMyAss-从国外访问国内资源的首选"><a href="#HideMyAss-从国外访问国内资源的首选" class="headerlink" title="HideMyAss - 从国外访问国内资源的首选"></a>HideMyAss - 从国外访问国内资源的首选</h3><p><img src="/images/technology/hide-my-ass.png" alt=""><br>这家英国的老牌VPN服务商的名字还是很奇葩的，充分体现出了英式幽默，翻译成中文就是，藏起我的P(菊)P(花)。但他家的服务还是很不错的，他家的服务器和IP在同行业里面应该是最多的，在国内的IP地址就有几百个，因此如果想要在国外看国内的视频，或者下载其他资源，这家VPN可以说是首选。另外他家还承诺30天无条件退款，因此可以测试后再决定是否用他家的服务。至于价格，他家算是中等价位，7.99美金/月，如果一下购买一年有优惠，相当4.99美金/月。支持Paypal，信用卡，支票等多种付款方式。<br><a href="https://www.hidemyass.com/vpn/r23217/" rel="external nofollow" target="_blank">HideMyAss官网</a></p>
-<h3 id="PureVPN"><a href="#PureVPN" class="headerlink" title="PureVPN"></a>PureVPN</h3><p><img src="/images/technology/purevpn.png" alt=""><br>PureVPN是一家香港的VPN服务商，可以说是HideMyAss的有力竞争者，在全球也有几百台服务器和几千个IP。在国内的各大城市也拥有众多IP。他家的速度很给力，在国外看优酷视频非常流畅。不过也跟你所在的位置相关，因此还需要测试一下才行。10美金/月，如果买两年的话，2.5美金/月。他家只有7天的退款保证。支持众多付款方式，包括Paypal，<strong>支付宝</strong>，信用卡等。<br><a href="https://billing.purevpn.com/aff.php?aff=26817" rel="external nofollow" target="_blank">PureVPN官网</a></p>
-<h3 id="ExpressVPN"><a href="#ExpressVPN" class="headerlink" title="ExpressVPN"></a>ExpressVPN</h3><p><img src="/images/technology/express-vpn.jpg" alt=""></p>
-<p>前面给大家介绍的两家VPN商家的强项都是从国外访问国内资源。如果想从国内访问国外的网站，比如facebook，youtube等，这里给大家强烈推荐这家非常专业的ExpressVPN。他家的口碑相当好，在安全性，速度，和稳定性的表现都相当好。价格也属于中档，一个月12.95美金，一下付清一年的话平均下来每个月8.32美金。支持30天无条件退款。</p>
-<p><a href="https://www.linkev.com/?a_aid=yuxi" rel="external nofollow" target="_blank">Express VPN官网链接</a></p>
-<h3 id="GreenVPN"><a href="#GreenVPN" class="headerlink" title="GreenVPN"></a>GreenVPN</h3><p><img src="/images/technology/green-vpn.jpg" alt=""></p>
-<p>在给大家推荐一款好用的VPN服务商-GreenVPN。它可是在国外看优酷视频，CCTV5等的很给力选择。他家在全球都有VPN服务器。他家的价格也很有竞争力。一个月18元人民币，包年的话平均下来一个月13元人民币。支持支付宝付款。</p>
-<p><a href="http://gjsq.me/22715582" rel="external nofollow" target="_blank">GreenVPN官网链接</a></p>
-<p>给大家总结一下，如果想从国外访问国内的资源，首选是HideMyAss；如果从国内访问国外网站，首选是ExpressVPN。如果想找一个相对便宜又比较可靠的，则可以选择GreenVPN。当然，我这里好用的VPN在你哪里就未必好用，最好的方法还是自己试试。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/vpn.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？
-    
-    </summary>
-    
-      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
     
   </entry>
   
@@ -811,50 +886,6 @@
       <category term="境外消费" scheme="http://www.yuxiuk.com/tags/%E5%A2%83%E5%A4%96%E6%B6%88%E8%B4%B9/"/>
     
       <category term="信用卡" scheme="http://www.yuxiuk.com/tags/%E4%BF%A1%E7%94%A8%E5%8D%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>央视春晚海外直播网址</title>
-    <link href="http://www.yuxiuk.com/chinese-new-year-gala-online/"/>
-    <id>http://www.yuxiuk.com/chinese-new-year-gala-online/</id>
-    <published>2016-09-22T05:40:12.000Z</published>
-    <updated>2016-10-12T12:17:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/live/chinese-new-year-gala.jpg" alt="央视春晚海外直播"></p>
-<p>中国中央电视台春节联欢晚会，通常简称为央视春晚，起初是中国中央电视台在每年农历除夕晚上为庆祝农历新年在其第一套节目直播的一个综艺晚会，后来中文国际频道、综艺频道以及部分地方电视台都会同步直播。春节对华人来讲就是阖家团圆的时刻，尤其对于在海外不能回家的华人来说，看春晚也成了每年必须的娱乐活动。海外华人如何通过互联网看春晚直播？什么网站看春晚速度比较流畅？羽西给大家总结一下，希望能对大家有所帮助。</p>
-<div><br><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><br><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins><br><script><br>(adsbygoogle = window.adsbygoogle || []).push({});<br></script><br></div>
-
-<h3 id="最简单的方式"><a href="#最简单的方式" class="headerlink" title="最简单的方式"></a>最简单的方式</h3><p>Mark这个页面，点播放就可以了。</p>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Xn02Kie0J6o" data-lazy-src="https://www.youtube.com/watch?v=Xn02Kie0J6o" frameborder="0" allowfullscreen class="      ed  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing  ing lazyloading"></iframe>
-
-<h3 id="通过YouTube-Google-等社交媒体在线观看"><a href="#通过YouTube-Google-等社交媒体在线观看" class="headerlink" title="通过YouTube, Google+等社交媒体在线观看"></a>通过YouTube, Google+等社交媒体在线观看</h3><p>从2015年开始，春晚就开始通过国外的主流社交网站Youtube / Facebook / Twitter / Google+上同步直播。由于这些大公司的服务器处理能力超强，又都在国外的原因, 视频信号非常流畅清晰，是海外看春晚的首选。如果觉得电脑屏幕太小的话，可以通过HDMI连接到电视上播放。【<a href="http://amzn.to/2crFQy3" rel="external nofollow" target="_blank">Amazon上HDMI线购买页面</a>】</p>
-<p>Youtube: <a href="https://www.youtube.com/user/springfestivalgala" rel="external nofollow" target="_blank">https://www.youtube.com/user/springfestivalgala</a></p>
-<p>Facebook: <a href="https://www.facebook.com/CCTV.CH/" rel="external nofollow" target="_blank">https://www.facebook.com/CCTV.CH/</a></p>
-<h3 id="海外电视盒子"><a href="#海外电视盒子" class="headerlink" title="海外电视盒子"></a>海外电视盒子</h3><p>还有一个选择就是电视盒子。通过海外电视盒子可以尽享国内高清直播综艺内容，当然也包括央视春晚。这些电视盒子还可以安装Youtube应用观看Youtube里面的内容。</p>
-<p>【<a href="http://amzn.to/2crGPyn" rel="external nofollow" target="_blank">HiMedia购买页面</a>】</p>
-<h3 id="第三方电视直播软件"><a href="#第三方电视直播软件" class="headerlink" title="第三方电视直播软件"></a>第三方电视直播软件</h3><p>CCTV春晚也能在电脑上用第三方软件观看。 免费视频直播软件例如Sopcast通过P2P网络传输视频信号，看的人越多越流畅，信号直接在国外用户之间实现共享。也能看绝大部分国内电视直播。下载安全完软件后，直接换频道到CCTV，就能在海外观看央视春晚。缺点就是不是高清信号，画面会小一些，不太可靠而且很可能关键时刻掉链子。<br><a href="http://www.sopcast.org/download/" rel="external nofollow" target="_blank">Sopcast软件官网下载地址</a></p>
-<h3 id="CNTV官网，乐视，爱奇艺等网站"><a href="#CNTV官网，乐视，爱奇艺等网站" class="headerlink" title="CNTV官网，乐视，爱奇艺等网站"></a>CNTV官网，乐视，爱奇艺等网站</h3><p>这些网站似乎都有些卡，不如P2P方式的Sopcast，不过anyway，地址奉上：</p>
-<p><a href="http://chunwan.cntv.cn/" rel="external nofollow" target="_blank">CNTV春晚直播</a></p>
-<p><a href="http://www.letv.com/" rel="external nofollow" target="_blank">乐视</a></p>
-<p><a href="http://www.iqiyi.com/" rel="external nofollow" target="_blank">爱奇艺</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/live/chinese-new-year-gala.jpg&quot; alt=&quot;央视春晚海外直播&quot;&gt;&lt;/p&gt;
-&lt;p&gt;中国中央电视台春节联欢晚会，通常简称为央视春晚，起初是中国中央电视台在每年农历除夕晚上为庆祝农历新年在其第一套节目直播的一个综艺
-    
-    </summary>
-    
-      <category term="生活" scheme="http://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="春晚" scheme="http://www.yuxiuk.com/tags/%E6%98%A5%E6%99%9A/"/>
-    
-      <category term="海外直播" scheme="http://www.yuxiuk.com/tags/%E6%B5%B7%E5%A4%96%E7%9B%B4%E6%92%AD/"/>
-    
-      <category term="央视春晚" scheme="http://www.yuxiuk.com/tags/%E5%A4%AE%E8%A7%86%E6%98%A5%E6%99%9A/"/>
     
   </entry>
   
