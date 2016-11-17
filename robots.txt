@@ -15,6 +15,7 @@ Disallow: /york-tourist-guide
 Disallow: /whittard
 Disallow: /2016/09/12/whittard
 Disallow: /york-best-restaurants
+Disallow: /cambridge-satchel
+Disallow: /chocolate
 
-
-Sitemap: http://www.yuxi.uk/sitemap.xml
+Sitemap: http://www.yuxiuk.com/sitemap.xml
