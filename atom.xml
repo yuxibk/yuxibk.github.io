@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-11-25T09:45:53.000Z</updated>
+  <updated>2016-11-27T20:57:18.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -16,11 +16,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在英国如果夫妻中只有一人工作，申请结婚津贴每年可省200多英镑</title>
+    <link href="http://www.yuxiuk.com/marriage-allowance/"/>
+    <id>http://www.yuxiuk.com/marriage-allowance/</id>
+    <published>2016-11-27T06:40:12.000Z</published>
+    <updated>2016-11-27T20:57:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>英国在2015年4月6日开始推出了一个政策，叫做“Marriage Allowance”，即结婚津贴。说简单些就是：如果配偶双方中有一人的年收入在1.1万英镑-4.3万英镑之间，而另一方没有收入或者收入在4.3万英镑之间，那么收入低的一方可以把最多1100英镑的免税额度转移到另外一方。这部分收入所需交的税额20%即220英镑可以退还给申请人。申请这个津贴不需要具有英国永居身份，只要在英国有合法居留身份即可。</p>
+<p><img src="/images/live/marriage-allowance.jpg" alt=""></p>
+<p>英国政府的官方说明：<a href="https://www.gov.uk/marriage-allowance" rel="external nofollow" target="_blank">https://www.gov.uk/marriage-allowance</a><br>英国政府的在线退税额计算页面： <a href="https://www.tax.service.gov.uk/marriage-allowance-application/benefit-calculator/" rel="external nofollow" target="_blank">https://www.tax.service.gov.uk/marriage-allowance-application/benefit-calculator/</a></p>
+<p>在具体申请时，需要由收入低的一方递交申请。需要提供住址，出生日期，NI Number等信息。如果刚来英国时间不长，肯恩更需要人工申请来确定申请人的身份。一旦申请成功，可以追溯到2015年4月份，获得那220镑的退税额。一般以支票形式返还。</p>
+<p>如果条件允许，那就赶快申请吧，毕竟每年有两百多英镑呐。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;英国在2015年4月6日开始推出了一个政策，叫做“Marriage Allowance”，即结婚津贴。说简单些就是：如果配偶双方中有一人的年收入在1.1万英镑-4.3万英镑之间，而另一方没有收入或者收入在4.3万英镑之间，那么收入低的一方可以把最多1100英镑的免税额度转移
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="http://www.yuxiuk.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="英国结婚津贴" scheme="http://www.yuxiuk.com/tags/%E8%8B%B1%E5%9B%BD%E7%BB%93%E5%A9%9A%E6%B4%A5%E8%B4%B4/"/>
+    
+      <category term="marriage allowance" scheme="http://www.yuxiuk.com/tags/marriage-allowance/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何在英国自制油条</title>
     <link href="http://www.yuxiuk.com/twisted-dough/"/>
     <id>http://www.yuxiuk.com/twisted-dough/</id>
     <published>2016-11-24T23:40:12.000Z</published>
-    <updated>2016-11-25T09:45:53.000Z</updated>
+    <updated>2016-11-25T12:58:32.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/food/youtiao/youtiao.jpg" alt=""></p>
 <p>油条一直就是羽西的最爱之一，到了国外很难再吃到。只有到了中国超市才能买到。但一是不方便，二是远远没有现做出来的好吃。幸运的是，偶尔一次和朋友的聊天中知道，原来在英国完全可以自己炸油条吃啊！成本还很低！下面把这个方法和大家分享一下。</p>
@@ -47,6 +78,8 @@
     
     
       <category term="美食" scheme="http://www.yuxiuk.com/tags/%E7%BE%8E%E9%A3%9F/"/>
+    
+      <category term="食谱" scheme="http://www.yuxiuk.com/tags/%E9%A3%9F%E8%B0%B1/"/>
     
       <category term="油条" scheme="http://www.yuxiuk.com/tags/%E6%B2%B9%E6%9D%A1/"/>
     
@@ -286,7 +319,7 @@ $("#text").
     <link href="http://www.yuxiuk.com/chinese-hamburger/"/>
     <id>http://www.yuxiuk.com/chinese-hamburger/</id>
     <published>2016-11-14T23:40:12.000Z</published>
-    <updated>2016-11-14T23:45:21.000Z</updated>
+    <updated>2016-11-25T12:58:16.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/food/chinesehamburger/chinesehamburger.jpg" alt="肉夹馍"></p>
 <p>相信很多小伙伴和羽西一样，超级喜欢这道地道陕西名吃-肉夹馍。可到了英国后，却没法买到。顺便说下，在伦敦有几家餐厅有卖。前一段偶然看到有人在网上晒教程，于是跟着做了一下，感觉还是很有国内肉夹馍的感觉。这里和众位吃货分享一下。。。</p>
@@ -315,6 +348,8 @@ $("#text").
       <category term="美食" scheme="http://www.yuxiuk.com/tags/%E7%BE%8E%E9%A3%9F/"/>
     
       <category term="肉夹馍" scheme="http://www.yuxiuk.com/tags/%E8%82%89%E5%A4%B9%E9%A6%8D/"/>
+    
+      <category term="食谱" scheme="http://www.yuxiuk.com/tags/%E9%A3%9F%E8%B0%B1/"/>
     
   </entry>
   
@@ -938,43 +973,6 @@ $("#text").
       <category term="Bobby" scheme="http://www.yuxiuk.com/tags/Bobby/"/>
     
       <category term="苏格兰" scheme="http://www.yuxiuk.com/tags/%E8%8B%8F%E6%A0%BC%E5%85%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>推荐几个好用的国外VPS</title>
-    <link href="http://www.yuxiuk.com/vps/"/>
-    <id>http://www.yuxiuk.com/vps/</id>
-    <published>2016-09-26T05:40:12.000Z</published>
-    <updated>2016-10-06T16:21:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/vps.png" alt="VPS"></p>
-<p>算起来前前后后也用了好几家的VPS了，最早从Amazon EC2开始，到现在的DO和Vultr。综合而言，还是最喜欢Vultr家的VPS。</p>
-<h3 id="Vultr"><a href="#Vultr" class="headerlink" title="Vultr"></a>Vultr</h3><p><img src="/images/technology/vultr.png" alt="Vultr"></p>
-<p>先来说说我最喜欢的Vultr【<a href="http://bit.ly/2d1U9rx" rel="external nofollow" target="_blank">官网链接</a>】。Vultr是一家2014年成立于美国的VPS服务商，整体采用KVM架构。Vultr家的服务器采用的E3的CPU，全部都是SSD硬盘。他家VPS的稳定性，速度，都非常的棒。而且后台可以自行上传ISO，安装你想要的系统。Vultr的服务器托管在全球15个数据中心，包括日本、美国洛杉矶、Dallas、Chicago、New York、Seattle、Atlanta、英国、德国等。Vultr的计费按照使用计费（自行选择配置、可以按月或按小时计费），用多少算多少，可以随时取消，即时开通使用。最低配置768M内存、15G SSD（高速固态硬盘）、1TB流量（日本、澳大利亚200GB 已经全部升级为1T），价格仅售5美元/月。我现在用的是它家最低配套餐，选的是在伦敦数据中心的VPS。速度和稳定性非常不错。</p>
-<p>现在Vultr家有一个促销，点击下面链接注册的话，直接送20美金，相当于4个月免费使用最低配置的VPS。这个促销随时可能结束喔！</p>
-<p>【<a href="http://www.vultr.com/?ref=6972180-3B" rel="external nofollow" target="_blank">促销链接</a>】</p>
-<h3 id="Digital-Ocean"><a href="#Digital-Ocean" class="headerlink" title="Digital Ocean"></a>Digital Ocean</h3><p><img src="/images/technology/do.png" alt="Digital Ocean"></p>
-<p>DigitalOcean【<a href="http://bit.ly/2dxHIT2" rel="external nofollow" target="_blank">官网链接</a>】是一家位于美国的云主机服务商，总部位于纽约，成立于2012年。DigitalOcean的服务器全部采用KVM架构，具备高性能处理能力，并且配备SSD固态硬盘，速度优异。每台设备都有1G带宽，旧金山数据中心  线路直连中国电信和联通，中国用户访问旧金山数据中心速度优秀。该公司拥有多个数据中心：日本东京、美国 洛杉矶、纽约、新泽西、新加坡、英国伦敦、德国法兰克福。最低配置512M内存、20G SSD（高速固态硬盘）、1TB流量，价格仅售5美元/月。</p>
-<p>我最早先用的DO的VPS作为开发服务器。后来第一个网站上线，因为Vultr家的最低配置VPS内存要多些，因此又选择了一个Vultr家的VPS。</p>
-<p>不知道大家用的效果怎样，对我来说，这两家的VPS速度，性能，稳定性都非常好，如果要配置Web服务器，建议选择Vultr家的。如果要挂机，可以选择DO家的。</p>
-<h3 id="Kamatera-香港VPS，最低配置只要-9"><a href="#Kamatera-香港VPS，最低配置只要-9" class="headerlink" title="Kamatera (香港VPS，最低配置只要$9)"></a>Kamatera (香港VPS，最低配置只要$9)</h3><p><img src="/images/technology/kamatera.png" alt="Kamatera"></p>
-<p>还用过一家香港的VPS，以色列的公司，速度性能都中规中矩的。大家可以试试。</p>
-<p><a href="https://www.kamatera.com/" rel="external nofollow" target="_blank">Kamatera官网</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/vps.png&quot; alt=&quot;VPS&quot;&gt;&lt;/p&gt;
-&lt;p&gt;算起来前前后后也用了好几家的VPS了，最早从Amazon EC2开始，到现在的DO和Vultr。综合而言，还是最喜欢Vultr家的VPS。&lt;/p&gt;
-&lt;h3 id=
-    
-    </summary>
-    
-      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="VPS" scheme="http://www.yuxiuk.com/tags/VPS/"/>
     
   </entry>
   
