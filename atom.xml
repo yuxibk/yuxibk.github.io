@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-12-02T13:41:54.000Z</updated>
+  <updated>2016-12-01T13:50:08.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -16,23 +16,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>英国自驾用什么导航？</title>
+    <link href="http://www.yuxiuk.com/uk-satnav/"/>
+    <id>http://www.yuxiuk.com/uk-satnav/</id>
+    <published>2016-12-01T06:40:12.000Z</published>
+    <updated>2016-12-01T13:50:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多小伙伴来英国旅游的时候都选择租车自驾游。不可避免的需要一个导航仪。下面羽西给小伙伴们推荐一下英国最好用的导航仪供大家参考。希望大家玩得开心！</p>
+<h2 id="手机导航还是导航仪导航？"><a href="#手机导航还是导航仪导航？" class="headerlink" title="手机导航还是导航仪导航？"></a>手机导航还是导航仪导航？</h2><p>相信很多小伙伴都会有这个疑问。现在的智能手机功能越来越强大，用类似Google Map / Navigator这样的软件不就可以导航了吗？不过关于这点，羽西强烈建议不要用手机导航。手机导航只能作为一个备用措施。英国很多地方比如苏格兰高地上，手机根本就没有信号，到时候会干着急。</p>
+<h2 id="TomTom"><a href="#TomTom" class="headerlink" title="TomTom"></a>TomTom</h2><p><img src="/images/travel/gps/tomtom.jpg" alt="TomTom"></p>
+<p>TomTom应该算是车载导航仪市场的老大吧。这家1991年成立于荷兰阿姆斯特丹的公司早已经挂牌上市了。荷兰国家字典甚至收录了TomTom做为导航仪的代名词。2010年美国CNET刊登TomTom GO被评为21世纪前10年最具创新消费电子产品。TomTom地图已经达到业内最领先的水平，覆盖全球范围内超过109个国家，超过3.6亿公里的道路。TomTom为全球客户提供超过30种语言的系统菜单，包括中文。</p>
+<p><a href="http://amzn.to/2gP4LJF" rel="external nofollow" target="_blank">TomTom导航仪Amazon购买页面</a></p>
+<h2 id="Garmin台湾国际航电"><a href="#Garmin台湾国际航电" class="headerlink" title="Garmin台湾国际航电"></a>Garmin台湾国际航电</h2><p><img src="/images/travel/gps/garmin.jpg" alt="Garmin台湾国际航电"></p>
+<p>Garmin成立于1990年。多年以来，致力发展全球定位系统（简称GPS）与其他消费性产品。在英国，从装机量来说，除了TomTom，就要数Garmin了。就个人而言，TomTom和Garmin的导航仪羽西都用过，觉得都很好用，所以大家在选择的时候大可放心。</p>
+<p><a href="http://amzn.to/2gM6mkE" rel="external nofollow" target="_blank">Garmin导航仪Amazon购买页面</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多小伙伴来英国旅游的时候都选择租车自驾游。不可避免的需要一个导航仪。下面羽西给小伙伴们推荐一下英国最好用的导航仪供大家参考。希望大家玩得开心！&lt;/p&gt;
+&lt;h2 id=&quot;手机导航还是导航仪导航？&quot;&gt;&lt;a href=&quot;#手机导航还是导航仪导航？&quot; class=&quot;headerl
+    
+    </summary>
+    
+      <category term="旅游" scheme="http://www.yuxiuk.com/categories/%E6%97%85%E6%B8%B8/"/>
+    
+    
+      <category term="旅游" scheme="http://www.yuxiuk.com/tags/%E6%97%85%E6%B8%B8/"/>
+    
+      <category term="导航仪" scheme="http://www.yuxiuk.com/tags/%E5%AF%BC%E8%88%AA%E4%BB%AA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中国老黄历</title>
     <link href="http://www.yuxiuk.com/lunar-calendar/"/>
     <id>http://www.yuxiuk.com/lunar-calendar/</id>
-    <published>2016-12-02T13:45:46.233Z</published>
-    <updated>2016-12-02T13:41:54.000Z</updated>
+    <published>2016-12-01T06:40:12.000Z</published>
+    <updated>2016-12-02T13:57:02.000Z</updated>
     
-    <content type="html"><![CDATA[--- 
-author: 子矜 
-title: 中国老黄历 
-category: 技术 
-keywords: 中国老黄历 
-date: 2016-12-02 06:40:12 
-tags:
-  - 中国老黄历
-  - 技术 
----
-<link href="/js/almanac/almanac.css" rel="stylesheet" type="text/css"> 
+    <content type="html"><![CDATA[
+<link rel="stylesheet" media="all" href="/js/almanac/almanac.css"> 
 <script src="/js/almanac/almanac.js"></script>
 
 <img src="/images/technology/calendar/lunar-calendar.png"><br>
@@ -114,72 +138,24 @@ tags:
   </div> 
 </div> 
 </div> 
+]]></content>
+    
+    <summary type="html">
+    
+      
+&lt;link rel=&quot;stylesheet&quot; media=&quot;all&quot; href=&quot;/js/almanac/almanac.css&quot;&gt; 
+&lt;script src=&quot;/js/almanac/almanac.js&quot;&gt;&lt;/script&gt;
 
-<script> 
-$(document).ready(function() {
-  $("#id_almanac").almanac({
-    afterDrawCld: function(year, month){
-    },
-    dbClickDay: function(elem){
-      var _this = $(elem);
-    },
-    clickDay: function(elem){
-      var _this = $(elem);
-    }
-  });
-});
-</script>
-]]></content>
-    
-    <summary type="html">
-    
-      --- 
-author: 子矜 
-title: 中国老黄历 
-category: 技术 
-keywords: 中国老黄历 
-date: 2016-12-02 06:40:12 
-tags:
-  - 中国老黄历
-  - 技术 
----
-&lt;link href=&quot;/js/almanac
+&lt;img src=&quot;/images/techn
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>英国自驾用什么导航？</title>
-    <link href="http://www.yuxiuk.com/uk-satnav/"/>
-    <id>http://www.yuxiuk.com/uk-satnav/</id>
-    <published>2016-12-01T06:40:12.000Z</published>
-    <updated>2016-12-01T13:50:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>很多小伙伴来英国旅游的时候都选择租车自驾游。不可避免的需要一个导航仪。下面羽西给小伙伴们推荐一下英国最好用的导航仪供大家参考。希望大家玩得开心！</p>
-<h2 id="手机导航还是导航仪导航？"><a href="#手机导航还是导航仪导航？" class="headerlink" title="手机导航还是导航仪导航？"></a>手机导航还是导航仪导航？</h2><p>相信很多小伙伴都会有这个疑问。现在的智能手机功能越来越强大，用类似Google Map / Navigator这样的软件不就可以导航了吗？不过关于这点，羽西强烈建议不要用手机导航。手机导航只能作为一个备用措施。英国很多地方比如苏格兰高地上，手机根本就没有信号，到时候会干着急。</p>
-<h2 id="TomTom"><a href="#TomTom" class="headerlink" title="TomTom"></a>TomTom</h2><p><img src="/images/travel/gps/tomtom.jpg" alt="TomTom"></p>
-<p>TomTom应该算是车载导航仪市场的老大吧。这家1991年成立于荷兰阿姆斯特丹的公司早已经挂牌上市了。荷兰国家字典甚至收录了TomTom做为导航仪的代名词。2010年美国CNET刊登TomTom GO被评为21世纪前10年最具创新消费电子产品。TomTom地图已经达到业内最领先的水平，覆盖全球范围内超过109个国家，超过3.6亿公里的道路。TomTom为全球客户提供超过30种语言的系统菜单，包括中文。</p>
-<p><a href="http://amzn.to/2gP4LJF" rel="external nofollow" target="_blank">TomTom导航仪Amazon购买页面</a></p>
-<h2 id="Garmin台湾国际航电"><a href="#Garmin台湾国际航电" class="headerlink" title="Garmin台湾国际航电"></a>Garmin台湾国际航电</h2><p><img src="/images/travel/gps/garmin.jpg" alt="Garmin台湾国际航电"></p>
-<p>Garmin成立于1990年。多年以来，致力发展全球定位系统（简称GPS）与其他消费性产品。在英国，从装机量来说，除了TomTom，就要数Garmin了。就个人而言，TomTom和Garmin的导航仪羽西都用过，觉得都很好用，所以大家在选择的时候大可放心。</p>
-<p><a href="http://amzn.to/2gM6mkE" rel="external nofollow" target="_blank">Garmin导航仪Amazon购买页面</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;很多小伙伴来英国旅游的时候都选择租车自驾游。不可避免的需要一个导航仪。下面羽西给小伙伴们推荐一下英国最好用的导航仪供大家参考。希望大家玩得开心！&lt;/p&gt;
-&lt;h2 id=&quot;手机导航还是导航仪导航？&quot;&gt;&lt;a href=&quot;#手机导航还是导航仪导航？&quot; class=&quot;headerl
-    
-    </summary>
-    
-      <category term="旅游" scheme="http://www.yuxiuk.com/categories/%E6%97%85%E6%B8%B8/"/>
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="旅游" scheme="http://www.yuxiuk.com/tags/%E6%97%85%E6%B8%B8/"/>
+      <category term="工具" scheme="http://www.yuxiuk.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
-      <category term="导航仪" scheme="http://www.yuxiuk.com/tags/%E5%AF%BC%E8%88%AA%E4%BB%AA/"/>
+      <category term="中国老黄历" scheme="http://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E8%80%81%E9%BB%84%E5%8E%86/"/>
     
   </entry>
   
