@@ -17,5 +17,8 @@ Disallow: /2016/09/12/whittard
 Disallow: /york-best-restaurants
 Disallow: /cambridge-satchel
 Disallow: /chocolate
+Disallow: /castle-howard
+Disallow: /york-racecourse
+Disallow: /yorkshire-lavender
 
 Sitemap: http://www.yuxiuk.com/sitemap.xml
