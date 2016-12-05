@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-12-05T12:53:42.000Z</updated>
+  <updated>2016-12-05T14:17:30.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android Pay介绍</title>
+    <link href="http://www.yuxiuk.com/android-pay/"/>
+    <id>http://www.yuxiuk.com/android-pay/</id>
+    <published>2016-12-05T08:40:12.000Z</published>
+    <updated>2016-12-05T14:17:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>移动支付已经成为当下最受关注的技术趋势之一，如今智能手机开始支持NFC (Near Field Communication)技术，羽西公司的同事们也都纷纷用Android Pay / Apple Pay来支付。作为安卓粉， 今天羽西就来和大家分享下Android Pay使用方法。注意：下面的步骤只在英国测试过，在别的国家可能会有所不同。</p>
+<p><img src="/images/live/android-pay/android-pay.png" alt="Android Pay"></p>
+<h2 id="Android-Pay介绍"><a href="#Android-Pay介绍" class="headerlink" title="Android Pay介绍"></a>Android Pay介绍</h2><p>说到Android Pay，就不得不先说一下它的竞争对手Apple Pay。由于苹果公司一家垄断了整个苹果系统的软件和硬件，形成了一个封闭的产业链。这也是羽西很讨厌苹果产品的一个原因吧。因此一旦推出Apple Pay，就很容易推广。相比较而言，Android的生态系统只能用一个乱字来形容。Google把握着操作系统，各大硬件厂商掌控硬件+操作系统定制。而国内的Android系统就更加诡异了，作为Android系统的基石Google Play竟然不能使用。。。因此安卓手机支付的推广可以说是难上加难，多年来一直停滞在标准之争上。还在现在Google终于推出了Android Pay。</p>
+<h2 id="Android-Pay使用指南"><a href="#Android-Pay使用指南" class="headerlink" title="Android Pay使用指南"></a>Android Pay使用指南</h2><h3 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h3><p>软件：至少Android 4.4<br>硬件：支持NFC功能的手机。目前的大多数手机都支持NFC。</p>
+<h3 id="安装Android-Pay"><a href="#安装Android-Pay" class="headerlink" title="安装Android Pay"></a>安装Android Pay</h3><p>　<br>首先，你需要在谷歌商店下载Android Pay应用，有些设备其实已经预装了这款应用。</p>
+<p>然后，打开这款App添加自己的银行卡信息（Master / Visa），如果你的谷歌账户原来已经有了相关的支付信息，那么这个阶段将变得更容易。你可以在Android Pay当中添加多张卡片，并设置默认使用的那一张。</p>
+<p>为了保证你的资金安全，Android Pay会强制你设置一个锁屏。</p>
+<p>在支付时，你并不需要运行Android Pay应用，只需解锁手机并将其放在支付终端上便可。</p>
+<p>需要注意的是，你在退货时可能会被要求提供虚拟帐号的最后四位数字，它们可以在应用当中找到。</p>
+<p>值得一提的是，Android Pay还将被整合到一些热门应用当中，比如Airbnb、Esty、TripAdvisor和Uber，让你可以直接通过谷歌的平台进行支付。</p>
+<p>目前在英国支持Android Pay的银行包括（但不限于）：<br><img src="/images/live/android-pay/banks-support-android-pay.jpg" alt="Android Pay"></p>
+<p>目前在英国支持Android Pay的商店包括（但不限于）：<br><img src="/images/live/android-pay/shops-support-android-pay.jpg" alt="Android Pay"></p>
+<h2 id="Android-Pay安全性"><a href="#Android-Pay安全性" class="headerlink" title="Android Pay安全性"></a>Android Pay安全性</h2><p>没有什么是100%安全的，但谷歌已经采取各种措施保证了自家支付服务的安全。比如：Android Pay并不会在交易当中发送实际的银行卡信息，而是会使用虚拟帐号和一次性的确认码——这种方法不会向商家透露任何的敏感数据。此外，你还会在交易发生时立刻看到通知和记录，如果有任何异常，你也能在第一时间察觉。如果手机丢失，你可以使用Android设备管理器对其进行锁定或擦除，而不必到银行销卡。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;移动支付已经成为当下最受关注的技术趋势之一，如今智能手机开始支持NFC (Near Field Communication)技术，羽西公司的同事们也都纷纷用Android Pay / Apple Pay来支付。作为安卓粉， 今天羽西就来和大家分享下Android Pay使用
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="Android Pay" scheme="http://www.yuxiuk.com/tags/Android-Pay/"/>
+    
+      <category term="安卓支付" scheme="http://www.yuxiuk.com/tags/%E5%AE%89%E5%8D%93%E6%94%AF%E4%BB%98/"/>
+    
+  </entry>
   
   <entry>
     <title>地表最强周杰伦2017演唱会香港站购票网址</title>
@@ -47,6 +84,47 @@
       <category term="周杰伦" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A6/"/>
     
       <category term="地表最强" scheme="http://www.yuxiuk.com/tags/%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>地表最强周杰伦2017演唱会伦敦站抢票攻略</title>
+    <link href="http://www.yuxiuk.com/jay-chou-london-2017/"/>
+    <id>http://www.yuxiuk.com/jay-chou-london-2017/</id>
+    <published>2016-12-02T06:40:12.000Z</published>
+    <updated>2016-12-03T23:35:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天被周杰伦2017伦敦演唱会给刷屏了, 下面羽西给大家总结一下抢票攻略, 给感兴趣的小伙伴们一个参考。</p>
+<p><img src="/images/live/jay-chou/jay-chou-2017.jpg" alt="地表最强周杰伦2017演唱会伦敦站"></p>
+<h2 id="周杰伦2017伦敦演唱会详细信息"><a href="#周杰伦2017伦敦演唱会详细信息" class="headerlink" title="周杰伦2017伦敦演唱会详细信息"></a>周杰伦2017伦敦演唱会详细信息</h2><p>时间：2017年 3 月18日<br>地点：Arena Square, Engineers Way, Wembley Park, Wembley, HA9 0AA</p>
+<h2 id="周杰伦2017伦敦演唱会如何抢票"><a href="#周杰伦2017伦敦演唱会如何抢票" class="headerlink" title="周杰伦2017伦敦演唱会如何抢票"></a>周杰伦2017伦敦演唱会如何抢票</h2><p>为了方便大家抢票，先来看看SSE Arena里的座位图：<br><img src="/images/live/jay-chou/sse-arena-seating.jpg" alt="地表最强周杰伦2017演唱会伦敦站"></p>
+<p>门票分为以下几种：</p>
+<h3 id="限量尊贵VIP"><a href="#限量尊贵VIP" class="headerlink" title="限量尊贵VIP"></a>限量尊贵VIP</h3><p>票价：£518<br>座位：A2, A3, A4前三排<br>包含： 前三排门票一张+新闻发布会入场券一张+意外惊喜<br>第一排距离舞台只有不到两米的距离，土豪们是不是很鸡冻？？？<br>注意：这种票是实名制实名制实名制！数量只有174张，12月8号上午10点会放出来，一般很难抢到。</p>
+<h3 id="VIP"><a href="#VIP" class="headerlink" title="VIP"></a>VIP</h3><p>票价：£238（+购票网站手续费）<br>座位：A2/A3/A4的第4-24排的位置<br>抢票时间：12月10号48小时预售抢票<br>抢票网址：待更新中。。。<br>注意：每人最多买6张，动作一定要快，你选好的票如果在7分钟内没有付款，就会自动被放回系统被别人抢走了。 </p>
+<h3 id="Arena-Premier"><a href="#Arena-Premier" class="headerlink" title="Arena Premier"></a>Arena Premier</h3><p>票价：£158（+购票网站手续费）<br>座位：B区，仅仅在A区的后面的1－22排<br>抢票时间：12月12号</p>
+<h3 id="公开发售普通票"><a href="#公开发售普通票" class="headerlink" title="公开发售普通票"></a>公开发售普通票</h3><p>抢票时间：12月12号上午10点</p>
+<p>直接去下面的几个网站买票就可以了。</p>
+<p>SSE Arena: <a href="http://www.ssearena.co.uk/events/detail/jay-chou" rel="external nofollow" target="_blank">http://www.ssearena.co.uk/events/detail/jay-chou</a><br>AXS：<a href="http://www.axs.com/uk/events/328916/jay-chou-the-invincible-concert-tour-tickets" rel="external nofollow" target="_blank">http://www.axs.com/uk/events/328916/jay-chou-the-invincible-concert-tour-tickets</a><br>Viagogo：<a href="http://tidd.ly/2d9d9a48" rel="external nofollow" target="_blank">http://www.viagogo.co.uk/</a></p>
+<p>最后希望小伙伴们都能抢到自己想要的票，和周董伦敦见！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天被周杰伦2017伦敦演唱会给刷屏了, 下面羽西给大家总结一下抢票攻略, 给感兴趣的小伙伴们一个参考。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/live/jay-chou/jay-chou-2017.jpg&quot; alt=&quot;地表最强周杰伦2017演唱会伦敦站&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="周杰伦2017演唱会" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A62017%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
+    
+      <category term="周杰伦" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A6/"/>
+    
+      <category term="地表最强" scheme="http://www.yuxiuk.com/tags/%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BA/"/>
+    
+      <category term="周杰伦2017伦敦演唱会" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A62017%E4%BC%A6%E6%95%A6%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
     
   </entry>
   
@@ -100,47 +178,6 @@
       <category term="租房" scheme="http://www.yuxiuk.com/tags/%E7%A7%9F%E6%88%BF/"/>
     
       <category term="留学" scheme="http://www.yuxiuk.com/tags/%E7%95%99%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>地表最强周杰伦2017演唱会伦敦站抢票攻略</title>
-    <link href="http://www.yuxiuk.com/jay-chou-london-2017/"/>
-    <id>http://www.yuxiuk.com/jay-chou-london-2017/</id>
-    <published>2016-12-02T06:40:12.000Z</published>
-    <updated>2016-12-03T23:35:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天被周杰伦2017伦敦演唱会给刷屏了, 下面羽西给大家总结一下抢票攻略, 给感兴趣的小伙伴们一个参考。</p>
-<p><img src="/images/live/jay-chou/jay-chou-2017.jpg" alt="地表最强周杰伦2017演唱会伦敦站"></p>
-<h2 id="周杰伦2017伦敦演唱会详细信息"><a href="#周杰伦2017伦敦演唱会详细信息" class="headerlink" title="周杰伦2017伦敦演唱会详细信息"></a>周杰伦2017伦敦演唱会详细信息</h2><p>时间：2017年 3 月18日<br>地点：Arena Square, Engineers Way, Wembley Park, Wembley, HA9 0AA</p>
-<h2 id="周杰伦2017伦敦演唱会如何抢票"><a href="#周杰伦2017伦敦演唱会如何抢票" class="headerlink" title="周杰伦2017伦敦演唱会如何抢票"></a>周杰伦2017伦敦演唱会如何抢票</h2><p>为了方便大家抢票，先来看看SSE Arena里的座位图：<br><img src="/images/live/jay-chou/sse-arena-seating.jpg" alt="地表最强周杰伦2017演唱会伦敦站"></p>
-<p>门票分为以下几种：</p>
-<h3 id="限量尊贵VIP"><a href="#限量尊贵VIP" class="headerlink" title="限量尊贵VIP"></a>限量尊贵VIP</h3><p>票价：£518<br>座位：A2, A3, A4前三排<br>包含： 前三排门票一张+新闻发布会入场券一张+意外惊喜<br>第一排距离舞台只有不到两米的距离，土豪们是不是很鸡冻？？？<br>注意：这种票是实名制实名制实名制！数量只有174张，12月8号上午10点会放出来，一般很难抢到。</p>
-<h3 id="VIP"><a href="#VIP" class="headerlink" title="VIP"></a>VIP</h3><p>票价：£238（+购票网站手续费）<br>座位：A2/A3/A4的第4-24排的位置<br>抢票时间：12月10号48小时预售抢票<br>抢票网址：待更新中。。。<br>注意：每人最多买6张，动作一定要快，你选好的票如果在7分钟内没有付款，就会自动被放回系统被别人抢走了。 </p>
-<h3 id="Arena-Premier"><a href="#Arena-Premier" class="headerlink" title="Arena Premier"></a>Arena Premier</h3><p>票价：£158（+购票网站手续费）<br>座位：B区，仅仅在A区的后面的1－22排<br>抢票时间：12月12号</p>
-<h3 id="公开发售普通票"><a href="#公开发售普通票" class="headerlink" title="公开发售普通票"></a>公开发售普通票</h3><p>抢票时间：12月12号上午10点</p>
-<p>直接去下面的几个网站买票就可以了。</p>
-<p>SSE Arena: <a href="http://www.ssearena.co.uk/events/detail/jay-chou" rel="external nofollow" target="_blank">http://www.ssearena.co.uk/events/detail/jay-chou</a><br>AXS：<a href="http://www.axs.com/uk/events/328916/jay-chou-the-invincible-concert-tour-tickets" rel="external nofollow" target="_blank">http://www.axs.com/uk/events/328916/jay-chou-the-invincible-concert-tour-tickets</a><br>Viagogo：<a href="http://tidd.ly/2d9d9a48" rel="external nofollow" target="_blank">http://www.viagogo.co.uk/</a></p>
-<p>最后希望小伙伴们都能抢到自己想要的票，和周董伦敦见！</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天被周杰伦2017伦敦演唱会给刷屏了, 下面羽西给大家总结一下抢票攻略, 给感兴趣的小伙伴们一个参考。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/live/jay-chou/jay-chou-2017.jpg&quot; alt=&quot;地表最强周杰伦2017演唱会伦敦站&quot;&gt;&lt;
-    
-    </summary>
-    
-      <category term="生活" scheme="http://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="周杰伦2017演唱会" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A62017%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
-    
-      <category term="周杰伦" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A6/"/>
-    
-      <category term="地表最强" scheme="http://www.yuxiuk.com/tags/%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BA/"/>
-    
-      <category term="周杰伦2017伦敦演唱会" scheme="http://www.yuxiuk.com/tags/%E5%91%A8%E6%9D%B0%E4%BC%A62017%E4%BC%A6%E6%95%A6%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
     
   </entry>
   
@@ -748,38 +785,6 @@ $("#text").
   </entry>
   
   <entry>
-    <title>好用的国内/国外VPN推荐</title>
-    <link href="http://www.yuxiuk.com/vpn/"/>
-    <id>http://www.yuxiuk.com/vpn/</id>
-    <published>2016-11-03T06:40:12.000Z</published>
-    <updated>2016-11-04T16:40:41.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/vpn.png" alt=""><br>首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？？？放假回国后却发现在国外天天都要用的Google, Facebook等网站却无法访问了。这个时候你就需要VPN了。当然，如果你喜欢折腾，也可以配置一个代理服务器。羽西专门写了篇文章：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a>。下面羽西就给大家推荐一些好用的VPN。有的VPN是针对国内的，可以让你在国内网站下载资源或播放视频，有的VPN则是针对国外的，可以让你在国内访问国外的gmail, facebook等。还有一点就是，有的小伙伴可能已经发现有些免费的VPN，但羽西在这里并不推荐使用免费的VPN。所谓天下没有免费的午餐，在提供免费服务的同时，这些公司可定要通过某种方式来盈利，比如插入广告，捆绑安装软件，甚至售卖用户信息等。下面羽西给大家推荐几家好用的VPN服务商：</p>
-<h3 id="HideMyAss-从国外访问国内资源的首选"><a href="#HideMyAss-从国外访问国内资源的首选" class="headerlink" title="HideMyAss - 从国外访问国内资源的首选"></a>HideMyAss - 从国外访问国内资源的首选</h3><p><img src="/images/technology/hide-my-ass.png" alt=""><br>这家英国的老牌VPN服务商的名字还是很奇葩的，充分体现出了英式幽默，翻译成中文就是，藏起我的P(菊)P(花)。但他家的服务还是很不错的，他家的服务器和IP在同行业里面应该是最多的，在国内的IP地址就有几百个，因此如果想要在国外看国内的视频，或者下载其他资源，这家VPN可以说是首选。另外他家还承诺30天无条件退款，因此可以测试后再决定是否用他家的服务。至于价格，他家算是中等价位，7.99美金/月，如果一下购买一年有优惠，相当4.99美金/月。支持Paypal，信用卡，支票等多种付款方式。<br><a href="https://www.hidemyass.com/vpn/r23217/" rel="external nofollow" target="_blank">HideMyAss官网</a></p>
-<h3 id="PureVPN"><a href="#PureVPN" class="headerlink" title="PureVPN"></a>PureVPN</h3><p><img src="/images/technology/purevpn.png" alt=""><br>PureVPN是一家香港的VPN服务商，可以说是HideMyAss的有力竞争者，在全球也有几百台服务器和几千个IP。在国内的各大城市也拥有众多IP。他家的速度很给力，在国外看优酷视频非常流畅。不过也跟你所在的位置相关，因此还需要测试一下才行。10美金/月，如果买两年的话，2.5美金/月。他家只有7天的退款保证。支持众多付款方式，包括Paypal，<strong>支付宝</strong>，信用卡等。<br><a href="https://billing.purevpn.com/aff.php?aff=26817" rel="external nofollow" target="_blank">PureVPN官网</a></p>
-<h3 id="ExpressVPN"><a href="#ExpressVPN" class="headerlink" title="ExpressVPN"></a>ExpressVPN</h3><p><img src="/images/technology/express-vpn.jpg" alt=""></p>
-<p>前面给大家介绍的两家VPN商家的强项都是从国外访问国内资源。如果想从国内访问国外的网站，比如facebook，youtube等，这里给大家强烈推荐这家非常专业的ExpressVPN。他家的口碑相当好，在安全性，速度，和稳定性的表现都相当好。价格也属于中档，一个月12.95美金，一下付清一年的话平均下来每个月8.32美金。支持30天无条件退款。</p>
-<p><a href="https://www.linkev.com/?a_aid=yuxi" rel="external nofollow" target="_blank">Express VPN官网链接</a></p>
-<h3 id="GreenVPN"><a href="#GreenVPN" class="headerlink" title="GreenVPN"></a>GreenVPN</h3><p><img src="/images/technology/green-vpn.jpg" alt=""></p>
-<p>在给大家推荐一款好用的VPN服务商-GreenVPN。它可是在国外看优酷视频，CCTV5等的很给力选择。他家在全球都有VPN服务器。他家的价格也很有竞争力。一个月18元人民币，包年的话平均下来一个月13元人民币。支持支付宝付款。</p>
-<p><a href="http://gjsq.me/22715582" rel="external nofollow" target="_blank">GreenVPN官网链接</a></p>
-<p>给大家总结一下，如果想从国外访问国内的资源，首选是HideMyAss；如果从国内访问国外网站，首选是ExpressVPN。如果想找一个相对便宜又比较可靠的，则可以选择GreenVPN。当然，我这里好用的VPN在你哪里就未必好用，最好的方法还是自己试试。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/vpn.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？
-    
-    </summary>
-    
-      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何使用RSS订阅微信公共号</title>
     <link href="http://www.yuxiuk.com/wechat-public-account-rss-feed/"/>
     <id>http://www.yuxiuk.com/wechat-public-account-rss-feed/</id>
@@ -811,6 +816,38 @@ $("#text").
       <category term="微信公共号" scheme="http://www.yuxiuk.com/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E5%85%B1%E5%8F%B7/"/>
     
       <category term="rss" scheme="http://www.yuxiuk.com/tags/rss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好用的国内/国外VPN推荐</title>
+    <link href="http://www.yuxiuk.com/vpn/"/>
+    <id>http://www.yuxiuk.com/vpn/</id>
+    <published>2016-11-03T06:40:12.000Z</published>
+    <updated>2016-11-04T16:40:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/vpn.png" alt=""><br>首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？？？放假回国后却发现在国外天天都要用的Google, Facebook等网站却无法访问了。这个时候你就需要VPN了。当然，如果你喜欢折腾，也可以配置一个代理服务器。羽西专门写了篇文章：<a href="/configure-a-proxy-server-in-5-minutes/">5分钟配置一个Ubuntu代理服务器</a>。下面羽西就给大家推荐一些好用的VPN。有的VPN是针对国内的，可以让你在国内网站下载资源或播放视频，有的VPN则是针对国外的，可以让你在国内访问国外的gmail, facebook等。还有一点就是，有的小伙伴可能已经发现有些免费的VPN，但羽西在这里并不推荐使用免费的VPN。所谓天下没有免费的午餐，在提供免费服务的同时，这些公司可定要通过某种方式来盈利，比如插入广告，捆绑安装软件，甚至售卖用户信息等。下面羽西给大家推荐几家好用的VPN服务商：</p>
+<h3 id="HideMyAss-从国外访问国内资源的首选"><a href="#HideMyAss-从国外访问国内资源的首选" class="headerlink" title="HideMyAss - 从国外访问国内资源的首选"></a>HideMyAss - 从国外访问国内资源的首选</h3><p><img src="/images/technology/hide-my-ass.png" alt=""><br>这家英国的老牌VPN服务商的名字还是很奇葩的，充分体现出了英式幽默，翻译成中文就是，藏起我的P(菊)P(花)。但他家的服务还是很不错的，他家的服务器和IP在同行业里面应该是最多的，在国内的IP地址就有几百个，因此如果想要在国外看国内的视频，或者下载其他资源，这家VPN可以说是首选。另外他家还承诺30天无条件退款，因此可以测试后再决定是否用他家的服务。至于价格，他家算是中等价位，7.99美金/月，如果一下购买一年有优惠，相当4.99美金/月。支持Paypal，信用卡，支票等多种付款方式。<br><a href="https://www.hidemyass.com/vpn/r23217/" rel="external nofollow" target="_blank">HideMyAss官网</a></p>
+<h3 id="PureVPN"><a href="#PureVPN" class="headerlink" title="PureVPN"></a>PureVPN</h3><p><img src="/images/technology/purevpn.png" alt=""><br>PureVPN是一家香港的VPN服务商，可以说是HideMyAss的有力竞争者，在全球也有几百台服务器和几千个IP。在国内的各大城市也拥有众多IP。他家的速度很给力，在国外看优酷视频非常流畅。不过也跟你所在的位置相关，因此还需要测试一下才行。10美金/月，如果买两年的话，2.5美金/月。他家只有7天的退款保证。支持众多付款方式，包括Paypal，<strong>支付宝</strong>，信用卡等。<br><a href="https://billing.purevpn.com/aff.php?aff=26817" rel="external nofollow" target="_blank">PureVPN官网</a></p>
+<h3 id="ExpressVPN"><a href="#ExpressVPN" class="headerlink" title="ExpressVPN"></a>ExpressVPN</h3><p><img src="/images/technology/express-vpn.jpg" alt=""></p>
+<p>前面给大家介绍的两家VPN商家的强项都是从国外访问国内资源。如果想从国内访问国外的网站，比如facebook，youtube等，这里给大家强烈推荐这家非常专业的ExpressVPN。他家的口碑相当好，在安全性，速度，和稳定性的表现都相当好。价格也属于中档，一个月12.95美金，一下付清一年的话平均下来每个月8.32美金。支持30天无条件退款。</p>
+<p><a href="https://www.linkev.com/?a_aid=yuxi" rel="external nofollow" target="_blank">Express VPN官网链接</a></p>
+<h3 id="GreenVPN"><a href="#GreenVPN" class="headerlink" title="GreenVPN"></a>GreenVPN</h3><p><img src="/images/technology/green-vpn.jpg" alt=""></p>
+<p>在给大家推荐一款好用的VPN服务商-GreenVPN。它可是在国外看优酷视频，CCTV5等的很给力选择。他家在全球都有VPN服务器。他家的价格也很有竞争力。一个月18元人民币，包年的话平均下来一个月13元人民币。支持支付宝付款。</p>
+<p><a href="http://gjsq.me/22715582" rel="external nofollow" target="_blank">GreenVPN官网链接</a></p>
+<p>给大家总结一下，如果想从国外访问国内的资源，首选是HideMyAss；如果从国内访问国外网站，首选是ExpressVPN。如果想找一个相对便宜又比较可靠的，则可以选择GreenVPN。当然，我这里好用的VPN在你哪里就未必好用，最好的方法还是自己试试。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/vpn.png&quot; alt=&quot;&quot;&gt;&lt;br&gt;首先先给大家科普一下什么是VPN。相信很多小伙伴出国后发现一个很烦人的问题：看到朋友圈里有人转发热门优酷视频，可以一点进去却发现视频无法播放，因为只限大陆地区才能访问。肿么破？
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
     
   </entry>
   
@@ -877,70 +914,6 @@ $("#text").
     
     
       <category term="代理服务器" scheme="http://www.yuxiuk.com/tags/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>国外经典儿童好书推荐之5-7岁版</title>
-    <link href="http://www.yuxiuk.com/best-children-book-5-7/"/>
-    <id>http://www.yuxiuk.com/best-children-book-5-7/</id>
-    <published>2016-10-11T05:40:12.000Z</published>
-    <updated>2016-10-11T13:23:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>时至今日，手绘本的发展已经超过百年。大浪淘沙，很多手绘本已经被人遗忘。可是那些经典绘本历经时间洗礼，却不能被人遗忘，一版而再版，滋润了一代又一代人。可以说，好的绘本，不仅仅是简单的图片+文字那么简单。他们 不仅培养孩子们的语言能力，还能培养孩子们的思考能力。今天，羽西就和大家一同分享一下最经典的儿童绘本之5-7岁版。<br>这篇文章是根据卫报推荐的5-7岁儿童读物文章翻译改变而来的。<a href="https://www.theguardian.com/books/2010/may/12/best-childrens-books-five-seven-years" rel="external nofollow" target="_blank">英文文章网址</a></p>
-<h2 id="牧羊猪的故事-The-Sheep-pig"><a href="#牧羊猪的故事-The-Sheep-pig" class="headerlink" title="牧羊猪的故事 (The Sheep-pig)"></a>牧羊猪的故事 (The Sheep-pig)</h2><p><img src="/images/children/best-books/5-7/ship-pig.jpg" alt="牧羊猪的故事"></p>
-<p>如果大家对这本书的英文名称(The Sheep-pig)不是很熟悉的话，那么对于1995年根据这本书改编上映的电影“小猪宝贝”大家一定不会觉得陌生。长久以来，猪们都得不到尊重，一只小猪出生以后的最终命运也就是走向屠宰场，变成人类的盘中餐。这个故事讲述的就是一只不一样的小猪，在被带到了农场后，本来是逃脱不了最终走向屠宰场的命运的。但这只小猪遭遇了好心善良的牧羊犬福来。出于对这只小猪的同情，福来带着小猪去牧羊。由于小猪对羊群很有礼貌，而不像牧羊犬那样对羊群吼叫，因此羊群很喜欢小猪，也很听话。但是，带羊儿迟早只是牧羊工作的一部分，可能还会遭遇危险，这只小猪能成为一只合格的牧羊猪吗？</p>
-<p><a href="http://amzn.to/2dH4Vnm" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="查理和巧克力工厂-Charlie-and-the-Chocolate-Factory"><a href="#查理和巧克力工厂-Charlie-and-the-Chocolate-Factory" class="headerlink" title="查理和巧克力工厂 (Charlie and the Chocolate Factory)"></a>查理和巧克力工厂 (Charlie and the Chocolate Factory)</h2><p><img src="/images/children/best-books/5-7/Charlie-Chocolate-Factory.jpg" alt="查理和巧克力工厂"></p>
-<p>对于这个著名的故事，相信很多孩子和家长都看过。不仅仅是这本经典故事书，还有根据故事拍成的电影。故事里讲的是一个天才的巧克力制造者威利（Willy Wonka）拥有一个世界上最大也是最神秘的巧克力工厂。工厂里生产的巧克力畅销世界各地。但工厂一直异常神秘。它的大门一直紧闭，没有人进去，也没有人出来。忽然有一天，巧克力工厂宣布了一条爆炸性新闻：在最新出场的巧克力里面会随机放上5张金色入场券。谁得到了入场券就可以免费参观巧克力工厂，还能得到终生免费的巧克力和糖果。孩子们纷纷疯狂抢购巧克力希望得到金色入场券。最终有5个孩子得到了。其中一个孩子就是出身贫困家庭的查理。于是，梦幻之旅向这五个孩子打开了。飞流而下的巧克力瀑布；流漫着棕色糖浆的河流；大片大片的口香糖草。。。</p>
-<p><a href="http://amzn.to/2e5wRUh" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="克罗船长牙齿的传说-The-Legend-of-Captain-Crow’s-Teeth"><a href="#克罗船长牙齿的传说-The-Legend-of-Captain-Crow’s-Teeth" class="headerlink" title="克罗船长牙齿的传说 (The Legend of Captain Crow’s Teeth)"></a>克罗船长牙齿的传说 (The Legend of Captain Crow’s Teeth)</h2><p><img src="/images/children/best-books/5-7/Legend-Captain-Crows-Teeth.jpg" alt="克罗船长牙齿的传说"></p>
-<p>这时一个关于鬼故事的小书，威尔的哥哥马丁经常给弟弟讲各种鬼故事。这次，讲的是令人毛骨悚然的割喉海盗船长克罗的故事，可是这次仅仅是故事吗？还是克罗船长的鬼魂真的来了？？？</p>
-<p><a href="http://amzn.to/2e5xE80" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="内裤超人历险记-The-Adventures-of-Captain-Underpants"><a href="#内裤超人历险记-The-Adventures-of-Captain-Underpants" class="headerlink" title="内裤超人历险记(The Adventures of Captain Underpants)"></a>内裤超人历险记(The Adventures of Captain Underpants)</h2><p><img src="/images/children/best-books/5-7/Adventures-Captain-Underpants.jpg" alt="内裤超人历险记"></p>
-<p>这个故事可以说是源于作者的亲身经历。作者在上学期间曾经被老师们认为是“怪胎”，直到上大学期间他的绘画天才才被发现。因此书中有很多学校生活的笑话，恶作剧，嗯还有吐嘈。因此深得小朋友们的喜爱。在故事中，乔治和哈洛是两个四年级的学生。在一个偶然的机会中，他们掌握了一种超能力，能够控制让他们平时害怕万分的校长。只要打个响指，校长就会被催眠，脱下衣服，只剩下内裤，脖子上卷上窗帘，幻想自己是一个可以拯救地球的超级英雄。。。</p>
-<p><a href="http://amzn.to/2dDFjuK" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="最糟糕的小女巫-The-Worst-Witch"><a href="#最糟糕的小女巫-The-Worst-Witch" class="headerlink" title="最糟糕的小女巫 (The Worst Witch)"></a>最糟糕的小女巫 (The Worst Witch)</h2><p><img src="/images/children/best-books/5-7/Worst-Witch.jpg" alt="最糟糕的小女巫"></p>
-<p>可以说，在哈利波特出世之前，这本故事书在魔幻故事世界里面可以说是大名鼎鼎。因此喜欢魔幻故事的小朋友们千万不要错过喔。故事里讲的是进入魔幻学院学习的主人公Mildred的种种趣事。。。</p>
-<p><a href="http://amzn.to/2doSz0G" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="盘盘勺勺历险记-The-Adventures-of-the-Dish-and-the-Spoon"><a href="#盘盘勺勺历险记-The-Adventures-of-the-Dish-and-the-Spoon" class="headerlink" title="盘盘勺勺历险记 (The Adventures of the Dish and the Spoon)"></a>盘盘勺勺历险记 (The Adventures of the Dish and the Spoon)</h2><p><img src="/images/children/best-books/5-7/Adventures-Dish-Spoon.jpg" alt="盘盘勺勺历险记"></p>
-<p>这个脍炙人口又获奖无数的故事起源于17世纪流传至今的一首小诗：</p>
-<p>Hey diddle diddle,<br>The cat and the fiddle,<br>The cow jumped over the moon.<br>The little dog laughed,<br>To see such sport,<br>And the dish ran away with the spoon.</p>
-<p>故事中讲述了盘子和勺子跌宕起伏的冒险经历，先是飘洋过海来到纽约，成为舞台明星赚了大钱，然后又变成了穷光蛋，还成为了江洋大盗。。。</p>
-<p><a href="http://amzn.to/2e5zpSs" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="卡片人史丹利-Flat-Stanley"><a href="#卡片人史丹利-Flat-Stanley" class="headerlink" title="卡片人史丹利 (Flat Stanley)"></a>卡片人史丹利 (Flat Stanley)</h2><p><img src="/images/children/best-books/5-7/Flat-Stanley.jpg" alt="卡片人史丹利"></p>
-<p>这可以说是一个脑洞大开，奇思妙想的故事。史坦利和弟弟亚瑟从爸爸那里得到了一个张贴板。他们把张贴板挂在史坦利的床头。可是很不幸的是，半夜时张贴板掉下来砸在了史坦利的身上把他砸成了一个扁片人。不过万幸的是，史坦利不仅没有死，还具备了常人不具备的功能。比如能从门缝中轻易通过；可以让弟弟把他当成风筝放在空中；甚至可以把它装在信封里寄出去。。。</p>
-<p><a href="http://amzn.to/2d19zhs" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="阿甘先生和饼干大富豪-Mr-Gum-and-the-Biscuit-Billionaire"><a href="#阿甘先生和饼干大富豪-Mr-Gum-and-the-Biscuit-Billionaire" class="headerlink" title="阿甘先生和饼干大富豪(Mr Gum and the Biscuit Billionaire)"></a>阿甘先生和饼干大富豪(Mr Gum and the Biscuit Billionaire)</h2><p><img src="/images/children/best-books/5-7/Gum-Biscuit-Billionaire.jpg" alt="阿甘先生和饼干大富豪"></p>
-<p>这个故事再次印证了“艺术来源于生活”这句话。书的作者是牛津大学英国文学的肄业生。还曾经作过戏剧演员，漫画家和其他很多职业。丰富的生活经历为他积累的丰富的创作素材。在这个故事里，主人公阿甘先生是个反面角色，他除了喜欢钱，讨厌任何东西，讨厌小孩，讨厌小动物。。。这要他听过谁有钱，就一定要想方设法把别人的钱装在自己口袋里。那这次他又打上谁的主意了？他能成功吗？？？</p>
-<p><a href="http://amzn.to/2dUDu7U" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="Ug-石器时代的天才男娃-Ug-Boy-Genius-of-the-Stone-Age"><a href="#Ug-石器时代的天才男娃-Ug-Boy-Genius-of-the-Stone-Age" class="headerlink" title="Ug:石器时代的天才男娃 (Ug: Boy Genius of the Stone Age)"></a>Ug:石器时代的天才男娃 (Ug: Boy Genius of the Stone Age)</h2><p><img src="/images/children/best-books/5-7/Ug-Genius-Stone-Search-Trousers.jpg" alt="Ug:石器时代的天才男娃"></p>
-<p>这个故事的作者Raymond Briggs可以说是一位天才的高产作家，他的作品获奖无数，包括了很多经典故事，比如：The Snowman, Father Christmas, Jim and the beanstalk等等。。。在故事中，这个叫做Ug的小伙伴生活在石器时代，什么东西都是用石头做的。不仅桌椅板凳，就连裤子都使石头的。。。于是Ug开始了他的发明之旅，想要改善自己的生活。可是他的想法会被家人接受吗？？？</p>
-<p><a href="http://amzn.to/2dDHFJS" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="铁人-The-Iron-Man"><a href="#铁人-The-Iron-Man" class="headerlink" title="铁人 (The Iron Man)"></a>铁人 (The Iron Man)</h2><p><img src="/images/children/best-books/5-7/Iron-man.jpg" alt="铁人"></p>
-<p>人们忽然恐惧的发现，所有金属的东西， 包括铁丝网，拖拉机，犁。。。都被钢铁巨人给吃掉了，那么人们该怎样阻止这个饥饿的铁巨人呢？</p>
-<p><a href="http://amzn.to/2dUF89J" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-<h2 id="芬兰家族的莫名托-Finn-Family-Moomintroll"><a href="#芬兰家族的莫名托-Finn-Family-Moomintroll" class="headerlink" title="芬兰家族的莫名托 (Finn Family Moomintroll)"></a>芬兰家族的莫名托 (Finn Family Moomintroll)</h2><p><img src="/images/children/best-books/5-7/Finn-Family-Moomintroll.jpg" alt="芬兰家族的莫名托"></p>
-<p>这是一个源于瑞典的故事。在这个故事里，莫名托和爸爸妈妈还有好朋友们生活在一个山谷里。每年冬天整个家族都要冬眠。到春天时候他们会苏醒。到夏天则是他们的快乐冒险季节。莫名托意外的发现了一个有着古怪魔力的帽子，于是故事就从这里开始了。。。　</p>
-<p><a href="http://amzn.to/2dH9SMW" rel="external nofollow" target="_blank">Amazon图书页面</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;时至今日，手绘本的发展已经超过百年。大浪淘沙，很多手绘本已经被人遗忘。可是那些经典绘本历经时间洗礼，却不能被人遗忘，一版而再版，滋润了一代又一代人。可以说，好的绘本，不仅仅是简单的图片+文字那么简单。他们 不仅培养孩子们的语言能力，还能培养孩子们的思考能力。今天，羽西就和大
-    
-    </summary>
-    
-      <category term="育儿" scheme="http://www.yuxiuk.com/categories/%E8%82%B2%E5%84%BF/"/>
-    
-    
-      <category term="儿童读物" scheme="http://www.yuxiuk.com/tags/%E5%84%BF%E7%AB%A5%E8%AF%BB%E7%89%A9/"/>
-    
-      <category term="国外经典" scheme="http://www.yuxiuk.com/tags/%E5%9B%BD%E5%A4%96%E7%BB%8F%E5%85%B8/"/>
-    
-      <category term="手绘本" scheme="http://www.yuxiuk.com/tags/%E6%89%8B%E7%BB%98%E6%9C%AC/"/>
-    
-      <category term="5-7岁" scheme="http://www.yuxiuk.com/tags/5-7%E5%B2%81/"/>
     
   </entry>
   
