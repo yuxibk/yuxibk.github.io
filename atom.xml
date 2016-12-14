@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2016-12-07T22:44:12.000Z</updated>
+  <updated>2016-12-14T10:53:24.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>约克肉铺街York Shambles‎</title>
+    <link href="http://www.yuxiuk.com/york-shambles/"/>
+    <id>http://www.yuxiuk.com/york-shambles/</id>
+    <published>2016-12-14T11:33:28.000Z</published>
+    <updated>2016-12-14T10:53:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/travel/shambles/shambles.jpg" alt="约克肉铺街York Shambles‎"></p>
+<p>约克肉铺街（The Shambles）是英格兰约克一条古老的街道，也是英国迄今为止保存的最完整、最古老的中世纪街道。到了旅游旺季这里会人满为患。街道两旁是木筋墙房屋，一些最早的可以追溯到14世纪。顾名思义，这条街道两旁以前都是肉铺。这条街道的建筑风格也是非常独特，街道非常狭窄，在最窄的地方甚至街道两旁房子里的人甚至都可以从窗户伸出手去握手。之所以要这样设计，主要因为在阳光照射下肉类容易腐烂，因此才把街道建的这么窄好挡住阳光。因此这条街道夏季非常凉爽。</p>
+<p><img src="/images/travel/shambles/duijiao.jpg" alt="约克肉铺街York Shambles‎"></p>
+<p>这条街道可以说充满了童话色彩，究其原因，主要是因为这条街道其实就是《哈利波特》电影中各位小魔法师购买各种魔法书籍和道具的地方 -“对角巷”的原型。在《哈利波特与魔法石》中，海格带着哈利来到破釜酒吧后门，用魔杖在红砖墙上敲了5下，砖墙神奇地旋转分开形成一道拱门。“Welcome Harry ！to Diagon Alley！”眼前的一切，梦幻的街景，让哈利目瞪口呆。。。</p>
+<p>其实，关于肉铺街，还有一个真实的故事呢。故事的主人公叫作Margaret Clitherow玛格丽特。她被称作约克的珍珠。在18岁的时候她嫁给了一个屠夫。从此一直生活在肉铺街。由于肉铺街离约克大教堂很近，因此她成为了一名虔诚的教徒。后来在一次宗教战争中，她把教会的一些神职人员藏了起来。对方把她抓了起来，审问多次她都没有说出被保护的神父，后来就先把她的手砍了下来然后又把她杀害了。她这样勇敢的行为感动了英国女王。在她死后，人们为了纪念她，在约克的Ouse河桥头给她竖立了一块纪念碑。约克人一直相信，她的魂魄并没有离开这座城市，而是一直在守护着约克。。。</p>
+<p>地址:  Shambles, City Centre, York, YO1 7LZ<br>距离约克火车站大约步行10分钟，从约克大教堂步行到肉铺街7分钟</p>
+<p><a href="http://bit.ly/2gzSQ1V" rel="external nofollow" target="_blank">看看约克肉铺街附近酒店</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      约克肉铺街York Shambles‎
+    
+    </summary>
+    
+      <category term="旅游" scheme="http://www.yuxiuk.com/categories/%E6%97%85%E6%B8%B8/"/>
+    
+    
+      <category term="约克景点" scheme="http://www.yuxiuk.com/tags/%E7%BA%A6%E5%85%8B%E6%99%AF%E7%82%B9/"/>
+    
+      <category term="约克肉铺街" scheme="http://www.yuxiuk.com/tags/%E7%BA%A6%E5%85%8B%E8%82%89%E9%93%BA%E8%A1%97/"/>
+    
+      <category term="York Shambles‎" scheme="http://www.yuxiuk.com/tags/York-Shambles%E2%80%8E/"/>
+    
+  </entry>
   
   <entry>
     <title>Harrods官网30% OFF圣诞Sale Preview</title>
@@ -914,41 +947,6 @@ $("#text").
     
     
       <category term="VPN" scheme="http://www.yuxiuk.com/tags/VPN/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何使用RSS订阅微信公共号</title>
-    <link href="http://www.yuxiuk.com/wechat-public-account-rss-feed/"/>
-    <id>http://www.yuxiuk.com/wechat-public-account-rss-feed/</id>
-    <published>2016-11-03T06:40:12.000Z</published>
-    <updated>2016-11-08T11:25:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/wechat.jpg" alt=""></p>
-<p>相信现在很多小伙伴和羽西一样都成了微信控，每天都要刷无数次朋友圈，还有阅读微信公共号文章。但是微信公共平台的阅读体验真的是不敢恭维。比如：正在读公共号文章时，有朋友发信息过来，这时候只能退出才能查看朋友的信息。再回来时整个阅读进度全丢了，让人抓狂啊啊啊。。。还有阅读栏的红点真心是让强迫症患者难受死了。。。还有是那种长文章，在手机上读的话远远不如在电脑上读的痛快。下面羽西给大家介绍一个在PC上通过RSS订阅的方式查看公共号的方法。</p>
-<h2 id="选择一个好用的阅读器"><a href="#选择一个好用的阅读器" class="headerlink" title="选择一个好用的阅读器"></a>选择一个好用的阅读器</h2><p>这个就不多说了，推荐使用 feedly： <a href="http://feedly.com/" rel="external nofollow" target="_blank">http://feedly.com/</a></p>
-<h2 id="注册一个微信RSS生成器的账号"><a href="#注册一个微信RSS生成器的账号" class="headerlink" title="注册一个微信RSS生成器的账号"></a>注册一个微信RSS生成器的账号</h2><p>这里推荐使用微广场：<a href="http://www.iwgc.cn/" rel="external nofollow" target="_blank">http://www.iwgc.cn/</a></p>
-<p>最近微广场开始根据不同会员收费了，具体费用如下：</p>
-<p>注册会员：可以免费订阅10个内容源<br>VIP1：可以订阅20个内容源 3元/月 30元/年<br>VIP2：可以订阅30个内容源 5元/月 50元/年<br>VIP3：可以订阅无限内容源 10元/月 100元/年</p>
-<h2 id="搜索订阅微信公共号"><a href="#搜索订阅微信公共号" class="headerlink" title="搜索订阅微信公共号"></a>搜索订阅微信公共号</h2><p>接下来就可以搜索你感兴趣的微信号了：<br><img src="/images/technology/wgc-search.jpg" alt=""></p>
-<p>如果没有找到，可以提交微信号，微广场会对提交的微信号处理并索引。但只限于VIP用户才能提交。</p>
-<p>搜索到后单击“订阅”就可以了。<br><img src="/images/technology/wgc-subscribe.jpg" alt=""></p>
-<p>在上图中可以看到RSS地址了，有了这个地址，就可以添加到任何RSS阅读器了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/wechat.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;相信现在很多小伙伴和羽西一样都成了微信控，每天都要刷无数次朋友圈，还有阅读微信公共号文章。但是微信公共平台的阅读体验真的是不敢恭维。比如：正在读公共号文章时，有朋
-    
-    </summary>
-    
-      <category term="技术" scheme="http://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="微信公共号" scheme="http://www.yuxiuk.com/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E5%85%B1%E5%8F%B7/"/>
-    
-      <category term="rss" scheme="http://www.yuxiuk.com/tags/rss/"/>
     
   </entry>
   

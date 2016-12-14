@@ -21,5 +21,6 @@ Disallow: /castle-howard
 Disallow: /york-racecourse
 Disallow: /yorkshire-lavender
 Disallow: /harrods-sale-preview
+Disallow: /york-shambles/
 
 Sitemap: http://www.yuxiuk.com/sitemap.xml
