@@ -5,7 +5,6 @@ Disallow: /discountcode.html
 Disallow: /404.html
 Disallow: /fatburn
 Disallow: /2016/09/12/fatburn
-Disallow: /holland-barrett
 Disallow: /2016/09/12/holland-barrett
 Disallow: /uk-gift-ideas
 Disallow: /2016/09/12/uk-gift-ideas
