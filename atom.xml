@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2017-03-08T13:23:10.000Z</updated>
+  <updated>2017-03-08T13:42:54.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/"/>
     <id>http://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/</id>
     <published>2017-03-08T15:51:12.000Z</published>
-    <updated>2017-03-08T13:23:10.000Z</updated>
+    <updated>2017-03-08T13:42:54.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/lemp-wordpress.jpg" alt="如何在Ubuntu 16.04LTS安装LEMP+WordPress"></p>
 <p>当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！</p>
@@ -33,7 +33,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">mkdir ~/.ssh</div><div class="line">chmod 700 ~/.ssh</div><div class="line">touch ~/.ssh/authorized_keys</div><div class="line">chmod 600 ~/.ssh/authorized_keys</div></pre></td></tr></table></figure>
 <p>把你的公共密钥添加到文件authorized_keys中。</p>
 <p>更新系统:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">sudo apt-get -y update  </div><div class="line">sudo apt-get -y upgrade </div><div class="line">```bash</div><div class="line"></div><div class="line">更新用户配置：</div><div class="line">```bash</div><div class="line"><span class="built_in">echo</span> <span class="string">'export LS_COLORS=$(echo $LS_COLORS | sed "s/di=\(..\);../di=\1;32/") '</span> &gt;&gt; ~/.bashrc</div><div class="line"><span class="built_in">echo</span> <span class="string">"PS1='\\$ '"</span> &gt;&gt; ~/.bashrc</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-get -y update  </div><div class="line">sudo apt-get -y upgrade</div></pre></td></tr></table></figure>
+<p>更新用户配置：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="string">'export LS_COLORS=$(echo $LS_COLORS | sed "s/di=\(..\);../di=\1;32/") '</span> &gt;&gt; ~/.bashrc</div><div class="line"><span class="built_in">echo</span> <span class="string">"PS1='\\$ '"</span> &gt;&gt; ~/.bashrc</div></pre></td></tr></table></figure></p>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- autosize -->
@@ -44,7 +45,9 @@
 
 
 <h3 id="系统登录设置"><a href="#系统登录设置" class="headerlink" title="系统登录设置"></a>系统登录设置</h3><p>用编辑器打开/etc/ssh/sshd_config</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">sudo nano /etc/ssh/sshd_config</div><div class="line">```bash</div><div class="line"></div><div class="line">改变如下设置：</div><div class="line"></div><div class="line">```bash</div><div class="line">PasswordAuthentication no</div><div class="line">PubkeyAuthentication yes</div><div class="line">ChallengeResponseAuthentication no</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo nano /etc/ssh/sshd_config</div></pre></td></tr></table></figure>
+<p>改变如下设置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">PasswordAuthentication no</div><div class="line">PubkeyAuthentication yes</div><div class="line">ChallengeResponseAuthentication no</div></pre></td></tr></table></figure>
 <p>同时建议改变SSH默认段口号，比如，从”22”改变为”2244”。</p>
 <p>重启ssh服务：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo systemctl reload sshd</div></pre></td></tr></table></figure>
@@ -99,14 +102,6 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">define(<span class="string">'FS_METHOD'</span>, <span class="string">'direct'</span>);</div></pre></td></tr></table></figure>
 <p>在Web界面中完成Wordpress的安装。</p>
 <p>至此，Wordpress的基本版本就安装完了。当然，后续还有一些工作，比如：安全性配置，主题／插件安装，如何备份等等，由于技术性太强了，这里就不讨论了。</p>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- autosize -->
-<p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins></p>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ]]></content>
     
     <summary type="html">
