@@ -64,12 +64,12 @@
     <link href="http://www.yuxiuk.com/install-android-nougat-to-samsung-galaxy-s5/"/>
     <id>http://www.yuxiuk.com/install-android-nougat-to-samsung-galaxy-s5/</id>
     <published>2017-05-02T20:51:12.000Z</published>
-    <updated>2017-05-05T15:02:26.000Z</updated>
+    <updated>2017-05-05T15:14:10.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/mobile/android-nougat.jpg" alt="Android Nougat"></p>
 <p>最近自己的Galaxy S5手机正好不用，就用它刷了下机，安装了Android 7.1 Nougat，也就是所说的牛轧糖，下面把刷机步骤总结一下，和大家分享。不过这里要先声明一下，虽然羽西自己成功的刷过多个手机，但这并不代表我总结的步骤一定适用于你的手机。所以刷机的话，风险自负。当然，如果有什么问题的话，欢迎留言，羽西非常乐意和大家分享经验。</p>
 <h2 id="1-安装三星的刷机软件Odin到你的PC"><a href="#1-安装三星的刷机软件Odin到你的PC" class="headerlink" title="1) 安装三星的刷机软件Odin到你的PC"></a>1) 安装三星的刷机软件Odin到你的PC</h2><p>下载Odin到你的Windows PC: <a href="http://odindownload.com/SamsungOdin/" rel="external nofollow" target="_blank">http://odindownload.com/SamsungOdin/</a></p>
-<p>解开这个zip文件后运行主程序就会看到这个节目：</p>
+<p>解开这个zip文件后运行主程序就会看到这个界面：</p>
 <p><img src="/images/technology/mobile/odin.jpg" alt="Install odin"></p>
 <h2 id="2-安装TWRP"><a href="#2-安装TWRP" class="headerlink" title="2) 安装TWRP"></a>2) 安装TWRP</h2><p>由于三星手机自带的系统工具过于简单，因此需要TWRP这个软件，它的主要作用就是安装后面的Android系统的。</p>
 <p>下载TWRP到你的Windows PC: <a href="https://twrp.me/" rel="external nofollow" target="_blank">https://twrp.me/</a></p>
@@ -80,7 +80,7 @@
 <p>下载Cyanogenmod(CM) 14.1: <a href="http://mirror41.download.highonandroid.com/download/CM14.1/GalaxyS5/" rel="external nofollow" target="_blank">http://mirror41.download.highonandroid.com/download/CM14.1/GalaxyS5/</a><br>下载GAPPS 7.1: <a href="http://opengapps.org/" rel="external nofollow" target="_blank">http://opengapps.org/</a></p>
 <p>需要注意的是，在下载GAPPS的时候，有很多版本可以选择，比如’pico’,’micro’,’mini’,’stock’等等，但羽西试过网站推荐的版本’stock’，结果不能完全运行，会看到错误提示：”Unfortunately, Google Play Services has stopped”。因此就选择了最小也是最基本的’pico’版本，结果顺利安装。其实这样也好，需要什么，比如gmail, youtube什么的自己再装就好了。</p>
 <p>接下来把GAPPS和Cyanogenmod文件复制到手机的SD card上. </p>
-<p>再次同时按住音量键向上按钮+Home键+开关键进入TWRP界面，选择”Wipe”清除系统后在选择”Install”安装Cyanogenmod和GAPPS。整个安装过程很快，结束后重新启动手机。然后Cyanogenmod需要几分钟配置一下系统。</p>
+<p>再次同时按住音量键向上按钮+Home键+开关键进入TWRP界面，选择”Wipe”清除系统后再选择”Install”安装Cyanogenmod和GAPPS。整个安装过程很快，结束后重新启动手机。然后Cyanogenmod需要几分钟配置一下系统。</p>
 <p>大功告成！</p>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
