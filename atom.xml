@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiuk.com/"/>
-  <updated>2017-05-10T20:14:13.000Z</updated>
+  <updated>2017-05-10T22:39:00.000Z</updated>
   <id>http://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,241 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多边形的中英文名称大全</title>
+    <link href="http://www.yuxiuk.com/polygons/"/>
+    <id>http://www.yuxiuk.com/polygons/</id>
+    <published>2017-05-10T21:40:12.000Z</published>
+    <updated>2017-05-10T22:39:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/children/math/polygons.png" alt="多边形的中英文名称"></p>
+<p>首先来看看最基本的多边形名称：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">边数</th>
+<th style="text-align:left">英文名</th>
+<th style="text-align:left">中文名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">Triangle</td>
+<td style="text-align:left">三角形</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">Quadrilateral</td>
+<td style="text-align:left">四边形</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">Pentagon</td>
+<td style="text-align:left">五边形</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left">Hexagon</td>
+<td style="text-align:left">六边形</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left">Heptagon</td>
+<td style="text-align:left">七边形</td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:left">Octagon</td>
+<td style="text-align:left">八边形</td>
+</tr>
+<tr>
+<td style="text-align:left">9</td>
+<td style="text-align:left">Nonagon, Enneagon</td>
+<td style="text-align:left">九边形</td>
+</tr>
+<tr>
+<td style="text-align:left">10</td>
+<td style="text-align:left">Decagon</td>
+<td style="text-align:left">十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">11</td>
+<td style="text-align:left">Undecagon, Hendecagon</td>
+<td style="text-align:left">十一边形</td>
+</tr>
+<tr>
+<td style="text-align:left">12</td>
+<td style="text-align:left">Dodecagon</td>
+<td style="text-align:left">十二边形</td>
+</tr>
+<tr>
+<td style="text-align:left">13</td>
+<td style="text-align:left">Tridecagon, Triskaidecagon</td>
+<td style="text-align:left">十三边形</td>
+</tr>
+<tr>
+<td style="text-align:left">14</td>
+<td style="text-align:left">Tetradecagon, Tetrakaidecagon</td>
+<td style="text-align:left">十四边形</td>
+</tr>
+<tr>
+<td style="text-align:left">15</td>
+<td style="text-align:left">Pentadecagon, Pentakaidecagon</td>
+<td style="text-align:left">十五边形</td>
+</tr>
+<tr>
+<td style="text-align:left">16</td>
+<td style="text-align:left">Hexadecagon, Hexakaidecagon</td>
+<td style="text-align:left">十六边形</td>
+</tr>
+<tr>
+<td style="text-align:left">17</td>
+<td style="text-align:left">Heptadecagon, Heptakaidecagon</td>
+<td style="text-align:left">十七边形</td>
+</tr>
+<tr>
+<td style="text-align:left">18</td>
+<td style="text-align:left">Octadecagon, Octakaidecagon</td>
+<td style="text-align:left">十八边形</td>
+</tr>
+<tr>
+<td style="text-align:left">19</td>
+<td style="text-align:left">Enneadecagon</td>
+<td style="text-align:left">十九边形</td>
+</tr>
+<tr>
+<td style="text-align:left">20</td>
+<td style="text-align:left">Icosagon</td>
+<td style="text-align:left">二十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">30</td>
+<td style="text-align:left">Triacontagon</td>
+<td style="text-align:left">三十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">40</td>
+<td style="text-align:left">Tetracontagon</td>
+<td style="text-align:left">四十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">50</td>
+<td style="text-align:left">Pentacontagon</td>
+<td style="text-align:left">五十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">60</td>
+<td style="text-align:left">Hexacontagon</td>
+<td style="text-align:left">六十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">70</td>
+<td style="text-align:left">Heptacontagon</td>
+<td style="text-align:left">七十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">80</td>
+<td style="text-align:left">Octacontagon</td>
+<td style="text-align:left">八十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">90</td>
+<td style="text-align:left">Enneacontagon</td>
+<td style="text-align:left">九十边形</td>
+</tr>
+<tr>
+<td style="text-align:left">100</td>
+<td style="text-align:left">Hectogon, Hecatontagon</td>
+<td style="text-align:left">一百边形</td>
+</tr>
+<tr>
+<td style="text-align:left">1,000</td>
+<td style="text-align:left">Chiliagon</td>
+<td style="text-align:left">一千边形</td>
+</tr>
+<tr>
+<td style="text-align:left">10,000</td>
+<td style="text-align:left">Myriagon</td>
+<td style="text-align:left">一万边形</td>
+</tr>
+</tbody>
+</table>
+<p>对于其他的多边形名称，可以通过前缀+后缀的组合方式来构造。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">边数</th>
+<th style="text-align:left">前缀名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">20</td>
+<td style="text-align:left">Icosikai…</td>
+</tr>
+<tr>
+<td style="text-align:left">30</td>
+<td style="text-align:left">Triacontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">40</td>
+<td style="text-align:left">Tetracontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">50</td>
+<td style="text-align:left">Pentacontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">60</td>
+<td style="text-align:left">Hexacontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">70</td>
+<td style="text-align:left">Heptacontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">80</td>
+<td style="text-align:left">Octacontakai…</td>
+</tr>
+<tr>
+<td style="text-align:left">90</td>
+<td style="text-align:left">Enneacontakai…</td>
+</tr>
+</tbody>
+</table>
+<p>后缀名称：<br>| 边数          | 后缀名称    |<br>| :————- |:—————-|<br>|1                |…henagon        |<br>|2                |…digon        |<br>|3                |…trigon        |<br>|4                |…tetragon        |<br>|5                |…pentagon        |<br>|6                |…hexagon        |<br>|7                |…heptagon        |<br>|8                |…octagon        |<br>|9                |…enneagon        | </p>
+<p>比如说，<br>46边形 - Tetracontakaihexagon<br>28边形 - Icosikaioctagon</p>
+<p>也可以用简化的方式（n-gon）来描述，比如：, 46-gon, 或者 28-gon。</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- autosize -->
+<p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins></p>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/children/math/polygons.png&quot; alt=&quot;多边形的中英文名称&quot;&gt;&lt;/p&gt;
+&lt;p&gt;首先来看看最基本的多边形名称：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left
+    
+    </summary>
+    
+      <category term="育儿" scheme="http://www.yuxiuk.com/categories/%E8%82%B2%E5%84%BF/"/>
+    
+    
+      <category term="数学" scheme="http://www.yuxiuk.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>第十五届全英普通话朗诵比赛</title>
@@ -888,46 +1123,6 @@
   </entry>
   
   <entry>
-    <title>牛津Tutorial College招聘兼职中文老师</title>
-    <link href="http://www.yuxiuk.com/oxford-tutorial-college-chinese-teacher-march-2017/"/>
-    <id>http://www.yuxiuk.com/oxford-tutorial-college-chinese-teacher-march-2017/</id>
-    <published>2017-03-17T06:40:12.000Z</published>
-    <updated>2017-03-17T10:40:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/jobs/oxford-tutorial-college.jpg" alt="Oxford Tutorial College"></p>
-<p>职位：Chinese Tutor<br>雇主: Oxford Tutorial College<br>工作性质：永久职位，兼职<br>工作地点：伦敦<br>薪水：£10 per hour<br>申请截止日期：<strong>2017年3月29日</strong><br>具体要求及申请页面：<a href="https://www.fejobs.com/job.aspx?Chinese+Tutor&amp;vacno=753455&amp;Page=2" rel="external nofollow" target="_blank">https://www.fejobs.com/job.aspx?Chinese+Tutor&amp;vacno=753455&amp;Page=2</a></p>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- autosize -->
-<p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins></p>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/jobs/oxford-tutorial-college.jpg&quot; alt=&quot;Oxford Tutorial College&quot;&gt;&lt;/p&gt;
-&lt;p&gt;职位：Chinese Tutor&lt;br&gt;雇主: Oxford Tutorial College
-    
-    </summary>
-    
-      <category term="职场" scheme="http://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
-    
-    
-      <category term="招聘" scheme="http://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
-    
-      <category term="工作" scheme="http://www.yuxiuk.com/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-      <category term="中文老师" scheme="http://www.yuxiuk.com/tags/%E4%B8%AD%E6%96%87%E8%80%81%E5%B8%88/"/>
-    
-      <category term="牛津" scheme="http://www.yuxiuk.com/tags/%E7%89%9B%E6%B4%A5/"/>
-    
-  </entry>
-  
-  <entry>
     <title>伦敦HiTECH创新大会</title>
     <link href="http://www.yuxiuk.com/hitech-conference-march-2017/"/>
     <id>http://www.yuxiuk.com/hitech-conference-march-2017/</id>
@@ -971,14 +1166,14 @@
   </entry>
   
   <entry>
-    <title>皇家霍洛威大学招聘Regional Officer，34-40k</title>
-    <link href="http://www.yuxiuk.com/royal-holloway-regitional-officer-march-2017/"/>
-    <id>http://www.yuxiuk.com/royal-holloway-regitional-officer-march-2017/</id>
-    <published>2017-03-15T06:40:12.000Z</published>
-    <updated>2017-03-15T09:30:50.000Z</updated>
+    <title>牛津Tutorial College招聘兼职中文老师</title>
+    <link href="http://www.yuxiuk.com/oxford-tutorial-college-chinese-teacher-march-2017/"/>
+    <id>http://www.yuxiuk.com/oxford-tutorial-college-chinese-teacher-march-2017/</id>
+    <published>2017-03-17T06:40:12.000Z</published>
+    <updated>2017-03-17T10:40:24.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/images/jobs/royalholloway.jpg" alt="皇家霍洛威大学招聘Regional Officer"></p>
-<p>职位：Regional Officer<br>雇主: 皇家霍洛威大学 Royal Holloway<br>工作性质：永久职位，全职<br>工作地点：伦敦<br>薪水：£34,137 to £40,317<br>语言要求：中英文流利<br>申请截止日期：<strong>2017年4月11日</strong><br>具体要求及申请页面：<a href="https://jobs.royalholloway.ac.uk/vacancy.aspx?ref=0317-116" rel="external nofollow" target="_blank">https://jobs.royalholloway.ac.uk/vacancy.aspx?ref=0317-116</a></p>
+    <content type="html"><![CDATA[<p><img src="/images/jobs/oxford-tutorial-college.jpg" alt="Oxford Tutorial College"></p>
+<p>职位：Chinese Tutor<br>雇主: Oxford Tutorial College<br>工作性质：永久职位，兼职<br>工作地点：伦敦<br>薪水：£10 per hour<br>申请截止日期：<strong>2017年3月29日</strong><br>具体要求及申请页面：<a href="https://www.fejobs.com/job.aspx?Chinese+Tutor&amp;vacno=753455&amp;Page=2" rel="external nofollow" target="_blank">https://www.fejobs.com/job.aspx?Chinese+Tutor&amp;vacno=753455&amp;Page=2</a></p>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- autosize -->
@@ -992,8 +1187,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/images/jobs/royalholloway.jpg&quot; alt=&quot;皇家霍洛威大学招聘Regional Officer&quot;&gt;&lt;/p&gt;
-&lt;p&gt;职位：Regional Officer&lt;br&gt;雇主: 皇家霍洛威大学 Royal Holloway&lt;br&gt;工作
+      &lt;p&gt;&lt;img src=&quot;/images/jobs/oxford-tutorial-college.jpg&quot; alt=&quot;Oxford Tutorial College&quot;&gt;&lt;/p&gt;
+&lt;p&gt;职位：Chinese Tutor&lt;br&gt;雇主: Oxford Tutorial College
     
     </summary>
     
@@ -1002,11 +1197,11 @@
     
       <category term="招聘" scheme="http://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
     
-      <category term="伦敦" scheme="http://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
       <category term="工作" scheme="http://www.yuxiuk.com/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-      <category term="皇家霍洛威大学" scheme="http://www.yuxiuk.com/tags/%E7%9A%87%E5%AE%B6%E9%9C%8D%E6%B4%9B%E5%A8%81%E5%A4%A7%E5%AD%A6/"/>
+      <category term="中文老师" scheme="http://www.yuxiuk.com/tags/%E4%B8%AD%E6%96%87%E8%80%81%E5%B8%88/"/>
+    
+      <category term="牛津" scheme="http://www.yuxiuk.com/tags/%E7%89%9B%E6%B4%A5/"/>
     
   </entry>
   
