@@ -19,7 +19,7 @@
     <title></title>
     <link href="http://www.yuxiuk.com/st-andrews/"/>
     <id>http://www.yuxiuk.com/st-andrews/</id>
-    <published>2017-05-12T08:40:59.142Z</published>
+    <published>2017-05-12T09:30:18.141Z</published>
     <updated>2017-05-12T08:40:40.000Z</updated>
     
     <content type="html"><![CDATA[<hr>
@@ -1029,11 +1029,11 @@
     
       <category term="阿里云" scheme="http://www.yuxiuk.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
-      <category term="云架构师" scheme="http://www.yuxiuk.com/tags/%E4%BA%91%E6%9E%B6%E6%9E%84%E5%B8%88/"/>
-    
       <category term="招聘" scheme="http://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
     
       <category term="伦敦" scheme="http://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
+    
+      <category term="云架构师" scheme="http://www.yuxiuk.com/tags/%E4%BA%91%E6%9E%B6%E6%9E%84%E5%B8%88/"/>
     
   </entry>
   
@@ -1148,11 +1148,11 @@
     
       <category term="阿里云" scheme="http://www.yuxiuk.com/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
+      <category term="BD Manager" scheme="http://www.yuxiuk.com/tags/BD-Manager/"/>
+    
       <category term="招聘" scheme="http://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
     
       <category term="伦敦" scheme="http://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="BD Manager" scheme="http://www.yuxiuk.com/tags/BD-Manager/"/>
     
   </entry>
   
