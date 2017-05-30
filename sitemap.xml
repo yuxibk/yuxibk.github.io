@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.yuxiuk.com/peppa-pig-world/</loc>
+    
+    <lastmod>2017-05-30T12:47:58.112Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.yuxiuk.com/isle-of-wight/</loc>
     
     <lastmod>2017-05-30T10:45:06.339Z</lastmod>
@@ -65,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://www.yuxiuk.com/york-tourist-guide/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.yuxiuk.com/york-shambles/</loc>
     
     <lastmod>2017-05-17T08:38:27.367Z</lastmod>
@@ -100,9 +100,9 @@
   </url>
   
   <url>
-    <loc>http://www.yuxiuk.com/xdfuk-march-2017/</loc>
+    <loc>http://www.yuxiuk.com/york-tourist-guide/</loc>
     
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
     
   </url>
   
@@ -331,7 +331,7 @@
   </url>
   
   <url>
-    <loc>http://www.yuxiuk.com/peppa-pig-world/</loc>
+    <loc>http://www.yuxiuk.com/xdfuk-march-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
