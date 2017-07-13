@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-07-11T11:01:36.142Z</updated>
+  <updated>2017-07-13T13:24:47.681Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>什么是Steem和Steemit?</title>
+    <link href="https://www.yuxiuk.com/steem-and-steemit/"/>
+    <id>https://www.yuxiuk.com/steem-and-steemit/</id>
+    <published>2017-07-13T05:40:12.000Z</published>
+    <updated>2017-07-13T13:24:47.681Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/steem/steem.png" alt="Steem"></p>
+<p>近期羽西周边的一些朋友开始接触到了Steem和Steemit，看到这个新兴的技术/平台如此火爆，羽西也打算学习一下，苦于网上系统的中文资料很少，因此羽西把从网上搜集到的中英文资料整理了一下，在这里分享给大家。如果有说的不够准确的，请各位牛人指正，欢迎在下面留言。</p>
+<h2 id="Steem介绍"><a href="#Steem介绍" class="headerlink" title="Steem介绍"></a>Steem介绍</h2><h3 id="什么是Blockchain区块链技术"><a href="#什么是Blockchain区块链技术" class="headerlink" title="什么是Blockchain区块链技术"></a>什么是Blockchain区块链技术</h3><p><img src="/images/technology/steem/blockchain.jpg" alt="区块链"></p>
+<p>要了解Steem，就必须先要理解Steem所依赖的技术：Blockchain，也就是现在非常热的区块链技术。这又不得不提到Bitcoin比特币。其实，比特币是目前最大规模的区块链技术的应用，同时也是让区块链技术名声大噪的一个原因。说白了，比特币是一种点对点的电子现金系统，它完全基于密码学原理而不是基于信用，任何达成一致的双方能够直接进行支付，不需要第三方中介比如银行的参与。而区块链技术则是底层用来支持这种点对点支付的交易服务平台。在区块链技术中，所有人都能够访问共享帐簿 （Shared Ledger）。在共享账簿中大量使用密码学算法防止篡改。共享帐簿的使用解决了在分布式环境中多方参与的互信问题以及在业务处理中由于信用不连续导致的冲突和摩擦。</p>
+<p><img src="/images/technology/steem/shared-ledger.jpg" alt="区块链"></p>
+<p>比特币的发明者Satoshi Nakamoto（中本聪）构想区块链技术路线图包括三个阶段：</p>
+<p><strong>第一步（数字货币，也称为Blockchain v1.0）</strong>：这里包括区块链理论基础（分布式公开交易账簿）以及区块链货币（比如比特币）和具体算法、数据结构、竞争协商机制等</p>
+<p><strong>第二步（智能合约Smart Contract，也称为Blockchain v2.0）</strong>：包括资产数字化和智能合约（包括区块链的编程脚本语言， 适合任意区块链数据结构和共识协议，以及脚本的自动执行，无法反悔、篡改、干预、操纵）</p>
+<p><strong>第三步（衍生应用，也称为Blockchain v3.0）</strong>: 包括更大范围内的资产和交换协议，以及更多行业的应用。</p>
+<p>其实，任何技术都是为了提高效率，降低成本的。区块链技术可以说是往前迈了一大步，去除了中心化，建立了点对点的信任机制。个人感觉目前区块链技术还不完善，但它是一种未来的技术，潜力无限，代表了互联网的未来。</p>
+<h3 id="什么是Steem和Steemit"><a href="#什么是Steem和Steemit" class="headerlink" title="什么是Steem和Steemit"></a>什么是Steem和Steemit</h3><p><img src="/images/technology/steem/steem_success.jpg" alt="Steem"></p>
+<p>前面说到了区块链技术代表了互联网的未来，那么在未来的互联网，什么应用最受欢迎呢？答案当然是社交类的应用。就像PC时代的MSN, QQ，移动互联网时代的微信，Facebook, Twitter, Instagam等等一样，未来的基于区块链技术的互联网应用也需要它的社交网络。而Steem就是一个这样的去中心化社交网络平台，它的开发者更是加密数字货币领域的超级大牛Dan Larimer。说到这里，小伙伴们可能大概知道Steem的前景有多大了吧：基于未来互联网技术（区块链）的社交平台。在Steem中，参与者可以得到数字货币形式的奖励。所谓参与，指的就是在Steem上发帖、回帖、讨论、点赞等等。而你的帖子质量越高、点赞的越多，收到的奖励就越高。而要使用Steem，是需要一个网站或者手机APP去操作的，这就是<a href="https://steemit.com" rel="external nofollow noopener noreferrer" target="_blank">Steemit网站</a>和<a href="https://www.esteem.ws/" rel="external nofollow noopener noreferrer" target="_blank">Steemit APP</a>。</p>
+<h2 id="Steem中的数字货币"><a href="#Steem中的数字货币" class="headerlink" title="Steem中的数字货币"></a>Steem中的数字货币</h2><p><img src="/images/technology/steem/wallet.jpg" alt="Steem中的数字货币"></p>
+<p>在一般的区块链项目中，通常只有一种货币，比如比特币项目中的BTC，但是在Steem中却一下出现了三种，分别是：Steem，Steem Power, 和Steem Dollars。相信很多人第一次看到时肯定和羽西一样，彻底懵圈了。。。Steem最大的特点就是能自由流通；Steem Dollars的最大特点就是最保值；Steem Power的最大特点就是在Steem平台里的影响力最大。下面给大家详细解释一下：</p>
+<h3 id="Steem-虚拟货币"><a href="#Steem-虚拟货币" class="headerlink" title="Steem - 虚拟货币"></a>Steem - 虚拟货币</h3><p>Steem就是和比特币性质相同的虚拟货币。Steem可以在网络上进行自由买卖流通，比如可以随时在一些交易所兑换成比特币。就像你可以花钱买比特币一样，你也可以花钱购买Steem。当然，在Steem系统里面，你也可以通过发表文章或者参与讨论而获得奖励。同时，就像比特币的价格有波动一样，Steem的价格(只用你的真实货币购买价格)也在不停的变化。现阶段Steem平台基本按照每年100%的速度增发，每年总量翻一番。这些货币产生以后90%分配给SP持有者。剩下的10%分配给对平台做出贡献的人，比如进行发帖/评论/投票等等的人。</p>
+<h3 id="Steem-Power-你的威望值-股权"><a href="#Steem-Power-你的威望值-股权" class="headerlink" title="Steem Power - 你的威望值/股权"></a>Steem Power - 你的威望值/股权</h3><p>Steem Power (SP)，直接翻译作Steem能力，也可以理解成你在Steam平台里的威望值。你的Steem Power值越高，你发表的话题的排名就越靠前，就会有更多的人看到你的话题，从而赚取更多的资产。如果了解SEO的小伙伴们可以这样理解，这个Steem Power就有点像你网站的Alexa排名，排名越靠前，你在网站发表的文章就会在搜索引擎的搜索结果中靠前，从而提高网站流量。这个Steem Power是不能直接流通买卖的，必须要将它转换为Steem才能流通。要想把Steem Power转换为Stem是有严格限制条件的：首先你拥有的Stem Power已满两年；其次你的Stem Power是通过至少104次奖励而得到的才行。</p>
+<p>同时你的的Steem Power有点类似于你对整个Steem平台的拥有股权。这样每年在增加新股，也就是新的Steem增发时，其中90%的新Steem会按照每个人所有的Steem Power值大小进行分配，你的Steem Power/威望值越高，获得的Stem就越多。这种方式也是Steem平台最期待用户拥有的，因为只有持股了才会更加关注平台的发展，有利于平台的长远利益。</p>
+<h3 id="Steem-Dollars-Steem美元"><a href="#Steem-Dollars-Steem美元" class="headerlink" title="Steem Dollars - Steem美元"></a>Steem Dollars - Steem美元</h3><p>Steem Dollars (SBD)是Stem平台中最稳健，最保值的一种资产。每一个SBD就相当于真实货币的1美元。无论Steem的价格如何波动，SBD的价格就是和美元绑定，任何时刻都是1:1的比例。在拥有SBD的同时，你会获得10%的年息。SBD可以在平台内部兑换成Steem。正是由于它的稳健性，SBD已经可以作为货币在一些网站上购买实体商品了，比如：<a href="https://www.peerhub.com/" rel="external nofollow noopener noreferrer" target="_blank">https://www.peerhub.com/</a> </p>
+<p>如果想要进行STEEM或者SBD的交易，可以在以下两个网站进行：</p>
+<p><a href="https://poloniex.com" rel="external nofollow noopener noreferrer" target="_blank">https://poloniex.com</a><br><a href="https://bittrex.com" rel="external nofollow noopener noreferrer" target="_blank">https://bittrex.com</a></p>
+<h2 id="在Steemit上发表文章能赚钱吗？"><a href="#在Steemit上发表文章能赚钱吗？" class="headerlink" title="在Steemit上发表文章能赚钱吗？"></a>在Steemit上发表文章能赚钱吗？</h2><p><img src="/images/technology/steem/steemit.png" alt="Steemit"></p>
+<p>答案是肯定的。首先，新注册用户会获得5个Power Steem。之后如果发布了新的文章或者参与了其他主题的讨论，都会获得相应的奖励。你所发文章越能吸引眼球，就越容易获得更多的SP和SBD奖励。对于新热门话题点赞，也能够获得SP。如果你懂得服务器的配置，可以在steem.io上下载相应的程序，通过mining来获得奖励。等等。。。</p>
+<h2 id="投票的基本规则以及如何防止作弊"><a href="#投票的基本规则以及如何防止作弊" class="headerlink" title="投票的基本规则以及如何防止作弊"></a>投票的基本规则以及如何防止作弊</h2><p>其实，不论在什么平台上创作写文章，微信也好，微博也罢，还是facebook, 博客，或者在Steem上，文章的内容永远是最重要的。如果你能一直写出原创的，能吸引眼球的文章，就会得到相应的奖励。那Steem内部又是如何运作来判定那篇文章更有价值呢？答案是看文章的票数，而相应SP值高的用户投的票数分量就会更高。也就是说如果你的文章得到了Steem系统中的一些牛人的一个upvote，可能会比很多其他非牛人的总和还要起作用。如果别人给你的文章回复，评论的时候，他也会得到奖励，而其中的一半，50%，会分给你。</p>
+<p>可能有的小伙伴会担心作弊问题，如果有人雇水军投票怎么办？其实关于这点，Steem早就想到了。比如：如果有人明显作弊，那么，就会有打抱不平的用户站出来，投否决票。每个Steem用户都会有一个信誉值，这和SP无关，而是通过发文章，评论等长期积累而来。信誉值低的人给信誉值高的人投否决票无效。而信誉值高的人则会很珍惜自己的信誉，也不会轻易使用否决权。同时就像玩游戏时每个用户都有血值一样，Steem中用户有一个“投票力”，新手的投票力会比较低，老手则可能更高，每投一票，投票力会下降，直至耗尽，就不能再投了。到第二天投票力会被重置。</p>
+<h2 id="心动不如行动"><a href="#心动不如行动" class="headerlink" title="心动不如行动"></a>心动不如行动</h2><h3 id="注册Steemit"><a href="#注册Steemit" class="headerlink" title="注册Steemit"></a>注册Steemit</h3><p>登录:  <a href="https://steemit.com，首页点击“SIGN" rel="external nofollow noopener noreferrer" target="_blank">https://steemit.com，首页点击“SIGN</a> UP”，剩下的就按照屏幕提示走就行了，羽西这里就不多说了。需要记住的是系统会给你自动生成一个很长的密码，这个一个要妥善保存好了，建议使用KeePass或者Lastpass之类的密码管理工具。</p>
+<h3 id="积极参与"><a href="#积极参与" class="headerlink" title="积极参与"></a>积极参与</h3><p>用自己帐户登陆后，就可以单击”Submit a story”写文章了，Steemit支持羽西最喜欢的Markdown语法。当然，你也可以选择最普通的Editor模式。需要注意的，为了让你的文章让更多感兴趣的人看到，一定要设置好那些标签，也就是tags，说白了就是文章分类。每篇文章最多可以选择5个tags，建议中文文章都要选择”cn”这个tag。</p>
+<p>除了自己写文章外，还可以通过upvote (赞), reply (留言), resteem (转发)和其他文章的作者交互。当然，想要留言的话需要先关注(follow)该作者才行。</p>
+<h3 id="钱包"><a href="#钱包" class="headerlink" title="钱包"></a>钱包</h3><p>点击自己头像后再点击Wallet (钱包)就会看到自己的账户状况。其中包括我们前面介绍过的STEEM, SP, 和SBD。除此之外，还有SAVINGS (存款余额，如要提现需要３天时间），和Estimated Account Value（对你账户的估值）。</p>
+<h2 id="Steem相关工具"><a href="#Steem相关工具" class="headerlink" title="Steem相关工具"></a>Steem相关工具</h2><p>在玩Steem的时候，还有一些好玩的工具，下面给大家介绍下：</p>
+<h3 id="steemvp"><a href="#steemvp" class="headerlink" title="steemvp"></a>steemvp</h3><p>这个网站能够查找某个用户的”贵人”，也就是给这个用户帮助最多的人。</p>
+<p>网站: <a href="http://steemvp.com/" rel="external nofollow noopener noreferrer" target="_blank">http://steemvp.com/</a></p>
+<h3 id="steemwhales"><a href="#steemwhales" class="headerlink" title="steemwhales"></a>steemwhales</h3><p><img src="/images/technology/steem/steem-whale.png" alt="Steemwhales"></p>
+<p>在steemwhales这个网站上可以查看steem用户的排名，你可以选择按照STEEM，SP，或者SBD等等方式进行排名。当然，你也可以输入感兴趣的Steem用户ID，搜索相关用户的信息和排名。</p>
+<p>网站: <a href="https://steemwhales.com/" rel="external nofollow noopener noreferrer" target="_blank">https://steemwhales.com/</a></p>
+<h3 id="dead-followers"><a href="#dead-followers" class="headerlink" title="dead followers"></a>dead followers</h3><p>就和微博一样，Steem上可能也会有僵尸粉，用这个工具就可以查到这些僵尸粉。而且，在这里你可以自己定义什么是僵尸粉，比如：超过２个月没有发文章，或者点赞的用户。</p>
+<p>网站: <a href="http://steemit.deadfollowers.info/" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.deadfollowers.info/</a></p>
+<h3 id="esteem"><a href="#esteem" class="headerlink" title="esteem"></a>esteem</h3><p>这个是steem的手机客户端。不过功能还不够完善。小伙伴们可以自己试试。这个APP Android和苹果的版本都有。不过羽西实在是不喜欢苹果的产品。这里只给出Android的下载链接：<a href="https://play.google.com/store/apps/details?id=com.netsolutions.esteem" rel="external nofollow noopener noreferrer" target="_blank">https://play.google.com/store/apps/details?id=com.netsolutions.esteem</a></p>
+<p>好了，关于Steem, Steemit今天就先说到这里，欢迎大家留言讨论。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/steem.png&quot; alt=&quot;Steem&quot;&gt;&lt;/p&gt;
+&lt;p&gt;近期羽西周边的一些朋友开始接触到了Steem和Steemit，看到这个新兴的技术/平台如此火爆，羽西也打算学习一下，苦于网上系统的中文资料很少
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+  </entry>
   
   <entry>
     <title>伦敦Bank of China实习机会</title>
@@ -1250,6 +1313,33 @@
   </entry>
   
   <entry>
+    <title>免费的巨石阵夏季开放日 - Stonehenge Summer Solstice Festival 2017</title>
+    <link href="https://www.yuxiuk.com/stonehenge-summer-solstice-festival/"/>
+    <id>https://www.yuxiuk.com/stonehenge-summer-solstice-festival/</id>
+    <published>2017-06-10T21:40:12.000Z</published>
+    <updated>2017-06-11T21:39:50.551Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/travel/stonehenge/summer-solstice.jpg" alt="巨石阵夏季开放日"></p>
+<p>想去巨石阵玩的小伙伴们要抓紧啦，<strong>免费</strong>参观巨石阵的机会来啦！巨石阵夏季开放日( Stonehenge Summer Solstice Festival 2017)就要来啦！喜欢Camping的小伙伴们可以带上帐篷在巨石阵周边许可的地方睡上一夜，在第二天早上4点多的时候迎接太阳的升起！如果不喜欢宿营的童鞋也可以选择住在附近的酒店，第二天一大早开车过去！这里给大家推荐两家酒店，离巨石阵都是3公里左右！</p>
+<p>【<a href="http://tidd.ly/522158ca" rel="external nofollow noopener noreferrer" target="_blank">预订Robin Hill Cottage</a>】<br>【<a href="http://tidd.ly/bc88ee7b" rel="external nofollow noopener noreferrer" target="_blank">预订Fairlawn House</a>】</p>
+<p>巨石阵是欧洲著名的史前时代文化神庙遗址，也是英国最出名的标志之一，位于英格兰威尔特郡索尔兹伯里平原，在一大片草地中，这些横着竖着的大石头看似毫无规律的摆放，确是人类史的一大奇迹，考古学家认为其建于公元前3000年左右，这些距今已经有4300年的巨石是如何搬运和抬放依旧是迷。巨石阵最不可思议的是石阵中心的巨石，这些巨石最高的有8米，平均重量近30吨，呈环形排布直径超过100米，极具震撼力。然而人们惊奇的发现，有不少重达7吨的巨石是横架在两根竖着的石柱上的。有人认为建造这样宏伟的巨石阵是纪录太阳的轨迹，有认为是墓碑或是祭神所用，但其真正的建造目的至今未知。</p>
+<p>时间：2017年6月18日至2017年6月21日<br>地址：Stonehenge, Amesbury, Salisbury SP4 7DE<br>官网：<a href="http://www.stonehengecampsite.co.uk/solstice_festival" rel="external nofollow noopener noreferrer" target="_blank">http://www.stonehengecampsite.co.uk/solstice_festival</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      想去巨石阵玩的小伙伴们要抓紧啦，**免费**参观巨石阵的机会来啦！巨石阵夏季开放日( Stonehenge Summer Solstice Festival 2017)就要来啦！
+    
+    </summary>
+    
+      <category term="旅游" scheme="https://www.yuxiuk.com/categories/%E6%97%85%E6%B8%B8/"/>
+    
+    
+      <category term="巨石阵" scheme="https://www.yuxiuk.com/tags/%E5%B7%A8%E7%9F%B3%E9%98%B5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>最全面的牛津旅游攻略</title>
     <link href="https://www.yuxiuk.com/oxford-tourist-guide/"/>
     <id>https://www.yuxiuk.com/oxford-tourist-guide/</id>
@@ -1399,71 +1489,6 @@
       <category term="旅游攻略" scheme="https://www.yuxiuk.com/tags/%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5/"/>
     
       <category term="牛津" scheme="https://www.yuxiuk.com/tags/%E7%89%9B%E6%B4%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>免费的巨石阵夏季开放日 - Stonehenge Summer Solstice Festival 2017</title>
-    <link href="https://www.yuxiuk.com/stonehenge-summer-solstice-festival/"/>
-    <id>https://www.yuxiuk.com/stonehenge-summer-solstice-festival/</id>
-    <published>2017-06-10T21:40:12.000Z</published>
-    <updated>2017-06-11T21:39:50.551Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/travel/stonehenge/summer-solstice.jpg" alt="巨石阵夏季开放日"></p>
-<p>想去巨石阵玩的小伙伴们要抓紧啦，<strong>免费</strong>参观巨石阵的机会来啦！巨石阵夏季开放日( Stonehenge Summer Solstice Festival 2017)就要来啦！喜欢Camping的小伙伴们可以带上帐篷在巨石阵周边许可的地方睡上一夜，在第二天早上4点多的时候迎接太阳的升起！如果不喜欢宿营的童鞋也可以选择住在附近的酒店，第二天一大早开车过去！这里给大家推荐两家酒店，离巨石阵都是3公里左右！</p>
-<p>【<a href="http://tidd.ly/522158ca" rel="external nofollow noopener noreferrer" target="_blank">预订Robin Hill Cottage</a>】<br>【<a href="http://tidd.ly/bc88ee7b" rel="external nofollow noopener noreferrer" target="_blank">预订Fairlawn House</a>】</p>
-<p>巨石阵是欧洲著名的史前时代文化神庙遗址，也是英国最出名的标志之一，位于英格兰威尔特郡索尔兹伯里平原，在一大片草地中，这些横着竖着的大石头看似毫无规律的摆放，确是人类史的一大奇迹，考古学家认为其建于公元前3000年左右，这些距今已经有4300年的巨石是如何搬运和抬放依旧是迷。巨石阵最不可思议的是石阵中心的巨石，这些巨石最高的有8米，平均重量近30吨，呈环形排布直径超过100米，极具震撼力。然而人们惊奇的发现，有不少重达7吨的巨石是横架在两根竖着的石柱上的。有人认为建造这样宏伟的巨石阵是纪录太阳的轨迹，有认为是墓碑或是祭神所用，但其真正的建造目的至今未知。</p>
-<p>时间：2017年6月18日至2017年6月21日<br>地址：Stonehenge, Amesbury, Salisbury SP4 7DE<br>官网：<a href="http://www.stonehengecampsite.co.uk/solstice_festival" rel="external nofollow noopener noreferrer" target="_blank">http://www.stonehengecampsite.co.uk/solstice_festival</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      想去巨石阵玩的小伙伴们要抓紧啦，**免费**参观巨石阵的机会来啦！巨石阵夏季开放日( Stonehenge Summer Solstice Festival 2017)就要来啦！
-    
-    </summary>
-    
-      <category term="旅游" scheme="https://www.yuxiuk.com/categories/%E6%97%85%E6%B8%B8/"/>
-    
-    
-      <category term="巨石阵" scheme="https://www.yuxiuk.com/tags/%E5%B7%A8%E7%9F%B3%E9%98%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>转载：紧急情况中国驻英国大使馆联系方式</title>
-    <link href="https://www.yuxiuk.com/china-embassy-consulates-emergency-contacts/"/>
-    <id>https://www.yuxiuk.com/china-embassy-consulates-emergency-contacts/</id>
-    <published>2017-06-07T05:40:12.000Z</published>
-    <updated>2017-06-07T08:45:59.200Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/live/china.png" alt="紧急情况中国驻英国大使馆联系方式"></p>
-<p><strong>信息来源：中国驻英大使馆</strong></p>
-<p>最近世界真的是不太平，曼城爆炸，伦敦又发生汽车撞人事件。目前，英警方已展开调查，迄无中国公民伤亡情况。中国驻英国大使馆正密切跟踪事件进展。如获悉事件涉中国公民情况，请即联系使馆，联系方式：0044-20-74368294。 </p>
-<p>驻英国使馆提醒在英中国公民密切关注英安全形势和警方提醒，保持警惕。如遇异常，请在确保自身安全情况下及时报警求助。 </p>
-<p>提醒中国留学生注意安全，减少不必要外出，有情况随时和大使馆联系，大家保重！</p>
-<p>英国报警电话：999<br>　　<br>外交部全球领保与服务应急呼叫中心电话：<br>+86-10-12308或+86-10-59913991<br>　　<br>中国驻英国大使馆：<br>+44-20-76311430（工作时间领事咨询电话）<br>+44-20-74368294 （24小时领事保护和协助电话）<br>+44-20-76369756（传真）<br>网址：<a href="http://www.chinese-embassy.org.uk/chn" rel="external nofollow noopener noreferrer" target="_blank">http://www.chinese-embassy.org.uk/chn</a><br>地址: 31 Portland Place，London，W1B 1QD 　<br>　　<br>中国驻曼彻斯特总领馆：<br>+44-161-2247443（电话）<br>+44-7828529201（手机）<br>+44-161-2572672（传真）<br>网址：<a href="http://manchester.chineseconsulate.org" rel="external nofollow noopener noreferrer" target="_blank">http://manchester.chineseconsulate.org</a><br>地址: Denison House,71 Denison Road, Rusholme, Manchester M14 5RX, United Kingdom</p>
-<p>中国驻爱丁堡总领馆：<br>+44-131-3371790（电话）<br>+44-7766667116（手机）<br>+44-131-3378871（传真）<br>网址：<a href="http://edinburgh.china-consulate.org" rel="external nofollow noopener noreferrer" target="_blank">http://edinburgh.china-consulate.org</a><br>地址：55 Corstorphine Road, Edinburgh, EH12 5QG, Scotland, U.K.</p>
-<p>中国驻贝尔法斯特总领馆：<br>+44-7895306461（手机）</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/live/china.png&quot; alt=&quot;紧急情况中国驻英国大使馆联系方式&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;信息来源：中国驻英大使馆&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;最近世界真的是不太平，曼城爆炸，伦敦又发生汽车撞人事件。目前，英警方已
-    
-    </summary>
-    
-      <category term="生活" scheme="https://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="中国驻英国大使馆" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E8%8B%B1%E5%9B%BD%E5%A4%A7%E4%BD%BF%E9%A6%86/"/>
-    
-      <category term="中国驻曼彻斯特总领馆" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E6%80%BB%E9%A2%86%E9%A6%86/"/>
-    
-      <category term="中国驻爱丁堡总领馆" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E7%88%B1%E4%B8%81%E5%A0%A1%E6%80%BB%E9%A2%86%E9%A6%86/"/>
-    
-      <category term="中国驻贝尔法斯特总领馆" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E9%A9%BB%E8%B4%9D%E5%B0%94%E6%B3%95%E6%96%AF%E7%89%B9%E6%80%BB%E9%A2%86%E9%A6%86/"/>
     
   </entry>
   

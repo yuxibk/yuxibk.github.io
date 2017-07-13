@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yuxiuk.com/steem-and-steemit/</loc>
+    
+    <lastmod>2017-07-13T13:24:47.681Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.yuxiuk.com/bank-of-china-intership-2017/</loc>
     
     <lastmod>2017-07-11T11:01:36.142Z</lastmod>
@@ -303,20 +310,6 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/york-racecourse/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/york-shambles/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.yuxiuk.com/york-tourist-guide/</loc>
     
     <lastmod>2017-05-17T08:38:27.367Z</lastmod>
@@ -331,6 +324,13 @@
   </url>
   
   <url>
+    <loc>https://www.yuxiuk.com/york-racecourse/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.yuxiuk.com/york-best-restaurants/</loc>
     
     <lastmod>2017-05-17T08:38:27.367Z</lastmod>
@@ -338,42 +338,14 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/popular-takeaways-uk-2017/</loc>
+    <loc>https://www.yuxiuk.com/york-shambles/</loc>
     
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/west-bromwich-albion-marketing-manager-march-2017/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    <lastmod>2017-05-17T08:38:27.367Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/uk-gift-ideas/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/wechat-public-account-rss-feed/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/walsall-chinese-teacher-may-2017/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/vps/</loc>
+    <loc>https://www.yuxiuk.com/uk-travel-passes/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -387,7 +359,21 @@
   </url>
   
   <url>
+    <loc>https://www.yuxiuk.com/ofund/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.yuxiuk.com/twisted-dough/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/xdfuk-march-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -401,21 +387,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/uk-travel-passes/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.yuxiuk.com/theses-tool/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/whittard/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -429,7 +401,35 @@
   </url>
   
   <url>
+    <loc>https://www.yuxiuk.com/uk-study-guide/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/wiltshire-mandarin-teacher-feb-2017/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/uk-satnav/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.yuxiuk.com/the-queens-speech-christmas-day-2016/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/the-color-run/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/ofund/</loc>
+    <loc>https://www.yuxiuk.com/whittard/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -471,7 +471,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/wiltshire-mandarin-teacher-feb-2017/</loc>
+    <loc>https://www.yuxiuk.com/west-end-top-musicals/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -492,14 +492,14 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/uk-study-guide/</loc>
+    <loc>https://www.yuxiuk.com/west-bromwich-albion-marketing-manager-march-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/uk-satnav/</loc>
+    <loc>https://www.yuxiuk.com/popular-takeaways-uk-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -541,7 +541,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/xdfuk-march-2017/</loc>
+    <loc>https://www.yuxiuk.com/uk-mobiles/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -562,7 +562,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/the-color-run/</loc>
+    <loc>https://www.yuxiuk.com/wechat-public-account-rss-feed/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -576,14 +576,14 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/uk-mobiles/</loc>
+    <loc>https://www.yuxiuk.com/uk-gift-ideas/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/teacher-of-mandarin-dollar-academy-march-2017/</loc>
+    <loc>https://www.yuxiuk.com/walsall-chinese-teacher-may-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
@@ -597,21 +597,21 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/west-end-top-musicals/</loc>
+    <loc>https://www.yuxiuk.com/vps/</loc>
     
     <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/gb-big5/</loc>
+    <loc>https://www.yuxiuk.com/teacher-of-mandarin-dollar-academy-march-2017/</loc>
     
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    <lastmod>2017-05-17T08:38:27.359Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/endless-pool/</loc>
+    <loc>https://www.yuxiuk.com/how-to-rent-a-car-in-uk/</loc>
     
     <lastmod>2017-05-17T08:38:27.351Z</lastmod>
     
@@ -619,20 +619,6 @@
   
   <url>
     <loc>https://www.yuxiuk.com/namecheap/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/eleven-plus/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/murderous-maths/</loc>
     
     <lastmod>2017-05-17T08:38:27.351Z</lastmod>
     
@@ -681,21 +667,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/les-miserables-musical/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.yuxiuk.com/leeds-research-officer-mar-2017/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.yuxiuk.com/edinburgh-castle/</loc>
     
     <lastmod>2017-05-17T08:38:27.351Z</lastmod>
     
@@ -744,13 +716,6 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/fatburn/</loc>
-    
-    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.yuxiuk.com/jason-zhang-2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.351Z</lastmod>
@@ -786,7 +751,7 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/how-to-rent-a-car-in-uk/</loc>
+    <loc>https://www.yuxiuk.com/murderous-maths/</loc>
     
     <lastmod>2017-05-17T08:38:27.351Z</lastmod>
     
@@ -884,9 +849,44 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/chunhui2017/</loc>
+    <loc>https://www.yuxiuk.com/gb-big5/</loc>
     
-    <lastmod>2017-05-17T08:38:27.343Z</lastmod>
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/fatburn/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/endless-pool/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/eleven-plus/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/edinburgh-castle/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/les-miserables-musical/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.351Z</lastmod>
     
   </url>
   
@@ -1003,14 +1003,14 @@
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/aliyun-cloud-architect/</loc>
+    <loc>https://www.yuxiuk.com/british-library-party/</loc>
     
     <lastmod>2017-05-17T08:38:27.343Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.yuxiuk.com/british-library-party/</loc>
+    <loc>https://www.yuxiuk.com/aliyun-cloud-architect/</loc>
     
     <lastmod>2017-05-17T08:38:27.343Z</lastmod>
     
@@ -1102,6 +1102,13 @@
   
   <url>
     <loc>https://www.yuxiuk.com/chocolate/</loc>
+    
+    <lastmod>2017-05-17T08:38:27.343Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.yuxiuk.com/chunhui2017/</loc>
     
     <lastmod>2017-05-17T08:38:27.343Z</lastmod>
     
