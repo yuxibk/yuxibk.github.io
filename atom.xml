@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-08-03T12:47:07.174Z</updated>
+  <updated>2017-08-06T21:37:37.315Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -16,11 +16,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>密码管理神器KeePass介绍</title>
+    <link href="https://www.yuxiuk.com/keepass/"/>
+    <id>https://www.yuxiuk.com/keepass/</id>
+    <published>2017-08-06T21:40:12.000Z</published>
+    <updated>2017-08-06T21:37:37.315Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在人们把越来越多的时间花在了浏览各种网站上，而很多网站都是需要注册后才能使用。那么，你是不是总担心自己的密码不够复杂不够安全？如果设置太复杂了是不是又担心记不住？好了，下面要介绍的KeePass就是来解决这些问题的。</p>
+<p> <img src="/images/technology/keepass/keepass.png" alt="KeePass"></p>
+<h2 id="Keepass介绍"><a href="#Keepass介绍" class="headerlink" title="Keepass介绍"></a>Keepass介绍</h2><p>KeePass可以说是一款密码管理神器，能够帮助你轻松管理各种密码和重要信息，还可以帮助你生成复杂的密码。KeePass会把所有密码存放在一个主数据库中，同时用一个主密码或者密钥来加密存贮这个主数据库。加密算法采取的是目前所知的最好加密算法，比如：AES和Twofish。因此，你只需要记住一个主密码或保管好密钥文件就可以访问KeePass中保存的所有密码了。</p>
+<p>KeePass软件本身是开源的，也是免费的，同时体积非常小，受到众多用户的喜爱。</p>
+<p>首先，从官网下载Keepass：<a href="http://keepass.info/download.html，" rel="external nofollow noopener noreferrer" target="_blank">http://keepass.info/download.html，</a> 选择那个”Professional Edition”，也就是版本2.x的。你可以选择下载”Portable”免安装版本，也可以选择”Installer”来下载安装程序。</p>
+<p>同时，还有第三方开发的手机APP，比如安卓系统下的KeePassDroid: <a href="https://play.google.com/store/apps/details?id=com.android.keepass" rel="external nofollow noopener noreferrer" target="_blank">https://play.google.com/store/apps/details?id=com.android.keepass</a></p>
+<p> <img src="/images/technology/keepass/keepassdroid.png" alt="KeePassDroid"></p>
+<h2 id="Keepass使用指南"><a href="#Keepass使用指南" class="headerlink" title="Keepass使用指南"></a>Keepass使用指南</h2><h3 id="KeePass初始设置"><a href="#KeePass初始设置" class="headerlink" title="KeePass初始设置"></a>KeePass初始设置</h3><p>在第一次使用KeePass时，它会提示你输入一下数据库文件的路径和名字。</p>
+<p> <img src="/images/technology/keepass/new_password_db.jpg" alt="KeePass"></p>
+<p>在输入完毕后会弹出一个小窗口，要求你设定登陆方式。这里共有三种不同选择：输入主密码，选择密钥文件，或者采用Windows操作用户登陆。三种方式可以叠加使用。</p>
+<p> <img src="/images/technology/keepass/master_password.jpg" alt="KeePass"></p>
+<p>接下来还可以设定默认密码数据库的设置</p>
+<p> <img src="/images/technology/keepass/new_password_db2.jpg" alt="KeePass"></p>
+<p>至此，基本设置完毕，会看到如下界面：</p>
+<p> <img src="/images/technology/keepass/default_ui.jpg" alt="KeePass"></p>
+<p>选择数据库保护方式，包括以下三种类型：主密码，密钥文件，Windows用户帐户，三种方式可以叠加使用，所以KeePass的安全性还是非常高的。</p>
+<p>如果你已经有了数据库，可以选择你要打开的数据库，提供主密码/密匙盘，就可以进入数据库。</p>
+<h3 id="KeePass的使用"><a href="#KeePass的使用" class="headerlink" title="KeePass的使用"></a>KeePass的使用</h3><p>KeePass 的管理界面很简单，很容易使用。</p>
+<h4 id="创建密码组"><a href="#创建密码组" class="headerlink" title="创建密码组"></a>创建密码组</h4><p>为了更为有效的管理各种密码，建议按照密码的功能进行分类，比如：和银行支付相关的密码可以创建一个banking组，和工作相关的密码可以放在work组里面。 </p>
+<p><img src="/images/technology/keepass/add_group.jpg" alt="KeePass"></p>
+<p>其实，KeePass系统会自带一些组，你可以自己来决定是否要保留这些组。也可以自己添加新的组。</p>
+<h4 id="创建新的密码项"><a href="#创建新的密码项" class="headerlink" title="创建新的密码项"></a>创建新的密码项</h4><p>在创建完不同的密码组之后，就可以添加新的密码项（Add Entry）了。</p>
+<p> <img src="/images/technology/keepass/new_entry.jpg" alt="KeePass"></p>
+<p>而且，KeePass还可以帮你生成安全系数高的密码：</p>
+<p> <img src="/images/technology/keepass/generate_password.jpg" alt="KeePass"></p>
+<p>推荐在系统设置中选择在用户不使用KeePass超过某个特定时间时锁住KeePass屏幕，以提高KeePass的安全性。</p>
+<p> <img src="/images/technology/keepass/lock_window.jpg" alt="KeePass"></p>
+<h4 id="同步到云端"><a href="#同步到云端" class="headerlink" title="同步到云端"></a>同步到云端</h4><p>有些时候，你可能需要在不同的电脑上访问KeePass数据库，那么推荐把KeePass的数据库文件存储在云端，比如Dropbox中，这样就可以方便的在不同PC间共享KeePass数据库了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在人们把越来越多的时间花在了浏览各种网站上，而很多网站都是需要注册后才能使用。那么，你是不是总担心自己的密码不够复杂不够安全？如果设置太复杂了是不是又担心记不住？好了，下面要介绍的KeePass就是来解决这些问题的。&lt;/p&gt;
+&lt;p&gt; &lt;img src=&quot;/images/t
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="KeePass" scheme="https://www.yuxiuk.com/tags/KeePass/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Velodrome轨道自行车介绍</title>
     <link href="https://www.yuxiuk.com/velodrome/"/>
     <id>https://www.yuxiuk.com/velodrome/</id>
     <published>2017-08-03T09:40:12.000Z</published>
-    <updated>2017-08-03T12:47:07.174Z</updated>
+    <updated>2017-08-04T08:56:01.659Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/sports/velodrome/velodrome.jpg" alt="Velodrome"></p>
 <p>羽西一直也不清楚Velodrome的准确中文翻译是什么？叫做室内自行车？但是Velodrome也有户外的。不过貌似国际大赛都是在室内. 姑且就叫做轨道自行车吧。Velodrome是在一个有坡度的椭圆形跑道上骑自行车。</p>
@@ -1372,34 +1423,6 @@
       <category term="Bristol International Balloon Fiesta" scheme="https://www.yuxiuk.com/tags/Bristol-International-Balloon-Fiesta/"/>
     
       <category term="布里斯托国际热气球节" scheme="https://www.yuxiuk.com/tags/%E5%B8%83%E9%87%8C%E6%96%AF%E6%89%98%E5%9B%BD%E9%99%85%E7%83%AD%E6%B0%94%E7%90%83%E8%8A%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大英图书馆招聘行政助理</title>
-    <link href="https://www.yuxiuk.com/british-library-administrative-assistant-june-2017/"/>
-    <id>https://www.yuxiuk.com/british-library-administrative-assistant-june-2017/</id>
-    <published>2017-06-14T01:00:12.000Z</published>
-    <updated>2017-06-15T21:05:07.728Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/jobs/british-library.png" alt="大英图书馆"></p>
-<p>职位：行政助理<br>雇主: 大英图书馆<br>工作性质：临时职位，全职<br>工作地点：伦敦<br>薪水：21K<br>申请截止日期：<strong>2017年6月25日</strong><br>具体要求及申请页面：<a href="https://britishlibrary.recruitment.northgatearinso.com/birl/pages/vacancy.jsf?latest=01001135" rel="external nofollow noopener noreferrer" target="_blank">https://britishlibrary.recruitment.northgatearinso.com/birl/pages/vacancy.jsf?latest=01001135</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      大英图书馆招聘行政助理，参与中国相关项目，21k
-    
-    </summary>
-    
-      <category term="职场" scheme="https://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
-    
-    
-      <category term="招聘" scheme="https://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="大英图书馆" scheme="https://www.yuxiuk.com/tags/%E5%A4%A7%E8%8B%B1%E5%9B%BE%E4%B9%A6%E9%A6%86/"/>
     
   </entry>
   
