@@ -478,7 +478,7 @@ Passphrase:
     <link href="https://www.yuxiuk.com/steem-and-steemit/"/>
     <id>https://www.yuxiuk.com/steem-and-steemit/</id>
     <published>2017-07-13T05:40:12.000Z</published>
-    <updated>2017-07-13T13:24:47.682Z</updated>
+    <updated>2017-08-16T22:14:19.162Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/steem/steem.png" alt="Steem"></p>
 <p>近期羽西周边的一些朋友开始接触到了Steem和Steemit，看到这个新兴的技术/平台如此火爆，羽西也打算学习一下，苦于网上系统的中文资料很少，因此羽西把从网上搜集到的中英文资料整理了一下，在这里分享给大家。如果有说的不够准确的，请各位牛人指正，欢迎在下面留言。</p>
@@ -504,7 +504,7 @@ Passphrase:
 <p>答案是肯定的。首先，新注册用户会获得5个Power Steem。之后如果发布了新的文章或者参与了其他主题的讨论，都会获得相应的奖励。你所发文章越能吸引眼球，就越容易获得更多的SP和SBD奖励。对于新热门话题点赞，也能够获得SP。如果你懂得服务器的配置，可以在steem.io上下载相应的程序，通过mining来获得奖励。等等。。。</p>
 <h2 id="投票的基本规则以及如何防止作弊"><a href="#投票的基本规则以及如何防止作弊" class="headerlink" title="投票的基本规则以及如何防止作弊"></a>投票的基本规则以及如何防止作弊</h2><p>其实，不论在什么平台上创作写文章，微信也好，微博也罢，还是facebook, 博客，或者在Steem上，文章的内容永远是最重要的。如果你能一直写出原创的，能吸引眼球的文章，就会得到相应的奖励。那Steem内部又是如何运作来判定那篇文章更有价值呢？答案是看文章的票数，而相应SP值高的用户投的票数分量就会更高。也就是说如果你的文章得到了Steem系统中的一些牛人的一个upvote，可能会比很多其他非牛人的总和还要起作用。如果别人给你的文章回复，评论的时候，他也会得到奖励，而其中的一半，50%，会分给你。</p>
 <p>可能有的小伙伴会担心作弊问题，如果有人雇水军投票怎么办？其实关于这点，Steem早就想到了。比如：如果有人明显作弊，那么，就会有打抱不平的用户站出来，投否决票。每个Steem用户都会有一个信誉值，这和SP无关，而是通过发文章，评论等长期积累而来。信誉值低的人给信誉值高的人投否决票无效。而信誉值高的人则会很珍惜自己的信誉，也不会轻易使用否决权。同时就像玩游戏时每个用户都有血值一样，Steem中用户有一个“投票力”，新手的投票力会比较低，老手则可能更高，每投一票，投票力会下降，直至耗尽，就不能再投了。到第二天投票力会被重置。</p>
-<h2 id="心动不如行动"><a href="#心动不如行动" class="headerlink" title="心动不如行动"></a>心动不如行动</h2><h3 id="注册Steemit"><a href="#注册Steemit" class="headerlink" title="注册Steemit"></a>注册Steemit</h3><p>登录:  <a href="https://steemit.com，首页点击“SIGN" rel="external nofollow noopener noreferrer" target="_blank">https://steemit.com，首页点击“SIGN</a> UP”，剩下的就按照屏幕提示走就行了，羽西这里就不多说了。需要记住的是系统会给你自动生成一个很长的密码，这个一个要妥善保存好了，建议使用KeePass或者Lastpass之类的密码管理工具。</p>
+<h2 id="心动不如行动"><a href="#心动不如行动" class="headerlink" title="心动不如行动"></a>心动不如行动</h2><h3 id="注册Steemit"><a href="#注册Steemit" class="headerlink" title="注册Steemit"></a>注册Steemit</h3><p>登录:  <a href="https://steemit.com" rel="external nofollow noopener noreferrer" target="_blank">https://steemit.com</a> ，首页点击“SIGN UP”，剩下的就按照屏幕提示走就行了，羽西这里就不多说了。需要记住的是系统会给你自动生成一个很长的密码，这个一个要妥善保存好了，建议使用KeePass或者Lastpass之类的密码管理工具。</p>
 <h3 id="积极参与"><a href="#积极参与" class="headerlink" title="积极参与"></a>积极参与</h3><p>用自己帐户登陆后，就可以单击”Submit a story”写文章了，Steemit支持羽西最喜欢的Markdown语法。当然，你也可以选择最普通的Editor模式。需要注意的，为了让你的文章让更多感兴趣的人看到，一定要设置好那些标签，也就是tags，说白了就是文章分类。每篇文章最多可以选择5个tags，建议中文文章都要选择”cn”这个tag。</p>
 <p>除了自己写文章外，还可以通过upvote (赞), reply (留言), resteem (转发)和其他文章的作者交互。当然，想要留言的话需要先关注(follow)该作者才行。</p>
 <h3 id="钱包"><a href="#钱包" class="headerlink" title="钱包"></a>钱包</h3><p>点击自己头像后再点击Wallet (钱包)就会看到自己的账户状况。其中包括我们前面介绍过的STEEM, SP, 和SBD。除此之外，还有SAVINGS (存款余额，如要提现需要３天时间），和Estimated Account Value（对你账户的估值）。</p>
