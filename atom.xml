@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-08-15T12:48:41.774Z</updated>
+  <updated>2017-08-16T21:36:31.457Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何不使用第三方网站帮助国内用户创建Steem帐户</title>
+    <link href="https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/"/>
+    <id>https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/</id>
+    <published>2017-08-16T14:51:12.000Z</published>
+    <updated>2017-08-16T21:36:31.457Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/steem/account/steem-account.png" alt=""></p>
+<p>之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconnect来创建新的账户，不过需要把你的active key提供给steemconnect。这个让羽西感觉很不爽，因为用习惯了OAuth之类的系统，很不习惯把自己的密码或者key提供给第三方。因此，察看了一下官方文档，其实完全可以自己帮别人创建帐户。整个过程也是非常快的，只需要几分钟的时间。</p>
+<h2 id="获取一个VM"><a href="#获取一个VM" class="headerlink" title="获取一个VM"></a>获取一个VM</h2><p>首先，你需要有一个自己的VM (Virtual Machine)，这个可以是本地的VM，也可以是一些主机商的<a href="/vps/">VPS</a>。比如：羽西就有自己开发专用的Vultr VPS。如果你没有VM，甚至不知道什么是VM，也不要紧。根据<a href="/build-steem-python-development-environment-in-codenvy/">前面总结过的步骤</a>小白也可以做到。</p>
+<p>简单总结一下：</p>
+<p>1) 创建一个Codenvy账户：<a href="https://codenvy.io/" rel="external nofollow noopener noreferrer" target="_blank">https://codenvy.io/</a><br>2) 创建一个Python workspace<br>3) 运行以下命令安装Steem Python库 </p>
+<pre><code class="bash">sudo pip3 install steem
+</code></pre>
+<h2 id="帮助国内朋友创建Steem账号"><a href="#帮助国内朋友创建Steem账号" class="headerlink" title="帮助国内朋友创建Steem账号"></a>帮助国内朋友创建Steem账号</h2><p>如果想要帮助国内朋友创建Steem账户，需要花费6个STEEM，所以首先确保你的账户STEEM足够才行。这6个STEEM在账号创建成功后会自动转到你朋友的账户里。</p>
+<p>具体的创建步骤如下：</p>
+<p>首先，在前面创建好的VPS中键入如下命令导入你的steem账户：</p>
+<pre><code class="bash">steempy importaccount 你的账户名
+</code></pre>
+<p><img src="/images/technology/steem/account/cli.jpg" alt=""></p>
+<p>上图中的第一个”Account Passphrase”指的是你的Steemit登陆用的密码。而第二个”Passphrase”则是后面创建新账户时需要输入的密码。这个密码必须输入两次确认才行。</p>
+<p>接下里就可以创建新的账户了！输入如下命令：</p>
+<pre><code class="bash">steempy newaccount 新账户名
+</code></pre>
+<p>系统会要求你输入三次密码。前两次为新账户的密码。最后一次则是前面导入账户时的密码。新创建账户的密码一定要使用一个复杂不易记忆的密码。</p>
+<pre><code class="bash">New Account Passphrase: 
+Confirm New Account Passphrase: 
+Passphrase:
+</code></pre>
+<p>至此大功告成！</p>
+<p>Welcome to Steemit!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/account/steem-account.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconne
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="如何帮助国内用户创建Steem帐户" scheme="https://www.yuxiuk.com/tags/%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E5%9B%BD%E5%86%85%E7%94%A8%E6%88%B7%E5%88%9B%E5%BB%BASteem%E5%B8%90%E6%88%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>搭建免费的云端Steem Python开发环境</title>
@@ -1279,45 +1330,6 @@
       <category term="Ultrasun" scheme="https://www.yuxiuk.com/tags/Ultrasun/"/>
     
       <category term="汽车防晒" scheme="https://www.yuxiuk.com/tags/%E6%B1%BD%E8%BD%A6%E9%98%B2%E6%99%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>本周末经典音乐剧特拉法加广场免费看啦，只限两天！</title>
-    <link href="https://www.yuxiuk.com/westend-live/"/>
-    <id>https://www.yuxiuk.com/westend-live/</id>
-    <published>2017-06-20T22:40:12.000Z</published>
-    <updated>2017-06-21T12:33:07.736Z</updated>
-    
-    <content type="html"><![CDATA[<p>小伙伴们福利来啦！2017年音乐剧大串烧”West End Live”将会在本周末，也就是<strong>6月24日和25日</strong>在伦敦特拉法加广场公开演出！重点是<strong>全！场！免！费！</strong>，每场音乐剧都将由原班人马来现场演出最经典片段！周六从早上11点到晚上6点，周日从中午12点到下午5点！真的不愧是音乐剧之都啊！没有看过音乐剧的快去扫扫盲！喜欢看的快去过过瘾！！！小伙伴们约起啦！</p>
-<p><img src="/images/live/shows/westend-live.jpg" alt="West End Live"></p>
-<p>节目官网：<a href="http://www.westendlive.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">http://www.westendlive.co.uk/</a></p>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<!-- autosize -->
-<p><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins></p>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<p><strong>2017年6月24日，周六节目单</strong><br>11.00 - DISNEY’S ALADDIN<br>11.15 - THE WIND IN THE WILLOWS<br>11.25 - WICKED<br>11.40 - MOTOWN THE MUSICAL<br>11.50 - ON THE TOWN<br>12.00 - 42ND STREET<br>12.15 - AN AMERICAN IN PARIS<br>12.25 - KINKY BOOTS<br>12.35 - MATILDA THE MUSICAL<br>12.40 - HALF A SIXPENCE<br>12.50 - PHANTOM OF THE OPERA<br>13.05 - LES MISÉRABLES<br>13.20 - DREAMGIRLS<br>13.35 - BEAUTIFUL - THE CAROLE KING MUSICAL<br>13.50 - ANNIE<br>14.00 - MAMMA MIA!<br>14.15 - THRILLER LIVE<br>14.35 - FIVE GUYS NAMED MOE<br>15.00 - THE TOXIC AVENGER<br>15.10 - JESUS CHRIST SUPERSTAR<br>15.30 - CHARLIE FINK<br>15.40 - THE BLUES BROTHERS<br>15.55 - SYLVIA YOUNG THEATRE SCHOOL<br>16.10 - ENGLISH NATIONAL OPERA<br>16.25 - 13 THE MUSICAL<br>16.35 - ROYAL OPERA HOUSE CHORUS<br>16.50 - WEST END GOSPEL CHOIR<br>17.00 - FERRIS AND MILNES<br>17.10 - HAIR<br>17.20 - OUR HOUSE<br>17.30 - STOMP<br>17.45 - BAT OUT OF HELL THE MUSICAL<br>18:00 - SHOW ENDS</p>
-<p><strong>2017年6月25日，周日节目单</strong><br>12.00 - SCHOOL OF ROCK - THE MUSICAL<br>12.10 - DISNEY’S THE LION KING<br>12.20 - THE WIND IN THE WILLOWS<br>12.30 - STOMP<br>12.45 - THRILLER LIVE<br>13.05 - MATILDA - THE MUSICAL<br>13.15 - FIVE GUYS NAMED MOE<br>13.30 - CATCH ME<br>13.40 - THE BARRICADE BOYS<br>13.50 - BAT OUT OF HELL THE MUSICAL<br>14.10 - MUSICAL THEATRE MASTERCLASS<br>14.25 - WEST END KIDS<br>14.35 - KERRY ELLIS<br>14.50 - MATT CARDLE<br>15.00 - WILLEMIJN VERKAIK<br>15.15 - LA CAGE AUX FOLLES<br>15.25 - RACHEL TUCKER<br>15.35 - BEN FORSTER<br>15.45 - THE WEDDING SINGER<br>15.55 - LIZA’S BACK IS BROKEN<br>16.05 - TREVOR DION NICHOLAS AND NEIGHBORHOOD GOLIATH<br>16.20 - MARISHA WALLACE<br>16.35 - NATHAN AMZI<br>16.45 - JOHN OWEN-JONES<br>17:00 - SHOW ENDS</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;小伙伴们福利来啦！2017年音乐剧大串烧”West End Live”将会在本周末，也就是&lt;strong&gt;6月24日和25日&lt;/strong&gt;在伦敦特拉法加广场公开演出！重点是&lt;strong&gt;全！场！免！费！&lt;/strong&gt;，每场音乐剧都将由原班人马来现场演出最经典片段！
-    
-    </summary>
-    
-      <category term="文化" scheme="https://www.yuxiuk.com/categories/%E6%96%87%E5%8C%96/"/>
-    
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="经典音乐剧" scheme="https://www.yuxiuk.com/tags/%E7%BB%8F%E5%85%B8%E9%9F%B3%E4%B9%90%E5%89%A7/"/>
-    
-      <category term="特拉法加广场" scheme="https://www.yuxiuk.com/tags/%E7%89%B9%E6%8B%89%E6%B3%95%E5%8A%A0%E5%B9%BF%E5%9C%BA/"/>
     
   </entry>
   
