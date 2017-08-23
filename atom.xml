@@ -96,7 +96,7 @@
     <link href="https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/"/>
     <id>https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/</id>
     <published>2017-08-16T14:51:12.000Z</published>
-    <updated>2017-08-16T21:36:31.457Z</updated>
+    <updated>2017-08-23T11:15:39.723Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/steem/account/steem-account.png" alt=""></p>
 <p>之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconnect来创建新的账户，不过需要把你的active key提供给steemconnect。这个让羽西感觉很不爽，因为用习惯了OAuth之类的系统，很不习惯把自己的密码或者key提供给第三方。因此，察看了一下官方文档，其实完全可以自己帮别人创建帐户。整个过程也是非常快的，只需要几分钟的时间。</p>
@@ -112,6 +112,9 @@
 </code></pre>
 <p><img src="/images/technology/steem/account/cli.jpg" alt=""></p>
 <p>上图中的第一个”Account Passphrase”指的是你的Steemit登陆用的密码。而第二个”Passphrase”则是后面创建新账户时需要输入的密码。这个密码必须输入两次确认才行。</p>
+<p>运行以下命令指定默认账户：</p>
+<pre><code class="bash">steempy set default_account 你现在帐户
+</code></pre>
 <p>接下里就可以创建新的账户了！输入如下命令：</p>
 <pre><code class="bash">steempy newaccount 新账户名
 </code></pre>
