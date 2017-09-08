@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-06T23:40:42.102Z</updated>
+  <updated>2017-09-08T12:48:49.445Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Steemit中如何使用代理功能</title>
+    <link href="https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/"/>
+    <id>https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/</id>
+    <published>2017-09-08T21:40:12.000Z</published>
+    <updated>2017-09-08T12:48:49.445Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/steem/delegate/delegate.jpg" alt="Steemit代理SP"></p>
+<p>要代理出去SP非常简单，只需要访问如下页面：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP</a></p>
+<p>你就会看到这个页面：</p>
+<p><img src="/images/technology/steem/delegate/1.jpg" alt=""></p>
+<p>点”Continue”后就会看到以下页面：</p>
+<p><img src="/images/technology/steem/delegate/2.jpg" alt=""></p>
+<p>输入你的用户名和Active key后就完成操作，并显示确认页面：</p>
+<p><img src="/images/technology/steem/delegate/3.jpg" alt=""></p>
+<p>再查看自己的钱包，会看到SP下面有一个-100.000说明代理成功了。</p>
+<p>如果想要取消代理或者改变代理数额，只需把前面的那个100 SP改成其他数值就可以了。</p>
+<p>比如：改成代理200 SP：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP</a></p>
+<p>取消代理：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/delegate/delegate.jpg&quot; alt=&quot;Steemit代理SP&quot;&gt;&lt;/p&gt;
+&lt;p&gt;要代理出去SP非常简单，只需要访问如下页面：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://v2.ste
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steem Power" scheme="https://www.yuxiuk.com/tags/Steem-Power/"/>
+    
+      <category term="Steem Power代理" scheme="https://www.yuxiuk.com/tags/Steem-Power%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>如何使用比特币/Steem/SBD在现实生活中消费</title>
@@ -874,38 +919,6 @@ Passphrase:
       <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
     
       <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>伦敦Bank of China实习机会</title>
-    <link href="https://www.yuxiuk.com/bank-of-china-intership-2017/"/>
-    <id>https://www.yuxiuk.com/bank-of-china-intership-2017/</id>
-    <published>2017-07-11T05:40:12.000Z</published>
-    <updated>2017-07-11T11:01:36.142Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/jobs/bank_of_china.jpg" alt="Bank of China"></p>
-<p>职位：Assist Technical Manager(Software Development)<br>雇主: 伦敦Bank of China<br>工作性质：6个月实习机会<br>工作地点：伦敦<br>申请方式：电邮联系中行欧洲信息中心联系人：刘先生 Email: rockieliu@21cn.com<br>具体要求: </p>
-<p><strong>Responsibilities</strong><br>Have basic knowledge in application development and maintenance based on open platform. Carry out application development independently.<br>Develop/test/maintain application system for branches in Europe &amp; Africa<br>Solve application problems and answer application questions.<br>While handling projects, he should be able to reasonably meet the standard required for the managerial, professional and functional qualities.<br>Co-coordinating with other departments to achieve the goal.<br>Working closely with the Head of Department to fulfil the departmental role, hence making contribution to the development of the Department to a fully functional, well managed and a highly efficient organization.<br>Assisting in making annual departmental IT plan, working out the details as well as taking part &amp; supervising its implementation.<br>Visiting the clients for assigned technical projects if it requires.</p>
-<p><strong>Person specification</strong><br>Bachelor or above of Information Technology, Computing, Software Engineering, Computer Engineering, Science in Information Technology, or other equivalent<br>Having initial banking knowledge.<br>Having an intimate knowledge of Operating system: Unix/Linux/Windows<br>Database: Oracle/SQL Server/DB2<br>Programming Language: C/C#/Java/ PL/SQL/VBA/JavaSCRIPT/LOTUS NOTES SCRIPT/UNIX(DOS) Shell<br>Other development tool: Eclipse/VS2010/Delphi/Oracle SQL Developer/CRYSTAL REPORT/LOTUS NOTES</p>
-<p><strong>Essential &amp; Desirable Skills</strong><br>Fundamental IT programming skills<br>Basic knowledge of Financial Products and Services<br>IT industry standards<br>Speaking and writing English and Chinese fluently</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/jobs/bank_of_china.jpg&quot; alt=&quot;Bank of China&quot;&gt;&lt;/p&gt;
-&lt;p&gt;职位：Assist Technical Manager(Software Development)&lt;br&gt;雇主: 伦敦Bank of 
-    
-    </summary>
-    
-      <category term="职场" scheme="https://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
-    
-    
-      <category term="招聘" scheme="https://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="中国银行" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C/"/>
     
   </entry>
   
