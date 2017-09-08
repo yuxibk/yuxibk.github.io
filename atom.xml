@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-08T12:48:49.445Z</updated>
+  <updated>2017-09-08T13:52:37.605Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -20,11 +20,12 @@
     <link href="https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/"/>
     <id>https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/</id>
     <published>2017-09-08T21:40:12.000Z</published>
-    <updated>2017-09-08T12:48:49.445Z</updated>
+    <updated>2017-09-08T13:52:37.605Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/technology/steem/delegate/delegate.jpg" alt="Steemit代理SP"></p>
 <p>要代理出去SP非常简单，只需要访问如下页面：</p>
 <p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP</a></p>
+<p>当然，你需要修改两个参数，一个是delegator，就是你自己的帐号，另一个是delegatee，就是你要代理SP给哪个帐号。比如，我上面的URL就是要从yuxi的帐号上代理100 SP给minnowbooster。</p>
 <p>你就会看到这个页面：</p>
 <p><img src="/images/technology/steem/delegate/1.jpg" alt=""></p>
 <p>点”Continue”后就会看到以下页面：</p>
