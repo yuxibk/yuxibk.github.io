@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-16T14:11:44.196Z</updated>
+  <updated>2017-09-18T12:55:57.721Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Steemit中的密码和各种key</title>
+    <link href="https://www.yuxiuk.com/password-and-keys-in-steemit/"/>
+    <id>https://www.yuxiuk.com/password-and-keys-in-steemit/</id>
+    <published>2017-09-18T05:40:12.000Z</published>
+    <updated>2017-09-18T12:55:57.721Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。</p>
+<h2 id="Steemit的密码"><a href="#Steemit的密码" class="headerlink" title="Steemit的密码"></a>Steemit的密码</h2><p>如果你是在Steemit注册获得的账户，系统会自动给你创建一个复杂的密码，如果是别的朋友帮你创建的账户，这个密码是你或者你的朋友创建的。这个密码是可以改的，登陆Steemit后，单击右上角的那三个横道的图标后，从菜单中选择”Change Account Password”就可以更改你账户的密码。</p>
+<p><img src="/images/technology/steem/keys/ZBYXALIYDREFOYDS.png" alt="Steemit中的密码和各种key"></p>
+<p>在改密码的时候，一定要选择一个复杂的密码，Steemit本身也能自动生成密码。同时你可以选择第三方网站来生成密码。这里推荐两个网站，建议把两个网站自动生成的密码组合并更改一下，增大随机性，这样就更靠谱了。</p>
+<p><a href="https://passwordsgenerator.net/" rel="external nofollow noopener noreferrer" target="_blank">https://passwordsgenerator.net/</a><br><a href="https://lastpass.com/generatepassword.php" rel="external nofollow noopener noreferrer" target="_blank">https://lastpass.com/generatepassword.php</a></p>
+<p>至于生成了复杂密码后如何保存，请参照我前面<a href="https://steemit.com/cn/@yuxi/keepass" rel="external nofollow noopener noreferrer" target="_blank">写过的文章</a></p>
+<p>另外，Steemit的密码除了用来登陆Steemit外， 其他操作，比如，发帖，赞，转账等等等，用下面要说的各种key就都可以搞定。因此，<strong>你不需要用Steemit密码登陆任何第三方网站</strong>。</p>
+<h2 id="关于Steemit的各种key"><a href="#关于Steemit的各种key" class="headerlink" title="关于Steemit的各种key"></a>关于Steemit的各种key</h2><p>单击 “Wallet” -&gt; “Permissions”，你就会看到各种key：</p>
+<p><img src="/images/technology/steem/keys/IDTATOTNGYKYHOFL.png" alt="Steemit中的各种key"></p>
+<p>关于各种key的作用，很多人都已经总结过了，我这里就简单总结一下：</p>
+<ul>
+<li>POSTING key: 用来发帖和赞的。</li>
+<li>ACTIVE key: 用来进行资金操作的，比如转入和转出你的SBD或者STEEM，还有买入和卖出你的资金时。</li>
+<li>OWNER key: 这个key具有所有权限，包括修改OWNER key自己。</li>
+<li>MEMO key: 官方说法是用来创建和管理MEMO的，这个没有用过。</li>
+</ul>
+<p>你可以看到，每个key后面都有一串长长的数字，对应的就是public key，也就是公钥，这个公钥在整个区块链网络上对所有人都可见，自然也不能用来进行任何操作的。它的作用主要用来完成数字签名的认证，确保所有交易和操作的安全性。</p>
+<p>要想进行任何操作，都需要获取相应的私钥，也就是private key才行。对于POSTING key，单击“SHOW PRIVATE KEY”就可以看到。而ACTIVE KEY的私钥则需要单击”LOGIN TO SHOW”并登陆后才能看到。</p>
+<p><img src="/images/technology/steem/keys/PSPEXVGUCZADXWPY.png" alt=""></p>
+<p>这里可以用你的密码或者OWNER key登陆都可以。</p>
+<h2 id="关于靠谱的第三方网站"><a href="#关于靠谱的第三方网站" class="headerlink" title="关于靠谱的第三方网站"></a>关于靠谱的第三方网站</h2><p>有些Steemit的APP/网站要求输入你的账户信息，这个时候建议只使用那些key，不要输入你的密码。而且尽量提供权限最小的key，比如：如果Steemit APP只是发帖/点赞的话就只提供POSTING key，而不要提供ACTIVE key。</p>
+<p>另外，怎样甄别一个APP是否靠谱呢？</p>
+<p>最直接的办法就是看看这个APP是否受到Steemit官方认可。由于Steemit是开源软件，你可以访问它们github上的源代码，看看你打算使用的网站/APP是否在官网列表中，比如：很多人都在用的Steemconnect就在这个列表中，因此可以放心的使用。</p>
+<p><img src="/images/technology/steem/keys/JQICCYFDIBIBODVS.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。&lt;/p&gt;
+&lt;h2 id=&quot;Steemit的密码&quot;&gt;&lt;a href=&quot;#Steemit的密码&quot; class=&quot;headerlink&quot; title=&quot;Steem
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+  </entry>
   
   <entry>
     <title>复星集团2018英国校招启动，漂洋过海，10月伦敦面试，现场直通OFFER！</title>
@@ -764,45 +813,6 @@ Passphrase:
   </entry>
   
   <entry>
-    <title>魔音招聘|和明星共事、留英工作的机会打包奉上！</title>
-    <link href="https://www.yuxiuk.com/magic-sound-job/"/>
-    <id>https://www.yuxiuk.com/magic-sound-job/</id>
-    <published>2017-08-09T05:40:12.000Z</published>
-    <updated>2017-08-09T12:53:55.004Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/jobs/magic-sound.jpg" alt="Magic Sound"></p>
-<p><strong>本文转载自魔音娱乐微信公共帐号</strong></p>
-<h2 id="魔音的梦想"><a href="#魔音的梦想" class="headerlink" title="魔音的梦想"></a>魔音的梦想</h2><p>2010年，我们于英国利物浦横空出世，争做“欧洲最权威的华人娱乐公司”。</p>
-<p>8年间，我们作为主办方承接了周杰伦、王力宏、张惠妹、梁静茹、周华健、张信哲、王杰、动力火车、McHotdog等艺人在英国个人演唱会的举办。也作为协办方协助五月天、李宇春、邓紫棋等的在英完美演出。</p>
-<p>2014年，“魔音娱乐（中国）”在中国北京成立，专注于引进优质欧美音乐戏剧进入中国内地，至今在内地巡演超过500场。</p>
-<p>2017年3月17、18日，周杰伦《地表最强》世界巡回演唱会伦敦站完美落幕，魔音娱乐作为主办方付出的努力，使得这次演唱会取得了空前绝后的成功，创造了华人赴英演出卖座的奇迹。</p>
-<h2 id="招聘详情"><a href="#招聘详情" class="headerlink" title="招聘详情"></a>招聘详情</h2><h3 id="超随意的招聘对象"><a href="#超随意的招聘对象" class="headerlink" title="超随意的招聘对象"></a>超随意的招聘对象</h3><p>没有学历限制，没有性别偏好，没有年龄要求，只要你有热情，有性格，有态度，能吃苦，能付出，但没有惰性，不抱怨。<br>像小M这样，对音乐演艺、影视制作热情到爆炸，愿意为传媒娱乐事业奋斗终身，什么样的颜值我们都可以接受哦，笔芯♥~</p>
-<h3 id="超多样的工作岗位"><a href="#超多样的工作岗位" class="headerlink" title="超多样的工作岗位"></a>超多样的工作岗位</h3><p>现场音乐、灯光舞美、演出策划、宣传编辑、节目制作、前期策划、影视制作、编剧制片……<br>只要你擅长其中一项，不妨就来试试看咯！当然如果你和小M一样，是可文可武，可男可女的复合型人才，肯定是会更加吃香的啦~(●’◡’●)</p>
-<h3 id="超洋气的工作地点"><a href="#超洋气的工作地点" class="headerlink" title="超洋气的工作地点"></a>超洋气的工作地点</h3><p>工作地点：伦敦<br>出差范围：亚洲（把全亚洲最潮最ing的华人文化娱乐带到英国来，带到欧洲来！）</p>
-<h3 id="超诱人的工作福利"><a href="#超诱人的工作福利" class="headerlink" title="超诱人的工作福利"></a>超诱人的工作福利</h3><p>魔音娱乐将为所有正式员工提供合法的英国工作签证。（所以哪怕你现在并没有英国的居留许可，只要你加入魔音大家庭，就可以来英国工作哦！）<br>魔音娱乐拥有你想象不到的庞大的艺人资源，在未来工作中，你将有无数次和明星同框共事的机会。</p>
-<h3 id="超简单的应聘方式"><a href="#超简单的应聘方式" class="headerlink" title="超简单的应聘方式"></a>超简单的应聘方式</h3><p>简历（如有作品）投递至：HR@magic-sound.co.uk<br>邮件标题：【魔音】+姓名+岗位+工作性质(Full Time / Part Time / Intern)<br>邮件正文：注明到岗时间以及联系方式<br>邮件附件：简历+作品</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/jobs/magic-sound.jpg&quot; alt=&quot;Magic Sound&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;本文转载自魔音娱乐微信公共帐号&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;魔音的梦想&quot;&gt;&lt;a href=&quot;#魔音的梦想&quot; cl
-    
-    </summary>
-    
-      <category term="职场" scheme="https://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
-    
-    
-      <category term="招聘" scheme="https://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="魔音娱乐" scheme="https://www.yuxiuk.com/tags/%E9%AD%94%E9%9F%B3%E5%A8%B1%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Snowdonia雪敦山Llandudno附近餐厅推荐</title>
     <link href="https://www.yuxiuk.com/Llandudno-restaurants/"/>
     <id>https://www.yuxiuk.com/Llandudno-restaurants/</id>
@@ -859,6 +869,45 @@ Passphrase:
   </entry>
   
   <entry>
+    <title>魔音招聘|和明星共事、留英工作的机会打包奉上！</title>
+    <link href="https://www.yuxiuk.com/magic-sound-job/"/>
+    <id>https://www.yuxiuk.com/magic-sound-job/</id>
+    <published>2017-08-09T05:40:12.000Z</published>
+    <updated>2017-08-09T12:53:55.004Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/jobs/magic-sound.jpg" alt="Magic Sound"></p>
+<p><strong>本文转载自魔音娱乐微信公共帐号</strong></p>
+<h2 id="魔音的梦想"><a href="#魔音的梦想" class="headerlink" title="魔音的梦想"></a>魔音的梦想</h2><p>2010年，我们于英国利物浦横空出世，争做“欧洲最权威的华人娱乐公司”。</p>
+<p>8年间，我们作为主办方承接了周杰伦、王力宏、张惠妹、梁静茹、周华健、张信哲、王杰、动力火车、McHotdog等艺人在英国个人演唱会的举办。也作为协办方协助五月天、李宇春、邓紫棋等的在英完美演出。</p>
+<p>2014年，“魔音娱乐（中国）”在中国北京成立，专注于引进优质欧美音乐戏剧进入中国内地，至今在内地巡演超过500场。</p>
+<p>2017年3月17、18日，周杰伦《地表最强》世界巡回演唱会伦敦站完美落幕，魔音娱乐作为主办方付出的努力，使得这次演唱会取得了空前绝后的成功，创造了华人赴英演出卖座的奇迹。</p>
+<h2 id="招聘详情"><a href="#招聘详情" class="headerlink" title="招聘详情"></a>招聘详情</h2><h3 id="超随意的招聘对象"><a href="#超随意的招聘对象" class="headerlink" title="超随意的招聘对象"></a>超随意的招聘对象</h3><p>没有学历限制，没有性别偏好，没有年龄要求，只要你有热情，有性格，有态度，能吃苦，能付出，但没有惰性，不抱怨。<br>像小M这样，对音乐演艺、影视制作热情到爆炸，愿意为传媒娱乐事业奋斗终身，什么样的颜值我们都可以接受哦，笔芯♥~</p>
+<h3 id="超多样的工作岗位"><a href="#超多样的工作岗位" class="headerlink" title="超多样的工作岗位"></a>超多样的工作岗位</h3><p>现场音乐、灯光舞美、演出策划、宣传编辑、节目制作、前期策划、影视制作、编剧制片……<br>只要你擅长其中一项，不妨就来试试看咯！当然如果你和小M一样，是可文可武，可男可女的复合型人才，肯定是会更加吃香的啦~(●’◡’●)</p>
+<h3 id="超洋气的工作地点"><a href="#超洋气的工作地点" class="headerlink" title="超洋气的工作地点"></a>超洋气的工作地点</h3><p>工作地点：伦敦<br>出差范围：亚洲（把全亚洲最潮最ing的华人文化娱乐带到英国来，带到欧洲来！）</p>
+<h3 id="超诱人的工作福利"><a href="#超诱人的工作福利" class="headerlink" title="超诱人的工作福利"></a>超诱人的工作福利</h3><p>魔音娱乐将为所有正式员工提供合法的英国工作签证。（所以哪怕你现在并没有英国的居留许可，只要你加入魔音大家庭，就可以来英国工作哦！）<br>魔音娱乐拥有你想象不到的庞大的艺人资源，在未来工作中，你将有无数次和明星同框共事的机会。</p>
+<h3 id="超简单的应聘方式"><a href="#超简单的应聘方式" class="headerlink" title="超简单的应聘方式"></a>超简单的应聘方式</h3><p>简历（如有作品）投递至：HR@magic-sound.co.uk<br>邮件标题：【魔音】+姓名+岗位+工作性质(Full Time / Part Time / Intern)<br>邮件正文：注明到岗时间以及联系方式<br>邮件附件：简历+作品</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/jobs/magic-sound.jpg&quot; alt=&quot;Magic Sound&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本文转载自魔音娱乐微信公共帐号&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;魔音的梦想&quot;&gt;&lt;a href=&quot;#魔音的梦想&quot; cl
+    
+    </summary>
+    
+      <category term="职场" scheme="https://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
+    
+    
+      <category term="招聘" scheme="https://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
+    
+      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
+    
+      <category term="魔音娱乐" scheme="https://www.yuxiuk.com/tags/%E9%AD%94%E9%9F%B3%E5%A8%B1%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>密码管理神器KeePass介绍</title>
     <link href="https://www.yuxiuk.com/keepass/"/>
     <id>https://www.yuxiuk.com/keepass/</id>
@@ -905,42 +954,6 @@ Passphrase:
     
     
       <category term="KeePass" scheme="https://www.yuxiuk.com/tags/KeePass/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Velodrome轨道自行车介绍</title>
-    <link href="https://www.yuxiuk.com/velodrome/"/>
-    <id>https://www.yuxiuk.com/velodrome/</id>
-    <published>2017-08-03T09:40:12.000Z</published>
-    <updated>2017-08-04T08:56:01.659Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/sports/velodrome/velodrome.jpg" alt="Velodrome"></p>
-<p>羽西一直也不清楚Velodrome的准确中文翻译是什么？叫做室内自行车？但是Velodrome也有户外的。不过貌似国际大赛都是在室内. 姑且就叫做轨道自行车吧。Velodrome是在一个有坡度的椭圆形跑道上骑自行车。</p>
-<p>Velodrome最早源于19世纪中期，早期的跑道也没有统一标准，长度区别也很大，有的Velodrome跑道也不是专门为骑自行车而修建的，比如围绕着田径赛道而修建。比如：建于1877年的布莱顿Velodrome跑道长579米，而朴次茅斯的跑道则有536米。同时，修建跑道的材料也不尽相同，有用石灰石的，有用混凝土的，后来用沥青和柏油的逐渐多了起来。</p>
-<p>到了19世纪末和20世纪初期，室内的Velodrome逐渐流行起来。后来Velodrome逐渐成为了奥运会比赛项目，比赛场地也逐渐变得规范了。比如：在2012年伦敦奥运会期间，场地为250米长。</p>
-<p>在骑行的过程中，最高时速可达85公里/小时，也就是大约50英里/小时，骑行的乐趣就在于要找到高速骑行所产生的离心力和重力达到一个动态平衡，最后的合力通过自行车垂直于跑道，从而保持自行车的稳定。</p>
-<p>在骑行的过程中，车手并不是固定在某个半径上，骑行速度也不断在变化，在观看国际比赛时，经常会看到骑手在轮流领骑冲刺。</p>
-<p><img src="/images/sports/velodrome/bike.jpg" alt="Velodrome"></p>
-<p>Velodrome的自行车也是比较特殊的，它们没有刹车，这样设计的目的是用来更快提速。</p>
-<p>至于比赛规则有以下几种：</p>
-<p>首先最简单的叫做“scratch race”，说白了就是谁先骑完谁赢得比赛。</p>
-<p>第二种要看积分，每骑10圈计算一次，一般是排名第一和第二的有积分，整个过程结束后按照总积分来评定胜者。最后一轮首先结束的未必是胜者。</p>
-<p>第三种方式叫做“”devil take the hindmost””，怎么翻译呢，就是“恶魔赛制”，每一轮比赛的最后一名自动被淘汰，到最后只剩下3-5人时按照最后两轮的冲刺来决定胜者。</p>
-<p>另外还有”Madison”和”Keirin”两种团体赛和更为复杂的”Omnium”比赛。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/sports/velodrome/velodrome.jpg&quot; alt=&quot;Velodrome&quot;&gt;&lt;/p&gt;
-&lt;p&gt;羽西一直也不清楚Velodrome的准确中文翻译是什么？叫做室内自行车？但是Velodrome也有户外的。不过貌似国际大赛都是
-    
-    </summary>
-    
-      <category term="生活" scheme="https://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="Velodrome" scheme="https://www.yuxiuk.com/tags/Velodrome/"/>
     
   </entry>
   

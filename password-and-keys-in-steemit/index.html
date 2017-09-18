@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Steemit中的密码和各种key | 英国羽西</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="Steem,Steemit">
+    
+    <meta name="description" content="很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。
+Steemit的密码如果你是在Steemit注册获得的账户，系统会自动给你创建一个复杂的密码，如果是别的朋友帮你创建的账户，这个密码是你或者你的朋友创建的。这个密码是可以改的，登陆Steemit后，单击右上角的那三个横道的图标后，从菜单中选择”Change Account Pas">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Steemit中的密码和各种key">
+<meta property="og:url" content="https://www.yuxiuk.com/password-and-keys-in-steemit/index.html">
+<meta property="og:site_name" content="英国羽西">
+<meta property="og:description" content="很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。
+Steemit的密码如果你是在Steemit注册获得的账户，系统会自动给你创建一个复杂的密码，如果是别的朋友帮你创建的账户，这个密码是你或者你的朋友创建的。这个密码是可以改的，登陆Steemit后，单击右上角的那三个横道的图标后，从菜单中选择”Change Account Pas">
+<meta property="og:image" content="https://www.yuxiuk.com/images/technology/steem/keys/ZBYXALIYDREFOYDS.png">
+<meta property="og:updated_time" content="2017-09-18T12:55:57.721Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Steemit中的密码和各种key">
+<meta name="twitter:description" content="很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。
+Steemit的密码如果你是在Steemit注册获得的账户，系统会自动给你创建一个复杂的密码，如果是别的朋友帮你创建的账户，这个密码是你或者你的朋友创建的。这个密码是可以改的，登陆Steemit后，单击右上角的那三个横道的图标后，从菜单中选择”Change Account Pas">
+<meta name="twitter:image" content="https://www.yuxiuk.com/images/technology/steem/keys/ZBYXALIYDREFOYDS.png">
+    
+
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="英国羽西" type="application/atom+xml">
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/js/titillium-web/styles.css">
+    <link rel="stylesheet" href="/js/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/js/lightgallery/css/lightgallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67297895-15', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">英国羽西 - 青青子衿，悠悠我心，但为君故，沉吟至今</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/">首页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/技术/">技术</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/文化/">文化</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/旅游/">旅游</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/活动/">活动</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/生活/">生活</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/留学/">留学</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/美食/">美食</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/职场/">职场</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/育儿/">育儿</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/购物/">购物</a></li></ul>
+                                    
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="找什么...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+
+  
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/技术/">技术</a>
+    </h1>
+  
+
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-password-and-keys-in-steemit" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Steemit中的密码和各种key
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-subtitle">
+                
+<b>作者：子衿 </b>
+
+
+
+                <a href="/password-and-keys-in-steemit/" class="article-date">
+    <time datetime="2017-09-18T05:40:12.000Z" itemprop="datePublished">2017-09-18</time>
+</a>
+                
+    <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Steem/">Steem</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Steemit/">Steemit</a></li></ul>
+
+                <br><br>
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+
+            
+
+            <p>很多新手在刚接触Steemit的时候可能对于Steemit的密码和各种key比较困惑，下面把自己的理解和大家分享一下。</p>
+<h2 id="Steemit的密码"><a href="#Steemit的密码" class="headerlink" title="Steemit的密码"></a>Steemit的密码</h2><p>如果你是在Steemit注册获得的账户，系统会自动给你创建一个复杂的密码，如果是别的朋友帮你创建的账户，这个密码是你或者你的朋友创建的。这个密码是可以改的，登陆Steemit后，单击右上角的那三个横道的图标后，从菜单中选择”Change Account Password”就可以更改你账户的密码。</p>
+<p><img src="/images/technology/steem/keys/ZBYXALIYDREFOYDS.png" alt="Steemit中的密码和各种key"></p>
+<p>在改密码的时候，一定要选择一个复杂的密码，Steemit本身也能自动生成密码。同时你可以选择第三方网站来生成密码。这里推荐两个网站，建议把两个网站自动生成的密码组合并更改一下，增大随机性，这样就更靠谱了。</p>
+<p><a href="https://passwordsgenerator.net/" rel="external nofollow noopener noreferrer" target="_blank">https://passwordsgenerator.net/</a><br><a href="https://lastpass.com/generatepassword.php" rel="external nofollow noopener noreferrer" target="_blank">https://lastpass.com/generatepassword.php</a></p>
+<p>至于生成了复杂密码后如何保存，请参照我前面<a href="https://steemit.com/cn/@yuxi/keepass" rel="external nofollow noopener noreferrer" target="_blank">写过的文章</a></p>
+<p>另外，Steemit的密码除了用来登陆Steemit外， 其他操作，比如，发帖，赞，转账等等等，用下面要说的各种key就都可以搞定。因此，<strong>你不需要用Steemit密码登陆任何第三方网站</strong>。</p>
+<h2 id="关于Steemit的各种key"><a href="#关于Steemit的各种key" class="headerlink" title="关于Steemit的各种key"></a>关于Steemit的各种key</h2><p>单击 “Wallet” -&gt; “Permissions”，你就会看到各种key：</p>
+<p><img src="/images/technology/steem/keys/IDTATOTNGYKYHOFL.png" alt="Steemit中的各种key"></p>
+<p>关于各种key的作用，很多人都已经总结过了，我这里就简单总结一下：</p>
+<ul>
+<li>POSTING key: 用来发帖和赞的。</li>
+<li>ACTIVE key: 用来进行资金操作的，比如转入和转出你的SBD或者STEEM，还有买入和卖出你的资金时。</li>
+<li>OWNER key: 这个key具有所有权限，包括修改OWNER key自己。</li>
+<li>MEMO key: 官方说法是用来创建和管理MEMO的，这个没有用过。</li>
+</ul>
+<p>你可以看到，每个key后面都有一串长长的数字，对应的就是public key，也就是公钥，这个公钥在整个区块链网络上对所有人都可见，自然也不能用来进行任何操作的。它的作用主要用来完成数字签名的认证，确保所有交易和操作的安全性。</p>
+<p>要想进行任何操作，都需要获取相应的私钥，也就是private key才行。对于POSTING key，单击“SHOW PRIVATE KEY”就可以看到。而ACTIVE KEY的私钥则需要单击”LOGIN TO SHOW”并登陆后才能看到。</p>
+<p><img src="/images/technology/steem/keys/PSPEXVGUCZADXWPY.png" alt=""></p>
+<p>这里可以用你的密码或者OWNER key登陆都可以。</p>
+<h2 id="关于靠谱的第三方网站"><a href="#关于靠谱的第三方网站" class="headerlink" title="关于靠谱的第三方网站"></a>关于靠谱的第三方网站</h2><p>有些Steemit的APP/网站要求输入你的账户信息，这个时候建议只使用那些key，不要输入你的密码。而且尽量提供权限最小的key，比如：如果Steemit APP只是发帖/点赞的话就只提供POSTING key，而不要提供ACTIVE key。</p>
+<p>另外，怎样甄别一个APP是否靠谱呢？</p>
+<p>最直接的办法就是看看这个APP是否受到Steemit官方认可。由于Steemit是开源软件，你可以访问它们github上的源代码，看看你打算使用的网站/APP是否在官网列表中，比如：很多人都在用的Steemconnect就在这个列表中，因此可以放心的使用。</p>
+<p><img src="/images/technology/steem/keys/JQICCYFDIBIBODVS.png" alt=""></p>
+
+
+            
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+              <!-- autosize -->
+              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins>
+
+              <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            
+
+            
+              
+                <br>
+                <b>未经授权，严禁转载。</b><br>
+                <br>
+              
+            
+              <br>
+            羽西欢迎大家投稿分享英国生活，邮件：info@yuxiuk.com <br>
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://www.yuxiuk.com/password-and-keys-in-steemit/" data-id="cj7q6d0zm00007sxu2kqtm8jf" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/104826207350368986265" target="_blank" rel="external nofollow noopener noreferrer">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+    <div class="widgets-container">
+        
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+         <a target="_blank" href="https://www.booking.com/index.zh-cn.html?aid=1320859" rel="external nofollow noopener noreferrer"><img src="/images/ads/booking.jpg" width="280" height="260" border="0"></a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/password-and-keys-in-steemit/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/steem/keys/ZBYXALIYDREFOYDS.png)" alt="Steemit中的密码和各种key" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/技术/">技术</a></p>
+                            <p class="item-title"><a href="/password-and-keys-in-steemit/" class="title">Steemit中的密码和各种key</a></p>
+                            <p class="item-date"><time datetime="2017-09-18T05:40:12.000Z" itemprop="datePublished">2017-09-18</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/fuson-jobs/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/jobs/fuson.jpg)" alt="复星集团2018英国校招启动，漂洋过海，10月伦敦面试，现场直通OFFER！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/职场/">职场</a></p>
+                            <p class="item-title"><a href="/fuson-jobs/" class="title">复星集团2018英国校招启动，漂洋过海，10月伦敦面试，现场直通OFFER！</a></p>
+                            <p class="item-date"><time datetime="2017-09-16T07:40:12.000Z" itemprop="datePublished">2017-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/huawei-phd-recruitment-2017/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/jobs/huawei-phd-jobs-2017.jpg)" alt="华为博士招聘会 期待你的到来！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/职场/">职场</a></p>
+                            <p class="item-title"><a href="/huawei-phd-recruitment-2017/" class="title">华为博士招聘会 期待你的到来！</a></p>
+                            <p class="item-date"><time datetime="2017-09-16T05:40:12.000Z" itemprop="datePublished">2017-09-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/rcm-marketing-officer-sep-2017/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/jobs/royal-college-music.jpg)" alt="英国皇家音乐学院招聘市场专员" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/职场/">职场</a></p>
+                            <p class="item-title"><a href="/rcm-marketing-officer-sep-2017/" class="title">英国皇家音乐学院招聘市场专员</a></p>
+                            <p class="item-date"><time datetime="2017-09-09T05:40:12.000Z" itemprop="datePublished">2017-09-09</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/steemit-meetup-birmingham-16-sep-2017/" class="thumbnail">
+    
+    
+        <span style="background-image:url(https://steemitimages.com/DQmQwEXdBHpN5oSinNYCzP4GnFfvXzL86BMjSjTHBjULiz3/cover1.png)" alt="2017年9月16日Steemit爱好者伯明翰聚会" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/活动/">活动</a></p>
+                            <p class="item-title"><a href="/steemit-meetup-birmingham-16-sep-2017/" class="title">2017年9月16日Steemit爱好者伯明翰聚会</a></p>
+                            <p class="item-date"><time datetime="2017-09-08T21:40:12.000Z" itemprop="datePublished">2017-09-08</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/how-to-delegate-sp-in-steemit/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/steem/delegate/delegate.jpg)" alt="在Steemit中如何使用代理功能" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/技术/">技术</a></p>
+                            <p class="item-title"><a href="/how-to-delegate-sp-in-steemit/" class="title">在Steemit中如何使用代理功能</a></p>
+                            <p class="item-date"><time datetime="2017-09-08T21:40:12.000Z" itemprop="datePublished">2017-09-08</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+         <a target="_blank" href="http://bit.ly/1ifhvtd" rel="external nofollow noopener noreferrer"><img src="/images/ads/holland-barrett.png" width="280" height="260" border="0"></a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">23</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/文化/">文化</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅游/">旅游</a><span class="category-list-count">29</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/活动/">活动</a><span class="category-list-count">35</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a><span class="category-list-count">21</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/留学/">留学</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/美食/">美食</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/职场/">职场</a><span class="category-list-count">32</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/育儿/">育儿</a><span class="category-list-count">17</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/购物/">购物</a><span class="category-list-count">9</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+         <a target="_blank" href="http://bit.ly/2cRe3Gy" rel="external nofollow noopener noreferrer"><img src="/images/ads/skyscanner.gif" width="280" height="260" border="0"></a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">友情链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://www.yingtaodaren.com/" rel="external nofollow noopener noreferrer" target="_blank">英淘达人</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <div style="display: block; text-align: center;">
+                    <a href="/">
+                      <img src="/images/yuxi.png">
+                    </a>
+                </div>
+                <p style="text-align: center;">联系我们: <a href="mailto:info@yuxiuk.com" rel="external nofollow noopener noreferrer" target="_blank">info@yuxiuk.com</a></p><br>
+                <p style="font-weight: bold;text-align: center;">未经允许，禁止转载，侵权必究！</p><br>
+                <p style="text-align: center;">&copy; 2017 英国羽西. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'yuxiuk';
+    
+    
+    var disqus_url = 'https://www.yuxiuk.com/password-and-keys-in-steemit/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        <script src="/js/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/js/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/js/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/js/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/js/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/js/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/js/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/js/lightgallery/js/lg-share.min.js"></script>
+        <script src="/js/lightgallery/js/lg-video.min.js"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+
