@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-27T12:28:29.888Z</updated>
+  <updated>2017-09-28T16:02:38.501Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Steemit工具推荐：steemtracked</title>
+    <link href="https://www.yuxiuk.com/steemtracked/"/>
+    <id>https://www.yuxiuk.com/steemtracked/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-28T16:02:38.501Z</updated>
+    
+    <content type="html"><![CDATA[<p>偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：</p>
+<p><a href="https://steemtracked.com/@yuxi" rel="external nofollow noopener noreferrer" target="_blank">https://steemtracked.com/@yuxi</a></p>
+<p>首先可以看到你账户的基本信息，比如你的账户余额，SP，粉丝，收入状况等。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/1.png" alt=""></p>
+<p>接下来可以看到你最近发帖的各项指标。首先系统会自动选择过去的一个月内的数据进行统计，但你可以自己选择一个时段。统计数据中包括你文章最常用的标签，平均收入，平均获得的upvote数目，平均每篇文章的评论数，还有以上各项指标的总和。其中的那项Engagement Rate不是特别明白。</p>
+<p>你还可以查看一下你曾经使用过标签的各项指标，比如：发帖数，获赞数，评论数，收入等。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/2.png" alt=""></p>
+<p>同时你还可以看到对你粉丝的分析，比如根据REP的数值进行的统计，REP最高的粉丝，以及SP最高的粉丝。</p>
+<p>感觉比较有用的一个功能的是对你所有文章的统计，可以按照文章标题，采用标签，获赞数，评论数，收入，创建时间进行排序。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/3.png" alt=""></p>
+<p>喜欢的话，也去试试吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>推荐两个改变图片尺寸的软件</title>
@@ -879,62 +917,6 @@ Passphrase:
       <category term="奖学金" scheme="https://www.yuxiuk.com/tags/%E5%A5%96%E5%AD%A6%E9%87%91/"/>
     
       <category term="志奋奖学金" scheme="https://www.yuxiuk.com/tags/%E5%BF%97%E5%A5%8B%E5%A5%96%E5%AD%A6%E9%87%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Snowdonia雪敦山Llandudno附近餐厅推荐</title>
-    <link href="https://www.yuxiuk.com/Llandudno-restaurants/"/>
-    <id>https://www.yuxiuk.com/Llandudno-restaurants/</id>
-    <published>2017-08-09T05:40:12.000Z</published>
-    <updated>2017-08-10T12:43:42.045Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Mamma-Rosa-Italian-Ristorante-意大利餐厅"><a href="#Mamma-Rosa-Italian-Ristorante-意大利餐厅" class="headerlink" title="Mamma Rosa Italian Ristorante- 意大利餐厅"></a>Mamma Rosa Italian Ristorante- 意大利餐厅</h2><p><img src="/images/travel/Llandudno/restaurants/mamma-rosa.jpg" alt="Mamma Rosa Italian Ristorante"></p>
-<p>Mamma Rosa是Llandudno口碑非常好的一家意大利餐厅。意大利美食做得非常正宗地道，价格很公道。服务也非常好。推荐他家的Lasagne，Tiramisu提拉米苏，柠檬Cheesecake。不过不推荐他家的House Wine。</p>
-<p>地址：11 Mostyn Avenue | Craig-y-Don, Llandudno LL30 1YS, Wales<br>电话：+44 1492 870070<br>网址：<a href="http://www.mammarosa.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">http://www.mammarosa.co.uk/</a><br>菜单：<a href="http://www.mammarosa.co.uk/menu.html" rel="external nofollow noopener noreferrer" target="_blank">http://www.mammarosa.co.uk/menu.html</a></p>
-<h2 id="Home-Cookin’-Restaurant-英式餐厅"><a href="#Home-Cookin’-Restaurant-英式餐厅" class="headerlink" title="Home Cookin’ Restaurant - 英式餐厅"></a>Home Cookin’ Restaurant - 英式餐厅</h2><p><img src="/images/travel/Llandudno/restaurants/homecookin.jpg" alt="Home Cookin&#39; Restaurant"></p>
-<p>Home Cookin’ Restaurant是非常地道的一家英式餐厅。他家装修非常现代，整洁，舒适。食物做得很美味，推荐他家的牛排，Smoked haddock。价格也很合理。</p>
-<p>地址：139A Mostyn Street, Llandudno LL30 2PE, Wales<br>电话：+44 1492 876585<br>网址：<a href="http://homecookin-llandudno.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">http://homecookin-llandudno.co.uk/</a></p>
-<h2 id="Johnny-Dough’s-Wood-Fired-Pizza"><a href="#Johnny-Dough’s-Wood-Fired-Pizza" class="headerlink" title="Johnny Dough’s Wood-Fired Pizza"></a>Johnny Dough’s Wood-Fired Pizza</h2><p><img src="/images/travel/Llandudno/restaurants/johny-dough.jpg" alt="Johnny Dough&#39;s Wood-Fired Pizza"></p>
-<p>这是一家专营Pizza的餐厅。他家把Pizza玩出了很多新花样，什么Mussels Pizza, Kebab Pizza, 北京烤鸭Pizza等等。可以试试当地啤酒Snowdon lager。餐后的冰激凌也不错。因为这家餐厅太受欢迎，最好事先订座。</p>
-<p>地址：129 Mostyn Street, Llandudno LL30 2PE, Wales +44<br>电话：1492 871813<br>网址：<a href="http://www.jdoughspizzas.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">http://www.jdoughspizzas.co.uk/</a></p>
-<h2 id="Lawton’s-Cafe-Grill-英式西餐"><a href="#Lawton’s-Cafe-Grill-英式西餐" class="headerlink" title="Lawton’s Cafe Grill - 英式西餐"></a>Lawton’s Cafe Grill - 英式西餐</h2><p><img src="/images/travel/Llandudno/restaurants/lawton.jpg" alt="Lawton&#39;s Cafe Grill"></p>
-<p>Lawton’s Cafe Grill这家英式西餐厅在Llandudno人气非常旺，最好提前订座。他家不仅菜做的很美味，员工的服务也很到位，在Tripadvisor上的评价一直很高。推荐他家的牛肉汉堡和Lam shank。</p>
-<p>地址：147 Mostyn Street, Llandudno LL30 2PE, Wales<br>电话：+44 1492 203516<br>网址：<a href="https://www.lcgrill.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">https://www.lcgrill.co.uk/</a><br>菜单：<a href="https://www.lcgrill.co.uk/menu" rel="external nofollow noopener noreferrer" target="_blank">https://www.lcgrill.co.uk/menu</a></p>
-<h2 id="Carlo’s-Restaurant-意大利美食，牛排，海鲜"><a href="#Carlo’s-Restaurant-意大利美食，牛排，海鲜" class="headerlink" title="Carlo’s Restaurant - 意大利美食，牛排，海鲜"></a>Carlo’s Restaurant - 意大利美食，牛排，海鲜</h2><p><img src="/images/travel/Llandudno/restaurants/carlo.jpg" alt="Carlo&#39;s Restaurant"></p>
-<p>Carlo’s Restaurant是在Llandudno很受欢迎的一家意大利餐厅。虽然价格小贵，但确实是物有所值。他家菜单上都是经典的意大利美食，没有pizza。服务也是超级赞。</p>
-<p>地址：2 Pleasant Street | Craig-y-Don, Llandudno LL30 1LJ, Wales<br>电话：+44 1492 875722<br>网址：<a href="http://www.carlosllandudno.com/" rel="external nofollow noopener noreferrer" target="_blank">http://www.carlosllandudno.com/</a><br>菜单：<a href="http://www.carlosllandudno.com/maincourse.html" rel="external nofollow noopener noreferrer" target="_blank">http://www.carlosllandudno.com/maincourse.html</a></p>
-<h2 id="The-Cottage-Loaf-英式西餐"><a href="#The-Cottage-Loaf-英式西餐" class="headerlink" title="The Cottage Loaf - 英式西餐"></a>The Cottage Loaf - 英式西餐</h2><p><img src="/images/travel/Llandudno/restaurants/cottage-loaf.jpg" alt="The Cottage Loaf"></p>
-<p>又是一家值得推荐的本地餐厅，食物做的非常好吃，服务到位。他家还有专门的KIDS menu，每个孩子大约5镑多。晚上去的话需要提前订座，也可以中午去。推荐试试他家买的Wrexham Welsh lager。</p>
-<p>地址：Market Street, Llandudno LL30 2SR, Wales<br>电话：+44 1492 870762<br>网址：<a href="http://the-cottageloaf.co.uk/" rel="external nofollow noopener noreferrer" target="_blank">http://the-cottageloaf.co.uk/</a><br>菜单：<a href="http://the-cottageloaf.co.uk/food-2/" rel="external nofollow noopener noreferrer" target="_blank">http://the-cottageloaf.co.uk/food-2/</a></p>
-<h2 id="Top’s-Restaurant-中餐"><a href="#Top’s-Restaurant-中餐" class="headerlink" title="Top’s Restaurant - 中餐"></a>Top’s Restaurant - 中餐</h2><p><img src="/images/travel/Llandudno/restaurants/tops.jpg" alt="Top&#39;s Restaurant"></p>
-<p>这是Llandudno这里不错的中餐馆之一。由于当地几乎没有中国人居住，所以他家的菜主要是面向英国人的。</p>
-<p>地址：43 Mostyn Avenue | Craig-y-Don, Llandudno LL30 1YY, Wales<br>电话：+44 1492 876729<br>网址：<a href="http://www.topschinesellandudno.co.uk/home-page" rel="external nofollow noopener noreferrer" target="_blank">http://www.topschinesellandudno.co.uk/home-page</a><br>菜单：<a href="http://www.topschinesellandudno.co.uk/restaurant-menu" rel="external nofollow noopener noreferrer" target="_blank">http://www.topschinesellandudno.co.uk/restaurant-menu</a></p>
-<h2 id="Yeung-Sing-Chinese-Restaurant-中餐"><a href="#Yeung-Sing-Chinese-Restaurant-中餐" class="headerlink" title="Yeung Sing Chinese Restaurant - 中餐"></a>Yeung Sing Chinese Restaurant - 中餐</h2><p><img src="/images/travel/Llandudno/restaurants/yeung-sing.jpg" alt="Yeung Sing Chinese Restaurant"></p>
-<p>另外一家值得推荐的中餐馆。同样，主要是做本地人的生意。</p>
-<p>地址：1 Llandudno Road | Penrhyn Bay, Penrhyn Bay, Llandudno LL30 3EP, Wales<br>电话：+44 1492 546966</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Mamma-Rosa-Italian-Ristorante-意大利餐厅&quot;&gt;&lt;a href=&quot;#Mamma-Rosa-Italian-Ristorante-意大利餐厅&quot; class=&quot;headerlink&quot; title=&quot;Mamma Rosa Italian Ris
-    
-    </summary>
-    
-      <category term="美食" scheme="https://www.yuxiuk.com/categories/%E7%BE%8E%E9%A3%9F/"/>
-    
-    
-      <category term="旅游" scheme="https://www.yuxiuk.com/tags/%E6%97%85%E6%B8%B8/"/>
-    
-      <category term="Snowdonia" scheme="https://www.yuxiuk.com/tags/Snowdonia/"/>
-    
-      <category term="雪敦山" scheme="https://www.yuxiuk.com/tags/%E9%9B%AA%E6%95%A6%E5%B1%B1/"/>
-    
-      <category term="Llandudno西餐" scheme="https://www.yuxiuk.com/tags/Llandudno%E8%A5%BF%E9%A4%90/"/>
-    
-      <category term="Llandudno中餐" scheme="https://www.yuxiuk.com/tags/Llandudno%E4%B8%AD%E9%A4%90/"/>
-    
-      <category term="中餐馆" scheme="https://www.yuxiuk.com/tags/%E4%B8%AD%E9%A4%90%E9%A6%86/"/>
     
   </entry>
   
