@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-27T12:28:29.888Z</updated>
+  <updated>2017-09-28T08:33:23.907Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何通过Paypal购买比特币</title>
+    <link href="https://www.yuxiuk.com/buy-btc-via-paypal/"/>
+    <id>https://www.yuxiuk.com/buy-btc-via-paypal/</id>
+    <published>2017-09-28T08:33:23.907Z</published>
+    <updated>2017-09-28T08:33:23.907Z</updated>
+    
+    <content type="html"><![CDATA[<p>下面给大家介绍一下如何使用Paypal购买比特币。其实能够通过Paypal购买比特币的网站有不少，但通常交易费用太高。这里给大家推荐一个自己用过的，费用相对还可以，同时又是比较靠谱的网站：Virwox。</p>
+<p><img src="/images/technology/bitcoin/paypal/paypal.png" alt=""></p>
+<h2 id="申请Virwox账号"><a href="#申请Virwox账号" class="headerlink" title="申请Virwox账号"></a>申请Virwox账号</h2><p>首先，你需要申请一个Virwox的账号</p>
+<p>【<a href="https://www.virwox.com?r=1f1753" rel="external nofollow noopener noreferrer" target="_blank">Virwox官网</a>】</p>
+<h2 id="从Paypal转钱到Virwox账号"><a href="#从Paypal转钱到Virwox账号" class="headerlink" title="从Paypal转钱到Virwox账号"></a>从Paypal转钱到Virwox账号</h2><p>接下来需要从你的Paypal充值到Virwox账号，首先打开这个页面</p>
+<p><a href="https://www.virwox.com/deposit.php?r=1f1753" rel="external nofollow noopener noreferrer" target="_blank">https://www.virwox.com/deposit.php</a></p>
+<p>选择Paypal Express Checkout</p>
+<p><img src="/images/technology/bitcoin/paypal/KISPQHVWGSQRAZRF.png" alt=""></p>
+<p>跳转到Paypal付款</p>
+<p><img src="/images/technology/bitcoin/paypal/IIPSGLRPVCKVGCSU.png" alt=""></p>
+<p>81英镑到账后只有78英镑了。</p>
+<h2 id="兑换虚拟货币SLL"><a href="#兑换虚拟货币SLL" class="headerlink" title="兑换虚拟货币SLL"></a>兑换虚拟货币SLL</h2><p>然后将到帐的钱换为SLL<br><img src="/images/technology/bitcoin/paypal/ZGEHKHRJOCXCLCOO.png" alt=""></p>
+<p>在转换的时候需要再交一次交易费：<br><img src="/images/technology/bitcoin/paypal/KBUZOVGEXBZGPHTG.png" alt=""></p>
+<p>转换好后，你就可以把比特币转移到其他的地址了，比如，换成STEEM，就可以在在Blocktrades上找到BTC地址：<br><img src="/images/technology/bitcoin/paypal/EUJZVOVBBUCMWLUX.png" alt=""></p>
+<p>转出BTC：<br><img src="/images/technology/bitcoin/paypal/YYAMLSYIEKNLSCNL.png" alt=""></p>
+<p>至此，BTC已经从账户扣除，但首次操作是需要人工确认，官方说法是48小时，但我在操作的时候只用了不到24小时就确认了。<br><img src="/images/technology/bitcoin/paypal/TEZVWPAQVHXKNIPU.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下面给大家介绍一下如何使用Paypal购买比特币。其实能够通过Paypal购买比特币的网站有不少，但通常交易费用太高。这里给大家推荐一个自己用过的，费用相对还可以，同时又是比较靠谱的网站：Virwox。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/technology
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="加密货币" scheme="https://www.yuxiuk.com/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
+    
+      <category term="购买加密货币" scheme="https://www.yuxiuk.com/tags/%E8%B4%AD%E4%B9%B0%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
+    
+      <category term="购买比特币" scheme="https://www.yuxiuk.com/tags/%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+    
+      <category term="paypal" scheme="https://www.yuxiuk.com/tags/paypal/"/>
+    
+  </entry>
   
   <entry>
     <title>推荐两个改变图片尺寸的软件</title>
@@ -46,51 +91,6 @@
       <category term="图片尺寸" scheme="https://www.yuxiuk.com/tags/%E5%9B%BE%E7%89%87%E5%B0%BA%E5%AF%B8/"/>
     
       <category term="软件" scheme="https://www.yuxiuk.com/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何通过Paypal购买比特币</title>
-    <link href="https://www.yuxiuk.com/buy-btc-via-paypal/"/>
-    <id>https://www.yuxiuk.com/buy-btc-via-paypal/</id>
-    <published>2017-09-27T15:58:02.937Z</published>
-    <updated>2017-09-27T15:58:02.937Z</updated>
-    
-    <content type="html"><![CDATA[<p>下面给大家介绍一下如何使用Paypal购买比特币。其实能够通过Paypal购买比特币的网站有不少，但通常交易费用太高。这里给大家推荐一个自己用过的，费用相对还可以，同时又是比较靠谱的网站：Virwox。</p>
-<p><img src="/images/technology/bitcoin/paypal/paypal.png" alt=""></p>
-<h2 id="申请Virwox账号"><a href="#申请Virwox账号" class="headerlink" title="申请Virwox账号"></a>申请Virwox账号</h2><p>首先，你需要申请一个Virwox的账号</p>
-<p>【<a href="https://www.virwox.com?r=1f1753" rel="external nofollow noopener noreferrer" target="_blank">Virwox官网</a>】</p>
-<h2 id="从Paypal转钱到Virwox账号"><a href="#从Paypal转钱到Virwox账号" class="headerlink" title="从Paypal转钱到Virwox账号"></a>从Paypal转钱到Virwox账号</h2><p>接下来需要从你的Paypal充值到Virwox账号，首先打开这个页面</p>
-<p><a href="https://www.virwox.com/deposit.php?r=1f1753" rel="external nofollow noopener noreferrer" target="_blank">https://www.virwox.com/deposit.php</a></p>
-<p>选择Paypal Express Checkout</p>
-<p><img src="/images/technology/bitcoin/paypal/KISPQHVWGSQRAZRF.png" alt=""></p>
-<p>跳转到Paypal付款</p>
-<p><img src="/images/technology/bitcoin/paypal/IIPSGLRPVCKVGCSU.png" alt=""></p>
-<p>83英镑到账后只有78英镑了。</p>
-<h2 id="兑换虚拟货币SLL"><a href="#兑换虚拟货币SLL" class="headerlink" title="兑换虚拟货币SLL"></a>兑换虚拟货币SLL</h2><p>然后将到帐的钱换为SLL<br><img src="/images/technology/bitcoin/paypal/ZGEHKHRJOCXCLCOO.png" alt=""></p>
-<p>在转换的时候需要再交一次交易费：<br><img src="/images/technology/bitcoin/paypal/KBUZOVGEXBZGPHTG.png" alt=""></p>
-<p>转换好后，你就可以把比特币转移到其他的地址了，比如，换成STEEM，就可以在在Blocktrades上找到BTC地址：<br><img src="/images/technology/bitcoin/paypal/EUJZVOVBBUCMWLUX.png" alt=""></p>
-<p>转出BTC：<br><img src="/images/technology/bitcoin/paypal/YYAMLSYIEKNLSCNL.png" alt=""></p>
-<p>至此，BTC已经从账户扣除，但首次操作是需要人工确认，<br><img src="/images/technology/bitcoin/paypal/TEZVWPAQVHXKNIPU.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;下面给大家介绍一下如何使用Paypal购买比特币。其实能够通过Paypal购买比特币的网站有不少，但通常交易费用太高。这里给大家推荐一个自己用过的，费用相对还可以，同时又是比较靠谱的网站：Virwox。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/technology
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="加密货币" scheme="https://www.yuxiuk.com/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
-    
-      <category term="购买加密货币" scheme="https://www.yuxiuk.com/tags/%E8%B4%AD%E4%B9%B0%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
-    
-      <category term="购买比特币" scheme="https://www.yuxiuk.com/tags/%E8%B4%AD%E4%B9%B0%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
-      <category term="paypal" scheme="https://www.yuxiuk.com/tags/paypal/"/>
     
   </entry>
   
