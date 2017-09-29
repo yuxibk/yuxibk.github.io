@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-29T19:35:05.023Z</updated>
+  <updated>2017-09-28T16:02:38.501Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,45 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Steemit工具推荐- Steemit More Info插件</title>
-    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
-    <id>https://www.yuxiuk.com/steemit-more-info/</id>
-    <published>2017-09-28T14:51:12.000Z</published>
-    <updated>2017-09-29T19:35:05.023Z</updated>
-    
-    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/1.png" alt=""></p>
-<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
-<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/3.png" alt=""></p>
-<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
-<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
-<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
-<p>你要不要试试？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/technology/steem/tool/steemit-more-info/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;这个插件目前支
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
   
   <entry>
     <title>Steemit工具推荐：steemtracked</title>
@@ -78,6 +39,42 @@
     
       &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Steemit工具推荐- Steemit More Info插件</title>
+    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
+    <id>https://www.yuxiuk.com/steemit-more-info/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-29T19:41:18.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
+<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
+<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
+<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
+<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
+<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
+<p>你要不要试试？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
+&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
     
     </summary>
     
