@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-28T16:02:38.501Z</updated>
+  <updated>2017-09-29T19:35:05.023Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Steemit工具推荐- Steemit More Info插件</title>
+    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
+    <id>https://www.yuxiuk.com/steemit-more-info/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-29T19:35:05.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/1.png" alt=""></p>
+<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
+<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/3.png" alt=""></p>
+<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
+<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
+<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
+<p>你要不要试试？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/technology/steem/tool/steemit-more-info/1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这个插件目前支
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>Steemit工具推荐：steemtracked</title>
@@ -855,68 +894,6 @@ Passphrase:
       <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
     
       <category term="Python" scheme="https://www.yuxiuk.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英国政府志奋奖学金2018/2019年度申请</title>
-    <link href="https://www.yuxiuk.com/chevening-uk-government-scholarships/"/>
-    <id>https://www.yuxiuk.com/chevening-uk-government-scholarships/</id>
-    <published>2017-08-15T05:40:12.000Z</published>
-    <updated>2017-08-21T20:36:44.434Z</updated>
-    
-    <content type="html"><![CDATA[<p>英国政府志奋领奖学金现已开放2018/2019年度的申请，符合条件者可在2017年11月7日英国时间12：00(北京时间19：00)之前提交网上申请。</p>
-<p><img src="/images/study/scholarships/chevening-uk-government-scholarships.jpg" alt="志奋奖学金"></p>
-<p>作为英国政府全球奖学金计划，志奋领奖学金支持未来领袖在英国进修一年制硕士学位。</p>
-<h2 id="志奋领奖学金包括什么？"><a href="#志奋领奖学金包括什么？" class="headerlink" title="志奋领奖学金包括什么？"></a>志奋领奖学金包括什么？</h2><ul>
-<li>大学学费（MBA课程赞助上限为18000英镑）</li>
-<li>月度津贴</li>
-<li>一次性往返英国与中国的旅费</li>
-<li>落地津贴</li>
-<li>归国津贴</li>
-<li>一次签证申请费用</li>
-<li>在英国参加志奋领活动的旅费</li>
-</ul>
-<p>2016年，英国政府资助了来自中国18个省市的98位志奋领硕士学者和15位访问学者进入英国大学。</p>
-<h2 id="志奋领奖学金申请条件"><a href="#志奋领奖学金申请条件" class="headerlink" title="志奋领奖学金申请条件"></a>志奋领奖学金申请条件</h2><ul>
-<li>中国公民；</li>
-<li>已经获得学士学位；</li>
-<li>已经被英国大学相关硕士课程录取，或准备申请英国大学的相关硕士课程（2018年秋季入学）；</li>
-<li>有两年以上工作经验、有管理和决策职责；</li>
-<li>英语水平符合要求（雅思总分6.5, 单科5.5分以上）；</li>
-<li>不是英国外交与联邦事务部、志奋领奖学金项目秘书处、项目合作伙伴或直接关联组织的员工或员工直系家属；</li>
-<li>在该学年未接受其他奖学金和资助，并且近三年内未接受过英国政府资助。</li>
-</ul>
-<p>备注：</p>
-<ul>
-<li>志奋领奖学金没有年龄、从业背景的限制</li>
-<li>常见问题答疑请参见志奋领全球官方网站</li>
-</ul>
-<h2 id="志奋领奖学金申请条件申请方式："><a href="#志奋领奖学金申请条件申请方式：" class="headerlink" title="志奋领奖学金申请条件申请方式："></a>志奋领奖学金申请条件申请方式：</h2><ul>
-<li>2017年11月7日英国时间12:00（北京时间20:00）之前在www.chevening.org/apply提交网上申请</li>
-<li>申请三所不同的英国大学课程并在2018年7月12日之前收到其中一个大学的无条件录取通知书</li>
-<li>在2018年7月12日之前达到志奋领英语语言要求</li>
-</ul>
-<p>在提交您的网上申请之前，请阅读所有的网上申请指导：</p>
-<p><a href="http://www.chevening.org/apply/guidance/" rel="external nofollow noopener noreferrer" target="_blank">http://www.chevening.org/apply/guidance/</a></p>
-<h2 id="志奋领奖学金申请时间表"><a href="#志奋领奖学金申请时间表" class="headerlink" title="志奋领奖学金申请时间表"></a>志奋领奖学金申请时间表</h2><p><img src="/images/study/scholarships/timetable.jpg" alt="志奋奖学金申请时间表"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;英国政府志奋领奖学金现已开放2018/2019年度的申请，符合条件者可在2017年11月7日英国时间12：00(北京时间19：00)之前提交网上申请。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/study/scholarships/chevening-uk-gove
-    
-    </summary>
-    
-      <category term="留学" scheme="https://www.yuxiuk.com/categories/%E7%95%99%E5%AD%A6/"/>
-    
-    
-      <category term="留学" scheme="https://www.yuxiuk.com/tags/%E7%95%99%E5%AD%A6/"/>
-    
-      <category term="奖学金" scheme="https://www.yuxiuk.com/tags/%E5%A5%96%E5%AD%A6%E9%87%91/"/>
-    
-      <category term="志奋奖学金" scheme="https://www.yuxiuk.com/tags/%E5%BF%97%E5%A5%8B%E5%A5%96%E5%AD%A6%E9%87%91/"/>
     
   </entry>
   
