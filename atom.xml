@@ -682,7 +682,7 @@ plan"></p>
     <link href="https://www.yuxiuk.com/steemit-tool/"/>
     <id>https://www.yuxiuk.com/steemit-tool/</id>
     <published>2017-08-23T14:51:12.000Z</published>
-    <updated>2017-09-28T13:22:57.810Z</updated>
+    <updated>2017-10-03T10:02:54.580Z</updated>
     
     <content type="html"><![CDATA[<p>在使用Steem/Steemit时，可以使用一些工具来提高你的工作效率。下面给大家总结一下，如有遗漏欢迎在下面留言。这个列表会不断更新的。。。</p>
 <p><img src="/images/technology/steem/steemit.png" alt="Steemit"></p>
@@ -691,9 +691,12 @@ plan"></p>
 <h2 id="查询Steem帐户相关信息"><a href="#查询Steem帐户相关信息" class="headerlink" title="查询Steem帐户相关信息"></a>查询Steem帐户相关信息</h2><p>很全面的用户信息察看工具：<a href="https://steemtracked.com/" rel="external nofollow noopener noreferrer" target="_blank">https://steemtracked.com/</a></p>
 <p>察看你最近的动态：<br><a href="https://steemstats.com/" rel="external nofollow noopener noreferrer" target="_blank">https://steemstats.com/</a></p>
 <p>查询你的Steem投票值多少钱:<br><a href="https://steemnow.com/" rel="external nofollow noopener noreferrer" target="_blank">https://steemnow.com/</a><br><a href="http://steemit.serviceuptime.net/check_vote_value.php" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.serviceuptime.net/check_vote_value.php</a></p>
-<h2 id="查询其他帐户和你的关系"><a href="#查询其他帐户和你的关系" class="headerlink" title="查询其他帐户和你的关系"></a>查询其他帐户和你的关系</h2><p>查询谁mute你了：<br><a href="http://steemit.serviceuptime.net/mute.php" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.serviceuptime.net/mute.php</a></p>
+<p>查询谁代理给你Steem Power:<br><a href="https://helloacm.com/tools/steemit/list-of-delegators/" rel="external nofollow noopener noreferrer" target="_blank">https://helloacm.com/tools/steemit/list-of-delegators/</a></p>
+<p>查询你把Steem Power代理给谁:<br><a href="https://helloacm.com/tools/steemit/list-of-delegatees/" rel="external nofollow noopener noreferrer" target="_blank">https://helloacm.com/tools/steemit/list-of-delegatees/</a></p>
+<h2 id="查询其他帐户和你的关系"><a href="#查询其他帐户和你的关系" class="headerlink" title="查询其他帐户和你的关系"></a>查询其他帐户和你的关系</h2><p>查询谁mute拉黑你了：<br><a href="http://steemit.serviceuptime.net/mute.php" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.serviceuptime.net/mute.php</a></p>
 <p>查询谁给你投过票：<br><a href="http://mysteemitfriends.online" rel="external nofollow noopener noreferrer" target="_blank">http://mysteemitfriends.online</a></p>
-<p>谁转发了你的文章：<br><a href="http://steemit.serviceuptime.net/check_resteem.php" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.serviceuptime.net/check_resteem.php</a></p>
+<p>谁转发了你的文章：<br><a href="http://steemit.serviceuptime.net/check_resteem.php" rel="external nofollow noopener noreferrer" target="_blank">http://steemit.serviceuptime.net/check_resteem.php</a><br><a href="https://helloacm.com/tools/steemit/list-of-reblogs/" rel="external nofollow noopener noreferrer" target="_blank">https://helloacm.com/tools/steemit/list-of-reblogs/</a></p>
+<p>查询谁踩了你：<br><a href="https://helloacm.com/tools/steemit/who-downvote-you-steemit/" rel="external nofollow noopener noreferrer" target="_blank">https://helloacm.com/tools/steemit/who-downvote-you-steemit/</a></p>
 <h2 id="软件开发专业工具-网站"><a href="#软件开发专业工具-网站" class="headerlink" title="软件开发专业工具/网站"></a>软件开发专业工具/网站</h2><p>Steemsql:<br><a href="https://steemsql.com/" rel="external nofollow noopener noreferrer" target="_blank">https://steemsql.com/</a></p>
 <h2 id="自动程序类"><a href="#自动程序类" class="headerlink" title="自动程序类"></a>自动程序类</h2><p>自动投票：<br><a href="http://www.steemvoter.com" rel="external nofollow noopener noreferrer" target="_blank">http://www.steemvoter.com</a></p>
 ]]></content>
