@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-29T19:41:18.289Z</updated>
+  <updated>2017-09-28T16:02:38.501Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,42 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Steemit工具推荐- Steemit More Info插件</title>
-    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
-    <id>https://www.yuxiuk.com/steemit-more-info/</id>
-    <published>2017-09-28T14:51:12.000Z</published>
-    <updated>2017-09-29T19:41:18.289Z</updated>
-    
-    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
-<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
-<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
-<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
-<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
-<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
-<p>你要不要试试？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
-&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
   
   <entry>
     <title>Steemit工具推荐：steemtracked</title>
@@ -75,6 +39,42 @@
     
       &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Steemit工具推荐- Steemit More Info插件</title>
+    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
+    <id>https://www.yuxiuk.com/steemit-more-info/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-29T19:41:18.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
+<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
+<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
+<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
+<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
+<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
+<p>你要不要试试？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
+&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
     
     </summary>
     
@@ -678,6 +678,34 @@ plan"></p>
   </entry>
   
   <entry>
+    <title>MDsk Rush Party曼彻斯特抢票攻略</title>
+    <link href="https://www.yuxiuk.com/mdsk-rush-party-manchester/"/>
+    <id>https://www.yuxiuk.com/mdsk-rush-party-manchester/</id>
+    <published>2017-09-02T05:40:12.000Z</published>
+    <updated>2017-10-05T21:18:29.779Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果说2017年最火爆的音乐风格是什么? 肯定很多人会说是Hip Hop。Hip Hop本是一种诞生于70年代美国街头的黑人音乐风格，它带有强烈的青年风格，表达自我、叛逆玩世不恭、特别的时尚感都是它的特点。目前国内Hip Hop音乐正发展的如火如荼，例如大学社团大多都有这类音乐团体，社会酒吧也有很多驻唱歌手也是精通Hip Hop，叛逆正是他们的标签。</p>
+<p>2017年11月9日晚上8点，MDSK Rush Party强势来袭英国曼彻斯特！kafe_hu 、双胞胎兄弟、你的男孩T_T 三组艺人最佳阵容全员出动，2017年你不得不看的HipHop现场。各自的单独专场，已足够掀翻Livehouse的房顶，这次合体出动又将产生怎样的化学反应，一切留到现场揭开。 </p>
+<p>地址：The O2 Ritz Manchester，Whitworth St W，Manchester M1 5NQ </p>
+<p>【<a href="http://fave.co/2y2GJ9x" rel="external nofollow noopener noreferrer" target="_blank">购票页面</a>】</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果说2017年最火爆的音乐风格是什么? 肯定很多人会说是Hip Hop。Hip Hop本是一种诞生于70年代美国街头的黑人音乐风格，它带有强烈的青年风格，表达自我、叛逆玩世不恭、特别的时尚感都是它的特点。目前国内Hip Hop音乐正发展的如火如荼，例如大学社团大多都有这类
+    
+    </summary>
+    
+      <category term="活动" scheme="https://www.yuxiuk.com/categories/%E6%B4%BB%E5%8A%A8/"/>
+    
+    
+      <category term="曼彻斯特" scheme="https://www.yuxiuk.com/tags/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9/"/>
+    
+      <category term="MDsk Rush Party演唱会" scheme="https://www.yuxiuk.com/tags/MDsk-Rush-Party%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Steem / Steemit工具集合(不断更新中...)</title>
     <link href="https://www.yuxiuk.com/steemit-tool/"/>
     <id>https://www.yuxiuk.com/steemit-tool/</id>
@@ -846,54 +874,6 @@ Passphrase:
       <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
     
       <category term="如何帮助国内用户创建Steem帐户" scheme="https://www.yuxiuk.com/tags/%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E5%9B%BD%E5%86%85%E7%94%A8%E6%88%B7%E5%88%9B%E5%BB%BASteem%E5%B8%90%E6%88%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>搭建免费的云端Steem Python开发环境</title>
-    <link href="https://www.yuxiuk.com/build-steem-python-development-environment-in-codenvy/"/>
-    <id>https://www.yuxiuk.com/build-steem-python-development-environment-in-codenvy/</id>
-    <published>2017-08-15T14:51:12.000Z</published>
-    <updated>2017-08-15T12:48:41.774Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近对Steem Python API很感兴趣。有朋友问我，自己没有服务器／VM，也不想花钱，怎么试用那些API？下面给大家总结一下如何注册一个免费云端开发环境。</p>
-<p><img src="/images/technology/steem/codenvy/codenvy.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>首先需要注册一个Codenvy账户。登陆官网：<a href="https://codenvy.io/，" rel="external nofollow noopener noreferrer" target="_blank">https://codenvy.io/，</a> 点”Create One”</p>
-<p><img src="/images/technology/steem/codenvy/1.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>输入基本信息，比如邮箱，用户名后，系统会发送一封激活邮件到你的邮箱。点击邮件中的链接后就会激活你的注册。</p>
-<p><img src="/images/technology/steem/codenvy/2.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>因为要使用Steem的官方Python库，因此这里创建一个Python workspace:</p>
-<p><img src="/images/technology/steem/codenvy/3.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>创建完毕后，可以看到命令行提示了，到这里就OK了。</p>
-<p><img src="/images/technology/steem/codenvy/4.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>检查一下系统的内存，竟然有27G！不过它的免费版本硬盘容量非常小，只有3GB，但应该够用了。</p>
-<p><img src="/images/technology/steem/codenvy/5.jpg" alt="Codenvy免费云端开发环境"></p>
-<p>安装一下Steem Python库：</p>
-<pre><code class="bash">sudo pip3 install steem
-</code></pre>
-<p>测试一下命令行：</p>
-<pre><code class="bash">steempy info
-</code></pre>
-<p>至此，就可以使用Python API了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近对Steem Python API很感兴趣。有朋友问我，自己没有服务器／VM，也不想花钱，怎么试用那些API？下面给大家总结一下如何注册一个免费云端开发环境。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/technology/steem/codenvy/coden
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Codenvy" scheme="https://www.yuxiuk.com/tags/Codenvy/"/>
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Python" scheme="https://www.yuxiuk.com/tags/Python/"/>
     
   </entry>
   
