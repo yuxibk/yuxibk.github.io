@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-09-28T16:02:38.501Z</updated>
+  <updated>2017-10-25T19:28:27.297Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -16,40 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Steemit工具推荐：steemtracked</title>
-    <link href="https://www.yuxiuk.com/steemtracked/"/>
-    <id>https://www.yuxiuk.com/steemtracked/</id>
-    <published>2017-09-28T14:51:12.000Z</published>
-    <updated>2017-09-28T16:02:38.501Z</updated>
+    <title>2018年伦敦乒乓球世界杯购票信息</title>
+    <link href="https://www.yuxiuk.com/twc-london-2018/"/>
+    <id>https://www.yuxiuk.com/twc-london-2018/</id>
+    <published>2017-10-25T06:40:12.000Z</published>
+    <updated>2017-10-25T19:28:27.297Z</updated>
     
-    <content type="html"><![CDATA[<p>偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：</p>
-<p><a href="https://steemtracked.com/@yuxi" rel="external nofollow noopener noreferrer" target="_blank">https://steemtracked.com/@yuxi</a></p>
-<p>首先可以看到你账户的基本信息，比如你的账户余额，SP，粉丝，收入状况等。</p>
-<p><img src="/images/technology/steem/tool/steemtracked/1.png" alt=""></p>
-<p>接下来可以看到你最近发帖的各项指标。首先系统会自动选择过去的一个月内的数据进行统计，但你可以自己选择一个时段。统计数据中包括你文章最常用的标签，平均收入，平均获得的upvote数目，平均每篇文章的评论数，还有以上各项指标的总和。其中的那项Engagement Rate不是特别明白。</p>
-<p>你还可以查看一下你曾经使用过标签的各项指标，比如：发帖数，获赞数，评论数，收入等。</p>
-<p><img src="/images/technology/steem/tool/steemtracked/2.png" alt=""></p>
-<p>同时你还可以看到对你粉丝的分析，比如根据REP的数值进行的统计，REP最高的粉丝，以及SP最高的粉丝。</p>
-<p>感觉比较有用的一个功能的是对你所有文章的统计，可以按照文章标题，采用标签，获赞数，评论数，收入，创建时间进行排序。</p>
-<p><img src="/images/technology/steem/tool/steemtracked/3.png" alt=""></p>
-<p>喜欢的话，也去试试吧。</p>
+    <content type="html"><![CDATA[<p>2018年乒乓球世界杯团体赛将会回到了乒乓球的诞生地：英国!　乒乓球世界杯和奥运会，世乒赛是世界乒乓球运动的三大赛事。这届比赛将于2018年2月22日至25日在伦敦东部的奥林匹克公园内的铜盒子体育馆举行。比赛日期正好是中国春节的初七至初十。   </p>
+<p><img src="/images/sports/tabletennis/twc-london-2018.jpg" alt="2018年乒乓球世界杯团体赛"></p>
+<p>图片来自：tabletennisengland.co.uk</p>
+<p>地点：Copper Box Arena in London’s Queen Elizabeth Olympic Park<br>日期：2018.02.22 - 2018.02.25</p>
+<p>比赛门票将于2017年11月1日正式开始发售，请保存这个页面，届时羽西会更新购票信息。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
+      &lt;p&gt;2018年乒乓球世界杯团体赛将会回到了乒乓球的诞生地：英国!　乒乓球世界杯和奥运会，世乒赛是世界乒乓球运动的三大赛事。这届比赛将于2018年2月22日至25日在伦敦东部的奥林匹克公园内的铜盒子体育馆举行。比赛日期正好是中国春节的初七至初十。   &lt;/p&gt;
+&lt;p&gt;&lt;img s
     
     </summary>
     
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="活动" scheme="https://www.yuxiuk.com/categories/%E6%B4%BB%E5%8A%A8/"/>
     
     
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
     
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+      <category term="乒乓球世界杯" scheme="https://www.yuxiuk.com/tags/%E4%B9%92%E4%B9%93%E7%90%83%E4%B8%96%E7%95%8C%E6%9D%AF/"/>
     
   </entry>
   
@@ -75,6 +67,44 @@
     
       &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
 &lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Steemit工具推荐：steemtracked</title>
+    <link href="https://www.yuxiuk.com/steemtracked/"/>
+    <id>https://www.yuxiuk.com/steemtracked/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-28T16:02:38.501Z</updated>
+    
+    <content type="html"><![CDATA[<p>偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：</p>
+<p><a href="https://steemtracked.com/@yuxi" rel="external nofollow noopener noreferrer" target="_blank">https://steemtracked.com/@yuxi</a></p>
+<p>首先可以看到你账户的基本信息，比如你的账户余额，SP，粉丝，收入状况等。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/1.png" alt=""></p>
+<p>接下来可以看到你最近发帖的各项指标。首先系统会自动选择过去的一个月内的数据进行统计，但你可以自己选择一个时段。统计数据中包括你文章最常用的标签，平均收入，平均获得的upvote数目，平均每篇文章的评论数，还有以上各项指标的总和。其中的那项Engagement Rate不是特别明白。</p>
+<p>你还可以查看一下你曾经使用过标签的各项指标，比如：发帖数，获赞数，评论数，收入等。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/2.png" alt=""></p>
+<p>同时你还可以看到对你粉丝的分析，比如根据REP的数值进行的统计，REP最高的粉丝，以及SP最高的粉丝。</p>
+<p>感觉比较有用的一个功能的是对你所有文章的统计，可以按照文章标题，采用标签，获赞数，评论数，收入，创建时间进行排序。</p>
+<p><img src="/images/technology/steem/tool/steemtracked/3.png" alt=""></p>
+<p>喜欢的话，也去试试吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
     
     </summary>
     
@@ -821,60 +851,6 @@ plan"></p>
       <category term="伯明翰" scheme="https://www.yuxiuk.com/tags/%E4%BC%AF%E6%98%8E%E7%BF%B0/"/>
     
       <category term="李宗伟" scheme="https://www.yuxiuk.com/tags/%E6%9D%8E%E5%AE%97%E4%BC%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何不使用第三方网站帮助国内用户创建Steem帐户</title>
-    <link href="https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/"/>
-    <id>https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/</id>
-    <published>2017-08-16T14:51:12.000Z</published>
-    <updated>2017-08-23T11:15:39.723Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/steem/account/steem-account.png" alt=""></p>
-<p>之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconnect来创建新的账户，不过需要把你的active key提供给steemconnect。这个让羽西感觉很不爽，因为用习惯了OAuth之类的系统，很不习惯把自己的密码或者key提供给第三方。因此，察看了一下官方文档，其实完全可以自己帮别人创建帐户。整个过程也是非常快的，只需要几分钟的时间。</p>
-<h2 id="获取一个VM"><a href="#获取一个VM" class="headerlink" title="获取一个VM"></a>获取一个VM</h2><p>首先，你需要有一个自己的VM (Virtual Machine)，这个可以是本地的VM，也可以是一些主机商的<a href="/vps/">VPS</a>。比如：羽西就有自己开发专用的Vultr VPS。如果你没有VM，甚至不知道什么是VM，也不要紧。根据<a href="/build-steem-python-development-environment-in-codenvy/">前面总结过的步骤</a>小白也可以做到。</p>
-<p>简单总结一下：</p>
-<p>1) 创建一个Codenvy账户：<a href="https://codenvy.io/" rel="external nofollow noopener noreferrer" target="_blank">https://codenvy.io/</a><br>2) 创建一个Python workspace<br>3) 运行以下命令安装Steem Python库 </p>
-<pre><code class="bash">sudo pip3 install steem
-</code></pre>
-<h2 id="帮助国内朋友创建Steem账号"><a href="#帮助国内朋友创建Steem账号" class="headerlink" title="帮助国内朋友创建Steem账号"></a>帮助国内朋友创建Steem账号</h2><p>如果想要帮助国内朋友创建Steem账户，需要花费6个STEEM，所以首先确保你的账户STEEM足够才行。这6个STEEM在账号创建成功后会自动转到你朋友的账户里。</p>
-<p>具体的创建步骤如下：</p>
-<p>首先，在前面创建好的VPS中键入如下命令导入你的steem账户：</p>
-<pre><code class="bash">steempy importaccount 你的账户名
-</code></pre>
-<p><img src="/images/technology/steem/account/cli.jpg" alt=""></p>
-<p>上图中的第一个”Account Passphrase”指的是你的Steemit登陆用的密码。而第二个”Passphrase”则是后面创建新账户时需要输入的密码。这个密码必须输入两次确认才行。</p>
-<p>运行以下命令指定默认账户：</p>
-<pre><code class="bash">steempy set default_account 你现在帐户
-</code></pre>
-<p>接下里就可以创建新的账户了！输入如下命令：</p>
-<pre><code class="bash">steempy newaccount 新账户名
-</code></pre>
-<p>系统会要求你输入三次密码。前两次为新账户的密码。最后一次则是前面导入账户时的密码。新创建账户的密码一定要使用一个复杂不易记忆的密码。</p>
-<pre><code class="bash">New Account Passphrase: 
-Confirm New Account Passphrase: 
-Passphrase:
-</code></pre>
-<p>至此大功告成！</p>
-<p>Welcome to Steemit!</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/account/steem-account.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconne
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="如何帮助国内用户创建Steem帐户" scheme="https://www.yuxiuk.com/tags/%E5%A6%82%E4%BD%95%E5%B8%AE%E5%8A%A9%E5%9B%BD%E5%86%85%E7%94%A8%E6%88%B7%E5%88%9B%E5%BB%BASteem%E5%B8%90%E6%88%B7/"/>
     
   </entry>
   
