@@ -498,52 +498,6 @@
   </entry>
   
   <entry>
-    <title>在Steemit中如何使用代理功能</title>
-    <link href="https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/"/>
-    <id>https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/</id>
-    <published>2017-09-08T21:40:12.000Z</published>
-    <updated>2017-09-08T13:52:37.605Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/technology/steem/delegate/delegate.jpg" alt="Steemit代理SP"></p>
-<p>要代理出去SP非常简单，只需要访问如下页面：</p>
-<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP</a></p>
-<p>当然，你需要修改两个参数，一个是delegator，就是你自己的帐号，另一个是delegatee，就是你要代理SP给哪个帐号。比如，我上面的URL就是要从yuxi的帐号上代理100 SP给minnowbooster。</p>
-<p>你就会看到这个页面：</p>
-<p><img src="/images/technology/steem/delegate/1.jpg" alt=""></p>
-<p>点”Continue”后就会看到以下页面：</p>
-<p><img src="/images/technology/steem/delegate/2.jpg" alt=""></p>
-<p>输入你的用户名和Active key后就完成操作，并显示确认页面：</p>
-<p><img src="/images/technology/steem/delegate/3.jpg" alt=""></p>
-<p>再查看自己的钱包，会看到SP下面有一个-100.000说明代理成功了。</p>
-<p>如果想要取消代理或者改变代理数额，只需把前面的那个100 SP改成其他数值就可以了。</p>
-<p>比如：改成代理200 SP：</p>
-<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP</a></p>
-<p>取消代理：</p>
-<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/delegate/delegate.jpg&quot; alt=&quot;Steemit代理SP&quot;&gt;&lt;/p&gt;
-&lt;p&gt;要代理出去SP非常简单，只需要访问如下页面：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://v2.ste
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steem Power" scheme="https://www.yuxiuk.com/tags/Steem-Power/"/>
-    
-      <category term="Steem Power代理" scheme="https://www.yuxiuk.com/tags/Steem-Power%E4%BB%A3%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2017年9月16日Steemit爱好者伯明翰聚会</title>
     <link href="https://www.yuxiuk.com/steemit-meetup-birmingham-16-sep-2017/"/>
     <id>https://www.yuxiuk.com/steemit-meetup-birmingham-16-sep-2017/</id>
@@ -602,6 +556,52 @@
       <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
     
       <category term="Steemit聚会" scheme="https://www.yuxiuk.com/tags/Steemit%E8%81%9A%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在Steemit中如何使用代理功能</title>
+    <link href="https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/"/>
+    <id>https://www.yuxiuk.com/how-to-delegate-sp-in-steemit/</id>
+    <published>2017-09-08T21:40:12.000Z</published>
+    <updated>2017-09-08T13:52:37.605Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/steem/delegate/delegate.jpg" alt="Steemit代理SP"></p>
+<p>要代理出去SP非常简单，只需要访问如下页面：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=100%20SP</a></p>
+<p>当然，你需要修改两个参数，一个是delegator，就是你自己的帐号，另一个是delegatee，就是你要代理SP给哪个帐号。比如，我上面的URL就是要从yuxi的帐号上代理100 SP给minnowbooster。</p>
+<p>你就会看到这个页面：</p>
+<p><img src="/images/technology/steem/delegate/1.jpg" alt=""></p>
+<p>点”Continue”后就会看到以下页面：</p>
+<p><img src="/images/technology/steem/delegate/2.jpg" alt=""></p>
+<p>输入你的用户名和Active key后就完成操作，并显示确认页面：</p>
+<p><img src="/images/technology/steem/delegate/3.jpg" alt=""></p>
+<p>再查看自己的钱包，会看到SP下面有一个-100.000说明代理成功了。</p>
+<p>如果想要取消代理或者改变代理数额，只需把前面的那个100 SP改成其他数值就可以了。</p>
+<p>比如：改成代理200 SP：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=200%20SP</a></p>
+<p>取消代理：</p>
+<p><a href="https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP" rel="external nofollow noopener noreferrer" target="_blank">https://v2.steemconnect.com/sign/delegateVestingShares?delegator=yuxi&amp;delegatee=minnowbooster&amp;vesting_shares=0%20SP</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/steem/delegate/delegate.jpg&quot; alt=&quot;Steemit代理SP&quot;&gt;&lt;/p&gt;
+&lt;p&gt;要代理出去SP非常简单，只需要访问如下页面：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://v2.ste
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steem Power" scheme="https://www.yuxiuk.com/tags/Steem-Power/"/>
+    
+      <category term="Steem Power代理" scheme="https://www.yuxiuk.com/tags/Steem-Power%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
