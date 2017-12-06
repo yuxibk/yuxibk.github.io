@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2017-11-15T13:30:12.616Z</updated>
+  <updated>2017-12-05T23:57:09.181Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>伦敦时装周节要到了！小伙伴们组团去看啦！</title>
+    <link href="https://www.yuxiuk.com/london-fashion-week-festival/"/>
+    <id>https://www.yuxiuk.com/london-fashion-week-festival/</id>
+    <published>2017-11-25T07:40:12.000Z</published>
+    <updated>2017-12-05T23:57:09.181Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/home/daren/src/yuxiuk/source/images/activities/london-fashion-week/fashion.jpg" alt="伦敦时装周节"></p>
+<p>伦敦时装周节于每年二月在伦敦举办。届时有众多引领潮流的天才设计师们展示给观众他们最新的设计作品。伦敦是潮流创意发源地之一。在这里，才华横溢的设计师得到尽情发挥，繁荣兴盛的服装设计业也得以诞生。很多著名的设计师比如：John Galliano、Alexander McQueen都是从这里走出。</p>
+<p>2018年的时装周节（London Fashion Week Festival）将于二月份举行，这里是详细信息：</p>
+<p>日期：2018年2月22日-2月25日<br>地点：The Store Studios，180 Strand，London，WC2R<br>【<a href="http://bit.ly/2Axeuzb" rel="external nofollow noopener noreferrer" target="_blank">购票页面</a>】</p>
+]]></content>
+    
+    <summary type="html">
+    
+      伦敦时装周节于每年二月在伦敦举办。届时有众多引领潮流的天才设计师们展示给观众他们最新的设计作品。小伙伴们组团去看啦！
+    
+    </summary>
+    
+      <category term="活动" scheme="https://www.yuxiuk.com/categories/%E6%B4%BB%E5%8A%A8/"/>
+    
+    
+      <category term="伦敦时装周节" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6%E6%97%B6%E8%A3%85%E5%91%A8%E8%8A%82/"/>
+    
+  </entry>
   
   <entry>
     <title>伦敦20校联合第四届真人CS大赛， 11月26日 ！等你来战！</title>
@@ -212,6 +238,42 @@
   </entry>
   
   <entry>
+    <title>Steemit工具推荐- Steemit More Info插件</title>
+    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
+    <id>https://www.yuxiuk.com/steemit-more-info/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-29T19:41:18.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
+<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
+<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
+<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
+<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
+<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
+<p>你要不要试试？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
+&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
+    
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Steemit工具推荐：steemtracked</title>
     <link href="https://www.yuxiuk.com/steemtracked/"/>
     <id>https://www.yuxiuk.com/steemtracked/</id>
@@ -235,42 +297,6 @@
     
       &lt;p&gt;偶然间看到了steemtracked这个网站，感觉还比较有用，给大家推荐一下。首先访问下面这个页面，当然，需要把用户名改成你感兴趣的，可以是你自己的，也可以是别人的。比如：访问我的信息：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://steemtracked.com/@y
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Steemit工具推荐- Steemit More Info插件</title>
-    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
-    <id>https://www.yuxiuk.com/steemit-more-info/</id>
-    <published>2017-09-28T14:51:12.000Z</published>
-    <updated>2017-09-29T19:41:18.289Z</updated>
-    
-    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
-<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
-<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
-<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
-<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
-<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
-<p>你要不要试试？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
-&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
     
     </summary>
     
@@ -759,33 +785,6 @@ plan"></p>
       <category term="陈奕迅2017曼彻斯特演唱会" scheme="https://www.yuxiuk.com/tags/%E9%99%88%E5%A5%95%E8%BF%852017%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
     
       <category term="陈奕迅" scheme="https://www.yuxiuk.com/tags/%E9%99%88%E5%A5%95%E8%BF%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Strathberry Ltd招聘公共关系专员</title>
-    <link href="https://www.yuxiuk.com/strathberry-public-relation-officer/"/>
-    <id>https://www.yuxiuk.com/strathberry-public-relation-officer/</id>
-    <published>2017-09-05T16:40:12.000Z</published>
-    <updated>2017-09-05T16:28:21.752Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/jobs/strathberry.jpg" alt="Strathberry Ltd"></p>
-<p>职位：Public Relations Officer - China<br>雇主: Strathberry Ltd<br>工作性质：<br>工作地点：爱丁堡<br>薪水：£19,000 - £22,000<br>语言要求：中英文流利<br>申请截止日期：<strong>2017年9月26日 12PM</strong><br>具体要求及申请页面：<a href="https://jobsearch.direct.gov.uk/GetJob.aspx?JobID=44342385" rel="external nofollow noopener noreferrer" target="_blank">https://jobsearch.direct.gov.uk/GetJob.aspx?JobID=44342385</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/jobs/strathberry.jpg&quot; alt=&quot;Strathberry Ltd&quot;&gt;&lt;/p&gt;
-&lt;p&gt;职位：Public Relations Officer - China&lt;br&gt;雇主: Strathberry Ltd&lt;br&gt;工作性质：
-    
-    </summary>
-    
-      <category term="职场" scheme="https://www.yuxiuk.com/categories/%E8%81%8C%E5%9C%BA/"/>
-    
-    
-      <category term="招聘" scheme="https://www.yuxiuk.com/tags/%E6%8B%9B%E8%81%98/"/>
-    
-      <category term="爱丁堡" scheme="https://www.yuxiuk.com/tags/%E7%88%B1%E4%B8%81%E5%A0%A1/"/>
     
   </entry>
   
