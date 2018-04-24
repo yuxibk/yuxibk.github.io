@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2018-04-19T12:47:19.128Z</updated>
+  <updated>2018-04-24T15:27:03.168Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于区块链的社交平台QUNQUN介绍</title>
+    <link href="https://www.yuxiuk.com/qunqun/"/>
+    <id>https://www.yuxiuk.com/qunqun/</id>
+    <published>2018-04-20T06:40:12.000Z</published>
+    <updated>2018-04-24T15:27:03.168Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/blockchain/qunqun-logo.jpg" alt=""></p>
+<p>最近体验了一下QUNQUN这个APP，感觉很好玩，也很容易让人上瘾。这里给大家介绍一下。</p>
+<h2 id="QunQun简介"><a href="#QunQun简介" class="headerlink" title="QunQun简介"></a>QunQun简介</h2><p><a href="https://qunqun.io/" rel="external nofollow noopener noreferrer" target="_blank">QunQun</a>是一个基于区块链的激励性社区平台。这个平台的门槛很低，人们不需要懂区块链技术就能够创建并运营自己的区块链社区。在社区中，通过奖励QUN代币的方式鼓励社区成员运营自己的社区,<br>，输出优质内容，同时和其他成员互动。个人感觉QunQun非常像百度贴吧，每个人都可以找到自己喜欢的分类，并在该分类中贡献内容并互动。</p>
+<p>目前要想创建一个社区，首先需要锁定49.99 QUN，同时还需要交2 QUN，然后随机抽取一个成功者，这个成功率很低，目前测试了几次，基本都是近100个人中能抽取一个幸运者，我一个都没有抽到。如果没有抽到，锁定的金额会被自动解锁，但2 QUN就不退了。</p>
+<h2 id="QunQun是一个怎样的区块链应用？"><a href="#QunQun是一个怎样的区块链应用？" class="headerlink" title="QunQun是一个怎样的区块链应用？"></a>QunQun是一个怎样的区块链应用？</h2><p>2017年是区块链高速发展的一年。在这一年中，活跃的加密货币钱包数量暴增，同时无数的商家开始接受加密货币支付，同时也有很多优秀的系统/APP能够无缝衔接加密货币和法币。但其实区块链的应用远远不止支付领域，已经有很多其他领域的应用开始移植到了区块链上，而社交媒体应用作为目前最为火爆的应用之一自然也不会错过区块链的大潮。从Steemit, 币乎，币问，到QunQun，都是社交媒体+区块链的优秀应用。QunQun定位于实现一个能够满足人们基于共同兴趣爱好的交流沟通平台，同时人们的行为还会受到代币形式的奖励。当然，随着QunQun社区的发展，还会有基于平台的各种功能和应用出现。至于QunQun的技术实现，它在系统底层采用去中心化的账本记录用户的行为，用基于以太网的智能合约解决社交产品中的交易问题来保证系统的公开透明。</p>
+<h2 id="代币QUN的几个用途"><a href="#代币QUN的几个用途" class="headerlink" title="代币QUN的几个用途"></a>代币QUN的几个用途</h2><ul>
+<li>购买社区：用户可以在官网购买并创建社区，也可以在交易市场中购买</li>
+<li>激励：QunQun使用QUN对社区有贡献的用户和社区所有者进行奖励</li>
+<li>打赏：用户可以使用QUN给其他用户打赏</li>
+<li>购买付费内容</li>
+<li>购买第三方应用</li>
+<li>购买虚拟物品或游戏道具</li>
+</ul>
+<p>如果想要购买QUN，可以在<a href="https://www.huobipro.com/zh-cn/topic/invited/?invite_code=h4x63" rel="external nofollow noopener noreferrer" target="_blank">火币网</a>进行购买。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      基于区块链的社交平台QUNQUN介绍
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="QUNQUN" scheme="https://www.yuxiuk.com/tags/QUNQUN/"/>
+    
+      <category term="QUN" scheme="https://www.yuxiuk.com/tags/QUN/"/>
+    
+      <category term="区块链" scheme="https://www.yuxiuk.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>靠谱的Baby屁屁霜推荐</title>
@@ -735,39 +775,6 @@
       <category term="加密货币" scheme="https://www.yuxiuk.com/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81/"/>
     
       <category term="加密货币支付" scheme="https://www.yuxiuk.com/tags/%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E6%94%AF%E4%BB%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>五月天2018演唱会伦敦站</title>
-    <link href="https://www.yuxiuk.com/mayday/"/>
-    <id>https://www.yuxiuk.com/mayday/</id>
-    <published>2017-09-20T06:40:12.000Z</published>
-    <updated>2018-01-17T22:41:41.482Z</updated>
-    
-    <content type="html"><![CDATA[<p>五月天 LIFE [ 人生无限公司 ] 欧洲巡回演唱会要来伦敦啦！时间定在2018年3月4日，就在伦敦O2 Arena，小伙伴们快组队啦！</p>
-<p><img src="/images/activities/may/may-day-2018.jpg" alt="五月天2018演唱会"></p>
-<p>五月天（MayDay），是一支著名的台湾乐团，由主唱阿信、团长+吉他手怪兽、贝斯手玛莎、吉他手石头和鼓手冠佑共五人组成；除冠佑外，其余四人皆毕业自台北市国立师大附中。乐团前身为“So Band”乐团，于1997年3月改为五月天，其名称取自玛莎在BBS的代号“May-day”。</p>
-<h2 id="五月天伦敦站"><a href="#五月天伦敦站" class="headerlink" title="五月天伦敦站"></a>五月天伦敦站</h2><p>时间：2018年3月4日<br>地点：O2 Arena<br>抢票日期：2017年11月16日<br><a href="http://tidd.ly/b1156a5e" rel="external nofollow noopener noreferrer" target="_blank">抢票页面</a></p>
-<h2 id="五月天巴黎站"><a href="#五月天巴黎站" class="headerlink" title="五月天巴黎站"></a>五月天巴黎站</h2><p>时间:  2018年3月2日<br>地点：Accor hotels Arena（原Bercy Arena）<br>抢票日期：2017年11月16日<br><a href="http://tidd.ly/c576abf6" rel="external nofollow noopener noreferrer" target="_blank">抢票页面</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      五月天2018欧洲巡回演唱会伦敦站
-    
-    </summary>
-    
-      <category term="活动" scheme="https://www.yuxiuk.com/categories/%E6%B4%BB%E5%8A%A8/"/>
-    
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="演唱会" scheme="https://www.yuxiuk.com/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
-    
-      <category term="五月天" scheme="https://www.yuxiuk.com/tags/%E4%BA%94%E6%9C%88%E5%A4%A9/"/>
-    
-      <category term="巴黎" scheme="https://www.yuxiuk.com/tags/%E5%B7%B4%E9%BB%8E/"/>
     
   </entry>
   
