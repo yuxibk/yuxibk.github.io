@@ -117,6 +117,42 @@
   </entry>
   
   <entry>
+    <title>我家电烤箱维修记 - 如何更换电热丝</title>
+    <link href="https://www.yuxiuk.com/oven_problem/"/>
+    <id>https://www.yuxiuk.com/oven_problem/</id>
+    <published>2018-04-18T06:40:12.000Z</published>
+    <updated>2018-04-26T15:07:18.899Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在使用烤箱的时候，突然跳闸了，把电闸复位后再打开烤箱开关，能够听到烤箱在工作，但是过了几分钟之后还是没有任何热度，初步判断是电热丝坏了。于是在网上搜索了一下，肯定了我这个推断。按照网上的教程操作了一遍，没有想到整个过程出奇的简单。下面把我整个的更换步骤记录下来，希望对遇到同样问题的人有帮助。</p>
+<p><img src="/images/live/oven/oven.jpg" alt=""></p>
+<h2 id="购买新的电热丝"><a href="#购买新的电热丝" class="headerlink" title="购买新的电热丝"></a>购买新的电热丝</h2><p>第一步先要确认自己的烤箱型号，然后再购买一个新的电热丝。我是在英国的Amazon购买的。由于我加入了Amazon Prime，因此第二天就收到了新的电热丝。</p>
+<p><a href="https://amzn.to/2qYGS9S" rel="external nofollow noopener noreferrer" target="_blank">Amazon烤箱电热丝购买页面</a></p>
+<p>这里顺便推荐一下Amazon Prime的会员，这是需要交年费的。一旦加入，不仅很多Amazon商品能够享受次日收到的服务，还能免费观看无数的在线电影，以及很多的电子书等资源。如果你是英国的在校学生，<strong>还能免费试用六个月</strong> (这个优惠不知道什么时候会结束，想要使用的请抓紧)，随时都可以取消。</p>
+<p><a href="https://amzn.to/2HWwRBi" rel="external nofollow noopener noreferrer" target="_blank">察看Amazon Prime会员信息</a></p>
+<h2 id="开始更换"><a href="#开始更换" class="headerlink" title="开始更换"></a>开始更换</h2><p>在开始更换之前一定要<strong>断电，断电，断电</strong>！把电闸拉开，烤箱的插头从插座上拔下来！！！</p>
+<p>根据烤箱型号的不同，电热丝的位置也会略有区别。有的烤箱只需要把烤箱门卸下来，拧下几个螺丝就可以更换电热丝了。我家的烤箱比较麻烦，需要把整个烤箱从build in的unit中取出，然后打开烤箱后盖，才能更换。这里要提醒大家，里面的线路很复杂，因此在拆盖的过程中如果需要拔下某些线路，在动手之前<strong>一定要拍照！一定要拍照！一定要拍照！</strong></p>
+<p><img src="/images/live/oven/1.jpg" alt=""></p>
+<p>这是后面面板，对里面的电线来个特写：<br><img src="/images/live/oven/2.jpg" alt=""></p>
+<p>这就是新换好的电热丝，热后把所有的螺丝都复位，电烤箱放回远处，通电测试，大功告成！</p>
+<p><img src="/images/live/oven/3.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      我家电烤箱维修记 - 如何更换电热丝
+    
+    </summary>
+    
+      <category term="生活" scheme="https://www.yuxiuk.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="电烤箱" scheme="https://www.yuxiuk.com/tags/%E7%94%B5%E7%83%A4%E7%AE%B1/"/>
+    
+      <category term="维修" scheme="https://www.yuxiuk.com/tags/%E7%BB%B4%E4%BF%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>靠谱的Baby屁屁霜推荐</title>
     <link href="https://www.yuxiuk.com/diaper-cream/"/>
     <id>https://www.yuxiuk.com/diaper-cream/</id>
@@ -697,42 +733,6 @@
   </entry>
   
   <entry>
-    <title>Steemit工具推荐- Steemit More Info插件</title>
-    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
-    <id>https://www.yuxiuk.com/steemit-more-info/</id>
-    <published>2017-09-28T14:51:12.000Z</published>
-    <updated>2017-09-29T19:41:18.289Z</updated>
-    
-    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
-<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
-<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
-<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
-<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
-<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
-<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
-<p>你要不要试试？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
-&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
-    
-      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
-    
-      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Steemit工具推荐：steemtracked</title>
     <link href="https://www.yuxiuk.com/steemtracked/"/>
     <id>https://www.yuxiuk.com/steemtracked/</id>
@@ -771,36 +771,38 @@
   </entry>
   
   <entry>
-    <title>推荐两个改变图片尺寸的软件</title>
-    <link href="https://www.yuxiuk.com/image-resizer/"/>
-    <id>https://www.yuxiuk.com/image-resizer/</id>
-    <published>2017-09-27T21:40:12.000Z</published>
-    <updated>2017-09-27T12:28:29.888Z</updated>
+    <title>Steemit工具推荐- Steemit More Info插件</title>
+    <link href="https://www.yuxiuk.com/steemit-more-info/"/>
+    <id>https://www.yuxiuk.com/steemit-more-info/</id>
+    <published>2017-09-28T14:51:12.000Z</published>
+    <updated>2017-09-29T19:41:18.289Z</updated>
     
-    <content type="html"><![CDATA[<p>在Social Network上写文章,发朋友圈的时候，经常需要上传图片。可是现在相机和手机里的照片动辄就几个MB甚至十几个MB，如果你的网速不够快，那么在上传多个照片的时候一定非常痛苦。今天介绍一下我经常使用的两种改变图片尺寸的方式。</p>
-<p>第一个工具是个在线的工具，你不需要安装任何软件，只需把图片上传到这个网站，然后设定你想要的尺寸就可以了。另外，你还可以对图片进行简单的后期处理，比如旋转，加边框，调整图片的色彩对比度，饱和度等。</p>
-<p><img src="/images/technology/images-processing/webresizer.jpg" alt=""></p>
-<p>网站地址：<a href="http://webresizer.com/resizer/" rel="external nofollow noopener noreferrer" target="_blank">http://webresizer.com/resizer/</a></p>
-<p>可能你会想，既然用这个网站需要上传两次图片，一次到这个网站，调整好后还需要上传到Steemit，这样是不是更浪费时间？其实我是这样想的，作为你文章的最终读者，他们看到的是你调整后的图片，这样加载速度就会更快，他们的体验就会更好，因此这样做还是值得的。</p>
-<p>另一个工具就是paint.net，这是我非常喜欢的一个图片处理软件，完全免费。软件非常小巧，只有不到7MB，支持简体／繁体中文界面。对于一般的图片处理需求是足够的了。在软件中国调整图片尺寸非常简单，选择”image”菜单中的“resize”就可以了。除了更改图片尺寸，还能进行图片的处理，比如：旋转，拼接等操作，可以说是一个简化版的photoshop。</p>
-<p><img src="/images/technology/images-processing/paintnet.png" alt=""></p>
-<p>软件下载地址：<a href="https://www.getpaint.net/download.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.getpaint.net/download.html</a></p>
-<p>那么你用什么软件处理图片呢，欢迎留言分享。</p>
+    <content type="html"><![CDATA[<p>试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。</p>
+<p>这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能找到。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/2.png" alt=""></p>
+<p>可以看到，这个插件首先在你的Profile哪里增加了额外的信息，比如你的当前VP。同时增加了最近30天内你发帖的信息汇总。</p>
+<p>而且这个插件还增加了一个菜单选项：“Votes”，在里面可以看到谁赞了你的帖子，比重以及相应的潜在收益。当然也可以看到你都赞了哪些帖子。感觉这项功能比Steemd更加直观。</p>
+<p><img src="/images/technology/steem/tool/steemit-more-info/4.png" alt=""></p>
+<p>另外在查看一个帖子的时候，这个插件会列举出你获得的赞和相应的收入，比系统默认的界面提供了更多的信息。</p>
+<p>目前感觉的一个缺点就是有时候首页那些帖子信息的汇总加载过慢。</p>
+<p>你要不要试试？</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在Social Network上写文章,发朋友圈的时候，经常需要上传图片。可是现在相机和手机里的照片动辄就几个MB甚至十几个MB，如果你的网速不够快，那么在上传多个照片的时候一定非常痛苦。今天介绍一下我经常使用的两种改变图片尺寸的方式。&lt;/p&gt;
-&lt;p&gt;第一个工具是个在线的工
+      &lt;p&gt;试用了一下Steemit More Info这个插件，感觉非常好用，给大家推荐一下。&lt;/p&gt;
+&lt;p&gt;这个插件目前支持Chrome和Firefox，如果国内的小伙伴没法访问Chrome Store，就可以在火狐浏览器中试一下。都是搜索“Steemit More Info”就能
     
     </summary>
     
       <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="图片尺寸" scheme="https://www.yuxiuk.com/tags/%E5%9B%BE%E7%89%87%E5%B0%BA%E5%AF%B8/"/>
+      <category term="Steem" scheme="https://www.yuxiuk.com/tags/Steem/"/>
     
-      <category term="软件" scheme="https://www.yuxiuk.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="Steemit" scheme="https://www.yuxiuk.com/tags/Steemit/"/>
+    
+      <category term="Steemit工具" scheme="https://www.yuxiuk.com/tags/Steemit%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
