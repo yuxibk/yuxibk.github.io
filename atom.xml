@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2019-11-04T10:09:19.013Z</updated>
+  <updated>2019-11-08T10:28:59.848Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用ImprovMX和gmail配置自己域名的免费邮件服务</title>
+    <link href="https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/"/>
+    <id>https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/</id>
+    <published>2019-11-08T05:51:12.000Z</published>
+    <updated>2019-11-08T10:28:59.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：<a href="https://www.zoho.com/mail/" target="_blank" rel="noopener">Zoho Mail</a>, <a href="https://www.migadu.com/en/index.html" target="_blank" rel="noopener">Migadu</a>, <a href="https://domain.yandex.com/domains_add/" target="_blank" rel="noopener">Yandex</a>, 和 <a href="http://improvmx.com/" target="_blank" rel="noopener">ImprovMX</a>. 下面介绍一下如何使用ImprovMX 和 Gmail配置自己的个性化域名邮件.</p>
+<h2 id="ImprovMX"><a href="#ImprovMX" class="headerlink" title="ImprovMX"></a>ImprovMX</h2><p>打开 <a href="http://improvmx.com/" target="_blank" rel="noopener">ImprovMX</a> 邮件转向服务。添加如下的 MX 记录:</p>
+<pre><code>Host    Value                  Priority
+----------------------------------------------
+@       mx1.improvmx.com       10
+@       mx2.improvmx.com       20
+</code></pre><p>添加想要配置的域名以及你的个人gmail，然后进行验证。</p>
+<h2 id="配置gmail"><a href="#配置gmail" class="headerlink" title="配置gmail"></a>配置gmail</h2><p>进入如下页面创建APP密码：<a href="https://security.google.com/settings/security/apppasswords" target="_blank" rel="noopener">https://security.google.com/settings/security/apppasswords</a></p>
+<p><img src="/images/technology/mail/improvmx-0.png" alt=""></p>
+<p>进入gmail配置页面，然后：Accounts and Import -&gt; Send mail as -&gt; Add another email address</p>
+<p>取消 “Treat as alias” 选项</p>
+<p><img src="/images/technology/mail/improvmx-1.png" alt=""></p>
+<p>使用 “smtp.gmail.com” 作为 SMTP server, 在 Username项中填入自己的gmail, 在 password项中填入前面生成的APP password:</p>
+<p><img src="/images/technology/mail/improvmx-2.png" alt=""></p>
+<p>单击 “Add Account”</p>
+<p>最后登录自己邮箱获取验证码完成验证。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：&lt;a href=&quot;https://www.zoho.com/mail/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Zoho Mail&lt;/a&gt;, &lt;a hr
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="邮件服务器" scheme="https://www.yuxiuk.com/tags/%E9%82%AE%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>最全面的切斯特自由行旅游攻略</title>
@@ -1150,35 +1188,6 @@ contract HelloContract{
       <category term="dumbo" scheme="https://www.yuxiuk.com/tags/dumbo/"/>
     
       <category term="小飞象" scheme="https://www.yuxiuk.com/tags/%E5%B0%8F%E9%A3%9E%E8%B1%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>蔡徐坤《One》全球巡回演唱会英国伦敦站</title>
-    <link href="https://www.yuxiuk.com/kun-london/"/>
-    <id>https://www.yuxiuk.com/kun-london/</id>
-    <published>2019-03-12T06:40:12.000Z</published>
-    <updated>2019-03-12T16:29:53.221Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/shows/concert.jpg" alt="蔡徐坤《One》全球巡回演唱会"></p>
-<p>好消息！小伙伴们心心念的小哥哥蔡徐坤要来伦敦举办演唱会了！喜欢他的赶紧订票啦！蔡徐坤自出道后曾经先后获得2018年度盛典“最受欢迎潜力男歌手” ，年度十大金曲《WaitWaitWait》，“年度偶像人物”等众多奖项！</p>
-<h3 id="蔡徐坤《One》全球巡回演唱会伦敦站购票信息"><a href="#蔡徐坤《One》全球巡回演唱会伦敦站购票信息" class="headerlink" title="蔡徐坤《One》全球巡回演唱会伦敦站购票信息"></a>蔡徐坤《One》全球巡回演唱会伦敦站购票信息</h3><p>蔡徐坤《One》全球巡回演唱会伦敦站时间：2019年4月12日 7PM<br>蔡徐坤《One》全球巡回演唱会伦敦站地址：Electric Brixton<br>【<a href="http://bit.ly/2TLNd8j" target="_blank" rel="noopener">蔡徐坤《One》全球巡回演唱会伦敦站购票页面</a>】</p>
-]]></content>
-    
-    <summary type="html">
-    
-      蔡徐坤《One》全球巡回演唱会英国伦敦站
-    
-    </summary>
-    
-      <category term="活动" scheme="https://www.yuxiuk.com/categories/%E6%B4%BB%E5%8A%A8/"/>
-    
-    
-      <category term="伦敦" scheme="https://www.yuxiuk.com/tags/%E4%BC%A6%E6%95%A6/"/>
-    
-      <category term="蔡徐坤" scheme="https://www.yuxiuk.com/tags/%E8%94%A1%E5%BE%90%E5%9D%A4/"/>
-    
-      <category term="One" scheme="https://www.yuxiuk.com/tags/One/"/>
     
   </entry>
   
