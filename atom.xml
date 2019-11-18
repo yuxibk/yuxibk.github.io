@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuxiuk.com/"/>
-  <updated>2019-11-10T21:13:46.578Z</updated>
+  <updated>2019-11-18T10:31:27.254Z</updated>
   <id>https://www.yuxiuk.com/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好用的静态网站企业主题推荐</title>
+    <link href="https://www.yuxiuk.com/enterprise-themes-recommended/"/>
+    <id>https://www.yuxiuk.com/enterprise-themes-recommended/</id>
+    <published>2019-11-18T05:51:12.000Z</published>
+    <updated>2019-11-18T10:31:27.254Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/technology/static-site-generator/mobile-devices.png" alt="Static site generator"></p>
+<p>一直非常喜欢Hexo/Gatsby/Jekyll这些静态网站生成器。尤其对其中的一些优秀企业主题非常感兴趣。下面把自己喜欢的罗列一下：</p>
+<h2 id="Jekyll企业主题"><a href="#Jekyll企业主题" class="headerlink" title="Jekyll企业主题"></a>Jekyll企业主题</h2><h3 id="gbrgacademy"><a href="#gbrgacademy" class="headerlink" title="gbrgacademy"></a>gbrgacademy</h3><p>源码：<a href="https://github.com/kotp/gbrgacademy.github.io" target="_blank" rel="noopener">https://github.com/kotp/gbrgacademy.github.io</a><br>浏览：<a href="https://gbrgacademy.com/" target="_blank" rel="noopener">https://gbrgacademy.com/</a></p>
+<h3 id="belkirk"><a href="#belkirk" class="headerlink" title="belkirk"></a>belkirk</h3><p><strong>不是手机端自适应的</strong><br>源码：<a href="https://github.com/forestryio-templates/belkirk-jekyll-demo" target="_blank" rel="noopener">https://github.com/forestryio-templates/belkirk-jekyll-demo</a><br>浏览：<a href="https://forestryio-templates.github.io/belkirk-jekyll-demo/" target="_blank" rel="noopener">https://forestryio-templates.github.io/belkirk-jekyll-demo/</a></p>
+<h2 id="Unibit"><a href="#Unibit" class="headerlink" title="Unibit"></a>Unibit</h2><h3 id="azimuth"><a href="#azimuth" class="headerlink" title="azimuth"></a>azimuth</h3><p>源码：<a href="https://github.com/stackbithq/stackbit-theme-azimuth" target="_blank" rel="noopener">https://github.com/stackbithq/stackbit-theme-azimuth</a><br>浏览：<a href="https://themes.stackbit.com/demos/azimuth" target="_blank" rel="noopener">https://themes.stackbit.com/demos/azimuth</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/technology/static-site-generator/mobile-devices.png&quot; alt=&quot;Static site generator&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一直非常喜欢Hexo/Gatsby/Jekyll这些静态网站
+    
+    </summary>
+    
+      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="jekyll" scheme="https://www.yuxiuk.com/tags/jekyll/"/>
+    
+      <category term="静态网站" scheme="https://www.yuxiuk.com/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>李荣浩“年少有为”2020世界巡回演唱会伦敦站</title>
@@ -1140,47 +1170,6 @@ contract HelloContract{
       <category term="巴斯中餐推荐" scheme="https://www.yuxiuk.com/tags/%E5%B7%B4%E6%96%AF%E4%B8%AD%E9%A4%90%E6%8E%A8%E8%8D%90/"/>
     
       <category term="巴斯酒店推荐" scheme="https://www.yuxiuk.com/tags/%E5%B7%B4%E6%96%AF%E9%85%92%E5%BA%97%E6%8E%A8%E8%8D%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>想要买比特币等加密货币又担心银行账户被冻结？推荐Skrill！支持美元，欧元，英镑！</title>
-    <link href="https://www.yuxiuk.com/how-to-buy-btc-with-skrill/"/>
-    <id>https://www.yuxiuk.com/how-to-buy-btc-with-skrill/</id>
-    <published>2019-05-23T19:40:12.000Z</published>
-    <updated>2019-05-24T11:25:34.557Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近加密货币市场非常活跃，比特币的价格较年初已经翻倍了，吸引了很多投资者进入。但是很多人在买卖比特币的时候，经常会担心银行账户被冻结，毕竟现在很多银行对于加密货币的支持非常有限。那么，怎样才能安全的购买比特币呢？答案就是在传统银行和虚拟货币之间搭建一座桥梁，而本文介绍的Skrill就是其中的一种方式。</p>
-<p> <img src="/images/technology/bitcoin/skrill/skrill.png" alt="Skrill"></p>
-<p>其实Skrill的前身叫做Moneybookers，是一家英国的著名电子商务企业，其主营业务就是支持用户的网络支付。自从2011年商标改为Skrill。值得一提的是，Skrill的受英国金融服务管理局监管的，因此是十分靠谱的金融服务企业。因此在Skrill和各大银行之间转账应该是不会有账户冻结风险的，至少羽西使用至今没有发现任何问题。同时，Skrill本身又对加密货币十分友好，支持在APP内直接进行加密货币的交易。下面说说具体的步骤：</p>
-<h2 id="注册Skrill账户"><a href="#注册Skrill账户" class="headerlink" title="注册Skrill账户"></a>注册Skrill账户</h2><p>首先访问<a href="https://account.skrill.com/signup?rid=118768025" target="_blank" rel="noopener">Skrill</a>，注册一个账户。为了账户安全，建议开启2 factor authentication。</p>
-<p>建议安装相应的手机APP，苹果和安卓版都有。这里是<a href="https://www.skrill.com/en/skrill-app/?rid=118768025" target="_blank" rel="noopener">官方下载页面</a>。</p>
-<h2 id="进行身份验证"><a href="#进行身份验证" class="headerlink" title="进行身份验证"></a>进行身份验证</h2><p>安装好APP后，需要进行身份验证，可以选择护照，驾照等，在APP上传对应页面，按照提示走就可以。和加密货币交易所一样，通过身份验证后会提高你的交易限额。</p>
-<h2 id="通过信用卡充值"><a href="#通过信用卡充值" class="headerlink" title="通过信用卡充值"></a>通过信用卡充值</h2><p>Skrill支持各种主流的信用卡，</p>
-<p><img src="/images/technology/bitcoin/skrill/cards.jpg" alt="Skrill支持的信用卡"></p>
-<p>羽西通过<a href="/american-express-cashback-card/">超级给力的返现信用卡American Express</a> 充的值，立即到账。</p>
-<p><img src="/images/technology/bitcoin/skrill/deposit.jpg" alt="Skrill充值"></p>
-<p>当然，中间有1%的手续费。其实，这也是Skrill的价值所在，避免把钱从银行账户直接充值到交易所，从而避免银行账户被冻结。同时，Skrill支持用比特币对账户的充值，其实，这就打通了从加密货币到法币的通道。</p>
-<p><strong>不过羽西这里要声明，银行对是否冻结账户具有最终解释权，上面所说只是羽西的个人经验，您需要对自己的决定承担风险。对以上操作造成的任何后果，羽西概不负责。</strong></p>
-<h2 id="通过Skrill购买加密货币"><a href="#通过Skrill购买加密货币" class="headerlink" title="通过Skrill购买加密货币"></a>通过Skrill购买加密货币</h2><p>在Skrill APP中支持购买各种主流加密货币：</p>
-<p><img src="/images/technology/bitcoin/skrill/buybtc.jpg" alt="通过Skrill购买加密货币"></p>
-<h2 id="申请虚拟-实体信用卡"><a href="#申请虚拟-实体信用卡" class="headerlink" title="申请虚拟/实体信用卡"></a>申请虚拟/实体信用卡</h2><p>同时还可以申请一张虚拟信用卡，其实是事先充值的借记卡，可以选择美元，英镑，或者欧元。如果需要的话，还可以申请一张实体卡，但需要缴纳邮寄费。有了信用卡后，就可以方便进行加密货币-&gt;法币-&gt;消费了。</p>
-<p><img src="/images/technology/bitcoin/skrill/mastercard.jpg" alt="申请虚拟/实体信用卡"></p>
-<p>好，先说到这里，喜欢的朋友可以<a href="https://account.skrill.com/signup?rid=118768025" target="_blank" rel="noopener">开通一个账号</a>试试。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近加密货币市场非常活跃，比特币的价格较年初已经翻倍了，吸引了很多投资者进入。但是很多人在买卖比特币的时候，经常会担心银行账户被冻结，毕竟现在很多银行对于加密货币的支持非常有限。那么，怎样才能安全的购买比特币呢？答案就是在传统银行和虚拟货币之间搭建一座桥梁，而本文介绍的Sk
-    
-    </summary>
-    
-      <category term="技术" scheme="https://www.yuxiuk.com/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="比特币" scheme="https://www.yuxiuk.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
-      <category term="Skrill" scheme="https://www.yuxiuk.com/tags/Skrill/"/>
     
   </entry>
   
