@@ -6,7 +6,7 @@
     <title>如何不使用第三方网站帮助国内用户创建Steem帐户 | 英国羽西</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content="Steem,Steemit,如何帮助国内用户创建Steem帐户" />
+        <meta name="keywords" content="Steem,Steemit,如何帮助国内用户创建Steem帐户">
     
     <meta name="description" content="之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconnect来创建新的账户，不过需要把你的active key提供给steemconnect。这个让羽西感觉很不爽，因为用习惯了OAuth之类的系统，很不习惯把自己的密码或者key提供给第三方。因此，察看了一下官方文档，其实完全可以自己帮别人创建帐户。整个过程也是非常快的，只需要几分钟">
 <meta name="keywords" content="Steem,Steemit,如何帮助国内用户创建Steem帐户">
@@ -27,13 +27,13 @@
     
 
     
-        <link rel="alternate" href="/atom.xml" title="英国羽西" type="application/atom+xml" />
+        <link rel="alternate" href="/atom.xml" title="英国羽西" type="application/atom+xml">
     
 
     
 
     
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico">
     
 
     <link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css">
@@ -63,7 +63,7 @@ ga('send', 'pageview');
 
 
 </head>
-
+</html>
 <body>
     <div id="wrap">
         <header id="header">
@@ -85,7 +85,7 @@ ga('send', 'pageview');
                     <div class="nav-container-inner">
                         <ul id="main-nav">
                             
-                                <li class="main-nav-list-item" >
+                                <li class="main-nav-list-item">
                                     <a class="main-nav-list-link" href="/">首页</a>
                                 </li>
                             
@@ -96,14 +96,14 @@ ga('send', 'pageview');
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索">
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="找什么..." />
+            <input type="text" class="ins-search-input" placeholder="找什么...">
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -154,7 +154,7 @@ ga('send', 'pageview');
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-how-to-create-steem-account-for-other-user" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-how-to-create-steem-account-for-other-user" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
@@ -180,7 +180,7 @@ ga('send', 'pageview');
                 
     <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Steem/">Steem</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Steemit/">Steemit</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/如何帮助国内用户创建Steem帐户/">如何帮助国内用户创建Steem帐户</a></li></ul>
 
-                <br/><br/>
+                <br><br>
             </div>
         
         
@@ -190,11 +190,7 @@ ga('send', 'pageview');
               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
               <!-- autosize -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-9869806761757481"
-                   data-ad-slot="8827673952"
-                   data-ad-format="auto"></ins>
+              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins>
 
               <script>
                   (adsbygoogle = window.adsbygoogle || []).push({});
@@ -205,7 +201,7 @@ ga('send', 'pageview');
 <p>之前 @lemooljiang 和 @jubi 分别写过一篇文章，谈到可以使用第三方网站／工具，比如steemconnect来创建新的账户，不过需要把你的active key提供给steemconnect。这个让羽西感觉很不爽，因为用习惯了OAuth之类的系统，很不习惯把自己的密码或者key提供给第三方。因此，察看了一下官方文档，其实完全可以自己帮别人创建帐户。整个过程也是非常快的，只需要几分钟的时间。</p>
 <h2 id="获取一个VM"><a href="#获取一个VM" class="headerlink" title="获取一个VM"></a>获取一个VM</h2><p>首先，你需要有一个自己的VM (Virtual Machine)，这个可以是本地的VM，也可以是一些主机商的<a href="/vps/">VPS</a>。比如：羽西就有自己开发专用的Vultr VPS。如果你没有VM，甚至不知道什么是VM，也不要紧。根据<a href="/build-steem-python-development-environment-in-codenvy/">前面总结过的步骤</a>小白也可以做到。</p>
 <p>简单总结一下：</p>
-<p>1) 创建一个Codenvy账户：<a href="https://codenvy.io/" target="_blank" rel="noopener">https://codenvy.io/</a><br>2) 创建一个Python workspace<br>3) 运行以下命令安装Steem Python库 </p>
+<p>1) 创建一个Codenvy账户：<a href="https://codenvy.io/" rel="external nofollow noopener noreferrer" target="_blank">https://codenvy.io/</a><br>2) 创建一个Python workspace<br>3) 运行以下命令安装Steem Python库 </p>
 <pre><code class="bash">sudo pip3 install steem
 </code></pre>
 <h2 id="帮助国内朋友创建Steem账号"><a href="#帮助国内朋友创建Steem账号" class="headerlink" title="帮助国内朋友创建Steem账号"></a>帮助国内朋友创建Steem账号</h2><p>如果想要帮助国内朋友创建Steem账户，需要花费6个STEEM，所以首先确保你的账户STEEM足够才行。这6个STEEM在账号创建成功后会自动转到你朋友的账户里。</p>
@@ -232,18 +228,14 @@ Passphrase:
 
 <div class="likecoin-embed likecoin-button">
   <div></div>
-  <iframe scrolling="no" frameborder="0" src="https://button.like.co/in/embed/yuxiuk82508/button?referrer=%- encodeURIComponent(post.permalink) %>"></iframe>                                                              
+  <iframe scrolling="no" frameborder="0" src="https://button.like.co/in/embed/yuxiuk82508/button?referrer=https%3A%2F%2Fwww.yuxiuk.com%2Fhow-to-create-steem-account-for-other-user%2F"></iframe>                                                              
 </div>
 
             
               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
               <!-- autosize -->
-              <ins class="adsbygoogle"
-                   style="display:block"
-                   data-ad-client="ca-pub-9869806761757481"
-                   data-ad-slot="8827673952"
-                   data-ad-format="auto"></ins>
+              <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9869806761757481" data-ad-slot="8827673952" data-ad-format="auto"></ins>
 
               <script>
                   (adsbygoogle = window.adsbygoogle || []).push({});
@@ -251,24 +243,24 @@ Passphrase:
             
             
               
-                <br/>
-                <b>未经授权，严禁转载。</b><br/>
-                <br/>
+                <br>
+                <b>未经授权，严禁转载。</b><br>
+                <br>
               
             
-              <br/>
-            羽西欢迎大家投稿分享英国生活，邮件：info@yuxiuk.com <br/><br/>
+              <br>
+            羽西欢迎大家投稿分享英国生活，邮件：info@yuxiuk.com <br><br>
 
-            如果您觉得我的文章对您有所帮助，愿意请我喝杯咖啡: <br/>
-            BTC: 1B5cfrKsHZVwZCnvQR6o9SXRaDfNWGHQmd<br/>
-            ETH: 0xfFAE39dA418bfa94018C00A4A5eb6A8ddc6Bcf5c<br/>
+            如果您觉得我的文章对您有所帮助，愿意请我喝杯咖啡: <br>
+            BTC: 1B5cfrKsHZVwZCnvQR6o9SXRaDfNWGHQmd<br>
+            ETH: 0xfFAE39dA418bfa94018C00A4A5eb6A8ddc6Bcf5c<br>
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/" data-id="ck3zromt30080i9y6lol904zw" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://www.yuxiuk.com/how-to-create-steem-account-for-other-user/" data-id="ck874pgqk00827ty6g32axodq" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -353,7 +345,7 @@ Passphrase:
             
                 
                 <li>
-                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/104826207350368986265" target="_blank">
+                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/104826207350368986265" target="_blank" rel="external nofollow noopener noreferrer">
                         <i class="icon fa fa-google-plus"></i>
                     </a>
                 </li>
@@ -539,8 +531,7 @@ Passphrase:
             
                     <div class="widget-wrap widget-list">
         <div class="widget">
-         <a target="_blank" href="http://tidd.ly/1260a7ed"><img src="/images/ads/skyscanner.gif"  width="280" height="260"
-                        border="0"></a>
+         <a target="_blank" href="http://tidd.ly/1260a7ed" rel="external nofollow noopener noreferrer"><img src="/images/ads/skyscanner.gif" width="280" height="260" border="0"></a>
         </div>
     </div>
 
@@ -553,7 +544,7 @@ Passphrase:
             <ul>
                 
                     <li>
-                        <a href="http://www.yingtaodaren.com/">英淘达人</a>
+                        <a href="http://www.yingtaodaren.com/" rel="external nofollow noopener noreferrer" target="_blank">英淘达人</a>
                     </li>
                 
             </ul>
@@ -575,11 +566,11 @@ Passphrase:
             <div class="credit">
                 <div style="display: block; text-align: center;">
                     <a href="/">
-                      <img src="/images/yuxi.png"/>
+                      <img src="/images/yuxi.png">
                     </a>
                 </div>
-                <p style="text-align: center;">联系我们: <a href="mailto:info@yuxiuk.com">info@yuxiuk.com</a></p><br/>
-                <p style="font-weight: bold;text-align: center;"><a href="/disclaimer/">Disclaimer 免责声明</a></p><br/>
+                <p style="text-align: center;">联系我们: <a href="mailto:info@yuxiuk.com" rel="external nofollow noopener noreferrer" target="_blank">info@yuxiuk.com</a></p><br>
+                <p style="font-weight: bold;text-align: center;"><a href="/disclaimer/">Disclaimer 免责声明</a></p><br>
                 <p style="text-align: center;">&copy; 2020 英国羽西. All rights reserved.</p>
             </div>
         </div>
@@ -624,4 +615,4 @@ Passphrase:
 
     </div>
 </body>
-</html>
+
