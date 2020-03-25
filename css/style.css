@@ -2158,3 +2158,20 @@ a.no_icon:after {
   content: "" !important;
   padding-left: 0;
 }
+.likecoin-button {
+  position: relative;
+  width: 100%;
+  max-width: 485px;
+  max-height: 240px;
+  margin: 0 auto;
+}
+.likecoin-button > div {
+  padding-top: 49.48454%;
+}
+.likecoin-button > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
