@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>如何在Ubuntu 16.04LTS安装LEMP+WordPress | 英国羽西</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="Linux,Wordpress,LEMP" />
+    
+    <meta name="description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： 12adduser --gecos &quot;&quot; yuxi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何在Ubuntu 16.04LTS安装LEMP+WordPress">
+<meta property="og:url" content="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/">
+<meta property="og:site_name" content="英国羽西">
+<meta property="og:description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： 12adduser --gecos &quot;&quot; yuxi">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.yuxiuk.com/images/technology/lemp-wordpress.jpg">
+<meta property="article:published_time" content="2017-03-08T14:51:12.000Z">
+<meta property="article:modified_time" content="2021-01-28T17:39:33.813Z">
+<meta property="article:author" content="羽西">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Wordpress">
+<meta property="article:tag" content="LEMP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.yuxiuk.com/images/technology/lemp-wordpress.jpg">
+    
+
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="英国羽西" type="application/atom+xml" />
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/js/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/js/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/js/jquery/2.0.3/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/js/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67297895-15', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">首页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%8A%98%E6%89%A3/">折扣</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%96%87%E5%8C%96/">文化</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%97%85%E6%B8%B8/">旅游</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%95%99%E5%AD%A6/">留学</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/">美食</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%B4%AD%E7%89%A9/">购物</a></li></ul>
+                                    
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+
+  
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+    </h1>
+  
+
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-install-lemp-and-wordpress-in-ubuntu16lts" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        如何在Ubuntu 16.04LTS安装LEMP+WordPress
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-subtitle">
+                
+<b>作者：子衿 </b>
+
+
+
+                <a href="/install-lemp-and-wordpress-in-ubuntu16lts/" class="article-date">
+    <time datetime="2017-03-08T14:51:12.000Z" itemprop="datePublished">2017-03-08</time>
+</a>
+                
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/LEMP/" rel="tag">LEMP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Wordpress/" rel="tag">Wordpress</a></li></ul>
+
+                <br/><br/>
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+
+            
+
+            <p><img src="/images/technology/lemp-wordpress.jpg" alt="如何在Ubuntu 16.04LTS安装LEMP+WordPress"></p>
+<p>当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！</p>
+<p>【<a target="_blank" rel="noopener" href="http://www.vultr.com/?ref=6972180-3B">促销链接</a>】</p>
+<h2 id="创建用户及登陆认证"><a href="#创建用户及登陆认证" class="headerlink" title="创建用户及登陆认证"></a>创建用户及登陆认证</h2><h3 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h3><p>以root登陆后运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">adduser --gecos <span class="string">&quot;&quot;</span> yuxi   [你的用户名]</span><br><span class="line">gpasswd -a yuxi sudo</span><br></pre></td></tr></table></figure>
+<p>把自己添加到sudo组中：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;你的用户名 ALL=(ALL) NOPASSWD: ALL&#x27;</span> &gt;&gt; /etc/sudoers</span><br></pre></td></tr></table></figure>
+<p>准备好你的公共密钥(public key)，如果没有的话可以运行“ssh-keygen”来创建。</p>
+<p>用你刚刚创建的用户登录后运行:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~/.ssh</span><br><span class="line">chmod 700 ~/.ssh</span><br><span class="line">touch ~/.ssh/authorized_keys</span><br><span class="line">chmod 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+<p>把你的公共密钥添加到文件authorized_keys中。</p>
+<p>更新系统:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get -y update  </span><br><span class="line">sudo apt-get -y upgrade </span><br></pre></td></tr></table></figure>
+<p>更新用户配置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export LS_COLORS=$(echo $LS_COLORS | sed &quot;s/di=\(..\);../di=\1;32/&quot;) &#x27;</span> &gt;&gt; ~/.bashrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;PS1=&#x27;\\$ &#x27;&quot;</span> &gt;&gt; ~/.bashrc</span><br></pre></td></tr></table></figure>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- autosize -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9869806761757481"
+     data-ad-slot="8827673952"
+     data-ad-format="auto"></ins></p>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<h3 id="系统登录设置"><a href="#系统登录设置" class="headerlink" title="系统登录设置"></a>系统登录设置</h3><p>用编辑器打开/etc/ssh/sshd_config</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+<p>改变如下设置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PasswordAuthentication no</span><br><span class="line">PubkeyAuthentication yes</span><br><span class="line">ChallengeResponseAuthentication no</span><br></pre></td></tr></table></figure>
+<p>同时建议改变SSH默认段口号，比如，从”22”改变为”2244”。</p>
+<p>重启ssh服务：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload sshd</span><br></pre></td></tr></table></figure>
+<h3 id="基本防火墙设置"><a href="#基本防火墙设置" class="headerlink" title="基本防火墙设置"></a>基本防火墙设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw <span class="built_in">enable</span></span><br><span class="line">sudo ufw delete allow OpenSSH</span><br><span class="line">sudo ufw allow from any to any port 2224</span><br><span class="line">sudo ufw status</span><br></pre></td></tr></table></figure>
+<h2 id="基本系统设置"><a href="#基本系统设置" class="headerlink" title="基本系统设置"></a>基本系统设置</h2><p>运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -qq -y curl </span><br><span class="line">sudo apt-get install -qq -y lynx-cur</span><br><span class="line">sudo apt-get install -qq -y git</span><br><span class="line">sudo apt-get install -qq -y whois</span><br><span class="line">sudo apt-get install -qq -y apache2-utils</span><br><span class="line">sudo apt-get install -qq -y unzip</span><br><span class="line">sudo -H -u root bash -c <span class="string">&quot;echo &#x27;Europe/London&#x27; &gt; /etc/timezone&quot;</span> </span><br><span class="line">sudo dpkg-reconfigure -f noninteractive tzdata </span><br><span class="line">sudo apt-get install -qq -y ntp &gt; /dev/null 2&gt;err.log </span><br><span class="line"></span><br><span class="line">git config --global user.email <span class="string">&quot;YOUR_EMAIL&quot;</span></span><br><span class="line">git config --global user.name  <span class="string">&quot;YOUR NAME&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h2><p>运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nginx</span><br><span class="line">sudo ufw allow <span class="string">&#x27;Nginx HTTP&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>获取VM的IP地址：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ip addr show eth0 | grep inet | awk <span class="string">&#x27;&#123; print $2; &#125;&#x27;</span> | sed <span class="string">&#x27;s/\/.*$//&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>在Nginx配置文件中更改server_name设置，可以使用域名或者IP。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/nginx/sites-enabled/default</span><br></pre></td></tr></table></figure>
+<h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-server</span><br><span class="line">sudo mysql_secure_installation</span><br></pre></td></tr></table></figure>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- autosize -->
+<p><ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9869806761757481"
+     data-ad-slot="8827673952"
+     data-ad-format="auto"></ins></p>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+<h2 id="安装PHP"><a href="#安装PHP" class="headerlink" title="安装PHP"></a>安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y php-fpm php-mysql</span><br></pre></td></tr></table></figure>
+<p>更改PHP设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano &#x2F;etc&#x2F;php&#x2F;7.0&#x2F;fpm&#x2F;php.ini</span><br></pre></td></tr></table></figure>
+<p>做如下更改：<br>cgi.fix_pathinfo=0</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart php7.0-fpm</span><br></pre></td></tr></table></figure>
+<p>更改Nginx设置来支持PHP：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/nginx/sites-available/default</span><br></pre></td></tr></table></figure>
+<p>做如下更改：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80 default_server;</span><br><span class="line">    listen [::]:80 default_server;</span><br><span class="line"></span><br><span class="line">    root /var/www/html;</span><br><span class="line">    index index.php index.html index.htm index.nginx-debian.html;</span><br><span class="line"></span><br><span class="line">    server_name server_domain_or_IP;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        try_files <span class="variable">$uri</span> <span class="variable">$uri</span>/ =404;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location ~ \.php$ &#123;</span><br><span class="line">        include snippets/fastcgi-php.conf;</span><br><span class="line">        fastcgi_pass unix:/run/php/php7.0-fpm.sock;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location ~ /\.ht &#123;</span><br><span class="line">        deny all;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="安装PHP扩展"><a href="#安装PHP扩展" class="headerlink" title="安装PHP扩展"></a>安装PHP扩展</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get -y update </span><br><span class="line">sudo apt-get -y install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc</span><br><span class="line">sudo systemctl restart php7.0-fpm</span><br></pre></td></tr></table></figure>
+<h2 id="安装Wordpress"><a href="#安装Wordpress" class="headerlink" title="安装Wordpress"></a>安装Wordpress</h2><p>创建Wordpress所需的数据库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line">CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;</span><br><span class="line">GRANT ALL ON wordpress.* TO <span class="string">&#x27;wordpressuser&#x27;</span>@<span class="string">&#x27;localhost&#x27;</span> IDENTIFIED BY <span class="string">&#x27;password&#x27;</span>;</span><br><span class="line">FLUSH PRIVILEGES;</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>更改Nginx配置： </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">location = /favicon.ico &#123; log_not_found off; access_log off; &#125;</span><br><span class="line">location = /robots.txt &#123; log_not_found off; access_log off; allow all; &#125;</span><br><span class="line">location ~* \.(css|gif|ico|jpeg|jpg|js|png)$ &#123;</span><br><span class="line">  expires max;</span><br><span class="line">  log_not_found off;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>和：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">                try_files <span class="variable">$uri</span> <span class="variable">$uri</span>/ /index.php$is_args<span class="variable">$args</span>;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<p>重新启动Nginx：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure>
+<p>安装Wordpress</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp</span><br><span class="line">curl -O https://wordpress.org/latest.tar.gz</span><br><span class="line">tar xvf latest.tar.gz</span><br><span class="line">cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php</span><br><span class="line">sudo cp -a /tmp/wordpress/. /var/www/html</span><br><span class="line">mkdir  /var/www/html/wp-content/uploads</span><br><span class="line">mkdir  /var/www/html/wp-content/upgrade</span><br></pre></td></tr></table></figure>
+<p>更改目录权限：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R yuxi:www-data /var/www/html</span><br></pre></td></tr></table></figure>
+<p>设定新创建文件继承父目录权限：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo find /var/www/html -<span class="built_in">type</span> d -<span class="built_in">exec</span> chmod g+s &#123;&#125; \;</span><br></pre></td></tr></table></figure>
+<p>给组(www-data)写权限，这样就可以在Web界面安装/更新主题和插件了：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod g+w /var/www/html/wp-content</span><br></pre></td></tr></table></figure>
+<p>添加Web服务器的运行帐号(www-data)对以下目录的写权限：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod -R g+w /var/www/html/wp-content/themes</span><br><span class="line">sudo chmod -R g+w /var/www/html/wp-content/plugins</span><br></pre></td></tr></table></figure>
+<p>更改Wordpress默认安全密钥：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://api.wordpress.org/secret-key/1.1/salt/</span><br></pre></td></tr></table></figure>
+<p>打开 /var/www/html/wp-config.php,  更新如下配置:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;AUTH_KEY&#x27;</span>,         <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;SECURE_AUTH_KEY&#x27;</span>,  <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;LOGGED_IN_KEY&#x27;</span>,    <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;NONCE_KEY&#x27;</span>,        <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;AUTH_SALT&#x27;</span>,        <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;SECURE_AUTH_SALT&#x27;</span>, <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;LOGGED_IN_SALT&#x27;</span>,   <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;NONCE_SALT&#x27;</span>,       <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>更新数据库配置:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;wordpressuser&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>做如下设置，这样Wordpress就可以更新主题/插件，否则会要求输入FTP/SSH登录信息。在前面数据库设置的后面添加：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;FS_METHOD&#x27;</span>, <span class="string">&#x27;direct&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>在Web界面中完成Wordpress的安装。</p>
+<p>至此，Wordpress的基本版本就安装完了。当然，后续还有一些工作，比如：安全性配置，主题／插件安装，如何备份等等，由于技术性太强了，这里就不讨论了。</p>
+
+
+            
+            
+              
+                <br/>
+                <b>未经授权，严禁转载。</b><br/>
+                <br/>
+              
+            
+              <br/>
+            羽西欢迎大家投稿分享英国生活，邮件： <br/><br/>
+
+            如果您觉得我的文章对您有所帮助，愿意请我喝杯咖啡: <br/>
+            BTC: 13awm2DNctX647QHH2zJHUEr5vQz3mK1hE<br/>
+            ETH: 0xfFAE39dA418bfa94018C00A4A5eb6A8ddc6Bcf5c</br><br/>
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/" data-id="ckkhhg8un00b4p1yb6gqghrq0" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/104826207350368986265" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/sats/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/children/sats/sats.jpg)" alt="英国小学SATS考试介绍" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/sats/" class="title">英国小学SATS考试介绍</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/snooker-betway/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/sports/snooker/barbican.jpg)" alt="斯诺克英国锦标赛可以购票啦！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></p>
+                            <p class="item-title"><a href="/snooker-betway/" class="title">斯诺克英国锦标赛可以购票啦！</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/tenx-card/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/bitcoin/tenx/01.jpg)" alt="使用Tenx卡打通加密货币的支付环节" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
+                            <p class="item-title"><a href="/tenx-card/" class="title">使用Tenx卡打通加密货币的支付环节</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/top-xbox-games-for-kids/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/games/xbox/xbox.jpg)" alt="适合儿童的XBOX经典游戏推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/top-xbox-games-for-kids/" class="title">适合儿童的XBOX经典游戏推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/transferwise/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/life/transferwise/1.jpg)" alt="如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
+                            <p class="item-title"><a href="/transferwise/" class="title">如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/uk-broadband/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/life/broadband/cyberspace.jpg)" alt="英国宽带网络推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
+                            <p class="item-title"><a href="/uk-broadband/" class="title">英国宽带网络推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+
+<ins class="bookingaff" data-aid="1320859" data-target_aid="1320859" data-prod="nsb" data-width="300" data-height="250" data-lang="zh" data-df_num_properties="3">
+    <!-- Anything inside will go away once widget is loaded. -->
+        <a target="_blank" rel="noopener" href="//www.booking.com?aid=1320859">Booking.com</a>
+</ins>
+<script type="text/javascript">
+    (function(d, sc, u) {
+      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = u + '?v=' + (+new Date());
+      p.parentNode.insertBefore(s,p);
+      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+</script>
+
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">44</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%98%E6%89%A3/">折扣</a><span class="category-list-count">20</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%8C%96/">文化</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%85%E6%B8%B8/">旅游</a><span class="category-list-count">44</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a><span class="category-list-count">82</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">33</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%95%99%E5%AD%A6/">留学</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/">美食</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a><span class="category-list-count">36</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a><span class="category-list-count">34</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%B4%AD%E7%89%A9/">购物</a><span class="category-list-count">12</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+         <a target="_blank" href="http://tidd.ly/1260a7ed"><img src="/images/ads/skyscanner.gif"  width="280" height="260"
+                        border="0"></a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">友情链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://www.yingtaodaren.com/">英淘达人</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <div style="display: block; text-align: center;">
+                    <a href="/">
+                      <img src="/images/yuxi.png"/>
+                    </a>
+                </div>
+                <p style="text-align: center;">联系我们: <a href="mailto:"></a></p><br/>
+                <p style="font-weight: bold;text-align: center;"><a href="/disclaimer/">Disclaimer 免责声明</a></p><br/>
+                <p style="text-align: center;">&copy; 2021 . All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'yuxiuk';
+    
+    
+    var disqus_url = 'https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        
+<script src="/js/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-video.min.js"></script>
+
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+</body>
+</html>

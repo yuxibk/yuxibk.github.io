@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /?s=*
+Disallow: /?type=*
+Disallow: /discountcode.html
+Disallow: /404.html
+
+Sitemap: https://www.yuxiuk.com/sitemap.xml

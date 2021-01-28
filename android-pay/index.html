@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Android Pay介绍 | 英国羽西</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="Android Pay,安卓支付" />
+    
+    <meta name="description" content="移动支付已经成为当下最受关注的技术趋势之一，如今智能手机开始支持NFC (Near Field Communication)技术，羽西公司的同事们也都纷纷用Android Pay &#x2F; Apple Pay来支付。作为安卓粉， 今天羽西就来和大家分享下Android Pay使用方法。注意：下面的步骤只在英国测试过，在别的国家可能会有所不同。  Android Pay介绍说到Android Pay，就不">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android Pay介绍">
+<meta property="og:url" content="https://www.yuxiuk.com/android-pay/">
+<meta property="og:site_name" content="英国羽西">
+<meta property="og:description" content="移动支付已经成为当下最受关注的技术趋势之一，如今智能手机开始支持NFC (Near Field Communication)技术，羽西公司的同事们也都纷纷用Android Pay &#x2F; Apple Pay来支付。作为安卓粉， 今天羽西就来和大家分享下Android Pay使用方法。注意：下面的步骤只在英国测试过，在别的国家可能会有所不同。  Android Pay介绍说到Android Pay，就不">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.yuxiuk.com/images/live/android-pay/android-pay.png">
+<meta property="article:published_time" content="2016-12-01T07:40:12.000Z">
+<meta property="article:modified_time" content="2021-01-28T17:39:33.805Z">
+<meta property="article:author" content="羽西">
+<meta property="article:tag" content="Android Pay">
+<meta property="article:tag" content="安卓支付">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.yuxiuk.com/images/live/android-pay/android-pay.png">
+    
+
+    
+
+    
+        <link rel="alternate" href="/atom.xml" title="英国羽西" type="application/atom+xml" />
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/js/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/js/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/js/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/js/jquery/2.0.3/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/js/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-67297895-15', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">首页</a>
+                                </li>
+                            
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%8A%98%E6%89%A3/">折扣</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%96%87%E5%8C%96/">文化</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%97%85%E6%B8%B8/">旅游</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%95%99%E5%AD%A6/">留学</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/">美食</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E8%B4%AD%E7%89%A9/">购物</a></li></ul>
+                                    
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+
+  
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a>
+    </h1>
+  
+
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-android-pay" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Android Pay介绍
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-subtitle">
+                
+<b>作者：子衿 </b>
+
+
+
+                <a href="/android-pay/" class="article-date">
+    <time datetime="2016-12-01T07:40:12.000Z" itemprop="datePublished">2016-12-01</time>
+</a>
+                
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-Pay/" rel="tag">Android Pay</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AE%89%E5%8D%93%E6%94%AF%E4%BB%98/" rel="tag">安卓支付</a></li></ul>
+
+                <br/><br/>
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+
+            
+
+            <p>移动支付已经成为当下最受关注的技术趋势之一，如今智能手机开始支持NFC (Near Field Communication)技术，羽西公司的同事们也都纷纷用Android Pay / Apple Pay来支付。作为安卓粉， 今天羽西就来和大家分享下Android Pay使用方法。注意：下面的步骤只在英国测试过，在别的国家可能会有所不同。</p>
+<p><img src="/images/live/android-pay/android-pay.png" alt="Android Pay"></p>
+<h2 id="Android-Pay介绍"><a href="#Android-Pay介绍" class="headerlink" title="Android Pay介绍"></a>Android Pay介绍</h2><p>说到Android Pay，就不得不先说一下它的竞争对手Apple Pay。由于苹果公司一家垄断了整个苹果系统的软件和硬件，形成了一个封闭的产业链。这也是羽西很讨厌苹果产品的一个原因吧。因此一旦推出Apple Pay，就很容易推广。相比较而言，Android的生态系统只能用一个乱字来形容。Google把握着操作系统，各大硬件厂商掌控硬件+操作系统定制。而国内的Android系统就更加诡异了，作为Android系统的基石Google Play竟然不能使用。。。因此安卓手机支付的推广可以说是难上加难，多年来一直停滞在标准之争上。还在现在Google终于推出了Android Pay。</p>
+<h2 id="Android-Pay使用指南"><a href="#Android-Pay使用指南" class="headerlink" title="Android Pay使用指南"></a>Android Pay使用指南</h2><h3 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h3><p>软件：至少Android 4.4<br>硬件：支持NFC功能的手机。目前的大多数手机都支持NFC。</p>
+<h3 id="安装Android-Pay"><a href="#安装Android-Pay" class="headerlink" title="安装Android Pay"></a>安装Android Pay</h3><p>　<br>首先，你需要在谷歌商店下载Android Pay应用，有些设备其实已经预装了这款应用。</p>
+<p>然后，打开这款App添加自己的银行卡信息（Master / Visa），如果你的谷歌账户原来已经有了相关的支付信息，那么这个阶段将变得更容易。你可以在Android Pay当中添加多张卡片，并设置默认使用的那一张。</p>
+<p>为了保证你的资金安全，Android Pay会强制你设置一个锁屏。</p>
+<p>在支付时，你并不需要运行Android Pay应用，只需解锁手机并将其放在支付终端上便可。</p>
+<p>需要注意的是，你在退货时可能会被要求提供虚拟帐号的最后四位数字，它们可以在应用当中找到。</p>
+<p>值得一提的是，Android Pay还将被整合到一些热门应用当中，比如Airbnb、Esty、TripAdvisor和Uber，让你可以直接通过谷歌的平台进行支付。</p>
+<p>目前在英国支持Android Pay的银行包括（但不限于）：<br><img src="/images/live/android-pay/banks-support-android-pay.jpg" alt="Android Pay"></p>
+<p>目前在英国支持Android Pay的商店包括（但不限于）：<br><img src="/images/live/android-pay/shops-support-android-pay.jpg" alt="Android Pay"></p>
+<h2 id="Android-Pay安全性"><a href="#Android-Pay安全性" class="headerlink" title="Android Pay安全性"></a>Android Pay安全性</h2><p>没有什么是100%安全的，但谷歌已经采取各种措施保证了自家支付服务的安全。比如：Android Pay并不会在交易当中发送实际的银行卡信息，而是会使用虚拟帐号和一次性的确认码——这种方法不会向商家透露任何的敏感数据。此外，你还会在交易发生时立刻看到通知和记录，如果有任何异常，你也能在第一时间察觉。如果手机丢失，你可以使用Android设备管理器对其进行锁定或擦除，而不必到银行销卡。</p>
+
+
+            
+            
+              
+                <br/>
+                <b>未经授权，严禁转载。</b><br/>
+                <br/>
+              
+            
+              <br/>
+            羽西欢迎大家投稿分享英国生活，邮件： <br/><br/>
+
+            如果您觉得我的文章对您有所帮助，愿意请我喝杯咖啡: <br/>
+            BTC: 13awm2DNctX647QHH2zJHUEr5vQz3mK1hE<br/>
+            ETH: 0xfFAE39dA418bfa94018C00A4A5eb6A8ddc6Bcf5c</br><br/>
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://www.yuxiuk.com/android-pay/" data-id="ckkhhg8qk000pp1yb89rj61c6" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>关注我 :</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="google-plus" href="https://plus.google.com/104826207350368986265" target="_blank">
+                        <i class="icon fa fa-google-plus"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/atom.xml" target="_blank">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/sats/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/children/sats/sats.jpg)" alt="英国小学SATS考试介绍" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/sats/" class="title">英国小学SATS考试介绍</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/snooker-betway/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/sports/snooker/barbican.jpg)" alt="斯诺克英国锦标赛可以购票啦！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></p>
+                            <p class="item-title"><a href="/snooker-betway/" class="title">斯诺克英国锦标赛可以购票啦！</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/tenx-card/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/bitcoin/tenx/01.jpg)" alt="使用Tenx卡打通加密货币的支付环节" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
+                            <p class="item-title"><a href="/tenx-card/" class="title">使用Tenx卡打通加密货币的支付环节</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/top-xbox-games-for-kids/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/games/xbox/xbox.jpg)" alt="适合儿童的XBOX经典游戏推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/top-xbox-games-for-kids/" class="title">适合儿童的XBOX经典游戏推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/transferwise/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/life/transferwise/1.jpg)" alt="如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
+                            <p class="item-title"><a href="/transferwise/" class="title">如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/uk-broadband/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/life/broadband/cyberspace.jpg)" alt="英国宽带网络推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
+                            <p class="item-title"><a href="/uk-broadband/" class="title">英国宽带网络推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+
+<ins class="bookingaff" data-aid="1320859" data-target_aid="1320859" data-prod="nsb" data-width="300" data-height="250" data-lang="zh" data-df_num_properties="3">
+    <!-- Anything inside will go away once widget is loaded. -->
+        <a target="_blank" rel="noopener" href="//www.booking.com?aid=1320859">Booking.com</a>
+</ins>
+<script type="text/javascript">
+    (function(d, sc, u) {
+      var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = u + '?v=' + (+new Date());
+      p.parentNode.insertBefore(s,p);
+      })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+</script>
+
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><span class="category-list-count">44</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%98%E6%89%A3/">折扣</a><span class="category-list-count">20</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87%E5%8C%96/">文化</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%85%E6%B8%B8/">旅游</a><span class="category-list-count">44</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a><span class="category-list-count">82</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">33</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%95%99%E5%AD%A6/">留学</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%BE%8E%E9%A3%9F/">美食</a><span class="category-list-count">16</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a><span class="category-list-count">36</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a><span class="category-list-count">34</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%B4%AD%E7%89%A9/">购物</a><span class="category-list-count">12</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                    <div class="widget-wrap widget-list">
+        <div class="widget">
+         <a target="_blank" href="http://tidd.ly/1260a7ed"><img src="/images/ads/skyscanner.gif"  width="280" height="260"
+                        border="0"></a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">友情链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="http://www.yingtaodaren.com/">英淘达人</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <div style="display: block; text-align: center;">
+                    <a href="/">
+                      <img src="/images/yuxi.png"/>
+                    </a>
+                </div>
+                <p style="text-align: center;">联系我们: <a href="mailto:"></a></p><br/>
+                <p style="font-weight: bold;text-align: center;"><a href="/disclaimer/">Disclaimer 免责声明</a></p><br/>
+                <p style="text-align: center;">&copy; 2021 . All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script>
+    var disqus_shortname = 'yuxiuk';
+    
+    
+    var disqus_url = 'https://www.yuxiuk.com/android-pay/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        
+<script src="/js/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/js/lightgallery/js/lg-video.min.js"></script>
+
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+    </div>
+</body>
+</html>
