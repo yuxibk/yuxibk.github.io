@@ -8,16 +8,16 @@
     
         <meta name="keywords" content="Linux,Wordpress,LEMP">
     
-    <meta name="description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： adduser --gecos &quot;&quot; yuxi   [你">
+    <meta name="description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： 12adduser --gecos &quot;&quot; yuxi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何在Ubuntu 16.04LTS安装LEMP+WordPress">
-<meta property="og:url" content="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/index.html">
+<meta property="og:url" content="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/">
 <meta property="og:site_name" content="英国羽西">
-<meta property="og:description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： adduser --gecos &quot;&quot; yuxi   [你">
+<meta property="og:description" content="当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！ 【促销链接】 创建用户及登陆认证创建用户以root登陆后运行： 12adduser --gecos &quot;&quot; yuxi">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.yuxiuk.com/images/technology/lemp-wordpress.jpg">
 <meta property="article:published_time" content="2017-03-08T14:51:12.000Z">
-<meta property="article:modified_time" content="2018-05-30T13:33:41.643Z">
+<meta property="article:modified_time" content="2021-01-28T17:39:33.813Z">
 <meta property="article:author" content="羽西">
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="Wordpress">
@@ -76,8 +76,8 @@ ga('send', 'pageview');
     
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
-</html>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
 <body>
     <div id="wrap">
         <header id="header">
@@ -170,7 +170,7 @@ ga('send', 'pageview');
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-install-lemp-and-wordpress-in-ubuntu16lts" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+                            <article id="post-install-lemp-and-wordpress-in-ubuntu16lts" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
@@ -206,30 +206,19 @@ ga('send', 'pageview');
 
             <p><img src="/images/technology/lemp-wordpress.jpg" alt="如何在Ubuntu 16.04LTS安装LEMP+WordPress"></p>
 <p>当然，首先你需要有一个VPS，才能继续以下步骤。这里推荐羽西最爱的Vultr VPS。最近由于Vultr和Linode展开价格战，最低配置的VPS只要2.5美金！白菜都要哭了。。。点击下面链接注册的话，直接送20美金，相当于8个月免费使用最低配置的VPS！</p>
-<p>【<a href="http://www.vultr.com/?ref=6972180-3B" target="_blank" rel="external nofollow noopener noreferrer">促销链接</a>】</p>
+<p>【<a target="_blank" rel="external nofollow noopener noreferrer" href="http://www.vultr.com/?ref=6972180-3B">促销链接</a>】</p>
 <h2 id="创建用户及登陆认证"><a href="#创建用户及登陆认证" class="headerlink" title="创建用户及登陆认证"></a>创建用户及登陆认证</h2><h3 id="创建用户"><a href="#创建用户" class="headerlink" title="创建用户"></a>创建用户</h3><p>以root登陆后运行：</p>
-<pre><code class="bash">adduser --gecos &quot;&quot; yuxi   [你的用户名]
-gpasswd -a yuxi sudo
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">adduser --gecos <span class="string">&quot;&quot;</span> yuxi   [你的用户名]</span><br><span class="line">gpasswd -a yuxi sudo</span><br></pre></td></tr></table></figure>
 <p>把自己添加到sudo组中：</p>
-<pre><code class="bash">echo &#39;你的用户名 ALL=(ALL) NOPASSWD: ALL&#39; &gt;&gt; /etc/sudoers
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;你的用户名 ALL=(ALL) NOPASSWD: ALL&#x27;</span> &gt;&gt; /etc/sudoers</span><br></pre></td></tr></table></figure>
 <p>准备好你的公共密钥(public key)，如果没有的话可以运行“ssh-keygen”来创建。</p>
 <p>用你刚刚创建的用户登录后运行:</p>
-<pre><code class="bash">mkdir ~/.ssh
-chmod 700 ~/.ssh
-touch ~/.ssh/authorized_keys
-chmod 600 ~/.ssh/authorized_keys
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mkdir ~/.ssh</span><br><span class="line">chmod 700 ~/.ssh</span><br><span class="line">touch ~/.ssh/authorized_keys</span><br><span class="line">chmod 600 ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
 <p>把你的公共密钥添加到文件authorized_keys中。</p>
 <p>更新系统:</p>
-<pre><code class="bash">sudo apt-get -y update  
-sudo apt-get -y upgrade 
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get -y update  </span><br><span class="line">sudo apt-get -y upgrade </span><br></pre></td></tr></table></figure>
 <p>更新用户配置：</p>
-<pre><code class="bash">echo &#39;export LS_COLORS=$(echo $LS_COLORS | sed &quot;s/di=\(..\);../di=\1;32/&quot;) &#39; &gt;&gt; ~/.bashrc
-echo &quot;PS1=&#39;\\$ &#39;&quot; &gt;&gt; ~/.bashrc
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export LS_COLORS=$(echo $LS_COLORS | sed &quot;s/di=\(..\);../di=\1;32/&quot;) &#x27;</span> &gt;&gt; ~/.bashrc</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;PS1=&#x27;\\$ &#x27;&quot;</span> &gt;&gt; ~/.bashrc</span><br></pre></td></tr></table></figure>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- autosize -->
@@ -240,50 +229,22 @@ echo &quot;PS1=&#39;\\$ &#39;&quot; &gt;&gt; ~/.bashrc
 
 
 <h3 id="系统登录设置"><a href="#系统登录设置" class="headerlink" title="系统登录设置"></a>系统登录设置</h3><p>用编辑器打开/etc/ssh/sshd_config</p>
-<pre><code class="bash">sudo nano /etc/ssh/sshd_config
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
 <p>改变如下设置：</p>
-<pre><code class="bash">PasswordAuthentication no
-PubkeyAuthentication yes
-ChallengeResponseAuthentication no
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">PasswordAuthentication no</span><br><span class="line">PubkeyAuthentication yes</span><br><span class="line">ChallengeResponseAuthentication no</span><br></pre></td></tr></table></figure>
 <p>同时建议改变SSH默认段口号，比如，从”22”改变为”2244”。</p>
 <p>重启ssh服务：</p>
-<pre><code class="bash">sudo systemctl reload sshd
-</code></pre>
-<h3 id="基本防火墙设置"><a href="#基本防火墙设置" class="headerlink" title="基本防火墙设置"></a>基本防火墙设置</h3><pre><code class="bash">sudo ufw enable
-sudo ufw delete allow OpenSSH
-sudo ufw allow from any to any port 2224
-sudo ufw status
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload sshd</span><br></pre></td></tr></table></figure>
+<h3 id="基本防火墙设置"><a href="#基本防火墙设置" class="headerlink" title="基本防火墙设置"></a>基本防火墙设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo ufw <span class="built_in">enable</span></span><br><span class="line">sudo ufw delete allow OpenSSH</span><br><span class="line">sudo ufw allow from any to any port 2224</span><br><span class="line">sudo ufw status</span><br></pre></td></tr></table></figure>
 <h2 id="基本系统设置"><a href="#基本系统设置" class="headerlink" title="基本系统设置"></a>基本系统设置</h2><p>运行：</p>
-<pre><code class="bash">sudo apt-get install -qq -y curl 
-sudo apt-get install -qq -y lynx-cur
-sudo apt-get install -qq -y git
-sudo apt-get install -qq -y whois
-sudo apt-get install -qq -y apache2-utils
-sudo apt-get install -qq -y unzip
-sudo -H -u root bash -c &quot;echo &#39;Europe/London&#39; &gt; /etc/timezone&quot; 
-sudo dpkg-reconfigure -f noninteractive tzdata 
-sudo apt-get install -qq -y ntp &gt; /dev/null 2&gt;err.log 
-
-git config --global user.email &quot;YOUR_EMAIL&quot;
-git config --global user.name  &quot;YOUR NAME&quot;
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -qq -y curl </span><br><span class="line">sudo apt-get install -qq -y lynx-cur</span><br><span class="line">sudo apt-get install -qq -y git</span><br><span class="line">sudo apt-get install -qq -y whois</span><br><span class="line">sudo apt-get install -qq -y apache2-utils</span><br><span class="line">sudo apt-get install -qq -y unzip</span><br><span class="line">sudo -H -u root bash -c <span class="string">&quot;echo &#x27;Europe/London&#x27; &gt; /etc/timezone&quot;</span> </span><br><span class="line">sudo dpkg-reconfigure -f noninteractive tzdata </span><br><span class="line">sudo apt-get install -qq -y ntp &gt; /dev/null 2&gt;err.log </span><br><span class="line"></span><br><span class="line">git config --global user.email <span class="string">&quot;YOUR_EMAIL&quot;</span></span><br><span class="line">git config --global user.name  <span class="string">&quot;YOUR NAME&quot;</span></span><br></pre></td></tr></table></figure>
 <h2 id="安装Nginx"><a href="#安装Nginx" class="headerlink" title="安装Nginx"></a>安装Nginx</h2><p>运行：</p>
-<pre><code class="bash">sudo apt-get update
-sudo apt-get install nginx
-sudo ufw allow &#39;Nginx HTTP&#39;
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nginx</span><br><span class="line">sudo ufw allow <span class="string">&#x27;Nginx HTTP&#x27;</span></span><br></pre></td></tr></table></figure>
 <p>获取VM的IP地址：</p>
-<pre><code class="bash">ip addr show eth0 | grep inet | awk &#39;{ print $2; }&#39; | sed &#39;s/\/.*$//&#39;
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ip addr show eth0 | grep inet | awk <span class="string">&#x27;&#123; print $2; &#125;&#x27;</span> | sed <span class="string">&#x27;s/\/.*$//&#x27;</span></span><br></pre></td></tr></table></figure>
 <p>在Nginx配置文件中更改server_name设置，可以使用域名或者IP。</p>
-<pre><code class="bash">nano /etc/nginx/sites-enabled/default
-</code></pre>
-<h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><pre><code class="bash">sudo apt-get install mysql-server
-sudo mysql_secure_installation
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/nginx/sites-enabled/default</span><br></pre></td></tr></table></figure>
+<h2 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install mysql-server</span><br><span class="line">sudo mysql_secure_installation</span><br></pre></td></tr></table></figure>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <!-- autosize -->
@@ -293,111 +254,42 @@ sudo mysql_secure_installation
 </script>
 
 
-<h2 id="安装PHP"><a href="#安装PHP" class="headerlink" title="安装PHP"></a>安装PHP</h2><pre><code class="bash">sudo apt-get install -y php-fpm php-mysql
-</code></pre>
+<h2 id="安装PHP"><a href="#安装PHP" class="headerlink" title="安装PHP"></a>安装PHP</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install -y php-fpm php-mysql</span><br></pre></td></tr></table></figure>
 <p>更改PHP设置：</p>
-<pre><code>sudo nano /etc/php/7.0/fpm/php.ini
-</code></pre><p>做如下更改：<br>cgi.fix_pathinfo=0</p>
-<pre><code class="bash">sudo systemctl restart php7.0-fpm
-</code></pre>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano &#x2F;etc&#x2F;php&#x2F;7.0&#x2F;fpm&#x2F;php.ini</span><br></pre></td></tr></table></figure>
+<p>做如下更改：<br>cgi.fix_pathinfo=0</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart php7.0-fpm</span><br></pre></td></tr></table></figure>
 <p>更改Nginx设置来支持PHP：</p>
-<pre><code class="bash">nano /etc/nginx/sites-available/default
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/nginx/sites-available/default</span><br></pre></td></tr></table></figure>
 <p>做如下更改：</p>
-<pre><code class="bash">server {
-    listen 80 default_server;
-    listen [::]:80 default_server;
-
-    root /var/www/html;
-    index index.php index.html index.htm index.nginx-debian.html;
-
-    server_name server_domain_or_IP;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php7.0-fpm.sock;
-    }
-
-    location ~ /\.ht {
-        deny all;
-    }
-}
-</code></pre>
-<h2 id="安装PHP扩展"><a href="#安装PHP扩展" class="headerlink" title="安装PHP扩展"></a>安装PHP扩展</h2><pre><code class="bash">sudo apt-get -y update 
-sudo apt-get -y install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
-sudo systemctl restart php7.0-fpm
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80 default_server;</span><br><span class="line">    listen [::]:80 default_server;</span><br><span class="line"></span><br><span class="line">    root /var/www/html;</span><br><span class="line">    index index.php index.html index.htm index.nginx-debian.html;</span><br><span class="line"></span><br><span class="line">    server_name server_domain_or_IP;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        try_files <span class="variable">$uri</span> <span class="variable">$uri</span>/ =404;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location ~ \.php$ &#123;</span><br><span class="line">        include snippets/fastcgi-php.conf;</span><br><span class="line">        fastcgi_pass unix:/run/php/php7.0-fpm.sock;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location ~ /\.ht &#123;</span><br><span class="line">        deny all;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="安装PHP扩展"><a href="#安装PHP扩展" class="headerlink" title="安装PHP扩展"></a>安装PHP扩展</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get -y update </span><br><span class="line">sudo apt-get -y install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc</span><br><span class="line">sudo systemctl restart php7.0-fpm</span><br></pre></td></tr></table></figure>
 <h2 id="安装Wordpress"><a href="#安装Wordpress" class="headerlink" title="安装Wordpress"></a>安装Wordpress</h2><p>创建Wordpress所需的数据库：</p>
-<pre><code class="bash">mysql -u root -p
-CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-GRANT ALL ON wordpress.* TO &#39;wordpressuser&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;password&#39;;
-FLUSH PRIVILEGES;
-exit
-
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line">CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;</span><br><span class="line">GRANT ALL ON wordpress.* TO <span class="string">&#x27;wordpressuser&#x27;</span>@<span class="string">&#x27;localhost&#x27;</span> IDENTIFIED BY <span class="string">&#x27;password&#x27;</span>;</span><br><span class="line">FLUSH PRIVILEGES;</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>更改Nginx配置： </p>
-<pre><code class="bash">        location = /favicon.ico { log_not_found off; access_log off; }
-        location = /robots.txt { log_not_found off; access_log off; allow all; }
-        location ~* \.(css|gif|ico|jpeg|jpg|js|png)$ {
-          expires max;
-          log_not_found off;
-        }
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">location = /favicon.ico &#123; log_not_found off; access_log off; &#125;</span><br><span class="line">location = /robots.txt &#123; log_not_found off; access_log off; allow all; &#125;</span><br><span class="line">location ~* \.(css|gif|ico|jpeg|jpg|js|png)$ &#123;</span><br><span class="line">  expires max;</span><br><span class="line">  log_not_found off;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>和：</p>
-<pre><code class="bash">location / {
-                try_files $uri $uri/ /index.php$is_args$args;
-        }
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">                try_files <span class="variable">$uri</span> <span class="variable">$uri</span>/ /index.php$is_args<span class="variable">$args</span>;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
 <p>重新启动Nginx：</p>
-<pre><code class="bash">sudo systemctl reload nginx
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl reload nginx</span><br></pre></td></tr></table></figure>
 <p>安装Wordpress</p>
-<pre><code class="bash">cd /tmp
-curl -O https://wordpress.org/latest.tar.gz
-tar xvf latest.tar.gz
-cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
-sudo cp -a /tmp/wordpress/. /var/www/html
-mkdir  /var/www/html/wp-content/uploads
-mkdir  /var/www/html/wp-content/upgrade
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp</span><br><span class="line">curl -O https://wordpress.org/latest.tar.gz</span><br><span class="line">tar xvf latest.tar.gz</span><br><span class="line">cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php</span><br><span class="line">sudo cp -a /tmp/wordpress/. /var/www/html</span><br><span class="line">mkdir  /var/www/html/wp-content/uploads</span><br><span class="line">mkdir  /var/www/html/wp-content/upgrade</span><br></pre></td></tr></table></figure>
 <p>更改目录权限：</p>
-<pre><code class="bash">sudo chown -R yuxi:www-data /var/www/html
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R yuxi:www-data /var/www/html</span><br></pre></td></tr></table></figure>
 <p>设定新创建文件继承父目录权限：</p>
-<pre><code class="bash">sudo find /var/www/html -type d -exec chmod g+s {} \;
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo find /var/www/html -<span class="built_in">type</span> d -<span class="built_in">exec</span> chmod g+s &#123;&#125; \;</span><br></pre></td></tr></table></figure>
 <p>给组(www-data)写权限，这样就可以在Web界面安装/更新主题和插件了：</p>
-<pre><code class="bash">sudo chmod g+w /var/www/html/wp-content
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod g+w /var/www/html/wp-content</span><br></pre></td></tr></table></figure>
 <p>添加Web服务器的运行帐号(www-data)对以下目录的写权限：</p>
-<pre><code class="bash">sudo chmod -R g+w /var/www/html/wp-content/themes
-sudo chmod -R g+w /var/www/html/wp-content/plugins
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod -R g+w /var/www/html/wp-content/themes</span><br><span class="line">sudo chmod -R g+w /var/www/html/wp-content/plugins</span><br></pre></td></tr></table></figure>
 <p>更改Wordpress默认安全密钥：</p>
-<pre><code class="bash">curl -s https://api.wordpress.org/secret-key/1.1/salt/
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -s https://api.wordpress.org/secret-key/1.1/salt/</span><br></pre></td></tr></table></figure>
 <p>打开 /var/www/html/wp-config.php,  更新如下配置:</p>
-<pre><code class="bash">define(&#39;AUTH_KEY&#39;,         &#39;put your unique phrase here&#39;);
-define(&#39;SECURE_AUTH_KEY&#39;,  &#39;put your unique phrase here&#39;);
-define(&#39;LOGGED_IN_KEY&#39;,    &#39;put your unique phrase here&#39;);
-define(&#39;NONCE_KEY&#39;,        &#39;put your unique phrase here&#39;);
-define(&#39;AUTH_SALT&#39;,        &#39;put your unique phrase here&#39;);
-define(&#39;SECURE_AUTH_SALT&#39;, &#39;put your unique phrase here&#39;);
-define(&#39;LOGGED_IN_SALT&#39;,   &#39;put your unique phrase here&#39;);
-define(&#39;NONCE_SALT&#39;,       &#39;put your unique phrase here&#39;);
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;AUTH_KEY&#x27;</span>,         <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;SECURE_AUTH_KEY&#x27;</span>,  <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;LOGGED_IN_KEY&#x27;</span>,    <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;NONCE_KEY&#x27;</span>,        <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;AUTH_SALT&#x27;</span>,        <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;SECURE_AUTH_SALT&#x27;</span>, <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;LOGGED_IN_SALT&#x27;</span>,   <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;NONCE_SALT&#x27;</span>,       <span class="string">&#x27;put your unique phrase here&#x27;</span>);</span><br></pre></td></tr></table></figure>
 <p>更新数据库配置:</p>
-<pre><code class="bash">define(&#39;DB_NAME&#39;, &#39;wordpress&#39;);
-define(&#39;DB_USER&#39;, &#39;wordpressuser&#39;);
-define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;wordpressuser&#x27;</span>);</span><br><span class="line">define(<span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password&#x27;</span>);</span><br></pre></td></tr></table></figure>
 <p>做如下设置，这样Wordpress就可以更新主题/插件，否则会要求输入FTP/SSH登录信息。在前面数据库设置的后面添加：</p>
-<pre><code class="bash">define(&#39;FS_METHOD&#39;, &#39;direct&#39;);
-</code></pre>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">&#x27;FS_METHOD&#x27;</span>, <span class="string">&#x27;direct&#x27;</span>);</span><br></pre></td></tr></table></figure>
 <p>在Web界面中完成Wordpress的安装。</p>
 <p>至此，Wordpress的基本版本就安装完了。当然，后续还有一些工作，比如：安全性配置，主题／插件安装，如何备份等等，由于技术性太强了，这里就不讨论了。</p>
 
@@ -411,7 +303,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
               
             
               <br>
-            羽西欢迎大家投稿分享英国生活，邮件：info@yuxiuk.com <br><br>
+            羽西欢迎大家投稿分享英国生活，邮件： <br><br>
 
             如果您觉得我的文章对您有所帮助，愿意请我喝杯咖啡: <br>
             BTC: 13awm2DNctX647QHH2zJHUEr5vQz3mK1hE<br>
@@ -422,7 +314,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 
 
 
-    <a data-url="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/" data-id="ck875jwnv0094d8y61bgxax6p" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://www.yuxiuk.com/install-lemp-and-wordpress-in-ubuntu16lts/" data-id="ckki7f6lm00b4l1yb99uc7arh" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -490,7 +382,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
     
         
     <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 
     
@@ -531,15 +423,15 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
     <div class="widget-wrap">
         <h3 class="widget-title">最新文章</h3>
         <div class="widget">
-            <ul id="recent-post" class="">
+            <ul id="recent-post" class>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/chinese-new-year-gala-online/" class="thumbnail">
+                            <a href="/sats/" class="thumbnail">
     
     
-        <span style="background-image:url(/images/live/chinese-new-year-gala.jpg)" alt="央视春晚2021海外直播网址" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/children/sats/sats.jpg)" alt="英国小学SATS考试介绍" class="thumbnail-image"></span>
     
     
 </a>
@@ -547,9 +439,69 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
-                            <p class="item-title"><a href="/chinese-new-year-gala-online/" class="title">央视春晚2021海外直播网址</a></p>
-                            <p class="item-date"><time datetime="2021-01-06T17:01:45.224Z" itemprop="datePublished">2021-01-06</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/sats/" class="title">英国小学SATS考试介绍</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/snooker-betway/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/sports/snooker/barbican.jpg)" alt="斯诺克英国锦标赛可以购票啦！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></p>
+                            <p class="item-title"><a href="/snooker-betway/" class="title">斯诺克英国锦标赛可以购票啦！</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/tenx-card/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/bitcoin/tenx/01.jpg)" alt="使用Tenx卡打通加密货币的支付环节" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
+                            <p class="item-title"><a href="/tenx-card/" class="title">使用Tenx卡打通加密货币的支付环节</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/top-xbox-games-for-kids/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/games/xbox/xbox.jpg)" alt="适合儿童的XBOX经典游戏推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/top-xbox-games-for-kids/" class="title">适合儿童的XBOX经典游戏推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -569,7 +521,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/transferwise/" class="title">如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝</a></p>
-                            <p class="item-date"><time datetime="2021-01-05T16:33:59.150Z" itemprop="datePublished">2021-01-05</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -589,67 +541,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/uk-broadband/" class="title">英国宽带网络推荐</a></p>
-                            <p class="item-date"><time datetime="2020-04-06T07:24:42.066Z" itemprop="datePublished">2020-04-06</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/magic-cube-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/magic-cube.jpg)" alt="学习魔方的资源总结" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/magic-cube-learning-resources/" class="title">学习魔方的资源总结</a></p>
-                            <p class="item-date"><time datetime="2020-04-03T08:22:35.299Z" itemprop="datePublished">2020-04-03</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/online-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/learning.jpg)" alt="疫情期间英国学校停课了，收好这篇在线学习资源总结!" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/online-learning-resources/" class="title">疫情期间英国学校停课了，收好这篇在线学习资源总结!</a></p>
-                            <p class="item-date"><time datetime="2020-04-01T21:39:03.786Z" itemprop="datePublished">2020-04-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/how-to-get-old-scanner-working-on-windows10/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/technology/scanner.png)" alt="如何在Windows 10上使用旧的扫描仪？" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
-                            <p class="item-title"><a href="/how-to-get-old-scanner-working-on-windows10/" class="title">如何在Windows 10上使用旧的扫描仪？</a></p>
-                            <p class="item-date"><time datetime="2020-03-31T15:48:40.061Z" itemprop="datePublished">2020-03-31</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -664,7 +556,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 
 <ins class="bookingaff" data-aid="1320859" data-target_aid="1320859" data-prod="nsb" data-width="300" data-height="250" data-lang="zh" data-df_num_properties="3">
     <!-- Anything inside will go away once widget is loaded. -->
-        <a href="//www.booking.com?aid=1320859" target="_blank" rel="noopener">Booking.com</a>
+        <a target="_blank" rel="noopener" href="//www.booking.com?aid=1320859">Booking.com</a>
 </ins>
 <script type="text/javascript">
     (function(d, sc, u) {
@@ -706,7 +598,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
             <ul>
                 
                     <li>
-                        <a href="http://www.yingtaodaren.com/" target="_blank" rel="external nofollow noopener noreferrer">英淘达人</a>
+                        <a target="_blank" rel="external nofollow noopener noreferrer" href="http://www.yingtaodaren.com/">英淘达人</a>
                     </li>
                 
             </ul>
@@ -731,7 +623,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
                       <img src="/images/yuxi.png">
                     </a>
                 </div>
-                <p style="text-align: center;">联系我们: <a href="mailto:info@yuxiuk.com" rel="external nofollow noopener noreferrer" target="_blank">info@yuxiuk.com</a></p><br>
+                <p style="text-align: center;">联系我们: <a href="mailto:"></a></p><br>
                 <p style="font-weight: bold;text-align: center;"><a href="/disclaimer/">Disclaimer 免责声明</a></p><br>
                 <p style="text-align: center;">&copy; 2021 英国羽西. All rights reserved.</p>
             </div>
@@ -797,4 +689,4 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 
     </div>
 </body>
-
+</html>
