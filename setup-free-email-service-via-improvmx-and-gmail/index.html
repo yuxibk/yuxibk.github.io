@@ -11,13 +11,13 @@
     <meta name="description" content="在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：Zoho Mail, Migadu, Yandex, 和 ImprovMX. 下面介绍一下如何使用ImprovMX 和 Gmail配置自己的个性化域名邮件. ImprovMX打开 ImprovMX 邮件转向服务。添加如下的 MX 记录: Host    Value                  P">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用ImprovMX和gmail配置自己域名的免费邮件服务">
-<meta property="og:url" content="https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/index.html">
+<meta property="og:url" content="https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/">
 <meta property="og:site_name" content="英国羽西">
 <meta property="og:description" content="在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：Zoho Mail, Migadu, Yandex, 和 ImprovMX. 下面介绍一下如何使用ImprovMX 和 Gmail配置自己的个性化域名邮件. ImprovMX打开 ImprovMX 邮件转向服务。添加如下的 MX 记录: Host    Value                  P">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.yuxiuk.com/images/technology/mail/improvmx-0.png">
 <meta property="article:published_time" content="2019-11-08T05:51:12.000Z">
-<meta property="article:modified_time" content="2019-11-08T10:28:59.848Z">
+<meta property="article:modified_time" content="2021-01-28T17:39:33.821Z">
 <meta property="article:author" content="羽西">
 <meta property="article:tag" content="邮件服务器">
 <meta name="twitter:card" content="summary">
@@ -74,8 +74,8 @@ ga('send', 'pageview');
     
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
-</html>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
 <body>
     <div id="wrap">
         <header id="header">
@@ -168,7 +168,7 @@ ga('send', 'pageview');
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-setup-free-email-service-via-improvmx-and-gmail" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+                            <article id="post-setup-free-email-service-via-improvmx-and-gmail" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
@@ -202,23 +202,29 @@ ga('send', 'pageview');
 
             
 
-            <p>在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：<a href="https://www.zoho.com/mail/" target="_blank" rel="external nofollow noopener noreferrer">Zoho Mail</a>, <a href="https://www.migadu.com/en/index.html" target="_blank" rel="external nofollow noopener noreferrer">Migadu</a>, <a href="https://domain.yandex.com/domains_add/" target="_blank" rel="external nofollow noopener noreferrer">Yandex</a>, 和 <a href="http://improvmx.com/" target="_blank" rel="external nofollow noopener noreferrer">ImprovMX</a>. 下面介绍一下如何使用ImprovMX 和 Gmail配置自己的个性化域名邮件.</p>
-<h2 id="ImprovMX"><a href="#ImprovMX" class="headerlink" title="ImprovMX"></a>ImprovMX</h2><p>打开 <a href="http://improvmx.com/" target="_blank" rel="external nofollow noopener noreferrer">ImprovMX</a> 邮件转向服务。添加如下的 MX 记录:</p>
+            <p>在拿到一个新域名时，配置相应的邮件服务器是必不可少的一个步骤。由很多免费的邮件系统可以使用，比如：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.zoho.com/mail/">Zoho Mail</a>, <a target="_blank" rel="external nofollow noopener noreferrer" href="https://www.migadu.com/en/index.html">Migadu</a>, <a target="_blank" rel="external nofollow noopener noreferrer" href="https://domain.yandex.com/domains_add/">Yandex</a>, 和 <a target="_blank" rel="external nofollow noopener noreferrer" href="http://improvmx.com/">ImprovMX</a>. 下面介绍一下如何使用ImprovMX 和 Gmail配置自己的个性化域名邮件.</p>
+<h2 id="ImprovMX"><a href="#ImprovMX" class="headerlink" title="ImprovMX"></a>ImprovMX</h2><p>打开 <a target="_blank" rel="external nofollow noopener noreferrer" href="http://improvmx.com/">ImprovMX</a> 邮件转向服务。添加如下的 MX 记录:</p>
 <pre><code>Host    Value                  Priority
 ----------------------------------------------
 @       mx1.improvmx.com       10
 @       mx2.improvmx.com       20
-</code></pre><p>添加想要配置的域名以及你的个人gmail，然后进行验证。</p>
-<h2 id="配置gmail"><a href="#配置gmail" class="headerlink" title="配置gmail"></a>配置gmail</h2><p>进入如下页面创建APP密码：<a href="https://security.google.com/settings/security/apppasswords" target="_blank" rel="external nofollow noopener noreferrer">https://security.google.com/settings/security/apppasswords</a></p>
-<p><img src="/images/technology/mail/improvmx-0.png" alt=""></p>
+</code></pre>
+<p>添加想要配置的域名以及你的个人gmail，然后进行验证。</p>
+<h2 id="配置gmail"><a href="#配置gmail" class="headerlink" title="配置gmail"></a>配置gmail</h2><p>进入如下页面创建APP密码：<a target="_blank" rel="external nofollow noopener noreferrer" href="https://security.google.com/settings/security/apppasswords">https://security.google.com/settings/security/apppasswords</a></p>
+<p><img src="/images/technology/mail/improvmx-0.png"></p>
 <p>进入gmail配置页面，然后：Accounts and Import -&gt; Send mail as -&gt; Add another email address</p>
 <p>取消 “Treat as alias” 选项</p>
-<p><img src="/images/technology/mail/improvmx-1.png" alt=""></p>
+<p><img src="/images/technology/mail/improvmx-1.png"></p>
 <p>使用 “smtp.gmail.com” 作为 SMTP server, 在 Username项中填入自己的gmail, 在 password项中填入前面生成的APP password:</p>
-<p><img src="/images/technology/mail/improvmx-2.png" alt=""></p>
+<p><img src="/images/technology/mail/improvmx-2.png"></p>
 <p>单击 “Add Account”</p>
 <p>最后登录自己邮箱获取验证码完成验证。</p>
 
+
+  <div class="likecoin-embed likecoin-button">
+  <div></div>
+  <iframe scrolling="no" frameborder="0" src="https://button.like.co/in/embed/yuxiliker/button?referrer=https%3A%2F%2Fwww.yuxiuk.com%2Fsetup-free-email-service-via-improvmx-and-gmail%2F"></iframe>
+  </div>
 
             
               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -249,7 +255,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/" data-id="ck875jwte00fnd8y6ccih1j3f" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://www.yuxiuk.com/setup-free-email-service-via-improvmx-and-gmail/" data-id="ckki7f6nz00i9l1yb9db8dhxt" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -317,7 +323,7 @@ ga('send', 'pageview');
     
         
     <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 
     
@@ -358,15 +364,15 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">最新文章</h3>
         <div class="widget">
-            <ul id="recent-post" class="">
+            <ul id="recent-post" class>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/chinese-new-year-gala-online/" class="thumbnail">
+                            <a href="/sats/" class="thumbnail">
     
     
-        <span style="background-image:url(/images/live/chinese-new-year-gala.jpg)" alt="央视春晚2021海外直播网址" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/children/sats/sats.jpg)" alt="英国小学SATS考试介绍" class="thumbnail-image"></span>
     
     
 </a>
@@ -374,9 +380,69 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
-                            <p class="item-title"><a href="/chinese-new-year-gala-online/" class="title">央视春晚2021海外直播网址</a></p>
-                            <p class="item-date"><time datetime="2021-01-06T17:01:45.224Z" itemprop="datePublished">2021-01-06</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/sats/" class="title">英国小学SATS考试介绍</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/snooker-betway/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/sports/snooker/barbican.jpg)" alt="斯诺克英国锦标赛可以购票啦！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></p>
+                            <p class="item-title"><a href="/snooker-betway/" class="title">斯诺克英国锦标赛可以购票啦！</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/tenx-card/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/bitcoin/tenx/01.jpg)" alt="使用Tenx卡打通加密货币的支付环节" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
+                            <p class="item-title"><a href="/tenx-card/" class="title">使用Tenx卡打通加密货币的支付环节</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/top-xbox-games-for-kids/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/games/xbox/xbox.jpg)" alt="适合儿童的XBOX经典游戏推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/top-xbox-games-for-kids/" class="title">适合儿童的XBOX经典游戏推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -396,7 +462,7 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/transferwise/" class="title">如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝</a></p>
-                            <p class="item-date"><time datetime="2021-01-05T16:33:59.150Z" itemprop="datePublished">2021-01-05</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -416,67 +482,7 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/uk-broadband/" class="title">英国宽带网络推荐</a></p>
-                            <p class="item-date"><time datetime="2020-04-06T07:24:42.066Z" itemprop="datePublished">2020-04-06</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/magic-cube-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/magic-cube.jpg)" alt="学习魔方的资源总结" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/magic-cube-learning-resources/" class="title">学习魔方的资源总结</a></p>
-                            <p class="item-date"><time datetime="2020-04-03T08:22:35.299Z" itemprop="datePublished">2020-04-03</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/online-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/learning.jpg)" alt="疫情期间英国学校停课了，收好这篇在线学习资源总结!" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/online-learning-resources/" class="title">疫情期间英国学校停课了，收好这篇在线学习资源总结!</a></p>
-                            <p class="item-date"><time datetime="2020-04-01T21:39:03.786Z" itemprop="datePublished">2020-04-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/how-to-get-old-scanner-working-on-windows10/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/technology/scanner.png)" alt="如何在Windows 10上使用旧的扫描仪？" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
-                            <p class="item-title"><a href="/how-to-get-old-scanner-working-on-windows10/" class="title">如何在Windows 10上使用旧的扫描仪？</a></p>
-                            <p class="item-date"><time datetime="2020-03-31T15:48:40.061Z" itemprop="datePublished">2020-03-31</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -491,7 +497,7 @@ ga('send', 'pageview');
 
 <ins class="bookingaff" data-aid="1320859" data-target_aid="1320859" data-prod="nsb" data-width="300" data-height="250" data-lang="zh" data-df_num_properties="3">
     <!-- Anything inside will go away once widget is loaded. -->
-        <a href="//www.booking.com?aid=1320859" target="_blank" rel="noopener">Booking.com</a>
+        <a target="_blank" rel="noopener" href="//www.booking.com?aid=1320859">Booking.com</a>
 </ins>
 <script type="text/javascript">
     (function(d, sc, u) {
@@ -533,7 +539,7 @@ ga('send', 'pageview');
             <ul>
                 
                     <li>
-                        <a href="http://www.yingtaodaren.com/" target="_blank" rel="external nofollow noopener noreferrer">英淘达人</a>
+                        <a target="_blank" rel="external nofollow noopener noreferrer" href="http://www.yingtaodaren.com/">英淘达人</a>
                     </li>
                 
             </ul>
@@ -624,4 +630,4 @@ ga('send', 'pageview');
 
     </div>
 </body>
-
+</html>

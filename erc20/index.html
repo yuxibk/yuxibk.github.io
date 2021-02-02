@@ -11,15 +11,15 @@
     <meta name="description" content="最近接触了一些ERC20的代币，感觉操作不是很直接，这里把自己遇到的坑和最后的解决方案总结一下，希望能帮到后面入坑的小伙伴们。。。  什么是erc20兼容代币很多ICO项目的代币都是基于ETH的，种类也非常繁多，有成千上万种，而且数量还在不断的激增中。那么如何管理这些代币呢？其实这个问题早就被众大神们解决了。说简单点，就是大家都是采用一种通用的代币协议，这就是ERC20。这样，所有的代币都可以放在">
 <meta property="og:type" content="article">
 <meta property="og:title" content="erc20兼容代币如何转入，转出等基本操作">
-<meta property="og:url" content="https://www.yuxiuk.com/erc20/index.html">
+<meta property="og:url" content="https://www.yuxiuk.com/erc20/">
 <meta property="og:site_name" content="英国羽西">
 <meta property="og:description" content="最近接触了一些ERC20的代币，感觉操作不是很直接，这里把自己遇到的坑和最后的解决方案总结一下，希望能帮到后面入坑的小伙伴们。。。  什么是erc20兼容代币很多ICO项目的代币都是基于ETH的，种类也非常繁多，有成千上万种，而且数量还在不断的激增中。那么如何管理这些代币呢？其实这个问题早就被众大神们解决了。说简单点，就是大家都是采用一种通用的代币协议，这就是ERC20。这样，所有的代币都可以放在">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.yuxiuk.com/images/technology/eth/erc20/erc20.png">
 <meta property="article:published_time" content="2018-01-30T21:40:12.000Z">
-<meta property="article:modified_time" content="2018-07-02T15:39:39.723Z">
+<meta property="article:modified_time" content="2021-01-28T17:39:33.809Z">
 <meta property="article:author" content="羽西">
-<meta property="article:tag" content="以太坊">
+<meta property="article:tag" content="ETH 以太坊">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://www.yuxiuk.com/images/technology/eth/erc20/erc20.png">
     
@@ -74,8 +74,8 @@ ga('send', 'pageview');
     
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
-</html>
+<meta name="generator" content="Hexo 5.3.0"></head>
+
 <body>
     <div id="wrap">
         <header id="header">
@@ -168,7 +168,7 @@ ga('send', 'pageview');
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-erc20" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+                            <article id="post-erc20" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
@@ -203,21 +203,26 @@ ga('send', 'pageview');
             
 
             <p>最近接触了一些ERC20的代币，感觉操作不是很直接，这里把自己遇到的坑和最后的解决方案总结一下，希望能帮到后面入坑的小伙伴们。。。</p>
-<p><img src="/images/technology/eth/erc20/erc20.png" alt=""></p>
+<p><img src="/images/technology/eth/erc20/erc20.png"></p>
 <h2 id="什么是erc20兼容代币"><a href="#什么是erc20兼容代币" class="headerlink" title="什么是erc20兼容代币"></a>什么是erc20兼容代币</h2><p>很多ICO项目的代币都是基于ETH的，种类也非常繁多，有成千上万种，而且数量还在不断的激增中。那么如何管理这些代币呢？其实这个问题早就被众大神们解决了。说简单点，就是大家都是采用一种通用的代币协议，这就是ERC20。这样，所有的代币都可以放在同一个钱包中，很方便是不是？</p>
 <h2 id="获取contract-ID"><a href="#获取contract-ID" class="headerlink" title="获取contract ID"></a>获取contract ID</h2><p>首先你需要查看交易所/别人给你转代币的transaction。然后找到对应的contract ID。具体操作如下：</p>
 <p>打开ETH钱包，并单击图中所示的”Tokens (Ethplorer.io)”</p>
-<p><img src="/images/technology/eth/erc20/wallet.jpg" alt=""></p>
-<p>在下图所示的位置，你会看到contract ID：<br><a href="https://cdn.steemitimages.com/DQmVG5DiFvd1ENRudKiSLS1nQheJXv9EENLgBMBASLXaKhD/image.png" target="_blank" rel="external nofollow noopener noreferrer">https://cdn.steemitimages.com/DQmVG5DiFvd1ENRudKiSLS1nQheJXv9EENLgBMBASLXaKhD/image.png</a></p>
+<p><img src="/images/technology/eth/erc20/wallet.jpg"></p>
+<p>在下图所示的位置，你会看到contract ID：<br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://cdn.steemitimages.com/DQmVG5DiFvd1ENRudKiSLS1nQheJXv9EENLgBMBASLXaKhD/image.png">https://cdn.steemitimages.com/DQmVG5DiFvd1ENRudKiSLS1nQheJXv9EENLgBMBASLXaKhD/image.png</a></p>
 <h2 id="如何将代币转入MyEtherWallet"><a href="#如何将代币转入MyEtherWallet" class="headerlink" title="如何将代币转入MyEtherWallet"></a>如何将代币转入MyEtherWallet</h2><p>打开MyEtherWallet，如果你的代币已经在MEW的代币列表中，你应该能够直接看到。否则，单击右下角的“ Add Custom Token”</p>
-<p><img src="/images/technology/eth/erc20/add-token-to-wallet.png" alt=""></p>
+<p><img src="/images/technology/eth/erc20/add-token-to-wallet.png"></p>
 <p>输入前面找到的contract ID，代币名称，以及decimals，然后点”添加”，就会加入到钱包中。</p>
-<h2 id="如何将代币转入Metamask"><a href="#如何将代币转入Metamask" class="headerlink" title="如何将代币转入Metamask"></a>如何将代币转入Metamask</h2><p>在MetaMask中单击”ADD TOKEN”:<br><img src="/images/technology/eth/erc20/mm-add-token.png" alt=""></p>
-<p>输入前面得到的Contract address, 代币名称，以及”Decimals”，然后单击”Add”。如下图所示，TOKEN已经转入MetaMask:<br><img src="/images/technology/eth/erc20/mm-token.png" alt=""></p>
+<h2 id="如何将代币转入Metamask"><a href="#如何将代币转入Metamask" class="headerlink" title="如何将代币转入Metamask"></a>如何将代币转入Metamask</h2><p>在MetaMask中单击”ADD TOKEN”:<br><img src="/images/technology/eth/erc20/mm-add-token.png"></p>
+<p>输入前面得到的Contract address, 代币名称，以及”Decimals”，然后单击”Add”。如下图所示，TOKEN已经转入MetaMask:<br><img src="/images/technology/eth/erc20/mm-token.png"></p>
 <h2 id="如何从MEW将代币转出"><a href="#如何从MEW将代币转出" class="headerlink" title="如何从MEW将代币转出"></a>如何从MEW将代币转出</h2><p>在MEW单击”Send Ether &amp; Tokens”，如下图所示，填写相应的信息，包括接收地址，代币类型等信息，</p>
-<p><img src="/images/technology/eth/erc20/send.png" alt=""></p>
+<p><img src="/images/technology/eth/erc20/send.png"></p>
 <p>单击”Create Transaction”就可以了。</p>
 
+
+  <div class="likecoin-embed likecoin-button">
+  <div></div>
+  <iframe scrolling="no" frameborder="0" src="https://button.like.co/in/embed/yuxiliker/button?referrer=https%3A%2F%2Fwww.yuxiuk.com%2Ferc20%2F"></iframe>
+  </div>
 
             
               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -248,7 +253,7 @@ ga('send', 'pageview');
 
 
 
-    <a data-url="https://www.yuxiuk.com/erc20/" data-id="ck875jwl7005rd8y601ve18kd" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://www.yuxiuk.com/erc20/" data-id="ckki7f6kf007el1ybew7ccatm" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -316,7 +321,7 @@ ga('send', 'pageview');
     
         
     <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a></noscript>
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 
     
@@ -357,15 +362,15 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">最新文章</h3>
         <div class="widget">
-            <ul id="recent-post" class="">
+            <ul id="recent-post" class>
                 
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/chinese-new-year-gala-online/" class="thumbnail">
+                            <a href="/sats/" class="thumbnail">
     
     
-        <span style="background-image:url(/images/live/chinese-new-year-gala.jpg)" alt="央视春晚2021海外直播网址" class="thumbnail-image"></span>
+        <span style="background-image:url(/images/children/sats/sats.jpg)" alt="英国小学SATS考试介绍" class="thumbnail-image"></span>
     
     
 </a>
@@ -373,9 +378,69 @@ ga('send', 'pageview');
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
-                            <p class="item-title"><a href="/chinese-new-year-gala-online/" class="title">央视春晚2021海外直播网址</a></p>
-                            <p class="item-date"><time datetime="2021-01-06T17:01:45.224Z" itemprop="datePublished">2021-01-06</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/sats/" class="title">英国小学SATS考试介绍</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/snooker-betway/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/sports/snooker/barbican.jpg)" alt="斯诺克英国锦标赛可以购票啦！" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%B4%BB%E5%8A%A8/">活动</a></p>
+                            <p class="item-title"><a href="/snooker-betway/" class="title">斯诺克英国锦标赛可以购票啦！</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/tenx-card/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/technology/bitcoin/tenx/01.jpg)" alt="使用Tenx卡打通加密货币的支付环节" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
+                            <p class="item-title"><a href="/tenx-card/" class="title">使用Tenx卡打通加密货币的支付环节</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/top-xbox-games-for-kids/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/games/xbox/xbox.jpg)" alt="适合儿童的XBOX经典游戏推荐" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
+                            <p class="item-title"><a href="/top-xbox-games-for-kids/" class="title">适合儿童的XBOX经典游戏推荐</a></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -395,7 +460,7 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/transferwise/" class="title">如何从英国法国德国等欧洲国家转钱到国内个人银行账号/支付宝</a></p>
-                            <p class="item-date"><time datetime="2021-01-05T16:33:59.150Z" itemprop="datePublished">2021-01-05</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -415,67 +480,7 @@ ga('send', 'pageview');
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
                             <p class="item-title"><a href="/uk-broadband/" class="title">英国宽带网络推荐</a></p>
-                            <p class="item-date"><time datetime="2020-04-06T07:24:42.066Z" itemprop="datePublished">2020-04-06</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/magic-cube-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/magic-cube.jpg)" alt="学习魔方的资源总结" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/magic-cube-learning-resources/" class="title">学习魔方的资源总结</a></p>
-                            <p class="item-date"><time datetime="2020-04-03T08:22:35.299Z" itemprop="datePublished">2020-04-03</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/online-learning-resources/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/children/learning.jpg)" alt="疫情期间英国学校停课了，收好这篇在线学习资源总结!" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E8%82%B2%E5%84%BF/">育儿</a></p>
-                            <p class="item-title"><a href="/online-learning-resources/" class="title">疫情期间英国学校停课了，收好这篇在线学习资源总结!</a></p>
-                            <p class="item-date"><time datetime="2020-04-01T21:39:03.786Z" itemprop="datePublished">2020-04-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/how-to-get-old-scanner-working-on-windows10/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/technology/scanner.png)" alt="如何在Windows 10上使用旧的扫描仪？" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></p>
-                            <p class="item-title"><a href="/how-to-get-old-scanner-working-on-windows10/" class="title">如何在Windows 10上使用旧的扫描仪？</a></p>
-                            <p class="item-date"><time datetime="2020-03-31T15:48:40.061Z" itemprop="datePublished">2020-03-31</time></p>
+                            <p class="item-date"><time datetime="2021-01-28T17:39:33.821Z" itemprop="datePublished">2021-01-28</time></p>
                         </div>
                     </li>
                 
@@ -490,7 +495,7 @@ ga('send', 'pageview');
 
 <ins class="bookingaff" data-aid="1320859" data-target_aid="1320859" data-prod="nsb" data-width="300" data-height="250" data-lang="zh" data-df_num_properties="3">
     <!-- Anything inside will go away once widget is loaded. -->
-        <a href="//www.booking.com?aid=1320859" target="_blank" rel="noopener">Booking.com</a>
+        <a target="_blank" rel="noopener" href="//www.booking.com?aid=1320859">Booking.com</a>
 </ins>
 <script type="text/javascript">
     (function(d, sc, u) {
@@ -532,7 +537,7 @@ ga('send', 'pageview');
             <ul>
                 
                     <li>
-                        <a href="http://www.yingtaodaren.com/" target="_blank" rel="external nofollow noopener noreferrer">英淘达人</a>
+                        <a target="_blank" rel="external nofollow noopener noreferrer" href="http://www.yingtaodaren.com/">英淘达人</a>
                     </li>
                 
             </ul>
@@ -623,4 +628,4 @@ ga('send', 'pageview');
 
     </div>
 </body>
-
+</html>
